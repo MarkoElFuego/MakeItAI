@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — MakeItAi</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1a2e;
+    --text: #3a3a4a;
+    --muted: #7a7a8a;
+    --green: #27AE60;
+    --green-soft: #E8F8F0;
+    --bg: #FAFAF8;
+    --card: #FFFFFF;
+    --border: #E8E8E0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+    font-size: 15.5px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  header {
+    padding: 48px 24px 40px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+
+  header .logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.6rem;
+    color: var(--ink);
+    letter-spacing: -0.5px;
+    text-decoration: none;
+  }
+  header .logo span { color: var(--green); }
+
+  .container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+  }
+
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.2rem;
+    color: var(--ink);
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+  }
+
+  .effective {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 48px;
+  }
+
+  h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.25rem;
+    color: var(--ink);
+    margin-top: 40px;
+    margin-bottom: 12px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+  }
+
+  h2:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
+
+  p { margin-bottom: 14px; }
+
+  ul {
+    margin: 8px 0 16px 20px;
+  }
+  li { margin-bottom: 6px; }
+
+  strong { color: var(--ink); font-weight: 700; }
+
+  a { color: var(--green); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .highlight-box {
+    background: var(--green-soft);
+    border-left: 3px solid var(--green);
+    border-radius: 0 8px 8px 0;
+    padding: 16px 20px;
+    margin: 20px 0;
+    font-size: 0.95rem;
+  }
+
+  .contact-box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 24px;
+    margin-top: 32px;
+  }
+  .contact-box p { margin-bottom: 6px; }
+
+  footer {
+    text-align: center;
+    padding: 32px 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="/" class="logo">Make<span>It</span>Ai</a>
+</header>
+
+<div class="container">
+
+  <h1>Privacy Policy</h1>
+  <p class="effective">Effective Date: February 24, 2026</p>
+
+  <div class="highlight-box">
+    <strong>In short:</strong> We collect only what's needed to make the app work. We don't sell your data. We don't share it with advertisers. Your craft projects are yours.
+  </div>
+
+  <h2>1. What We Collect</h2>
+  <p>When you use MakeItAi, we may collect:</p>
+  <ul>
+    <li><strong>Account info</strong> — email address and display name when you sign up.</li>
+    <li><strong>Project data</strong> — text inputs, images you upload, and project preferences you provide during conversations with the AI assistant.</li>
+    <li><strong>Etsy connection</strong> — if you connect your Etsy shop, we access your shop ID and listing data through Etsy's OAuth2. We never store your Etsy password.</li>
+    <li><strong>Usage data</strong> — basic analytics (pages visited, features used) to improve the product.</li>
+  </ul>
+
+  <h2>2. How We Use Your Data</h2>
+  <ul>
+    <li>To provide AI-powered craft guidance and market research.</li>
+    <li>To generate and publish draft listings on your Etsy shop (only with your explicit permission).</li>
+    <li>To analyze visual trends from public sources (Pinterest, Google Images) and display them as references within the app.</li>
+    <li>To improve our AI responses and knowledge base.</li>
+  </ul>
+
+  <h2>3. Third-Party Services</h2>
+  <p>We use the following third-party services to operate MakeItAi:</p>
+  <ul>
+    <li><strong>Anthropic (Claude API)</strong> — for AI conversation and image analysis.</li>
+    <li><strong>OpenAI</strong> — for text embeddings in our knowledge base.</li>
+    <li><strong>Supabase</strong> — for database and authentication.</li>
+    <li><strong>Etsy API</strong> — for market research and listing creation.</li>
+    <li><strong>Pinterest API</strong> — for visual trend research (read-only).</li>
+  </ul>
+  <p>Each service has its own privacy policy. We only share the minimum data required for each service to function.</p>
+
+  <h2>4. Images and Visual Content</h2>
+  <p>When you upload images for analysis, they are sent to AI vision services for processing and are <strong>not permanently stored</strong> on our servers. Trend images retrieved from Pinterest or Google are displayed as references only — we do not download, store, or redistribute them.</p>
+
+  <h2>5. Data Security</h2>
+  <p>We use industry-standard encryption (HTTPS/TLS) for all data in transit. API keys and credentials are stored securely using environment variables and are never exposed to the client. Your Etsy authentication uses OAuth2 PKCE, meaning we never see or store your Etsy password.</p>
+
+  <h2>6. Your Rights</h2>
+  <p>You can at any time:</p>
+  <ul>
+    <li><strong>Access</strong> your data by contacting us.</li>
+    <li><strong>Delete</strong> your account and all associated data.</li>
+    <li><strong>Disconnect</strong> your Etsy shop from MakeItAi.</li>
+    <li><strong>Export</strong> your project data.</li>
+  </ul>
+
+  <h2>7. Cookies</h2>
+  <p>We use essential cookies for authentication and session management. We do not use advertising or tracking cookies.</p>
+
+  <h2>8. Children</h2>
+  <p>MakeItAi is not intended for users under the age of 16. We do not knowingly collect data from children.</p>
+
+  <h2>9. Changes to This Policy</h2>
+  <p>We may update this policy from time to time. If we make significant changes, we will notify you via email or an in-app notification.</p>
+
+  <h2>10. Contact</h2>
+  <div class="contact-box">
+    <p><strong>MakeItAi</strong></p>
+    <p>Email: <a href="mailto:privacy@makeitai.com">privacy@makeitai.com</a></p>
+    <p>GitHub: <a href="https://github.com/MarkoElFuego/MakeItAI">github.com/MarkoElFuego/MakeItAI</a></p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 MakeItAi · <a href="/">Home</a>
+</footer>
+
+</body>
+</html>
