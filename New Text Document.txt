@@ -1,0 +1,201 @@
+{
+  "question": "How to make paper flower"
+}
+
+{
+  "answer": "To make a paper flower, you can create several types depending on what you have available. The most basic method involves cutting petals from colored paper, shaping them, and assembling them around a stem using glue.\n\nHere are the general steps:\n\n1. Cut petals from your chosen colored paper (the number varies by flower type)\n2. Shape each petal by gently pushing with your thumb or curling with a pencil\n3. Attach petals to a wire or dowel stem using hot glue\n4. Add leaves cut from green paper\n5. Wrap the stem with floral tape or paper strips to finish\n\nThe books provide specific instructions for roses, daffodils, kusudama, and buttonholes, each with different techniques for shaping and assembly.\n\n(Source: Creating Flowers and Daffodil sections)",
+  "sources": [
+    {
+      "content": "---\n\nCreating Flowers\n\nHold templates firmly.\n\nCopy the templates to cardboard and cut them out. Draw two small petals to one side, then use a pencil to curl around them and cut out six small, ten med...",
+      "similarity": 0.734739096791857,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 34
+      }
+    },
+    {
+      "content": "Place a line of hot glue along the centre of the large green leaf and attach the floral wire. Fold the leaf in half and allow the hot glue to set before opening again.\n\nStarting at the base of the ros...",
+      "similarity": 0.731555245267037,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 35
+      }
+    },
+    {
+      "content": "Once arranged, cut the stems to about 5 cm (inch).\n\nHot glue onto the branch at the point where you wish. Try gluing the blossoms in layers to create depth.\n\nDown to form the blossom, experts recommen...",
+      "similarity": 0.727550484909119,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 32
+      }
+    },
+    {
+      "content": "Fold the points back so they line up with the outside edges.\n\nKUSUDAMA\n\n\n5. Fold the top triangle\n6. Fold the sides of the kite shapes flat so they are level with the long edge behind\n\n\n\n7... Bring th...",
+      "similarity": 0.72694680369535,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 36
+      }
+    },
+    {
+      "content": "3. Pinch the top of each flower until it forms a realistic shape.\n\n4. Lightly spray some floral adhesive over an area, then place the flowers.\n\nSheet of crepe paper,\n\nCut out six petals for each flowe...",
+      "similarity": 0.725764290942902,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 33
+      }
+    }
+  ]
+}
+
+
+{
+  "question": "What tools do I need for paper crafting?"
+}
+
+{
+  "answer": "Paper crafting requires basic equipment that is inexpensive and easy to find. Here are the essential tools you'll need:\n\n1. Ruler\n2. Scissors\n3. Cutting mat\n4. Circle punch\n5. Small scissors\n6. Scalpel\n7. Utility knife\n8. Hole-punch\n9. Scorer\n10. Bone folder\n11. Paper punch\n\nYou'll also need adhesives like spray mount, hot glue gun, PVA glue, glue stick, and sticky tack. Additionally, keep tracing paper, an eraser, brushes, pens, and pencils on hand for various projects.\n\n(Source: Basic Equipment section)",
+  "sources": [
+    {
+      "content": "Coloured paints\n\nPens\npencils\n\nEraser\nBone folder /\nBrushes\n\nTypes of paper\n\n---\n\nFlexible and reasonably inexpensive; paper is a fantastic and versatile material for craft projects.\n\nHere's an overvi...",
+      "similarity": 0.744510628446636,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 5
+      }
+    },
+    {
+      "content": "Scrapbooking 120\nMaking a scrapbook 122\nPhoto corners and frames 124\nBunting and bows 126\nStorage pockets 128\nRosettes 130\nGilding and embossing 132\nTravel 134\nWedding 136\nBaby's first year 138\nScrapb...",
+      "similarity": 0.707184630204174,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 4
+      }
+    },
+    {
+      "content": "Selection of Card Stock:\n\n* Cutting mat\nTracing paper\nRuler\nHelping Tools:\n\tEraser\nFoam pads\nPen\n\nMasking Tape: Use from edges to prevent fraying\n\nYou Will Need GIFTS TO GIVE\n\nCut the cardstock to Tra...",
+      "similarity": 0.697788083289678,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 15
+      }
+    },
+    {
+      "content": "Paper Punch\n\n\n\n• Spiral-bound Scrapbook or Album\n\nSCRAPBOOKING\n\nPhoto corners and frames\n\nYou will need:\n\n• Patterned paper\n• Scissors\n• Tape\n• White paper\n• Ruler\n• Scalpel\n\nMake your favorite photos...",
+      "similarity": 0.690965689305586,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 40
+      }
+    },
+    {
+      "content": "---\n\nNote: I corrected the text by removing unnecessary lines, garbled characters, and misspellings, and reformatted it to read naturally.\n\nScribbling: A Creative Guide to Scrapbooking\n\nIntroduction\n\n...",
+      "similarity": 0.688813349271243,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 45
+      }
+    }
+  ]
+}
+
+
+"How to make a kusudama?"
+
+{
+  "answer": "A kusudama is a beautiful origami flower that's simple to make and looks great in a vase or glued to other surfaces. Here are the basic steps:\n\n1. Choose your paper color and the right size\n2. Fold into a triangle\n3. Fold both the bottom corners up\n4. Poke a finger inside each flap to push them out, then flatten along the seam to create two kite shapes\n5. Fold the points back so they line up with the outside edges\n6. Fold the top triangle\n7. Fold the sides of the kite shapes flat so they are level with the long edge behind\n8. Bring the two sides together to create a petal and glue it in place\n9. Glue them together along the join, one at a time\n\n(Source: Kusudama section)",
+  "sources": [
+    {
+      "content": "Fold the points back so they line up with the outside edges.\n\nKUSUDAMA\n\n\n5. Fold the top triangle\n6. Fold the sides of the kite shapes flat so they are level with the long edge behind\n\n\n\n7... Bring th...",
+      "similarity": 0.756470902597159,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 36
+      }
+    },
+    {
+      "content": "Place a line of hot glue along the centre of the large green leaf and attach the floral wire. Fold the leaf in half and allow the hot glue to set before opening again.\n\nStarting at the base of the ros...",
+      "similarity": 0.738423683094312,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 35
+      }
+    },
+    {
+      "content": "---\n\nCreating Flowers\n\nHold templates firmly.\n\nCopy the templates to cardboard and cut them out. Draw two small petals to one side, then use a pencil to curl around them and cut out six small, ten med...",
+      "similarity": 0.690465684449859,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 34
+      }
+    },
+    {
+      "content": "7. Apply PVA glue to one end, then bring the two sides of the accordion together to form a large circle.\n\n8. Lay the fan on greaseproof paper and use a hot glue gun to create a pool of glue in the cen...",
+      "similarity": 0.684417282218552,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 24
+      }
+    },
+    {
+      "content": "Fold the right edge inward as shown, then repeat on the left side.\n\nORIGAMI FAIRY LIGHTS\n8\n\nPold it back Fold the bottom to the outer corner.\nRight angle up so triangle re-folds up horizontally across...",
+      "similarity": 0.682612294216528,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 22
+      }
+    }
+  ]
+}
+
+
+"What type of glue is best for paper flowers?"
+
+{
+  "answer": "I don't have that information in my knowledge base.\n\nThe provided context mentions using glue, hot glue, and glue guns for paper flowers, but it doesn't specify which type is \"best\" or compare different glue options. The instructions simply list these adhesives as materials needed without recommending one over the others.",
+  "sources": [
+    {
+      "content": "Place a line of hot glue along the centre of the large green leaf and attach the floral wire. Fold the leaf in half and allow the hot glue to set before opening again.\n\nStarting at the base of the ros...",
+      "similarity": 0.72821215085641,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 35
+      }
+    },
+    {
+      "content": "Once arranged, cut the stems to about 5 cm (inch).\n\nHot glue onto the branch at the point where you wish. Try gluing the blossoms in layers to create depth.\n\nDown to form the blossom, experts recommen...",
+      "similarity": 0.709037171160754,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 32
+      }
+    },
+    {
+      "content": "3. Pinch the top of each flower until it forms a realistic shape.\n\n4. Lightly spray some floral adhesive over an area, then place the flowers.\n\nSheet of crepe paper,\n\nCut out six petals for each flowe...",
+      "similarity": 0.697518551053828,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 33
+      }
+    },
+    {
+      "content": "Off the sticky pad and stick down the strap.\n\n93\n\n\n Flowers\n\n\n I\n\n\n• CHELTRY BL0080M •\n\n\nCherry Blossom\nThough you may not remember vapor trails, cherry blossoms lane a gorgeous display with the world...",
+      "similarity": 0.689813916053877,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 31
+      }
+    },
+    {
+      "content": "Fold the points back so they line up with the outside edges.\n\nKUSUDAMA\n\n\n5. Fold the top triangle\n6. Fold the sides of the kite shapes flat so they are level with the long edge behind\n\n\n\n7... Bring th...",
+      "similarity": 0.682709317368826,
+      "metadata": {
+        "source": "392184411-The-Paper-Craft-Book.txt",
+        "chunk_index": 36
+      }
+    }
+  ]
+}
+
+
+

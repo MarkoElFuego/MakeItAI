@@ -1,0 +1,10 @@
+ollama
+regex
+langchain-google-genai
+supabase
+python-dotenv
+langchain-text-splitters
+fastapi
+uvicorn
+anthropic
+langgraph
