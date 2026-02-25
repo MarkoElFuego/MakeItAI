@@ -24,6 +24,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 load_dotenv(PROJECT_ROOT / ".env")
 
 from prompts.system_prompts import (
+    SYSTEM_PROMPT_CRAFTER,
     SYSTEM_PROMPT_MERCHANT,
     SYSTEM_PROMPT_RAG,
     SYSTEM_PROMPT_ROUTER,
@@ -45,7 +46,7 @@ embeddings = GoogleGenerativeAIEmbeddings(
 ROUTER_MODEL = "claude-haiku-4-5-20251001"
 NODE_MODEL = "claude-haiku-4-5-20251001"
 
-Phase = Literal["SCOUT", "MASTER", "TROUBLESHOOTER", "MERCHANT"]
+Phase = Literal["SCOUT", "CRAFTER", "MASTER", "TROUBLESHOOTER", "MERCHANT"]
 
 
 # ── State ────────────────────────────────────────────────────────────────────
@@ -106,8 +107,8 @@ def route_message(state: AgentState) -> Phase:
         model=ROUTER_MODEL,
     ).strip().upper()
 
-    valid = {"SCOUT", "MASTER", "TROUBLESHOOTER", "MERCHANT"}
-    return phase if phase in valid else "MASTER"
+    valid = {"SCOUT", "CRAFTER", "MASTER", "TROUBLESHOOTER", "MERCHANT"}
+    return phase if phase in valid else "CRAFTER"
 
 
 # ── Helper: extract keywords for Pexels ──────────────────────────────────────
@@ -144,6 +145,43 @@ def scout_node(state: AgentState) -> dict:
         "sources": [],
         "inspiration_images": images,
         "conversation_history": messages + [{"role": "assistant", "content": answer}],
+    }
+
+
+# ── Node: CRAFTER (ASCII schematic generator) ────────────────────────────────
+def crafter_node(state: AgentState) -> dict:
+    # Also pull RAG context for craft knowledge
+    context, sources = _rag_retrieve(state["user_message"])
+
+    if context:
+        user_content = (
+            f"Reference from craft books:\n\n{context}\n\n---\n\n"
+            f"User request: {state['user_message']}"
+        )
+    else:
+        user_content = state["user_message"]
+
+    history = state.get("conversation_history", [])
+    messages = history + [{"role": "user", "content": user_content}]
+
+    # Use more tokens for schematics
+    resp = claude.messages.create(
+        model=NODE_MODEL,
+        max_tokens=2048,
+        system=SYSTEM_PROMPT_CRAFTER,
+        messages=messages,
+    )
+    answer = resp.content[0].text
+
+    clean_history = history + [
+        {"role": "user", "content": state["user_message"]},
+        {"role": "assistant", "content": answer},
+    ]
+    return {
+        "current_phase": "CRAFTER",
+        "response": answer,
+        "sources": sources,
+        "conversation_history": clean_history,
     }
 
 
@@ -207,6 +245,7 @@ def build_graph() -> StateGraph:
 
     # Add nodes
     graph.add_node("scout", scout_node)
+    graph.add_node("crafter", crafter_node)
     graph.add_node("master", master_node)
     graph.add_node("troubleshooter", troubleshooter_node)
     graph.add_node("merchant", merchant_node)
@@ -216,6 +255,7 @@ def build_graph() -> StateGraph:
         route_message,
         {
             "SCOUT": "scout",
+            "CRAFTER": "crafter",
             "MASTER": "master",
             "TROUBLESHOOTER": "troubleshooter",
             "MERCHANT": "merchant",
@@ -224,6 +264,7 @@ def build_graph() -> StateGraph:
 
     # Each node goes to END after responding
     graph.add_edge("scout", END)
+    graph.add_edge("crafter", END)
     graph.add_edge("master", END)
     graph.add_edge("troubleshooter", END)
     graph.add_edge("merchant", END)
