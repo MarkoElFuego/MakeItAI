@@ -98,6 +98,42 @@ def ask(req: AskRequest):
     return AskResponse(answer=answer, sources=sources)
 
 
+# ── LangGraph Agent ──────────────────────────────────────────────────────────
+from agent.graph import agent as langgraph_agent
+
+
+class ChatRequest(BaseModel):
+    message: str
+    conversation_history: list[dict] = []
+    project_context: dict = {}
+
+
+class ChatResponse(BaseModel):
+    response: str
+    phase: str
+    sources: list[dict]
+    conversation_history: list[dict]
+
+
+@app.post("/chat", response_model=ChatResponse)
+def chat(req: ChatRequest):
+    """Main chat endpoint using LangGraph orchestrator."""
+    result = langgraph_agent.invoke({
+        "user_message": req.message,
+        "current_phase": "MASTER",
+        "project_context": req.project_context,
+        "conversation_history": req.conversation_history,
+        "response": "",
+        "sources": [],
+    })
+    return ChatResponse(
+        response=result["response"],
+        phase=result["current_phase"],
+        sources=result["sources"],
+        conversation_history=result["conversation_history"],
+    )
+
+
 @app.get("/health")
 def health():
     return {"status": "ok"}

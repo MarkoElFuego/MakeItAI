@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(pip install:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(git push -u origin master)",
+      "Bash(./venv/Scripts/pip install langgraph)",
+      "Bash(./venv/Scripts/python scripts/test_agent.py)"
     ]
   }
 }
