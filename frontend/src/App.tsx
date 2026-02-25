@@ -2,13 +2,14 @@ import { useState, useRef, useEffect } from "react";
 import ChatMessage from "./components/ChatMessage";
 import ChatInput from "./components/ChatInput";
 import PhaseIndicator from "./components/PhaseIndicator";
-import { sendChat, analyzeImage, type ChatMessage as ChatMsg, type InspirationImage } from "./api";
+import { sendChat, analyzeImage, type ChatMessage as ChatMsg, type InspirationImage, type CraftData } from "./api";
 
 interface DisplayMessage {
   role: "user" | "assistant";
   content: string;
   phase?: string;
   images?: InspirationImage[];
+  craftData?: CraftData | null;
 }
 
 export default function App() {
@@ -37,6 +38,7 @@ export default function App() {
           content: res.response,
           phase: res.phase,
           images: res.inspiration_images,
+          craftData: res.craft_data,
         },
       ]);
     } catch {

@@ -1,13 +1,15 @@
-import type { InspirationImage } from "../api";
+import type { InspirationImage, CraftData } from "../api";
+import CraftingWidget from "./CraftingWidget";
 
 interface Props {
   role: "user" | "assistant";
   content: string;
   phase?: string;
   images?: InspirationImage[];
+  craftData?: CraftData | null;
 }
 
-export default function ChatMessage({ role, content, phase, images }: Props) {
+export default function ChatMessage({ role, content, phase, images, craftData }: Props) {
   const isUser = role === "user";
 
   return (
@@ -25,6 +27,10 @@ export default function ChatMessage({ role, content, phase, images }: Props) {
           </div>
         )}
         <div className="whitespace-pre-wrap text-sm leading-relaxed">{content}</div>
+
+        {craftData && craftData.steps && craftData.steps.length > 0 && (
+          <CraftingWidget data={craftData} />
+        )}
 
         {images && images.length > 0 && (
           <div className="mt-3 border-t border-gray-100 pt-3">

@@ -58,6 +58,7 @@ class AgentState(TypedDict):
     response: str
     sources: list
     inspiration_images: list       # Pexels mood board images (SCOUT)
+    craft_data: dict | None         # SVG step-by-step data (CRAFTER)
 
 
 # ── Helper: RAG retrieval ────────────────────────────────────────────────────
@@ -95,15 +96,22 @@ def _call_claude(system: str, messages: list[dict], model: str = NODE_MODEL) -> 
         system=system,
         messages=messages,
     )
+    print(f"[Claude] Tokens — input: {resp.usage.input_tokens}, output: {resp.usage.output_tokens}")
     return resp.content[0].text
 
 
 # ── Router ───────────────────────────────────────────────────────────────────
 def route_message(state: AgentState) -> Phase:
     """Use Claude to classify the user message into a phase."""
+    # Include conversation history so router has context for follow-up messages
+    history = state.get("conversation_history", [])
+    # Keep last 4 messages for context (to stay cheap on tokens)
+    recent_history = history[-4:] if len(history) > 4 else history
+    messages = recent_history + [{"role": "user", "content": state["user_message"]}]
+
     phase = _call_claude(
         system=SYSTEM_PROMPT_ROUTER,
-        messages=[{"role": "user", "content": state["user_message"]}],
+        messages=messages,
         model=ROUTER_MODEL,
     ).strip().upper()
 
@@ -148,39 +156,90 @@ def scout_node(state: AgentState) -> dict:
     }
 
 
-# ── Node: CRAFTER (ASCII schematic generator) ────────────────────────────────
+# ── Node: CRAFTER (SVG step-by-step) ──────────────────────────────────────────
 def crafter_node(state: AgentState) -> dict:
-    # Also pull RAG context for craft knowledge
-    context, sources = _rag_retrieve(state["user_message"])
-
-    if context:
-        user_content = (
-            f"Reference from craft books:\n\n{context}\n\n---\n\n"
-            f"User request: {state['user_message']}"
-        )
-    else:
-        user_content = state["user_message"]
+    import json as _json
 
     history = state.get("conversation_history", [])
+    user_msg = state["user_message"]
+
+    # If user message is vague ("this", "that", "it") and we have history,
+    # extract what they actually want to make from conversation context
+    rag_query = user_msg
+    vague_words = {"this", "that", "it", "one", "make it", "show me", "let's do it"}
+    is_vague = len(user_msg.split()) < 8 and any(w in user_msg.lower() for w in vague_words)
+
+    if is_vague and history:
+        # Ask Claude to extract the actual product from conversation
+        extract_prompt = (
+            "Based on the conversation below, what specific product does the user want to make? "
+            "Reply with ONLY the product name (e.g. 'paper kusudama flower'). Nothing else."
+        )
+        extracted = _call_claude(
+            system=extract_prompt,
+            messages=history + [{"role": "user", "content": user_msg}],
+            model=ROUTER_MODEL,
+        ).strip()
+        rag_query = extracted
+        print(f"[CRAFTER] Extracted topic from context: '{extracted}'")
+
+    # RAG — only use if similarity is high enough (>0.5)
+    context, sources = _rag_retrieve(rag_query)
+    high_quality_sources = [s for s in sources if s.get("similarity", 0) > 0.5]
+
+    if high_quality_sources and context:
+        user_content = (
+            f"Reference from craft books:\n\n{context}\n\n---\n\n"
+            f"User request: {user_msg}"
+        )
+    else:
+        user_content = user_msg
+        sources = []  # Don't return low-quality sources
+
     messages = history + [{"role": "user", "content": user_content}]
 
-    # Use more tokens for schematics
+    # Use higher max_tokens for JSON+SVG output
     resp = claude.messages.create(
         model=NODE_MODEL,
-        max_tokens=2048,
+        max_tokens=4096,
         system=SYSTEM_PROMPT_CRAFTER,
         messages=messages,
     )
-    answer = resp.content[0].text
+    raw = resp.content[0].text
+
+    # Log token usage
+    print(f"[CRAFTER] Tokens — input: {resp.usage.input_tokens}, output: {resp.usage.output_tokens}")
+
+    # Parse JSON response — robust fallback
+    craft_data = None
+    try:
+        craft_data = _json.loads(raw)
+    except _json.JSONDecodeError:
+        # Try extracting JSON block
+        start = raw.find("{")
+        end = raw.rfind("}") + 1
+        if start >= 0 and end > start:
+            try:
+                craft_data = _json.loads(raw[start:end])
+            except _json.JSONDecodeError:
+                craft_data = None
+
+    if craft_data and "steps" in craft_data:
+        summary = f"Here's your build plan for **{craft_data.get('projectName', 'your project')}**! Follow the steps below."
+    else:
+        # JSON parsing failed — return raw text as normal response
+        summary = raw
+        craft_data = None
 
     clean_history = history + [
         {"role": "user", "content": state["user_message"]},
-        {"role": "assistant", "content": answer},
+        {"role": "assistant", "content": summary},
     ]
     return {
         "current_phase": "CRAFTER",
-        "response": answer,
+        "response": summary,
         "sources": sources,
+        "craft_data": craft_data,
         "conversation_history": clean_history,
     }
 

@@ -113,6 +113,7 @@ class ChatResponse(BaseModel):
     phase: str
     sources: list[dict]
     inspiration_images: list[dict] = []
+    craft_data: dict | None = None
     conversation_history: list[dict]
 
 
@@ -127,12 +128,14 @@ def chat(req: ChatRequest):
         "response": "",
         "sources": [],
         "inspiration_images": [],
+        "craft_data": None,
     })
     return ChatResponse(
         response=result["response"],
         phase=result["current_phase"],
         sources=result["sources"],
         inspiration_images=result.get("inspiration_images", []),
+        craft_data=result.get("craft_data"),
         conversation_history=result["conversation_history"],
     )
 

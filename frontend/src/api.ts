@@ -5,11 +5,27 @@ export interface ChatMessage {
   content: string;
 }
 
+export interface CraftStep {
+  id: number;
+  title: string;
+  description: string;
+  svgCode: string;
+}
+
+export interface CraftData {
+  projectName: string;
+  difficulty: string;
+  estimatedTime: string;
+  materials: string[];
+  steps: CraftStep[];
+}
+
 export interface ChatResponse {
   response: string;
   phase: string;
   sources: Record<string, unknown>[];
   inspiration_images: InspirationImage[];
+  craft_data: CraftData | null;
   conversation_history: ChatMessage[];
 }
 
