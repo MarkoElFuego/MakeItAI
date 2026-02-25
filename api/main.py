@@ -134,6 +134,55 @@ def chat(req: ChatRequest):
     )
 
 
+# ── Vision (Phase 3) ─────────────────────────────────────────────────────────
+from integrations.vision import analyze_image
+from integrations.inspiration import search_inspiration
+
+
+class ImageRequest(BaseModel):
+    image_base64: str
+    media_type: str = "image/jpeg"
+    message: str = "Please analyze this image."
+    conversation_history: list[dict] = []
+
+
+class ImageResponse(BaseModel):
+    analysis: str
+    phase: str
+
+
+@app.post("/analyze-image", response_model=ImageResponse)
+def analyze_image_endpoint(req: ImageRequest):
+    """Analyze a craft image using Claude Vision."""
+    analysis = analyze_image(
+        image_base64=req.image_base64,
+        media_type=req.media_type,
+        user_message=req.message,
+        conversation_history=req.conversation_history,
+    )
+    return ImageResponse(analysis=analysis, phase="TROUBLESHOOTER")
+
+
+# ── Inspiration / Mood Board (Phase 3) ──────────────────────────────────────
+class InspirationResponse(BaseModel):
+    keyword: str
+    images: list[dict]
+    total_results: int
+    error: str | None = None
+
+
+@app.get("/inspiration", response_model=InspirationResponse)
+def inspiration(keyword: str, count: int = 10):
+    """Search Pexels for craft inspiration images (mood board)."""
+    result = search_inspiration(keyword=keyword, per_page=count)
+    return InspirationResponse(
+        keyword=result.get("keyword", keyword),
+        images=result.get("images", []),
+        total_results=result.get("total_results", 0),
+        error=result.get("error"),
+    )
+
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
