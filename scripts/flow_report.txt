@@ -1,0 +1,100 @@
+======================================================================
+  MakeItAi - FULL FLOW SIMULATION REPORT
+  Generated: 2026-02-25 14:11:05
+======================================================================
+
+----------------------------------------------------------------------
+  PHASE 1: SCOUT (Market Research & Inspiration)
+----------------------------------------------------------------------
+
+[USER]: I have paper, scissors, and glue. What can I make to sell on Etsy?
+[AGENT PHASE]: SCOUT
+[RESPONSE TIME]: 10.81s
+[INSPIRATION IMAGES]: 6 images
+  - Elegant flat lay composition of blank papers, greenery, and flowers on a gray ba
+  - Flat lay of stationery including pink envelopes, scissors, and leaves on a paste
+  - A flat lay of stationery, flowers, ribbons, and envelopes on a textured surface.
+[RESPONSE]:
+# Paper Crafts with Real Market Potential
+
+Great starter setup! Here are 3 specific ideas that sell well on Etsy:
+
+## 1. **Custom Gift Boxes & Packaging**
+- **What**: Handmade decorative boxes (jewelry, gift, subscription box style)
+- **Why it sells**: Small businesses and gift-givers desperately need branded, eco-friendly packaging. Low competition in custom segment
+- **Price range**: $3-8 per box (bulk orders $15-40)
+- **Difficulty**: Beginner
+
+## 2. **Paper Quilling Art Pieces**
+- **What**: R
+
+----------------------------------------------------------------------
+  PHASE 2: MASTER (Technical Guidance - RAG)
+----------------------------------------------------------------------
+
+[USER]: How do I make a paper flower step by step?
+[AGENT PHASE]: MASTER
+[RESPONSE TIME]: 7.79s
+[RAG SOURCES]: 5 documents retrieved
+  - similarity: 0.743 | 392184411-The-Paper-Craft-Book.txt
+  - similarity: 0.743 | 392184411-The-Paper-Craft-Book.txt
+  - similarity: 0.743 | 392184411-The-Paper-Craft-Book.txt
+[RESPONSE]:
+Perfect timing?I have exactly what you need from the book!
+
+Here's the **simplest flower to start with: the Daffodil**. It's quick, cheerful, and teaches you core techniques.
+
+**You'll need:** Yellow crepe paper, orange crepe paper, scissors, glue, florist wire (or a stick), and green paper for the stem.
+
+**Step-by-step:**
+
+1. **Cut six yellow petals** from crepe paper using a template. This creates uniformity?templates matter because they let you repeat the flower consistently for selling.
+
+2. 
+
+----------------------------------------------------------------------
+  PHASE 3: TROUBLESHOOTER (Problem Diagnosis)
+----------------------------------------------------------------------
+
+[USER]: The petals keep falling off and the glue isn't holding. What am I doing wrong?
+[AGENT PHASE]: TROUBLESHOOTER
+[RESPONSE TIME]: 5.52s
+[RESPONSE]:
+# Glue Problem ? Let's Fix This
+
+You've hit the #1 beginner mistake with paper flowers. Here's what's happening:
+
+## **The Issue**
+Crepe paper is stretchy and slightly textured?regular craft glue doesn't grip it well, especially after you've stretched the petals. The glue dries too slowly and the paper relaxes away from it.
+
+## **Why It's Failing**
+- Craft glue (like Elmer's) = too weak for crepe paper + takes too long to set
+- You're likely applying too much glue (it slides around instead of ho
+
+----------------------------------------------------------------------
+  PHASE 4: MERCHANT (Etsy Listing Generation)
+----------------------------------------------------------------------
+
+[USER]: I finished making 10 paper flower bouquets. Help me create an Etsy listing. They are made from crepe paper, each bouquet has 5 flowers, 30cm tall, colors: pink, white, yellow.
+[AGENT PHASE]: MERCHANT
+[RESPONSE TIME]: 9.55s
+[RESPONSE]:
+```json
+{
+  "title": "Handmade Paper Flower Bouquet 5 Crepe Flowers Pink White Yellow 30cm",
+  "description": "Bring the joy of fresh flowers into your home?without the wilting, without the guilt of cut stems. Each bouquet is lovingly crafted by hand from premium crepe paper, designed to last forever and brighten any room, season after season.\n\nOur paper flower bouquets feature five stunning blooms in a cheerful mix of pink, white, and yellow tones. Each flower is carefully shaped and stretched to capture the natural beauty of real petals, then arranged with green stem wrapping for an authentic, polished look. Standing 30cm tall, they're the perfect size for shelves, desks, nightstands, or as a heartfelt gift that won't fade or fade.\n\nMaterials: Premium crepe paper petals, florist wire
+
+======================================================================
+  SUMMARY
+======================================================================
+  [PASS] SCOUT routing
+  [PASS] Pexels mood board images
+  [PASS] MASTER routing
+  [PASS] RAG sources retrieved
+  [PASS] TROUBLESHOOTER routing
+  [PASS] MERCHANT routing
+
+  Result: 6/6 checks passed
+  Total time: 33.67s
+  Avg response time: 8.42s
+======================================================================

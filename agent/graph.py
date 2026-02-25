@@ -56,6 +56,7 @@ class AgentState(TypedDict):
     conversation_history: list     # [{role, content}, …]
     response: str
     sources: list
+    inspiration_images: list       # Pexels mood board images (SCOUT)
 
 
 # ── Helper: RAG retrieval ────────────────────────────────────────────────────
@@ -109,15 +110,39 @@ def route_message(state: AgentState) -> Phase:
     return phase if phase in valid else "MASTER"
 
 
-# ── Node: SCOUT ──────────────────────────────────────────────────────────────
+# ── Helper: extract keywords for Pexels ──────────────────────────────────────
+def _extract_keyword(user_message: str) -> str:
+    """Use Claude to extract a short search keyword from the user message."""
+    keyword = _call_claude(
+        system=(
+            "Extract 1-3 English keywords for an image search from the user's message. "
+            "Return ONLY the keywords, nothing else. Example: 'paper flower bouquet'"
+        ),
+        messages=[{"role": "user", "content": user_message}],
+        model=ROUTER_MODEL,
+    ).strip().strip('"\'')
+    return keyword
+
+
+# ── Node: SCOUT (with Pexels mood board) ─────────────────────────────────────
 def scout_node(state: AgentState) -> dict:
+    from integrations.inspiration import search_inspiration
+
     history = state.get("conversation_history", [])
     messages = history + [{"role": "user", "content": state["user_message"]}]
+
+    # Fetch inspiration images from Pexels
+    keyword = _extract_keyword(state["user_message"])
+    pexels_result = search_inspiration(keyword=keyword, per_page=6)
+    images = pexels_result.get("images", [])
+
     answer = _call_claude(system=SYSTEM_PROMPT_SCOUT, messages=messages)
+
     return {
         "current_phase": "SCOUT",
         "response": answer,
         "sources": [],
+        "inspiration_images": images,
         "conversation_history": messages + [{"role": "assistant", "content": answer}],
     }
 
