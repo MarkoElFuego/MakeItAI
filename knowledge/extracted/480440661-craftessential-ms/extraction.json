@@ -1,0 +1,1141 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "tools_reference",
+      "projects": [],
+      "tools_reference": [
+        {
+          "name": "Paint/Adhesive Container",
+          "use": "Hold craft liquids and supplies",
+          "suitable_for": [
+            "general crafting"
+          ]
+        },
+        {
+          "name": "Pencil or Stylus",
+          "use": "Marking and sketching",
+          "suitable_for": [
+            "paper",
+            "cardstock",
+            "drawing"
+          ]
+        },
+        {
+          "name": "Screwdriver or Craft Tool",
+          "use": "Assembly and detail work",
+          "suitable_for": [
+            "mixed media"
+          ]
+        },
+        {
+          "name": "Clipboard or Craft Clamp",
+          "use": "Holding materials in place",
+          "suitable_for": [
+            "general crafting"
+          ]
+        },
+        {
+          "name": "Scissors",
+          "use": "Cutting paper and materials",
+          "suitable_for": [
+            "paper",
+            "fabric",
+            "general crafting"
+          ]
+        },
+        {
+          "name": "Brush",
+          "use": "Applying adhesive and paint",
+          "suitable_for": [
+            "general crafting",
+            "painting"
+          ]
+        },
+        {
+          "name": "Craft Knife or Utility Blade",
+          "use": "Precision cutting",
+          "suitable_for": [
+            "paper",
+            "cardstock"
+          ]
+        }
+      ],
+      "diagram_descriptions": [
+        "Turquoise background with white decorative lace border at top and bottom",
+        "Martha Stewart Crafts logo in circular seal at top center",
+        "Large white text reading 'CRAFT ESSENTIALS' centered on page",
+        "Subtitle: 'MUST-HAVE TOOLS AND INSPIRING IDEAS'",
+        "Row of 7 essential craft tools illustrated in white/grayscale: paint container, pencil, screwdriver, clipboard clamp, scissors, brush, and craft knife",
+        "Lower section features book cover image for 'Martha Stewart's Encyclopedia of Crafts' with photo of Martha Stewart in white clothing",
+        "Text: 'Available now: Martha Stewart's Encyclopedia of Crafts'"
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "tools_reference",
+      "projects": [],
+      "tools_reference": [
+        {
+          "name": "Punches",
+          "price": "$9.99 - $12.99",
+          "use": "Play with positive and negative punch possibilities in more than 60 different shapes for cards, gift tags, or stencils.",
+          "suitable_for": [
+            "cards",
+            "gift tags",
+            "stencils"
+          ],
+          "visual_description": "Six white hand punch tools with various shape dies shown in a row"
+        },
+        {
+          "name": "Edge Punches",
+          "price": "$14.99",
+          "use": "Choose from 13 different designs to add a decorative border pattern to cards, scrapbook pages, place settings, and other paper crafts.",
+          "suitable_for": [
+            "cards",
+            "scrapbook pages",
+            "place settings",
+            "paper crafts"
+          ],
+          "visual_description": "Two white edge punch tools with decorative border pattern dies shown"
+        },
+        {
+          "name": "Circle Cutter",
+          "price": "$17.99",
+          "use": "Plot perfect circles from 1in to 5 7/8 in in diameter with the use of the handy guide marks.",
+          "diameter_range": "1in to 5 7/8 in",
+          "suitable_for": [
+            "paper",
+            "cardstock"
+          ],
+          "visual_description": "White circular cutting tool with central handle and guide mark dial"
+        },
+        {
+          "name": "Paper Trimmer",
+          "price": "$24.99",
+          "use": "Score or cut straight edges from both directions—perfect for right- or left-handed crafters.",
+          "suitable_for": [
+            "paper",
+            "cardstock"
+          ],
+          "features": [
+            "bidirectional use",
+            "right-handed and left-handed"
+          ]
+        },
+        {
+          "name": "Screw Punch",
+          "price": "$24.99",
+          "use": "Punch various-sized holes in craftstock, foam, fabric, and leather.",
+          "suitable_for": [
+            "craftstock",
+            "foam",
+            "fabric",
+            "leather"
+          ],
+          "visual_description": "Single hand punch tool with screw adjustment mechanism"
+        },
+        {
+          "name": "Bone Folder",
+          "price": "$5.99",
+          "use": "Score and burnish perfect folds or use to apply rub-on transfers.",
+          "suitable_for": [
+            "paper",
+            "cardstock",
+            "transfers"
+          ],
+          "visual_description": "Pointed bone/plastic folding tool with handle"
+        },
+        {
+          "name": "Craft Knife",
+          "price": "$12.99",
+          "use": "Cut or crop a variety of materials.",
+          "suitable_for": [
+            "multiple materials"
+          ],
+          "visual_description": "Precision craft knife with pointed blade and handle"
+        },
+        {
+          "name": "14 x 3in Ruler",
+          "price": "$12.99",
+          "dimensions": "14 x 3in",
+          "use": "Clear, no-slip surface with printed guides for easy and accurate measuring",
+          "features": [
+            "no-slip surface",
+            "printed guides"
+          ],
+          "suitable_for": [
+            "measuring",
+            "cutting guides"
+          ],
+          "visual_description": "Green ruler with grid pattern and measurement markings"
+        },
+        {
+          "name": "12 x 12in Cutting Mat",
+          "price": "$14.99",
+          "dimensions": "12 x 12in",
+          "use": "Sturdy and self-healing to prolong the life of your cutting implements.",
+          "features": [
+            "self-healing"
+          ],
+          "suitable_for": [
+            "cutting",
+            "protecting work surface"
+          ],
+          "visual_description": "Dark gray square cutting mat with grid pattern"
+        },
+        {
+          "name": "Precision Scissors",
+          "price": "$14.99",
+          "use": "Blade tension screw adjusts for both heavy and light jobs.",
+          "features": [
+            "adjustable blade tension"
+          ],
+          "suitable_for": [
+            "paper",
+            "fabric",
+            "light and heavy materials"
+          ],
+          "visual_description": "Metal scissors with loop handles and tension adjustment mechanism"
+        },
+        {
+          "name": "Glitters",
+          "price": "$4.99",
+          "use": "With 40 sparkling colors to choose from, these finely cut, blended glitters make cards, ornaments, flowers, and pictures shimmer and shine.",
+          "color_options": 40,
+          "suitable_for": [
+            "cards",
+            "ornaments",
+            "flowers",
+            "pictures"
+          ],
+          "visual_description": "Array of 12 small glass jars containing colored glitter in various hues including green, blue, copper, red, and pink"
+        }
+      ],
+      "diagram_descriptions": [
+        "Six white hand punch tools with various shaped dies (ladybug, heart, flower, butterfly, elephant, snowflake) arranged in a row",
+        "Two white edge punch tools with decorative border pattern dies",
+        "Single white circular cutting tool with central handle and measurement guides",
+        "White paper trimmer with measurement markings and handles for bidirectional cutting",
+        "Single hand punch tool with screw adjustment feature",
+        "Pointed bone folder tool with handle",
+        "Precision craft knife with pointed blade",
+        "Green ruler with grid pattern measuring 14 x 3in",
+        "Dark gray square self-healing cutting mat with grid pattern measuring 12 x 12in",
+        "Metal precision scissors with adjustable tension mechanism",
+        "Array of 12 glass jars with 40 different sparkling glitter colors"
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Punched Ribbon Card",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "craftstock",
+              "quantity": "1 piece",
+              "dimensions": "5 x 5 in",
+              "color": "any",
+              "purpose": "card base"
+            },
+            {
+              "item": "craftstock",
+              "quantity": "1 piece",
+              "dimensions": "unspecified",
+              "color": "any",
+              "purpose": "background"
+            },
+            {
+              "item": "ribbon",
+              "quantity": "as needed",
+              "dimensions": "unspecified",
+              "color": "red (shown in image)"
+            }
+          ],
+          "tools": [
+            {
+              "name": "ruler",
+              "purpose": "measuring and guiding score line",
+              "optional": false
+            },
+            {
+              "name": "bone folder",
+              "purpose": "scoring folds and creases",
+              "optional": false
+            },
+            {
+              "name": "screw punch",
+              "purpose": "creating holes in heart shape",
+              "optional": false
+            },
+            {
+              "name": "craft glue",
+              "purpose": "gluing background to card front",
+              "optional": false
+            },
+            {
+              "name": "edge punch",
+              "purpose": "punching decorative edges (optional)",
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Using a ruler and bone folder, score a crease down the length of a 5 x 5in piece of craftstock to create the card fold. Cut out a craftstock background and punch around edges if desired, before gluing to card front.",
+              "technique": "scoring and folding",
+              "dimensions_mentioned": [
+                "5 x 5 in",
+                "length of card"
+              ],
+              "visual_description": "Photo showing ruler, bone folder, craftstock pieces, and scoring process"
+            },
+            {
+              "step_number": 2,
+              "instruction": "With screw punch, create holes in the shape of a heart as shown. Weave ribbon in and out of holes to form a perfect heart. Tie ends in the front or back, as desired.",
+              "technique": "punching and weaving",
+              "dimensions_mentioned": [],
+              "visual_description": "Photo showing screw punch creating heart-shaped holes and ribbon being woven through holes"
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "card_base",
+                "shape": "rectangle",
+                "width": "5 in",
+                "height": "5 in",
+                "details": [
+                  {
+                    "type": "fold_line",
+                    "position": "vertical_center",
+                    "line_style": "scored crease"
+                  }
+                ]
+              },
+              {
+                "name": "heart_pattern",
+                "shape": "heart",
+                "details": [
+                  {
+                    "type": "punched_holes",
+                    "arrangement": "outline of heart shape"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "Fold card in half vertically along score line. Glue background piece to card front. Punch holes in heart shape and weave ribbon through holes."
+          },
+          "tips": [
+            "Use the screw punch and your imagination to create many different types of card themes to fit any occasion",
+            "Stars, flowers, and geometric shapes are just the beginning of the possibilities"
+          ],
+          "finished_product_description": "A folded greeting card with red punched heart design and woven ribbon accents. Background features pink polka dot pattern. Card has decorative red borders and ribbon bow details."
+        },
+        {
+          "name": "Glittered Birds",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "plastic bird",
+              "quantity": "1 or more",
+              "dimensions": "unspecified",
+              "color": "various (green, blue, red shown)"
+            },
+            {
+              "item": "craft glue",
+              "quantity": "as needed",
+              "dimensions": "unspecified",
+              "color": "clear"
+            },
+            {
+              "item": "glitter",
+              "quantity": "spoonfuls",
+              "dimensions": "unspecified",
+              "color": "gold, and various colors as desired"
+            },
+            {
+              "item": "branch/twig",
+              "quantity": "1",
+              "dimensions": "unspecified",
+              "color": "natural tan/gold glittered"
+            }
+          ],
+          "tools": [
+            {
+              "name": "paintbrush",
+              "purpose": "applying craft glue to bird surfaces",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Using a paintbrush and craft glue, coat the tail of a plastic bird and sprinkle spoonfuls of glitter on top. Let glue dry before shaking off the excess glitter.",
+              "technique": "gluing and sprinkling",
+              "dimensions_mentioned": [],
+              "visual_description": "Photo showing plastic birds on glittered branches with varying glitter colors and densities"
+            },
+            {
+              "step_number": 2,
+              "instruction": "Repeat, using the same or different colors of glitter on the wings, body, and head.",
+              "technique": "gluing and sprinkling",
+              "dimensions_mentioned": [],
+              "visual_description": "Photo showing multiple glittered birds in different colors (green, blue, brown, red) positioned on branches"
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "bird",
+                "shape": "bird figurine",
+                "details": [
+                  {
+                    "type": "glittered_surface",
+                    "position": "tail"
+                  },
+                  {
+                    "type": "glittered_surface",
+                    "position": "wings"
+                  },
+                  {
+                    "type": "glittered_surface",
+                    "position": "body"
+                  },
+                  {
+                    "type": "glittered_surface",
+                    "position": "head"
+                  }
+                ]
+              },
+              {
+                "name": "branch",
+                "shape": "branch/twig",
+                "details": [
+                  {
+                    "type": "glittered_surface",
+                    "position": "entire branch"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "Arrange glittered birds on glittered branch in natural perching positions"
+          },
+          "tips": [],
+          "finished_product_description": "Decorative display of plastic birds with gold and colored glitter coating, perched on a glittered branch. Multiple birds in different colors (green, blue, brown, red) create a festive, sparkly arrangement."
+        }
+      ],
+      "tools_reference": [
+        {
+          "name": "Ruler",
+          "use": "Measuring and guiding precise score lines",
+          "suitable_for": [
+            "paper",
+            "cardstock"
+          ]
+        },
+        {
+          "name": "Bone Folder",
+          "use": "Scoring and burnishing folds to create sharp creases",
+          "suitable_for": [
+            "paper",
+            "cardstock"
+          ]
+        },
+        {
+          "name": "Screw Punch",
+          "use": "Creating decorative holes in various shapes including hearts, stars, and geometric patterns",
+          "suitable_for": [
+            "paper",
+            "cardstock",
+            "thin materials"
+          ]
+        },
+        {
+          "name": "Paintbrush",
+          "use": "Applying craft glue to surfaces for glitter application",
+          "suitable_for": [
+            "plastic",
+            "various craft materials"
+          ]
+        }
+      ],
+      "diagram_descriptions": [
+        "Photo of Punched Ribbon Card showing completed greeting card with red heart outline and woven red ribbon on pink polka dot background",
+        "Photo of Punched Ribbon Card showing ruler, bone folder, and craftstock pieces laid out",
+        "Photo of Punched Ribbon Card showing screw punch creating heart-shaped holes and ribbon being woven through",
+        "Photo of Glittered Birds showing multiple plastic birds in various colors (green, blue, brown, red) perched on glittered branches, all coated with gold and colored glitter"
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 4,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Flower Bouquet Card",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "card stock",
+              "quantity": "1 piece",
+              "dimensions": "7 x 10in",
+              "color": "any"
+            },
+            {
+              "item": "craftstock",
+              "quantity": "multiple pieces",
+              "color": "complementary colors"
+            },
+            {
+              "item": "paper",
+              "quantity": "as needed",
+              "color": "any"
+            },
+            {
+              "item": "ribbon",
+              "quantity": "1 piece",
+              "color": "any"
+            },
+            {
+              "item": "glue or double-sided tape",
+              "quantity": "as needed"
+            }
+          ],
+          "tools": [
+            {
+              "name": "bone folder",
+              "purpose": "scoring and creasing folds",
+              "optional": false
+            },
+            {
+              "name": "flourish edge punch",
+              "purpose": "creating decorative border",
+              "optional": false
+            },
+            {
+              "name": "hydrangea punch",
+              "purpose": "punching flower shapes",
+              "optional": false
+            },
+            {
+              "name": "rose leaf punch",
+              "purpose": "punching flower shapes",
+              "optional": false
+            },
+            {
+              "name": "cosmos punch",
+              "purpose": "punching flower shapes",
+              "optional": false
+            },
+            {
+              "name": "daisy punch",
+              "purpose": "punching flower shapes",
+              "optional": false
+            },
+            {
+              "name": "frond punch",
+              "purpose": "punching flower shapes",
+              "optional": false
+            },
+            {
+              "name": "craft knife",
+              "purpose": "cutting stem shapes",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Trim a piece of card stock to 7 x 10in. Using a bone folder, score and crease to create card fold. Add a decorative border with the flourish edge punch.",
+              "technique": "scoring, punching",
+              "dimensions_mentioned": [
+                "7 x 10in"
+              ]
+            },
+            {
+              "step_number": 2,
+              "instruction": "Punch flower shapes out of pretty complementary colors of craftstock using the hydrangea, rose leaf, cosmos, daisy, and frond punches. Cut stem shapes out of paper with a craft knife. Arrange the bouquet on card front, and affix with glue or double-sided tape. Embellish with a bow of ribbon.",
+              "technique": "punching, cutting, arranging, gluing"
+            }
+          ],
+          "tips": [
+            "Try other great punches to create adorable cards and invitations for the winter holiday season, summer weddings, and for birthdays and parties all year long"
+          ],
+          "finished_product_description": "A greeting card with a folded format featuring a bouquet of punched flowers with green stems and a ribbon bow embellishment. The card has a decorative edge border. Displayed with white envelope, sample cards with flower designs, and loose punched flower and leaf shapes.",
+          "visual_elements": [
+            "Main card with orange and pink punched flowers arranged in a bouquet with green stems and pink ribbon bow",
+            "White card stock envelope with decorative border",
+            "Sample blue card with flower arrangement pattern",
+            "Scattered punched flower and leaf shapes in yellow and green",
+            "White vase-shaped containers with white flowers and brushes"
+          ]
+        },
+        {
+          "name": "Kid's Party Ideas",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "bandanna craftstock",
+              "quantity": "6in squares (for napkin holders)",
+              "dimensions": "6in squares"
+            },
+            {
+              "item": "bandanna craftstock",
+              "quantity": "12in squares (for party hats)",
+              "dimensions": "12in squares"
+            },
+            {
+              "item": "craftstock",
+              "quantity": "multiple pieces",
+              "color": "contrasting colors"
+            },
+            {
+              "item": "double-sided tape",
+              "quantity": "as needed"
+            },
+            {
+              "item": "baker's twine",
+              "quantity": "as needed"
+            },
+            {
+              "item": "tissue paper",
+              "quantity": "1 piece",
+              "dimensions": "2 x 3in"
+            }
+          ],
+          "tools": [
+            {
+              "name": "craft knife",
+              "purpose": "cutting shapes",
+              "optional": false
+            },
+            {
+              "name": "screw punch",
+              "purpose": "punching holes for twine",
+              "optional": false
+            },
+            {
+              "name": "starburst punch",
+              "purpose": "punching around stamped numbers",
+              "optional": false
+            },
+            {
+              "name": "circle cutter",
+              "purpose": "making circular shapes",
+              "optional": false
+            },
+            {
+              "name": "foam dots",
+              "purpose": "adhering shapes",
+              "optional": false
+            },
+            {
+              "name": "stamp",
+              "purpose": "marking numbers",
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Napkin holders: cut 6in squares of bandanna craftstock into triangles and trim off one corner. Wrap around napkins and affix with double-sided tape.",
+              "technique": "cutting, wrapping, taping",
+              "dimensions_mentioned": [
+                "6in squares"
+              ]
+            },
+            {
+              "step_number": 2,
+              "instruction": "Party hats: cut 12in squares of bandanna craftstock into circles, then halve. Roll from one corner to form cone, and seal edge with double-sided tape. On each side, string baker's twine through screw-punched holes and knot the ends. For tassels, cut fringe in a 2 x 3in piece of tissue paper. Roll up and insert into tip of hat; tape at bottom to secure.",
+              "technique": "cutting, rolling, punching, stringing, taping",
+              "dimensions_mentioned": [
+                "12in squares",
+                "2 x 3in"
+              ]
+            },
+            {
+              "step_number": 3,
+              "instruction": "Stamp number onto craftstock and punch around with starburst punch. Using circle cutter, make slightly bigger circles out of craftstock of a contrasting color. Use foam dot to affix punched shape to the circle. Adhere to party hats using foam dots, or tape to toothpicks.",
+              "technique": "stamping, punching, cutting, gluing"
+            }
+          ],
+          "finished_product_description": "A party setup featuring decorated cone-shaped party hats in green, pink, and white with numbered circular decorations (numbered 5), matching napkin holders, cupcakes on a tiered stand, and tissue paper wrapped candies or treat holders with orange bows.",
+          "visual_elements": [
+            "Party hats in cone shape (green, pink, white, blue) with numbered circles (marked '5') and baker's twine ties with tissue paper tassels",
+            "Napkin holders wrapped in patterned bandanna craftstock",
+            "Tiered cupcake stand with frosted cupcakes",
+            "Tissue paper wrapped treat holders with fringe and orange ribbon bows",
+            "Close-up detail showing starburst-punched circles, numbered stamps, and assembly components",
+            "Hand holding a completed cone-shaped party hat with orange and patterned design",
+            "Reference materials showing punched circles, screw punch, starburst punch, and crafting components"
+          ]
+        }
+      ],
+      "tools_reference": [
+        {
+          "name": "Bone Folder",
+          "use": "Score and crease card stock for clean folds",
+          "suitable_for": [
+            "cardstock",
+            "paper"
+          ]
+        },
+        {
+          "name": "Flourish Edge Punch",
+          "use": "Create decorative borders on card edges",
+          "suitable_for": [
+            "cardstock",
+            "craftstock"
+          ]
+        },
+        {
+          "name": "Hydrangea Punch",
+          "use": "Punch hydrangea flower shapes",
+          "suitable_for": [
+            "craftstock"
+          ]
+        },
+        {
+          "name": "Rose Leaf Punch",
+          "use": "Punch rose leaf shapes",
+          "suitable_for": [
+            "craftstock"
+          ]
+        },
+        {
+          "name": "Cosmos Punch",
+          "use": "Punch cosmos flower shapes",
+          "suitable_for": [
+            "craftstock"
+          ]
+        },
+        {
+          "name": "Daisy Punch",
+          "use": "Punch daisy flower shapes",
+          "suitable_for": [
+            "craftstock"
+          ]
+        },
+        {
+          "name": "Frond Punch",
+          "use": "Punch frond/fern shapes",
+          "suitable_for": [
+            "craftstock"
+          ]
+        },
+        {
+          "name": "Craft Knife",
+          "use": "Cut stem shapes and other details",
+          "suitable_for": [
+            "paper",
+            "craftstock"
+          ]
+        },
+        {
+          "name": "Screw Punch",
+          "use": "Punch holes for threading twine",
+          "suitable_for": [
+            "craftstock",
+            "cardstock"
+          ]
+        },
+        {
+          "name": "Starburst Punch",
+          "use": "Punch decorative starburst shapes around stamped numbers",
+          "suitable_for": [
+            "craftstock"
+          ]
+        },
+        {
+          "name": "Circle Cutter",
+          "use": "Cut circular shapes",
+          "suitable_for": [
+            "craftstock",
+            "cardstock"
+          ]
+        },
+        {
+          "name": "Foam Dots",
+          "use": "Adhere layered shapes with dimension",
+          "suitable_for": [
+            "cardstock",
+            "craftstock"
+          ]
+        }
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 5,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Summer Party Banner and Napkin Holder",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "craftstock",
+              "quantity": "multiple pieces",
+              "dimensions": "6 x 8in",
+              "color": "assorted colors (pink, yellow, blue, teal)"
+            },
+            {
+              "item": "baker's twine",
+              "quantity": "two strands for garland, one strand for card",
+              "color": "neutral"
+            },
+            {
+              "item": "paper",
+              "quantity": "1 strip",
+              "purpose": "napkin holder"
+            },
+            {
+              "item": "double-sided tape",
+              "quantity": "as needed",
+              "optional": true
+            }
+          ],
+          "tools": [
+            {
+              "name": "computer printer",
+              "purpose": "print letter templates",
+              "optional": false
+            },
+            {
+              "name": "hole punch",
+              "purpose": "punch holes near top corners",
+              "optional": false
+            },
+            {
+              "name": "scissors or craft knife",
+              "purpose": "cut craftstock into banner shapes and letters",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Banner: cut craftstock into 6 x 8in banner shapes. Cut letters from craftstock using computer-printed letters as a template, and adhere to banners. Punch holes near top corners and thread two strands of baker's twine through to create garland. Create a mini garland for a card invitation using stamped letters and one strand of baker's twine. Punch small holes near the top corners of the card and thread ends of garland through holes, tying at back.",
+              "technique": "cutting, adhering, punching, threading",
+              "dimensions_mentioned": [
+                "6 x 8in banner shapes"
+              ],
+              "visual_description": "Colorful banner with letters P, A, R, T suspended from a striped background with rolled napkins and yellow drink pitcher below"
+            },
+            {
+              "step_number": 2,
+              "instruction": "Napkin holder: cut a strip of paper according to template below. Wrap strip around napkin and interlock slits, securing with double-sided tape if necessary.",
+              "technique": "cutting, wrapping, interlocking, securing",
+              "visual_description": "Rolled napkins in pink, teal, and yellow colors tied with yellow band; hands demonstrating interlocking slits"
+            }
+          ],
+          "tips": [
+            "Use computer-printed letters as template for cutting",
+            "Thread baker's twine through punched holes for hanging",
+            "Use double-sided tape to secure napkin holder slits if necessary"
+          ],
+          "finished_product_description": "Festive summer party banner with colorful letters and matching napkin holders with intertwined slits"
+        },
+        {
+          "name": "Baby Gift Book",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "blue dot paper from Baby Boy Multimedia Pad",
+              "quantity": "2 pieces",
+              "dimensions": "5 1/2 x 6 3/8in"
+            },
+            {
+              "item": "blue craftstock",
+              "quantity": "3 pieces for frames, 1 piece for front cover border",
+              "dimensions": "4 3/4 x 6 3/8in (frame pieces), 3 3/4 x 4in (front cover border)"
+            },
+            {
+              "item": "multi dot paper",
+              "quantity": "1 piece",
+              "dimensions": "2 3/4 x 3 3/4in"
+            },
+            {
+              "item": "preprinted frame from multimedia pad",
+              "quantity": "3 pieces"
+            },
+            {
+              "item": "blue felt appliqué elephant sticker",
+              "quantity": "1"
+            },
+            {
+              "item": "yellow seam binding",
+              "quantity": "as needed for binding"
+            }
+          ],
+          "tools": [
+            {
+              "name": "paper trimmer",
+              "purpose": "cut blue dot paper to specified dimensions",
+              "optional": false
+            },
+            {
+              "name": "scallop punch",
+              "purpose": "punch scallop dot edge along long sides",
+              "optional": false
+            },
+            {
+              "name": "screw punch",
+              "purpose": "punch holes along left edge for binding",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "With paper trimmer, cut two pieces of blue dot paper from the Baby Boy Multimedia Pad to 5 1/2 x 6 3/8in. Punch scallop dot edge along the long side of each. Back with blue craftstock.",
+              "technique": "trimming, punching, adhering",
+              "dimensions_mentioned": [
+                "5 1/2 x 6 3/8in"
+              ]
+            },
+            {
+              "step_number": 2,
+              "instruction": "Leaving a 5/8in binding space, adhere a preprinted frame from multimedia pad to the fronts and backs of three pieces of 4 3/4 x 6 3/8in blue craftstock.",
+              "technique": "adhering",
+              "dimensions_mentioned": [
+                "5/8in binding space",
+                "4 3/4 x 6 3/8in"
+              ]
+            },
+            {
+              "step_number": 3,
+              "instruction": "Punch scallop dot edge on right border of a 3 3/4 x 4in piece of blue craftstock, and adhere to front cover. Adhere a 2 3/4 x 3 3/4in piece of multi dot paper on top, then add a blue felt appliqué elephant sticker to the center.",
+              "technique": "punching, adhering",
+              "dimensions_mentioned": [
+                "3 3/4 x 4in",
+                "2 3/4 x 3 3/4in",
+                "center"
+              ]
+            },
+            {
+              "step_number": 4,
+              "instruction": "Use screw punch along left edge of each page. Thread yellow seam binding through holes and tie into a bow to finish.",
+              "technique": "punching, threading, tying",
+              "visual_description": "Completed baby gift book showing front cover with elephant sticker, pages with scallop-punched edges, and yellow ribbon binding"
+            }
+          ],
+          "tips": [
+            "Use screw punch for clean, evenly-spaced holes",
+            "Thread yellow seam binding through all punched holes",
+            "Tie binding into a bow for decorative finish"
+          ],
+          "finished_product_description": "A decorative baby gift book with scallop-punched edges, preprinted frames on interior pages, elephant appliqué on front cover, and yellow seam binding closure"
+        }
+      ],
+      "templates": [
+        {
+          "name": "Napkin Ring Holder Template",
+          "scale": "enlarge 700%",
+          "shape_description": "Rectangular strip with two interlocking vertical slits positioned to create an interlock mechanism when wrapped around napkin"
+        }
+      ],
+      "diagram_descriptions": [
+        "Photo of completed summer party banner with colorful P-A-R-T letters on striped background with rolled napkins, yellow drink pitcher, and plates",
+        "Close-up photo of rolled napkins in pink, teal, and yellow with yellow paper bands",
+        "Photo showing hands interlocking slits of napkin holder strip",
+        "Detailed product photo of completed Baby Gift Book showing front cover with blue borders, scallop-punched edges, yellow and blue polka dot paper, and elephant appliqué",
+        "Photo displaying open pages of baby gift book with preprinted frames and scallop-punched decorative edges",
+        "Detail showing yellow ribbon binding threaded through screw-punched holes on left edge"
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 6,
+    "extracted": {
+      "page_type": "tools_reference",
+      "projects": [],
+      "tools_reference": [
+        {
+          "name": "A. Glitter",
+          "use": "Adding sparkle and texture to crafts",
+          "suitable_for": [
+            "Cards",
+            "Scrapbooks",
+            "Paper Crafts",
+            "Photos",
+            "Labels",
+            "Plastic",
+            "Wood",
+            "Cardboard"
+          ]
+        },
+        {
+          "name": "B. Permanent",
+          "use": "Permanent ink marking",
+          "suitable_for": [
+            "Cards",
+            "Paper Crafts",
+            "Photos",
+            "Labels",
+            "Metal",
+            "Plastic",
+            "Wood",
+            "Cardboard"
+          ]
+        },
+        {
+          "name": "C. Arts & Crafts",
+          "use": "General craft applications",
+          "suitable_for": [
+            "Cards",
+            "Scrapbooks",
+            "Paper Crafts",
+            "Labels"
+          ]
+        },
+        {
+          "name": "D. Brush",
+          "use": "Brush tip marking and painting",
+          "suitable_for": [
+            "Cards",
+            "Scrapbooks",
+            "Paper Crafts",
+            "Photos"
+          ]
+        },
+        {
+          "name": "E. Calligraphy",
+          "use": "Decorative writing and lettering",
+          "suitable_for": [
+            "Cards",
+            "Scrapbooks",
+            "Paper Crafts",
+            "Photos"
+          ]
+        },
+        {
+          "name": "F. Opaque",
+          "use": "Opaque ink coverage",
+          "suitable_for": [
+            "Cards",
+            "Scrapbooks",
+            "Paper Crafts",
+            "Metal",
+            "Wood"
+          ]
+        },
+        {
+          "name": "G. Metallic",
+          "use": "Metallic ink effects",
+          "suitable_for": [
+            "Cards",
+            "Scrapbooks",
+            "Paper Crafts",
+            "Photos",
+            "Wood",
+            "Cardboard"
+          ]
+        },
+        {
+          "name": "H. Archival Writing",
+          "use": "Permanent archival quality writing",
+          "suitable_for": [
+            "Cards",
+            "Scrapbooks",
+            "Paper Crafts",
+            "Photos",
+            "Labels"
+          ]
+        }
+      ],
+      "pen_tips_reference": [
+        {
+          "tip_type": "Fine Point",
+          "visual_description": "Pointed conical tip shape",
+          "use": "Precise, detailed writing and drawing"
+        },
+        {
+          "tip_type": "Brush Tip",
+          "visual_description": "Tapered brush-like tip shape",
+          "use": "Variable line width and painting effects"
+        },
+        {
+          "tip_type": "Chisel Tip",
+          "visual_description": "Flat rectangular tip shape",
+          "use": "Straight lines and calligraphy"
+        },
+        {
+          "tip_type": "Bullet Tip",
+          "visual_description": "Rounded dome tip shape",
+          "use": "Bold, consistent line marking"
+        }
+      ],
+      "diagram_descriptions": [
+        "Visual chart showing 8 different pen and marker types (A-H) with sample strokes demonstrating each marker's line quality",
+        "Row A shows fine point tip creating thin oval shapes",
+        "Row B shows permanent marker creating thin curved lines",
+        "Row C shows Arts & Crafts marker creating red X marks",
+        "Row D shows brush tip marker creating green leaf-like strokes",
+        "Row E shows calligraphy marker creating brown decorative swirls with diamond shapes",
+        "Row F shows opaque marker creating white dotted line pattern",
+        "Row G shows metallic marker creating cursive text reading 'thank you very much'",
+        "Row H shows archival writing pen creating thin line work",
+        "Blue reference panel on right side showing 4 pen tip types with labeled silhouettes: fine point, brush tip, chisel tip, and bullet tip",
+        "Color-coded applicability chart with rows for pen types A-H and columns for application surfaces: Cards, Scrapbooks, Paper Crafts, Photos, Labels, Metal, Plastic, Wood, Cardboard"
+      ],
+      "color_reference": [
+        {
+          "element": "Background paper",
+          "color": "light green/sage"
+        },
+        {
+          "element": "Text and headers",
+          "color": "turquoise blue"
+        },
+        {
+          "element": "Pen samples",
+          "colors": [
+            "gray",
+            "pink",
+            "red",
+            "green",
+            "brown",
+            "white",
+            "black"
+          ]
+        }
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null,
+      "additional_content": {
+        "book_promotion": {
+          "title": "Martha Stewart's Encyclopedia of Crafts",
+          "description": "Organized by topic from A to Z and filled with projects, templates, and detailed instructions for craft techniques, it is the ultimate resource for devoted crafters and weekend crafters alike",
+          "status": "Available Now"
+        }
+      }
+    }
+  }
+]

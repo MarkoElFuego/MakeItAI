@@ -9,3 +9,6 @@ uvicorn
 anthropic
 langgraph
 requests
+PyMuPDF
+Pillow
+pyyaml

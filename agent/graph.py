@@ -62,17 +62,38 @@ class AgentState(TypedDict):
 
 
 # ── Helper: RAG retrieval ────────────────────────────────────────────────────
-def _rag_retrieve(question: str, top_k: int = 5) -> tuple[str, list[dict]]:
-    """Embed question, search Supabase, return (context_str, sources)."""
+def _rag_retrieve(
+    question: str, top_k: int = 5, metadata_filter: dict | None = None
+) -> tuple[str, list[dict]]:
+    """Embed question, search Supabase, return (context_str, sources).
+
+    Args:
+        question: Text to embed and search for.
+        top_k: Number of results to return.
+        metadata_filter: Optional metadata filter (e.g. {"chunk_type": "blueprint"}).
+            Uses match_documents_filtered RPC with jsonb @> operator.
+    """
     query_embedding = embeddings.embed_query(question)
-    result = supabase_client.rpc(
-        "match_documents",
-        {
-            "query_embedding": query_embedding,
-            "match_threshold": 0.3,
-            "match_count": top_k,
-        },
-    ).execute()
+
+    if metadata_filter:
+        result = supabase_client.rpc(
+            "match_documents_filtered",
+            {
+                "query_embedding": query_embedding,
+                "match_threshold": 0.3,
+                "match_count": top_k,
+                "filter": metadata_filter,
+            },
+        ).execute()
+    else:
+        result = supabase_client.rpc(
+            "match_documents",
+            {
+                "query_embedding": query_embedding,
+                "match_threshold": 0.3,
+                "match_count": top_k,
+            },
+        ).execute()
 
     documents = result.data or []
     context_parts = []
@@ -86,6 +107,32 @@ def _rag_retrieve(question: str, top_k: int = 5) -> tuple[str, list[dict]]:
         })
     context = "\n\n---\n\n".join(context_parts) if context_parts else ""
     return context, sources
+
+
+def _rag_retrieve_multi(
+    question: str, chunk_types: list[str], top_k_per_type: int = 3
+) -> tuple[str, list[dict]]:
+    """Retrieve from multiple chunk_types and merge results."""
+    all_parts = []
+    all_sources = []
+    seen_contents = set()
+    for ct in chunk_types:
+        context, sources = _rag_retrieve(
+            question, top_k=top_k_per_type, metadata_filter={"chunk_type": ct}
+        )
+        for s in sources:
+            key = s["content"][:100]
+            if key not in seen_contents:
+                seen_contents.add(key)
+                all_sources.append(s)
+        if context:
+            all_parts.append(context)
+
+    # Fallback: if filtered retrieval returned nothing, try unfiltered
+    if not all_parts:
+        return _rag_retrieve(question, top_k=top_k_per_type * len(chunk_types))
+
+    return "\n\n---\n\n".join(all_parts), all_sources
 
 
 # ── Helper: call Claude ──────────────────────────────────────────────────────
@@ -145,6 +192,19 @@ def scout_node(state: AgentState) -> dict:
     pexels_result = search_inspiration(keyword=keyword, per_page=6)
     images = pexels_result.get("images", [])
 
+    # RAG: fetch project overviews for inspiration context
+    rag_context, rag_sources = _rag_retrieve(
+        state["user_message"], top_k=3, metadata_filter={"chunk_type": "overview"}
+    )
+    if rag_context:
+        messages[-1] = {
+            "role": "user",
+            "content": (
+                f"Related projects from craft books:\n\n{rag_context}\n\n---\n\n"
+                f"{state['user_message']}"
+            ),
+        }
+
     answer = _call_claude(system=SYSTEM_PROMPT_SCOUT, messages=messages)
 
     return {
@@ -183,8 +243,8 @@ def crafter_node(state: AgentState) -> dict:
         rag_query = extracted
         print(f"[CRAFTER] Extracted topic from context: '{extracted}'")
 
-    # RAG — only use if similarity is high enough (>0.5)
-    context, sources = _rag_retrieve(rag_query)
+    # RAG — try blueprint+steps first, fallback to unfiltered
+    context, sources = _rag_retrieve_multi(rag_query, ["blueprint", "steps"])
     high_quality_sources = [s for s in sources if s.get("similarity", 0) > 0.5]
 
     if high_quality_sources and context:
@@ -246,7 +306,7 @@ def crafter_node(state: AgentState) -> dict:
 
 # ── Node: MASTER (uses RAG) ─────────────────────────────────────────────────
 def master_node(state: AgentState) -> dict:
-    context, sources = _rag_retrieve(state["user_message"])
+    context, sources = _rag_retrieve_multi(state["user_message"], ["steps", "tips"])
 
     if context:
         user_content = (

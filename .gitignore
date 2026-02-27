@@ -62,3 +62,17 @@ Thumbs.db
 *.h5
 models/
 data/
+
+# --- Knowledge pipeline ---
+# PDFs and page images are large — don't track
+knowledge/inbox/
+knowledge/processing/
+knowledge/done/
+*.pdf
+
+# Extraction JSONs ARE tracked (Vision backup per book)
+!knowledge/extracted/
+!knowledge/extracted/**/*.json
+
+# Pipeline run log
+knowledge/pipeline_log.json

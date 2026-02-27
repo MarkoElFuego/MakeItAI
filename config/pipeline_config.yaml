@@ -1,0 +1,24 @@
+vision:
+  model: "claude-haiku-4-5-20251001"
+  max_tokens: 4096
+  rate_limit_delay: 1.0
+  max_retries: 2
+
+embedding:
+  model: "models/gemini-embedding-001"
+  task_type: "retrieval_document"
+  batch_size: 20
+  batch_delay: 0.5
+
+chunking:
+  max_chunk_size: 1000
+  steps_per_chunk: 3
+
+paths:
+  inbox: "knowledge/inbox"
+  processing: "knowledge/processing"
+  done: "knowledge/done"
+  extracted: "knowledge/extracted"
+
+page_dpi: 200
+cleanup_images: false
