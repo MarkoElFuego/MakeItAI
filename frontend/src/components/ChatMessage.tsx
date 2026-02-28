@@ -1,61 +1,93 @@
-import type { InspirationImage, CraftData } from "../api";
-import CraftingWidget from "./CraftingWidget";
-
 interface Props {
   role: "user" | "assistant";
   content: string;
-  phase?: string;
-  images?: InspirationImage[];
-  craftData?: CraftData | null;
+  uploadedImage?: string;
+  onQuickReply?: (text: string) => void;
 }
 
-export default function ChatMessage({ role, content, phase, images, craftData }: Props) {
+// ── Detect quick reply options ───────────────────────────────────────────────
+interface QuickReply {
+  emoji: string;
+  label: string;
+  description: string;
+}
+
+function extractQuickReplies(text: string): QuickReply[] {
+  const replies: QuickReply[] = [];
+  const lines = text.split("\n");
+
+  for (const line of lines) {
+    // Match: emoji **Bold Text** — description  OR  emoji Bold Text — description
+    const match = line.match(
+      /^([\u{1F300}-\u{1FAD6}\u{2600}-\u{27BF}\u{FE00}-\u{FE0F}\u{1F900}-\u{1F9FF}\u{200D}\u{20E3}\u{E0020}-\u{E007F}][\uFE0F\u200D]*)\s*\*?\*?(.+?)\*?\*?\s*[—\-–]\s*(.+)$/u
+    );
+    if (match) {
+      replies.push({
+        emoji: match[1],
+        label: match[2].trim(),
+        description: match[3].trim(),
+      });
+    }
+  }
+
+  return replies;
+}
+
+// ── Render markdown-like text (bold, italic) ─────────────────────────────────
+function renderText(text: string) {
+  const html = text
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*(.+?)\*/g, "<em>$1</em>")
+    .replace(/`(.+?)`/g, '<code class="bg-gray-100 px-1 rounded text-xs">$1</code>');
+  return <span dangerouslySetInnerHTML={{ __html: html }} />;
+}
+
+// ── Main Component ───────────────────────────────────────────────────────────
+export default function ChatMessage({
+  role,
+  content,
+  uploadedImage,
+  onQuickReply,
+}: Props) {
   const isUser = role === "user";
+  const quickReplies = !isUser ? extractQuickReplies(content) : [];
 
   return (
     <div className={`flex ${isUser ? "justify-end" : "justify-start"} mb-4`}>
       <div
-        className={`max-w-[85%] md:max-w-[70%] rounded-2xl px-4 py-3 ${
-          isUser
-            ? "bg-emerald-600 text-white rounded-br-sm"
-            : "bg-white text-gray-800 border border-gray-200 rounded-bl-sm shadow-sm"
-        }`}
+        className={`max-w-[85%] md:max-w-[70%] rounded-2xl px-4 py-3 ${isUser
+          ? "bg-[#F4845F] text-white rounded-br-sm shadow-md"
+          : "bg-white text-[#3E2723] border border-[#FDDCB5]/50 rounded-bl-sm shadow-sm"
+          }`}
       >
-        {!isUser && phase && (
-          <div className="text-xs text-emerald-600 font-semibold mb-1 uppercase tracking-wide">
-            {phase}
+        {/* Content blocks */}
+        <div className="whitespace-pre-wrap text-[0.95rem] leading-relaxed font-quicksand">
+          {renderText(content)}
+        </div>
+
+        {/* Uploaded User Image Preview */}
+        {uploadedImage && (
+          <div className="mt-3">
+            <img
+              src={uploadedImage}
+              alt="Uploaded Frame"
+              className="rounded-xl max-w-full shadow-md w-full h-auto object-cover border border-[#FDDCB5]/50"
+            />
           </div>
         )}
-        <div className="whitespace-pre-wrap text-sm leading-relaxed">{content}</div>
 
-        {craftData && craftData.steps && craftData.steps.length > 0 && (
-          <CraftingWidget data={craftData} />
-        )}
-
-        {images && images.length > 0 && (
-          <div className="mt-3 border-t border-gray-100 pt-3">
-            <div className="text-xs text-gray-500 font-semibold mb-2 uppercase tracking-wide">
-              Inspiration Board
-            </div>
-            <div className="grid grid-cols-3 gap-2">
-              {images.map((img) => (
-                <a
-                  key={img.id}
-                  href={img.url_page}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={img.url_small}
-                    alt={img.description}
-                    className="rounded-lg w-full h-20 object-cover hover:opacity-80 transition-opacity"
-                  />
-                </a>
-              ))}
-            </div>
-            <div className="text-[10px] text-gray-400 mt-1">
-              Photos by Pexels
-            </div>
+        {/* Quick reply buttons */}
+        {quickReplies.length > 0 && onQuickReply && (
+          <div className="flex flex-wrap gap-2 mt-4 pt-3 border-t border-[#FDDCB5]/50">
+            {quickReplies.map((qr, i) => (
+              <button
+                key={i}
+                onClick={() => onQuickReply(qr.label)}
+                className="text-xs px-3 py-2 rounded-lg bg-white border border-[#F4845F] text-[#F4845F] hover:bg-[#F4845F] hover:text-white transition-colors shadow-sm"
+              >
+                {qr.emoji} {qr.label}
+              </button>
+            ))}
           </div>
         )}
       </div>

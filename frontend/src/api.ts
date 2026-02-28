@@ -5,37 +5,36 @@ export interface ChatMessage {
   content: string;
 }
 
-export interface CraftStep {
-  id: number;
+export interface TutorialStep {
   title: string;
   description: string;
-  svgCode: string;
+  tip?: string;
+  materials?: string[];
+  svg: string;
 }
 
-export interface CraftData {
-  projectName: string;
+export interface TutorialData {
+  project_name: string;
   difficulty: string;
-  estimatedTime: string;
-  materials: string[];
-  steps: CraftStep[];
+  time_estimate: string;
+  ui?: {
+    step_label: string;
+    of_label: string;
+    back_btn: string;
+    next_btn: string;
+    done_btn: string;
+  };
+  steps: TutorialStep[];
 }
 
 export interface ChatResponse {
   response: string;
-  phase: string;
+  action: string;
+  status_text: string;
+  generated_image?: string;
+  tutorial_data?: TutorialData;
   sources: Record<string, unknown>[];
-  inspiration_images: InspirationImage[];
-  craft_data: CraftData | null;
   conversation_history: ChatMessage[];
-}
-
-export interface InspirationImage {
-  id: number;
-  description: string;
-  photographer: string;
-  url_medium: string;
-  url_small: string;
-  url_page: string;
 }
 
 export interface ImageAnalysisResponse {
@@ -46,7 +45,9 @@ export interface ImageAnalysisResponse {
 export async function sendChat(
   message: string,
   conversationHistory: ChatMessage[] = [],
-  projectContext: Record<string, unknown> = {}
+  projectContext: Record<string, unknown> = {},
+  tutorialData: TutorialData | null = null,
+  generatedImage: string | null = null,
 ): Promise<ChatResponse> {
   const res = await fetch(`${API_URL}/chat`, {
     method: "POST",
@@ -55,6 +56,8 @@ export async function sendChat(
       message,
       conversation_history: conversationHistory,
       project_context: projectContext,
+      tutorial_data: tutorialData || undefined,
+      generated_image: generatedImage || undefined,
     }),
   });
   if (!res.ok) throw new Error(`API error: ${res.status}`);

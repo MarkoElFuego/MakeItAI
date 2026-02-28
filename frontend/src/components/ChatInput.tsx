@@ -56,7 +56,7 @@ export default function ChatInput({ onSend, onImageUpload, disabled }: Props) {
         type="text"
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="Ask about crafting..."
+        placeholder="Ask Elfy anything about crafting..."
         disabled={disabled}
         className="flex-1 px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 text-sm disabled:opacity-50 bg-white"
       />

@@ -1,7 +1,40 @@
 @import "tailwindcss";
 
+@theme {
+  --font-quicksand: "Quicksand", sans-serif;
+  --font-caveat: "Caveat", cursive;
+}
+
+:root {
+  --cream: #FFF8F0;
+  --warm: #FEF0E1;
+  --peach: #FDDCB5;
+  --coral: #F4845F;
+  --green: #6BAB73;
+  --green-light: #E8F5E9;
+  --brown: #5D4037;
+  --brown-light: #8D6E63;
+  --text: #3E2723;
+  --text-light: #6D4C41;
+  --yellow: #FFD54F;
+  --yellow-dark: #F9A825;
+  --orange: #FF8F00;
+  --card: #FFFFFF;
+  --shadow: rgba(93, 64, 55, 0.08);
+}
+
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: #f8faf8;
+  background-color: var(--cream);
+  color: var(--text);
+}
+
+@keyframes fadeSlide {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+html, body {
+  overflow-x: hidden;
 }
