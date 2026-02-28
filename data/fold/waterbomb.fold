@@ -1,0 +1,27 @@
+{
+  "file_spec": 1.1,
+  "file_creator": "Elfy MakeItAI",
+  "file_title": "Waterbomb Base",
+  "file_description": "Waterbomb base - fundamental origami base used in many models",
+  "file_classes": ["singleModel"],
+  "frame_title": "Waterbomb Base Crease Pattern",
+  "frame_classes": ["creasePattern"],
+  "frame_attributes": ["2D"],
+  "vertices_coords": [
+    [0, 0], [0.5, 0], [1, 0],
+    [0, 0.5], [0.5, 0.5], [1, 0.5],
+    [0, 1], [0.5, 1], [1, 1]
+  ],
+  "edges_vertices": [
+    [0, 1], [1, 2], [2, 5], [5, 8], [8, 7], [7, 6], [6, 3], [3, 0],
+    [0, 4], [2, 4], [6, 4], [8, 4],
+    [1, 7],
+    [3, 5]
+  ],
+  "edges_assignment": [
+    "B", "B", "B", "B", "B", "B", "B", "B",
+    "M", "M", "M", "M",
+    "V",
+    "V"
+  ]
+}

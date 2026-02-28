@@ -1,0 +1,61 @@
+{
+    "models": [
+        {
+            "id": "crane",
+            "file": "crane.fold",
+            "name_en": "Traditional Crane",
+            "name_sr": "Tradicionalni ždral",
+            "difficulty": "Medium",
+            "tags": [
+                "bird",
+                "classic",
+                "traditional"
+            ],
+            "units_needed": 1,
+            "time_estimate": "20 min"
+        },
+        {
+            "id": "boat",
+            "file": "boat.fold",
+            "name_en": "Simple Boat",
+            "name_sr": "Jednostavan brodić",
+            "difficulty": "Easy",
+            "tags": [
+                "boat",
+                "beginner",
+                "traditional"
+            ],
+            "units_needed": 1,
+            "time_estimate": "10 min"
+        },
+        {
+            "id": "kusudama",
+            "file": "kusudama.fold",
+            "name_en": "Kusudama Flower Ball",
+            "name_sr": "Kusudama cvetna lopta",
+            "difficulty": "Medium",
+            "tags": [
+                "flower",
+                "modular",
+                "kusudama",
+                "ball"
+            ],
+            "units_needed": 6,
+            "time_estimate": "45 min"
+        },
+        {
+            "id": "waterbomb",
+            "file": "waterbomb.fold",
+            "name_en": "Waterbomb Base",
+            "name_sr": "Vodena bomba baza",
+            "difficulty": "Easy",
+            "tags": [
+                "base",
+                "beginner",
+                "fundamental"
+            ],
+            "units_needed": 1,
+            "time_estimate": "5 min"
+        }
+    ]
+}

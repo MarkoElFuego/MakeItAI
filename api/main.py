@@ -2,7 +2,6 @@ import os
 import sys
 from pathlib import Path
 
-import anthropic
 from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -23,8 +22,11 @@ SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 
 # ── Clients ─────────────────────────────────────────────────────────────────
+from google import genai
+from google.genai import types
+
 supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
-claude = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+gemini_client = genai.Client(api_key=GOOGLE_API_KEY)
 embeddings = GoogleGenerativeAIEmbeddings(
     model="models/gemini-embedding-001",
     task_type="retrieval_query",
@@ -52,10 +54,7 @@ class AskResponse(BaseModel):
 
 @app.post("/ask", response_model=AskResponse)
 def ask(req: AskRequest):
-    # 1. Embed the question
     query_embedding = embeddings.embed_query(req.question)
-
-    # 2. Similarity search in Supabase (top 5)
     result = supabase.rpc(
         "match_documents",
         {
@@ -64,10 +63,7 @@ def ask(req: AskRequest):
             "match_count": 5,
         },
     ).execute()
-
     documents = result.data or []
-
-    # 3. Build context from retrieved chunks
     context_parts = []
     sources = []
     for doc in documents:
@@ -77,24 +73,18 @@ def ask(req: AskRequest):
             "similarity": doc["similarity"],
             "metadata": doc.get("metadata", {}),
         })
-
     context = "\n\n---\n\n".join(context_parts) if context_parts else "Nema relevantnih informacija u bazi."
-
-    # 4. Send to Claude Haiku
-    message = claude.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=1024,
-        system=SYSTEM_PROMPT_RAG,
-        messages=[
-            {
-                "role": "user",
-                "content": f"Kontekst iz knjiga:\n\n{context}\n\n---\n\nPitanje: {req.question}",
-            }
-        ],
+    
+    response = gemini_client.models.generate_content(
+        model="gemini-3-flash-preview",
+        contents=f"Kontekst iz knjiga:\n\n{context}\n\n---\n\nPitanje: {req.question}",
+        config=types.GenerateContentConfig(
+            system_instruction=SYSTEM_PROMPT_RAG,
+            temperature=0.4
+        )
     )
-
-    answer = message.content[0].text
-
+    
+    answer = getattr(response, "text", "")
     return AskResponse(answer=answer, sources=sources)
 
 
@@ -106,14 +96,17 @@ class ChatRequest(BaseModel):
     message: str
     conversation_history: list[dict] = []
     project_context: dict = {}
+    tutorial_data: dict | None = None
+    generated_image: str | None = None
 
 
 class ChatResponse(BaseModel):
     response: str
-    phase: str
+    action: str
+    status_text: str
+    generated_image: str | None = None
+    tutorial_data: dict | None = None
     sources: list[dict]
-    inspiration_images: list[dict] = []
-    craft_data: dict | None = None
     conversation_history: list[dict]
 
 
@@ -122,28 +115,35 @@ def chat(req: ChatRequest):
     """Main chat endpoint using LangGraph orchestrator."""
     result = langgraph_agent.invoke({
         "user_message": req.message,
-        "current_phase": "MASTER",
+        "action": "",
+        "tutorial_data": req.tutorial_data,
+        "generated_image": req.generated_image,
         "project_context": req.project_context,
         "conversation_history": req.conversation_history,
         "response": "",
         "sources": [],
-        "inspiration_images": [],
-        "craft_data": None,
     })
+    
+    # Map actions to display statuses
+    status_map = {
+        "chat_node": "Elfy is thinking...",
+        "tutorial_gen_node": "Elfy is crafting your tutorial...",
+        "help_node": "Elfy is thinking..."
+    }
+    
     return ChatResponse(
         response=result["response"],
-        phase=result["current_phase"],
+        action=result.get("action", "chat_node"),
+        status_text=status_map.get(result.get("action"), "Elfy is thinking..."),
+        generated_image=result.get("generated_image"),
+        tutorial_data=result.get("tutorial_data"),
         sources=result["sources"],
-        inspiration_images=result.get("inspiration_images", []),
-        craft_data=result.get("craft_data"),
         conversation_history=result["conversation_history"],
     )
 
 
 # ── Vision (Phase 3) ─────────────────────────────────────────────────────────
 from integrations.vision import analyze_image
-from integrations.inspiration import search_inspiration
-
 
 class ImageRequest(BaseModel):
     image_base64: str
@@ -166,27 +166,35 @@ def analyze_image_endpoint(req: ImageRequest):
         user_message=req.message,
         conversation_history=req.conversation_history,
     )
-    return ImageResponse(analysis=analysis, phase="TROUBLESHOOTER")
+    return ImageResponse(analysis=analysis, phase="HELPER")
+
+# ── FOLD Origami Integration ─────────────────────────────────────────────────
+from integrations.fold_renderer import get_fold_index, get_fold_model, get_fold_svg
+from fastapi.responses import PlainTextResponse
 
 
-# ── Inspiration / Mood Board (Phase 3) ──────────────────────────────────────
-class InspirationResponse(BaseModel):
-    keyword: str
-    images: list[dict]
-    total_results: int
-    error: str | None = None
+@app.get("/fold/models")
+def list_fold_models():
+    """List all available FOLD origami models."""
+    return get_fold_index()
 
 
-@app.get("/inspiration", response_model=InspirationResponse)
-def inspiration(keyword: str, count: int = 10):
-    """Search Pexels for craft inspiration images (mood board)."""
-    result = search_inspiration(keyword=keyword, per_page=count)
-    return InspirationResponse(
-        keyword=result.get("keyword", keyword),
-        images=result.get("images", []),
-        total_results=result.get("total_results", 0),
-        error=result.get("error"),
-    )
+@app.get("/fold/{model_id}")
+def get_fold(model_id: str):
+    """Get a raw FOLD JSON object by model ID."""
+    fold = get_fold_model(model_id)
+    if not fold:
+        return {"error": f"Model '{model_id}' not found"}
+    return fold
+
+
+@app.get("/fold/{model_id}/svg", response_class=PlainTextResponse)
+def get_fold_svg_endpoint(model_id: str):
+    """Render a FOLD model as SVG string."""
+    svg = get_fold_svg(model_id)
+    if not svg:
+        return PlainTextResponse("Model not found", status_code=404)
+    return PlainTextResponse(svg, media_type="image/svg+xml")
 
 
 @app.get("/health")

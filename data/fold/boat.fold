@@ -1,0 +1,31 @@
+{
+  "file_spec": 1.1,
+  "file_creator": "Elfy MakeItAI",
+  "file_title": "Simple Boat",
+  "file_description": "Traditional simple origami boat crease pattern",
+  "file_classes": ["singleModel"],
+  "frame_title": "Boat Crease Pattern",
+  "frame_classes": ["creasePattern"],
+  "frame_attributes": ["2D"],
+  "vertices_coords": [
+    [0, 0], [0.5, 0], [1, 0],
+    [0, 0.5], [0.5, 0.5], [1, 0.5],
+    [0, 1], [0.5, 1], [1, 1],
+    [0.25, 0.25], [0.75, 0.25],
+    [0.25, 0.75], [0.75, 0.75]
+  ],
+  "edges_vertices": [
+    [0, 1], [1, 2], [2, 5], [5, 8], [8, 7], [7, 6], [6, 3], [3, 0],
+    [1, 7],
+    [3, 5],
+    [0, 4], [2, 4], [6, 4], [8, 4],
+    [9, 4], [10, 4], [11, 4], [12, 4]
+  ],
+  "edges_assignment": [
+    "B", "B", "B", "B", "B", "B", "B", "B",
+    "V",
+    "V",
+    "M", "M", "M", "M",
+    "V", "V", "V", "V"
+  ]
+}
