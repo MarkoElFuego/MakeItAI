@@ -4,150 +4,178 @@ import type { TutorialData } from "../api";
 interface Props {
   tutorialData: TutorialData;
   onAskHelp: (stepIndex: number, question: string) => void;
+  onComplete?: () => void;
 }
 
-export default function TutorialCanvas({ tutorialData, onAskHelp }: Props) {
+export default function TutorialCanvas({ tutorialData, onAskHelp, onComplete }: Props) {
   const [currentStep, setCurrentStep] = useState(0);
+  const [completed, setCompleted] = useState<Set<number>>(new Set());
 
   const steps = tutorialData.steps || [];
   const s = steps[currentStep];
+  const progress = Math.round((completed.size / steps.length) * 100);
 
-  // Force animation re-trigger when step changes
   useEffect(() => {
     const el = document.getElementById("step-content-anim");
     if (el) {
       el.style.animation = "none";
-      void el.offsetHeight; // trigger reflow
+      void el.offsetHeight;
       el.style.animation = "fadeSlide 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards";
     }
   }, [currentStep]);
 
   if (!steps.length) return null;
 
+  const toggleComplete = (idx: number) => {
+    setCompleted((prev) => {
+      const next = new Set(prev);
+      if (next.has(idx)) {
+        next.delete(idx);
+      } else {
+        next.add(idx);
+      }
+      // Check if all complete
+      if (next.size === steps.length && onComplete) {
+        setTimeout(() => onComplete(), 500);
+      }
+      return next;
+    });
+  };
+
   const nextStep = () => {
-    if (currentStep < steps.length - 1) {
-      setCurrentStep(currentStep + 1);
-    }
+    if (currentStep < steps.length - 1) setCurrentStep(currentStep + 1);
   };
 
   const prevStep = () => {
-    if (currentStep > 0) {
-      setCurrentStep(currentStep - 1);
-    }
+    if (currentStep > 0) setCurrentStep(currentStep - 1);
   };
 
-  const goTo = (i: number) => {
-    setCurrentStep(i);
-  };
+  const youtubeUrl = (query: string) =>
+    `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
 
   return (
-    <div className="max-w-[480px] mx-auto pb-6">
-      <div className="bg-white rounded-[20px] p-6 shadow-[0_2px_20px_rgba(93,64,55,0.08)] mb-5">
+    <div className="tutorial-canvas">
+      <div className="tutorial-card">
 
         {/* Project Header */}
-        <div className="font-caveat text-2xl text-[#3E2723] mb-1">
-          {tutorialData.project_name}
+        <div className="tutorial-header">
+          <h2 className="tutorial-title">{tutorialData.project_name}</h2>
+          <div className="tutorial-meta">
+            <span className="meta-badge difficulty">{tutorialData.difficulty}</span>
+            <span className="meta-badge time">⏱ {tutorialData.time_estimate}</span>
+          </div>
         </div>
-        <div className="flex gap-3 text-xs text-[#6D4C41] mb-4">
-          <span className="flex items-center gap-1">
-            <span className="w-[5px] h-[5px] rounded-full inline-block bg-[#6BAB73]"></span>{" "}
-            {tutorialData.difficulty}
-          </span>
-          <span className="flex items-center gap-1">⏱ {tutorialData.time_estimate}</span>
+
+        {/* Progress Bar */}
+        <div className="progress-container">
+          <div className="progress-bar">
+            <div className="progress-fill" style={{ width: `${progress}%` }} />
+          </div>
+          <span className="progress-text">{completed.size}/{steps.length} complete</span>
         </div>
 
         {/* Step Navigation Dots */}
-        <div className="flex items-center justify-center gap-1.5 mb-5">
+        <div className="step-dots">
           {steps.map((_, i) => (
             <div
               key={i}
-              onClick={() => goTo(i)}
-              className={`h-[10px] rounded-full transition-all duration-400 ease-[cubic-bezier(0.4,0,0.2,1)] cursor-pointer
-                ${i === currentStep
-                  ? "w-[32px] bg-[#F4845F] rounded-[5px]"
-                  : i < currentStep
-                    ? "w-[10px] bg-[#6BAB73]"
-                    : "w-[10px] bg-[#FDDCB5]"
-                }
-              `}
-            ></div>
+              onClick={() => setCurrentStep(i)}
+              className={`step-dot ${i === currentStep ? "active" :
+                  completed.has(i) ? "done" : "pending"
+                }`}
+            />
           ))}
         </div>
 
-        {/* SVG Frame */}
-        <div className="bg-[#FFF9F0] rounded-2xl p-4 mb-4 flex items-center justify-center min-h-[300px] relative overflow-hidden border border-[#FDDCB5]/50 drop-shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
-          {s?.svg ? (
-            <div
-              className="w-full h-full [&>svg]:max-w-full [&>svg]:h-auto"
-              dangerouslySetInnerHTML={{ __html: s.svg }}
-            />
-          ) : (
-            <div className="text-gray-400 text-sm"></div>
-          )}
-        </div>
+        {/* Step Card (No SVG!) */}
+        <div id="step-content-anim" className="step-card-anim">
 
-        {/* Step Content */}
-        <div id="step-content-anim" className="opacity-0">
-          <div className="text-[0.7rem] font-bold uppercase tracking-[2px] text-[#F4845F] mb-1.5">
+          {/* Step Number */}
+          <div className="step-number">
             {tutorialData.ui?.step_label || "Step"} {currentStep + 1} {tutorialData.ui?.of_label || "of"} {steps.length}
           </div>
-          <div className="font-caveat text-[1.35rem] text-[#3E2723] mb-2">
-            {s.title}
+
+          {/* Title + Checkbox */}
+          <div className="step-title-row">
+            <button
+              className={`step-checkbox ${completed.has(currentStep) ? "checked" : ""}`}
+              onClick={() => toggleComplete(currentStep)}
+            >
+              {completed.has(currentStep) ? "✓" : ""}
+            </button>
+            <h3 className={`step-title ${completed.has(currentStep) ? "completed" : ""}`}>
+              {s.title}
+            </h3>
           </div>
-          <div className="text-[0.9rem] leading-[1.65] text-[#6D4C41] mb-4">
+
+          {/* Description */}
+          <div className="step-description">
             {s.description}
           </div>
 
+          {/* Materials */}
           {s.materials && s.materials.length > 0 && (
-            <div className="flex flex-wrap gap-1.5 mb-5">
+            <div className="step-materials">
               {s.materials.map((m, idx) => (
-                <span
-                  key={idx}
-                  className="bg-[#FEF0E1] text-[#8D6E63] text-[0.75rem] font-semibold px-3 py-1.5 rounded-full"
-                >
-                  {m}
-                </span>
+                <span key={idx} className="material-tag">📦 {m}</span>
               ))}
             </div>
           )}
 
+          {/* Tip */}
           {s.tip && (
-            <div className="bg-[#E8F5E9] rounded-xl p-3 px-4 flex gap-2.5 items-start mb-5">
-              <span className="text-[1.1rem] mt-[1px]">💡</span>
-              <span className="text-[0.82rem] text-[#6BAB73] leading-[1.5] font-medium">
-                {s.tip}
-              </span>
+            <div className="step-tip">
+              <span className="tip-icon">💡</span>
+              <span className="tip-text">{s.tip}</span>
             </div>
+          )}
+
+          {/* YouTube Link */}
+          {s.youtube_query && (
+            <a
+              href={youtubeUrl(s.youtube_query)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="youtube-link"
+            >
+              ▶️ Watch video tutorial for this step
+            </a>
           )}
         </div>
 
-        {/* Buttons */}
-        <div className="flex gap-2.5">
+        {/* Navigation Buttons */}
+        <div className="step-buttons">
           <button
             onClick={prevStep}
             disabled={currentStep === 0}
-            className="flex-1 p-[14px] rounded-[14px] border-none font-quicksand text-[0.95rem] font-bold cursor-pointer transition-all duration-250 bg-[#FEF0E1] text-[#8D6E63] hover:bg-[#FDDCB5] disabled:opacity-40 disabled:cursor-default"
+            className="btn-prev"
           >
             ← {tutorialData.ui?.back_btn || "Back"}
           </button>
           <button
-            onClick={nextStep}
-            className="flex-1 p-[14px] rounded-[14px] border-none font-quicksand text-[0.95rem] font-bold cursor-pointer transition-all duration-250 bg-[#F4845F] text-white shadow-[0_4px_14px_rgba(244,132,95,0.35)] hover:bg-[#e5734f] hover:-translate-y-[1px] hover:shadow-[0_6px_20px_rgba(244,132,95,0.4)]"
+            onClick={() => {
+              toggleComplete(currentStep);
+              if (currentStep < steps.length - 1) nextStep();
+            }}
+            className="btn-next"
           >
-            {currentStep === steps.length - 1 ? `🎉 ${tutorialData.ui?.done_btn || "Done!"}` : `${tutorialData.ui?.next_btn || "Next"} →`}
+            {currentStep === steps.length - 1
+              ? `🎉 ${tutorialData.ui?.done_btn || "Done!"}`
+              : `${tutorialData.ui?.next_btn || "Next"} →`}
           </button>
         </div>
       </div>
 
-      {/* Quick Action Buttons per step */}
-      <div className="flex gap-3 justify-center">
+      {/* Quick Actions */}
+      <div className="step-actions">
         <button
-          onClick={() => onAskHelp(currentStep, `step_index:${currentStep}| Objasni mi ovaj korak`)}
-          className="bg-white/60 hover:bg-white text-[#F4845F] text-xs font-semibold px-4 py-2 rounded-full shadow-sm hover:shadow-md transition-all border border-[#F4845F]/20"
+          onClick={() =>
+            onAskHelp(currentStep, `step_index:${currentStep}| Objasni mi ovaj korak`)
+          }
+          className="btn-help"
         >
           🙋 Ask for Help
         </button>
-
       </div>
     </div>
   );

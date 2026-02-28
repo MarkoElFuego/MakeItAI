@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import re
+import random
 from pathlib import Path
 from typing import Literal
 
@@ -24,8 +25,12 @@ from prompts.system_prompts import (
     SYSTEM_PROMPT_TUTORIAL_GEN,
     SYSTEM_PROMPT_VERIFIER,
     SYSTEM_PROMPT_HELPER,
+    SYSTEM_PROMPT_INSPIRATION,
+    SYSTEM_PROMPT_PROGRESS,
+    SYSTEM_PROMPT_TROUBLESHOOTER,
+    SYSTEM_PROMPT_MARKET,
+    ELFY_THINKING_MESSAGES,
 )
-# Vision import removed — image gen flow disabled
 
 # ── Clients ──────────────────────────────────────────────────────────────────
 gemini_client = genai.Client(api_key=os.environ["GOOGLE_API_KEY"])
@@ -43,7 +48,10 @@ ROUTER_MODEL = "gemini-3-flash-preview"
 NODE_MODEL = "gemini-3-flash-preview"
 PLANNER_MODEL = "gemini-3-flash-preview"
 
-NodeName = Literal["chat_node", "tutorial_gen_node", "help_node"]
+NodeName = Literal[
+    "chat_node", "tutorial_gen_node", "help_node",
+    "inspiration_node", "progress_node", "troubleshoot_node", "market_node"
+]
 
 # ── State ────────────────────────────────────────────────────────────────────
 class AgentState(TypedDict):
@@ -55,6 +63,14 @@ class AgentState(TypedDict):
     conversation_history: list
     response: str
     sources: list
+    thinking: str  # CoT thinking text
+    image_data: str | None  # base64 image from user
+
+# ── Helper: get thinking message ─────────────────────────────────────────────
+def get_thinking_message(node_name: str) -> str:
+    """Return a random LOTR-style thinking message for the given node."""
+    messages = ELFY_THINKING_MESSAGES.get(node_name, ["🧝 Elfy is thinking..."])
+    return random.choice(messages)
 
 # ── Helper: RAG retrieval ────────────────────────────────────────────────────
 def _rag_retrieve(
@@ -95,9 +111,6 @@ def _rag_retrieve_multi(question: str, chunk_types: list[str], top_k_per_type: i
 def _call_llm(
     system: str, messages: list[dict], model: str = NODE_MODEL, is_json: bool = False
 ) -> str:
-    # Convert [{"role": ..., "content": ...}] to Gemini contents format
-    # For a simple chat scenario without system attachments, we build string blocks or typed parts
-    # Here we can just format it cleanly into simple prompts, or use types.Content.
     prompt_parts = []
     for msg in messages:
         role = msg.get("role", "user")
@@ -115,6 +128,28 @@ def _call_llm(
     )
     
     return getattr(resp, "text", "")
+
+def _call_llm_stream(
+    system: str, messages: list[dict], model: str = NODE_MODEL
+):
+    """Generator that yields text chunks for streaming responses."""
+    prompt_parts = []
+    for msg in messages:
+        role = msg.get("role", "user")
+        text = msg.get("content", "")
+        prompt_parts.append(f"[{role}]: {text}")
+
+    config_args = {"system_instruction": system, "temperature": 0.2}
+
+    response = gemini_client.models.generate_content_stream(
+        model=model,
+        contents="\n\n".join(prompt_parts),
+        config=types.GenerateContentConfig(**config_args)
+    )
+    
+    for chunk in response:
+        if hasattr(chunk, "text") and chunk.text:
+            yield chunk.text
 
 def _verify_and_regenerate(system: str, messages: list[dict], model: str, initial_response: str, is_json: bool = False) -> str:
     verify_msg = f"Verify this response:\n{initial_response}"
@@ -148,12 +183,16 @@ def route_message(state: AgentState) -> NodeName:
         model=ROUTER_MODEL,
     ).strip().lower()
 
-    valid: set[NodeName] = {"chat_node", "tutorial_gen_node", "help_node"}
+    valid: set[NodeName] = {
+        "chat_node", "tutorial_gen_node", "help_node",
+        "inspiration_node", "progress_node", "troubleshoot_node", "market_node"
+    }
     result: NodeName = node if node in valid else "chat_node"
     print(f"[Router] '{state['user_message'][:50]}...' -> {result}")
     return result
 
 # ── Nodes ────────────────────────────────────────────────────────────────────
+
 def chat_node(state: AgentState) -> dict:
     history = state.get("conversation_history", [])
     messages = history + [{"role": "user", "content": state["user_message"]}]
@@ -169,13 +208,13 @@ def chat_node(state: AgentState) -> dict:
         "action": "chat_node",
         "response": answer,
         "sources": rag_sources,
+        "thinking": get_thinking_message("chat_node"),
         "conversation_history": history + [
             {"role": "user", "content": state["user_message"]},
             {"role": "assistant", "content": answer}
         ]
     }
 
-# Nodes logic
 
 def tutorial_gen_node(state: AgentState) -> dict:
     history = state.get("conversation_history", [])
@@ -188,33 +227,11 @@ def tutorial_gen_node(state: AgentState) -> dict:
     answer = _call_llm(SYSTEM_PROMPT_TUTORIAL_GEN, messages, model=PLANNER_MODEL, is_json=True)
     answer = _verify_and_regenerate(SYSTEM_PROMPT_TUTORIAL_GEN, messages, PLANNER_MODEL, answer, is_json=True)
     
-    # Strip markdown if any
     clean_json = re.sub(r"```json\s*", "", answer).replace("```", "").strip()
     
     try:
         tut_data = json.loads(clean_json)
-        
-        # Extract fold_ops from steps and render SVGs using paper engine
-        from integrations.paper_engine import build_tutorial_svgs
-        fold_ops = []
-        for step in tut_data.get("steps", []):
-            fold_op = step.get("fold_op")
-            if fold_op:
-                fold_ops.append(fold_op)
-        
-        if fold_ops:
-            svgs = build_tutorial_svgs(fold_ops)
-            steps = tut_data.get("steps", [])
-            svg_idx = 0
-            for step in steps:
-                if step.get("fold_op") and svg_idx < len(svgs):
-                    step["svg"] = svgs[svg_idx]
-                    svg_idx += 1
-            print(f"[Paper Engine] Rendered {len(svgs)} step diagrams for '{project}'")
-        else:
-            print(f"[Paper Engine] No fold_ops found, tutorial has text only")
-        
-        print(f"[Tutorial JSON] {json.dumps(tut_data, indent=2, ensure_ascii=False)}")
+        print(f"[Tutorial] Generated {len(tut_data.get('steps', []))} steps for '{project}'")
         text_resp = "Here is your tutorial! Have fun!"
     except json.JSONDecodeError as e:
         print(f"JSON Parse Error: {e}\n{clean_json}")
@@ -226,17 +243,167 @@ def tutorial_gen_node(state: AgentState) -> dict:
         "response": text_resp,
         "tutorial_data": tut_data,
         "sources": sources,
+        "thinking": get_thinking_message("tutorial_gen_node"),
         "conversation_history": history + [
             {"role": "user", "content": state["user_message"]},
             {"role": "assistant", "content": text_resp}
         ]
     }
 
+
+def inspiration_node(state: AgentState) -> dict:
+    """Analyze an uploaded image and suggest how to recreate it."""
+    history = state.get("conversation_history", [])
+    messages = history + [{"role": "user", "content": state["user_message"]}]
+    
+    answer = _call_llm(SYSTEM_PROMPT_INSPIRATION, messages, model=PLANNER_MODEL, is_json=True)
+    clean_json = re.sub(r"```json\s*", "", answer).replace("```", "").strip()
+    
+    try:
+        data = json.loads(clean_json)
+        thinking = data.get("_thinking", "")
+        summary = data.get("summary", answer)
+        print(f"[Inspiration] Identified: {data.get('craft_type', 'unknown')}")
+    except json.JSONDecodeError:
+        data = None
+        thinking = ""
+        summary = answer
+
+    return {
+        "action": "inspiration_node",
+        "response": summary,
+        "thinking": thinking or get_thinking_message("inspiration_node"),
+        "sources": [],
+        "conversation_history": history + [
+            {"role": "user", "content": state["user_message"]},
+            {"role": "assistant", "content": summary}
+        ]
+    }
+
+
+def progress_node(state: AgentState) -> dict:
+    """Review user's work-in-progress and give feedback."""
+    history = state.get("conversation_history", [])
+    messages = history + [{"role": "user", "content": state["user_message"]}]
+    
+    answer = _call_llm(SYSTEM_PROMPT_PROGRESS, messages, model=PLANNER_MODEL, is_json=True)
+    clean_json = re.sub(r"```json\s*", "", answer).replace("```", "").strip()
+    
+    try:
+        data = json.loads(clean_json)
+        thinking = data.get("_thinking", "")
+        # Build human-readable feedback
+        parts = []
+        if data.get("praise"):
+            parts.append(f"✅ {data['praise']}")
+        for issue in data.get("issues", []):
+            parts.append(f"⚠️ {issue}")
+        for fix in data.get("fixes", []):
+            parts.append(f"💡 {fix}")
+        if data.get("next_step"):
+            parts.append(f"👉 {data['next_step']}")
+        summary = "\n\n".join(parts) if parts else answer
+        print(f"[Progress] Status: {data.get('status', 'unknown')}")
+    except json.JSONDecodeError:
+        thinking = ""
+        summary = answer
+
+    return {
+        "action": "progress_node",
+        "response": summary,
+        "thinking": thinking or get_thinking_message("progress_node"),
+        "sources": [],
+        "conversation_history": history + [
+            {"role": "user", "content": state["user_message"]},
+            {"role": "assistant", "content": summary}
+        ]
+    }
+
+
+def troubleshoot_node(state: AgentState) -> dict:
+    """Diagnose and fix craft problems."""
+    history = state.get("conversation_history", [])
+    messages = history + [{"role": "user", "content": state["user_message"]}]
+    
+    answer = _call_llm(SYSTEM_PROMPT_TROUBLESHOOTER, messages, model=PLANNER_MODEL, is_json=True)
+    clean_json = re.sub(r"```json\s*", "", answer).replace("```", "").strip()
+    
+    try:
+        data = json.loads(clean_json)
+        thinking = data.get("_thinking", "")
+        parts = []
+        if data.get("problem"):
+            parts.append(f"🔍 **Problem**: {data['problem']}")
+        if data.get("root_cause"):
+            parts.append(f"🔧 **Root cause**: {data['root_cause']}")
+        if data.get("fix"):
+            parts.append(f"✅ **Fix**: {data['fix']}")
+        if data.get("prevention"):
+            parts.append(f"💡 **Next time**: {data['prevention']}")
+        summary = "\n\n".join(parts) if parts else answer
+        print(f"[Troubleshoot] Problem: {data.get('problem', 'unknown')}")
+    except json.JSONDecodeError:
+        thinking = ""
+        summary = answer
+
+    return {
+        "action": "troubleshoot_node",
+        "response": summary,
+        "thinking": thinking or get_thinking_message("troubleshoot_node"),
+        "sources": [],
+        "conversation_history": history + [
+            {"role": "user", "content": state["user_message"]},
+            {"role": "assistant", "content": summary}
+        ]
+    }
+
+
+def market_node(state: AgentState) -> dict:
+    """Surprise! Show market potential for the craft."""
+    history = state.get("conversation_history", [])
+    messages = history + [{"role": "user", "content": state["user_message"]}]
+    
+    answer = _call_llm(SYSTEM_PROMPT_MARKET, messages, model=PLANNER_MODEL, is_json=True)
+    clean_json = re.sub(r"```json\s*", "", answer).replace("```", "").strip()
+    
+    try:
+        data = json.loads(clean_json)
+        thinking = get_thinking_message("market_node")
+        parts = [data.get("surprise_intro", "🎉")]
+        if data.get("product_name"):
+            parts.append(f"📦 **Product**: {data['product_name']}")
+        if data.get("price_range"):
+            parts.append(f"💰 **Price range**: {data['price_range']}")
+        if data.get("platforms"):
+            parts.append(f"🛒 **Sell on**: {', '.join(data['platforms'])}")
+        for tip in data.get("tips", []):
+            parts.append(f"💡 {tip}")
+        if data.get("monthly_potential"):
+            parts.append(f"📈 **Monthly potential**: {data['monthly_potential']}")
+        if data.get("encouragement"):
+            parts.append(f"\n✨ {data['encouragement']}")
+        summary = "\n\n".join(parts)
+        print(f"[Market] Product: {data.get('product_name', 'unknown')}")
+    except json.JSONDecodeError:
+        thinking = ""
+        summary = answer
+
+    return {
+        "action": "market_node",
+        "response": summary,
+        "thinking": thinking,
+        "sources": [],
+        "conversation_history": history + [
+            {"role": "user", "content": state["user_message"]},
+            {"role": "assistant", "content": summary}
+        ]
+    }
+
+
 def help_node(state: AgentState) -> dict:
     history = state.get("conversation_history", [])
     user_msg = state["user_message"]
     
-    # Extract step number from the user message (e.g. "step_index:3" injected by frontend)
     step_context = ""
     tut = state.get("tutorial_data")
     if tut and "step_index:" in user_msg:
@@ -259,9 +426,7 @@ def help_node(state: AgentState) -> dict:
         except (ValueError, IndexError):
             pass
     
-    # Clean user message for display (remove the step_index metadata)
     clean_msg = user_msg.split("|")[-1].strip() if "|" in user_msg else user_msg
-    
     prompt = f"{step_context}\nUser question: {clean_msg}" if step_context else clean_msg
     messages = history + [{"role": "user", "content": prompt}]
     
@@ -270,6 +435,7 @@ def help_node(state: AgentState) -> dict:
     return {
         "action": "help_node",
         "response": answer,
+        "thinking": get_thinking_message("help_node"),
         "conversation_history": history + [
             {"role": "user", "content": clean_msg},
             {"role": "assistant", "content": answer}
@@ -283,6 +449,10 @@ def build_graph() -> StateGraph:
     graph.add_node("chat_node", chat_node)
     graph.add_node("tutorial_gen_node", tutorial_gen_node)
     graph.add_node("help_node", help_node)
+    graph.add_node("inspiration_node", inspiration_node)
+    graph.add_node("progress_node", progress_node)
+    graph.add_node("troubleshoot_node", troubleshoot_node)
+    graph.add_node("market_node", market_node)
 
     graph.set_conditional_entry_point(
         route_message,
@@ -290,10 +460,15 @@ def build_graph() -> StateGraph:
             "chat_node": "chat_node",
             "tutorial_gen_node": "tutorial_gen_node",
             "help_node": "help_node",
+            "inspiration_node": "inspiration_node",
+            "progress_node": "progress_node",
+            "troubleshoot_node": "troubleshoot_node",
+            "market_node": "market_node",
         },
     )
 
-    for node in ["chat_node", "tutorial_gen_node", "help_node"]:
+    for node in ["chat_node", "tutorial_gen_node", "help_node",
+                  "inspiration_node", "progress_node", "troubleshoot_node", "market_node"]:
         graph.add_edge(node, END)
 
     return graph.compile()

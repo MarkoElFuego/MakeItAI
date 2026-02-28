@@ -1,10 +1,13 @@
 import os
 import sys
+import json
+import asyncio
 from pathlib import Path
 
 from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from pydantic import BaseModel
 from supabase import create_client
@@ -14,12 +17,11 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 load_dotenv(PROJECT_ROOT / ".env")
 
-from prompts.system_prompts import SYSTEM_PROMPT_RAG
+from prompts.system_prompts import SYSTEM_PROMPT_RAG, ELFY_THINKING_MESSAGES
 
 GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"]
 SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
-ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 
 # ── Clients ─────────────────────────────────────────────────────────────────
 from google import genai
@@ -34,7 +36,7 @@ embeddings = GoogleGenerativeAIEmbeddings(
 )
 
 # ── FastAPI ─────────────────────────────────────────────────────────────────
-app = FastAPI(title="MakeItAI", version="0.1.0")
+app = FastAPI(title="MakeItAI — Elfy Premium", version="2.0.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -42,6 +44,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 class AskRequest(BaseModel):
     question: str
@@ -73,23 +76,23 @@ def ask(req: AskRequest):
             "similarity": doc["similarity"],
             "metadata": doc.get("metadata", {}),
         })
-    context = "\n\n---\n\n".join(context_parts) if context_parts else "Nema relevantnih informacija u bazi."
-    
+    context = "\n\n---\n\n".join(context_parts) if context_parts else "No relevant information found."
+
     response = gemini_client.models.generate_content(
         model="gemini-3-flash-preview",
-        contents=f"Kontekst iz knjiga:\n\n{context}\n\n---\n\nPitanje: {req.question}",
+        contents=f"Context:\n\n{context}\n\n---\n\nQuestion: {req.question}",
         config=types.GenerateContentConfig(
             system_instruction=SYSTEM_PROMPT_RAG,
             temperature=0.4
         )
     )
-    
+
     answer = getattr(response, "text", "")
     return AskResponse(answer=answer, sources=sources)
 
 
 # ── LangGraph Agent ──────────────────────────────────────────────────────────
-from agent.graph import agent as langgraph_agent
+from agent.graph import agent as langgraph_agent, get_thinking_message
 
 
 class ChatRequest(BaseModel):
@@ -103,7 +106,7 @@ class ChatRequest(BaseModel):
 class ChatResponse(BaseModel):
     response: str
     action: str
-    status_text: str
+    thinking: str
     generated_image: str | None = None
     tutorial_data: dict | None = None
     sources: list[dict]
@@ -122,28 +125,97 @@ def chat(req: ChatRequest):
         "conversation_history": req.conversation_history,
         "response": "",
         "sources": [],
+        "thinking": "",
+        "image_data": None,
     })
-    
-    # Map actions to display statuses
-    status_map = {
-        "chat_node": "Elfy is thinking...",
-        "tutorial_gen_node": "Elfy is crafting your tutorial...",
-        "help_node": "Elfy is thinking..."
-    }
-    
+
     return ChatResponse(
         response=result["response"],
         action=result.get("action", "chat_node"),
-        status_text=status_map.get(result.get("action"), "Elfy is thinking..."),
+        thinking=result.get("thinking", ""),
         generated_image=result.get("generated_image"),
         tutorial_data=result.get("tutorial_data"),
-        sources=result["sources"],
-        conversation_history=result["conversation_history"],
+        sources=result.get("sources", []),
+        conversation_history=result.get("conversation_history", []),
     )
 
 
-# ── Vision (Phase 3) ─────────────────────────────────────────────────────────
+# ── SSE Streaming Chat ──────────────────────────────────────────────────────
+
+def _sse_event(event_type: str, data: dict) -> str:
+    """Format an SSE event."""
+    return f"event: {event_type}\ndata: {json.dumps(data, ensure_ascii=False)}\n\n"
+
+
+@app.post("/chat/stream")
+async def chat_stream(req: ChatRequest):
+    """Streaming chat endpoint using Server-Sent Events.
+    
+    Emits events:
+      - thinking: {text: "⚒️ Elfy is forging..."}
+      - token: {text: "word "}  
+      - done: {response, action, thinking, tutorial_data, sources, conversation_history}
+    """
+    async def event_generator():
+        # Phase 1: Send thinking message immediately
+        # We need to determine the route first
+        from agent.graph import route_message
+        
+        state = {
+            "user_message": req.message,
+            "action": "",
+            "tutorial_data": req.tutorial_data,
+            "generated_image": req.generated_image,
+            "project_context": req.project_context,
+            "conversation_history": req.conversation_history,
+            "response": "",
+            "sources": [],
+            "thinking": "",
+            "image_data": None,
+        }
+        
+        # Route to determine which node
+        node_name = route_message(state)
+        thinking_msg = get_thinking_message(node_name)
+        
+        yield _sse_event("thinking", {"text": thinking_msg, "node": node_name})
+        await asyncio.sleep(0.1)
+        
+        # Phase 2: Run the agent
+        result = langgraph_agent.invoke(state)
+        
+        # Phase 3: Stream the response word by word
+        response_text = result.get("response", "")
+        words = response_text.split(" ")
+        for i, word in enumerate(words):
+            token = word + (" " if i < len(words) - 1 else "")
+            yield _sse_event("token", {"text": token})
+            await asyncio.sleep(0.03)  # 30ms between words for natural feel
+        
+        # Phase 4: Send final complete data
+        yield _sse_event("done", {
+            "response": response_text,
+            "action": result.get("action", "chat_node"),
+            "thinking": result.get("thinking", ""),
+            "tutorial_data": result.get("tutorial_data"),
+            "sources": result.get("sources", []),
+            "conversation_history": result.get("conversation_history", []),
+        })
+    
+    return StreamingResponse(
+        event_generator(),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive",
+            "X-Accel-Buffering": "no",
+        }
+    )
+
+
+# ── Vision (Image Analysis) ─────────────────────────────────────────────────
 from integrations.vision import analyze_image
+
 
 class ImageRequest(BaseModel):
     image_base64: str
@@ -168,35 +240,7 @@ def analyze_image_endpoint(req: ImageRequest):
     )
     return ImageResponse(analysis=analysis, phase="HELPER")
 
-# ── FOLD Origami Integration ─────────────────────────────────────────────────
-from integrations.fold_renderer import get_fold_index, get_fold_model, get_fold_svg
-from fastapi.responses import PlainTextResponse
-
-
-@app.get("/fold/models")
-def list_fold_models():
-    """List all available FOLD origami models."""
-    return get_fold_index()
-
-
-@app.get("/fold/{model_id}")
-def get_fold(model_id: str):
-    """Get a raw FOLD JSON object by model ID."""
-    fold = get_fold_model(model_id)
-    if not fold:
-        return {"error": f"Model '{model_id}' not found"}
-    return fold
-
-
-@app.get("/fold/{model_id}/svg", response_class=PlainTextResponse)
-def get_fold_svg_endpoint(model_id: str):
-    """Render a FOLD model as SVG string."""
-    svg = get_fold_svg(model_id)
-    if not svg:
-        return PlainTextResponse("Model not found", status_code=404)
-    return PlainTextResponse(svg, media_type="image/svg+xml")
-
 
 @app.get("/health")
 def health():
-    return {"status": "ok"}
+    return {"status": "ok", "version": "2.0.0", "name": "Elfy Premium"}

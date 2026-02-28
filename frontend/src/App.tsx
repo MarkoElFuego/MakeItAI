@@ -2,7 +2,9 @@ import { useState, useRef, useEffect } from "react";
 import ChatMessage from "./components/ChatMessage";
 import ChatInput from "./components/ChatInput";
 import TutorialCanvas from "./components/TutorialCanvas";
+import ThinkingBubble from "./components/ThinkingBubble";
 import {
+  sendChatStream,
   sendChat,
   analyzeImage,
   type ChatMessage as ChatMsg,
@@ -14,6 +16,7 @@ interface DisplayMessage {
   content: string;
   uploadedImage?: string;
   action?: string;
+  thinking?: string;
 }
 
 const ALL_OCCASIONS = [
@@ -37,7 +40,8 @@ export default function App() {
   const [latestImage, setLatestImage] = useState<string | null>(null);
 
   const [loading, setLoading] = useState(false);
-  const [statusText, setStatusText] = useState("Elfy is thinking...");
+  const [thinkingText, setThinkingText] = useState("");
+  const [streamingContent, setStreamingContent] = useState("");
   const [occasions, setOccasions] = useState(ALL_OCCASIONS.slice(0, 3));
 
   const bottomRef = useRef<HTMLDivElement>(null);
@@ -48,43 +52,77 @@ export default function App() {
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages, loading]);
+  }, [messages, loading, streamingContent]);
 
+  // ── Streaming Send ──────────────────────────────────────────
   const handleSend = async (message: string) => {
     setMessages((prev) => [...prev, { role: "user", content: message }]);
     setLoading(true);
-    setStatusText("Elfy is thinking...");
+    setThinkingText("");
+    setStreamingContent("");
 
     try {
+      await sendChatStream(
+        message,
+        {
+          onThinking: (text) => {
+            setThinkingText(text);
+          },
+          onToken: (text) => {
+            setLoading(false); // Stop thinking, start streaming
+            setStreamingContent((prev) => prev + text);
+          },
+          onDone: (data) => {
+            setStreamingContent(""); // Clear streaming buffer
+
+            if (data.tutorial_data) {
+              setTutorialData(data.tutorial_data);
+            }
+            setHistory(data.conversation_history || []);
+
+            if (data.response) {
+              setMessages((prev) => [
+                ...prev,
+                {
+                  role: "assistant",
+                  content: data.response,
+                  action: data.action,
+                  thinking: data.thinking,
+                },
+              ]);
+            }
+            setLoading(false);
+          },
+          onError: () => {
+            // Fallback to non-streaming
+            handleSendFallback(message);
+          },
+        },
+        history,
+        {},
+        tutorialData,
+      );
+    } catch {
+      handleSendFallback(message);
+    }
+  };
+
+  // Fallback for when streaming fails
+  const handleSendFallback = async (message: string) => {
+    try {
       const res = await sendChat(message, history, {}, tutorialData, latestImage);
-
-      if (res.tutorial_data) {
-        setTutorialData(res.tutorial_data);
-      }
-      if (res.generated_image) {
-        setLatestImage(res.generated_image);
-      }
-
+      if (res.tutorial_data) setTutorialData(res.tutorial_data);
       setHistory(res.conversation_history);
-
-      // Add response
       if (res.response) {
         setMessages((prev) => [
           ...prev,
-          {
-            role: "assistant",
-            content: res.response,
-            action: res.action,
-          },
+          { role: "assistant", content: res.response, action: res.action },
         ]);
       }
     } catch {
       setMessages((prev) => [
         ...prev,
-        {
-          role: "assistant",
-          content: "Error connecting to server. Is the backend running?",
-        },
+        { role: "assistant", content: "Error connecting to server. Is the backend running?" },
       ]);
     } finally {
       setLoading(false);
@@ -98,7 +136,7 @@ export default function App() {
       { role: "user", content: "I uploaded this image:", uploadedImage: dataUri },
     ]);
     setLoading(true);
-    setStatusText("Elfy is analyzing...");
+    setThinkingText("🔍 Elfy is studying the craft...");
 
     try {
       const res = await analyzeImage(base64, mediaType);
@@ -117,59 +155,41 @@ export default function App() {
   };
 
   const handleAskHelp = (_stepIndex: number, question: string) => {
-    // Show clean message in chat but send full metadata to backend
     const cleanMsg = question.includes("|") ? question.split("|").pop()!.trim() : question;
     setMessages((prev) => [...prev, { role: "user", content: cleanMsg }]);
-    setLoading(true);
-    setStatusText("Elfy is thinking...");
+    handleSend(question);
+  };
 
-    sendChat(question, history, {}, tutorialData, latestImage)
-      .then((res) => {
-        if (res.tutorial_data) setTutorialData(res.tutorial_data);
-        setHistory(res.conversation_history);
-        if (res.response) {
-          setMessages((prev) => [
-            ...prev,
-            { role: "assistant", content: res.response, action: res.action },
-          ]);
-        }
-      })
-      .catch(() => {
-        setMessages((prev) => [
-          ...prev,
-          { role: "assistant", content: "Error connecting to server." },
-        ]);
-      })
-      .finally(() => setLoading(false));
+  const handleTutorialComplete = () => {
+    // Trigger market surprise!
+    handleSend("I just finished my project! 🎉");
   };
 
   return (
-    <div className="flex flex-col h-screen max-w-xl mx-auto font-quicksand bg-[#FFF8F0]">
+    <div className="app-container">
       {/* Header */}
-      <header className="flex items-center justify-between px-5 py-4 sticky top-0 z-10 bg-[#FFF8F0]/90 backdrop-blur-md">
-        <div className="font-caveat text-3xl font-semibold text-[#F4845F]">
-          Elfy <span className="text-[#6BAB73]">✿</span>
+      <header className="app-header">
+        <div className="header-logo">
+          Elfy <span className="logo-accent">✿</span>
         </div>
-        <div className="bg-[#E8F5E9] text-[#6BAB73] text-xs font-bold px-3 py-1.5 rounded-full tracking-wide">
-          🌸 Crafter
-        </div>
+        <div className="header-badge">🧝 Premium</div>
       </header>
 
-      {/* Main Content Area */}
-      <main className="flex-1 overflow-y-auto px-5 py-4 space-y-4">
+      {/* Main Content */}
+      <main className="app-main">
         {/* Welcome Screen */}
         {messages.length === 0 && !tutorialData && (
-          <div className="text-center mt-12 bg-white rounded-3xl p-8 shadow-sm border border-[#FDDCB5]/40">
-            <h2 className="font-caveat text-4xl text-[#3E2723] mb-3">Hi! I'm Elfy</h2>
-            <p className="text-[#6D4C41] mb-8">
-              Your friendly craft companion. What are we making today?
+          <div className="welcome-screen">
+            <h2 className="welcome-title">Hi! I'm Elfy</h2>
+            <p className="welcome-subtitle">
+              Your AI craft companion. What are we making today?
             </p>
-            <div className="flex flex-col gap-3 max-w-xs mx-auto">
+            <div className="occasion-buttons">
               {occasions.map((o) => (
                 <button
                   key={o.label}
                   onClick={() => handleSend(`I want to make something for ${o.label}`)}
-                  className="px-5 py-3 rounded-2xl bg-[#FEF0E1] text-[#8D6E63] font-semibold hover:bg-[#FDDCB5] transition-colors shadow-sm"
+                  className="occasion-btn"
                 >
                   {o.emoji} {o.label}
                 </button>
@@ -178,38 +198,44 @@ export default function App() {
           </div>
         )}
 
-        <div className="space-y-4">
+        <div className="messages-container">
           {messages.map((msg, i) => (
             <div key={i}>
               <ChatMessage {...msg} onQuickReply={handleSend} />
-              {/* Render tutorial canvas inline right after the tutorial_gen_node message */}
               {msg.action === "tutorial_gen_node" && tutorialData && (
-                <div className="fade-in mt-4 mb-2">
-                  <TutorialCanvas tutorialData={tutorialData} onAskHelp={handleAskHelp} />
+                <div className="fade-in tutorial-inline">
+                  <TutorialCanvas
+                    tutorialData={tutorialData}
+                    onAskHelp={handleAskHelp}
+                    onComplete={handleTutorialComplete}
+                  />
                 </div>
               )}
             </div>
           ))}
         </div>
 
-        {/* Loading Indicator */}
-        {loading && (
-          <div className="flex justify-start mb-6">
-            <div className="bg-white border border-[#FDDCB5]/50 text-[#6BAB73] text-sm font-semibold rounded-2xl rounded-bl-sm px-5 py-3 shadow-sm flex items-center gap-3">
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#6BAB73] opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-[#6BAB73]"></span>
-              </span>
-              {statusText}
+        {/* Streaming content (text appearing word by word) */}
+        {streamingContent && (
+          <div className="streaming-message">
+            <div className="chat-bubble assistant">
+              {streamingContent}
+              <span className="cursor-blink">|</span>
             </div>
           </div>
         )}
+
+        {/* Thinking Bubble */}
+        <ThinkingBubble
+          text={thinkingText}
+          isVisible={loading}
+        />
 
         <div ref={bottomRef} />
       </main>
 
       {/* Input Footer */}
-      <footer className="px-5 py-4 bg-[#FFF8F0] sticky bottom-0">
+      <footer className="app-footer">
         <ChatInput
           onSend={handleSend}
           onImageUpload={handleImageUpload}
