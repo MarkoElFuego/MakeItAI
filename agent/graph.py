@@ -291,8 +291,6 @@ def progress_node(state: AgentState) -> dict:
     
     try:
         data = json.loads(clean_json)
-        thinking = data.get("_thinking", "")
-        # Build human-readable feedback
         parts = []
         if data.get("praise"):
             parts.append(f"✅ {data['praise']}")
@@ -305,13 +303,12 @@ def progress_node(state: AgentState) -> dict:
         summary = "\n\n".join(parts) if parts else answer
         print(f"[Progress] Status: {data.get('status', 'unknown')}")
     except json.JSONDecodeError:
-        thinking = ""
         summary = answer
 
     return {
         "action": "progress_node",
         "response": summary,
-        "thinking": thinking or get_thinking_message("progress_node"),
+        "thinking": get_thinking_message("progress_node"),
         "sources": [],
         "conversation_history": history + [
             {"role": "user", "content": state["user_message"]},
