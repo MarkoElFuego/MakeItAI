@@ -1,0 +1,80 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [
+        {
+          "name": "scissors",
+          "use": "cutting",
+          "suitable_for": [
+            "paper"
+          ]
+        },
+        {
+          "name": "X-acto knife",
+          "use": "cutting",
+          "suitable_for": [
+            "paper"
+          ]
+        },
+        {
+          "name": "self-healing cutting mat",
+          "use": "cutting surface",
+          "suitable_for": [
+            "paper"
+          ]
+        },
+        {
+          "name": "bone folder",
+          "use": "scoring folds",
+          "suitable_for": [
+            "paper",
+            "cardstock"
+          ]
+        },
+        {
+          "name": "glue stick or PVA",
+          "use": "adhering paper",
+          "suitable_for": [
+            "paper"
+          ]
+        }
+      ],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up mechanism is shown in a diagram with labels indicating 'move side', 'table', and 'this side'. The mechanism appears to be a simple box structure with angled sides.",
+        "A diagram shows a partially constructed pop-up element with colored paper pieces and a pencil. The background is a green cutting mat. Tools like scissors and a protractor are visible.",
+        "Two historical astronomical diagrams are shown side-by-side. The left diagram is labeled 'Mars' and the right is labeled 'Sol et Venus'. Both are circular with intricate details and text.",
+        "A pop-up box structure is shown with tools like scissors, a ruler, and a pencil on a green cutting mat. The pop-up box is partially assembled and appears to be a model for a larger project."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [
+        {
+          "name": "Cookie cutter set into plywood",
+          "use": "Cutting and scoring press sheets for commercial pop-up books",
+          "suitable_for": [
+            "paper",
+            "cardstock"
+          ]
+        }
+      ],
+      "templates": [],
+      "diagram_descriptions": [
+        "A diagram showing the die-line for a tool box pop-up. It includes two main pieces: a top piece with a curved top edge and two tabs, and a bottom piece with score lines indicated by dashed lines and cut lines indicated by solid lines. The bottom piece has two symmetrical cutouts on the sides and a central fold line.",
+        "A photograph of a finished pop-up tool box with various tools inside, such as scissors, a ruler, and a saw, set against a blue background with a circular saw graphic."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

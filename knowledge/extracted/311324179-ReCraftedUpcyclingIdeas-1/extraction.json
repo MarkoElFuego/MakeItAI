@@ -1,0 +1,2475 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "RE:CRAFTED 9 Creative Upcycling Ideas",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A colorful, textured rug made from strips of fabric, with pink sneakers and a green stool placed on top."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A colorful, textured rug made from strips of fabric, with pink sneakers and a green stool placed on top. The rug features circular patterns of various colors including white, red, teal, orange, green, yellow, and brown.",
+        "The title 'RE:CRAFTED' is displayed prominently at the top, with 'RE:' in green and 'CRAFTED' in white. Below it, '9 Creative Upcycling Ideas' is written in white.",
+        "The bottom left corner has the text 'stitch | craft create' in pink.",
+        "The bottom right corner has the author's name 'Heidi Boyd' in white."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Hooked T-Shirt Rug",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Assorted colored T-shirts",
+              "quantity": "one each of",
+              "color": "kelly green, olive green, teal, orange, light pink, dark pink, fuchsia, yellow",
+              "notes": "Cut into strips"
+            },
+            {
+              "item": "White undershirts and T-shirts",
+              "quantity": "Generous stack",
+              "notes": "Cut into strips"
+            },
+            {
+              "item": "Rug hooking canvas",
+              "quantity": "1 piece",
+              "dimensions": "24\" x 38\" (61cm x 97cm)"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Rotary cutter",
+              "purpose": "cutting fabric into strips",
+              "optional": false
+            },
+            {
+              "name": "Clear ruler",
+              "purpose": "measuring and guiding cuts",
+              "optional": false
+            },
+            {
+              "name": "Self-healing mat",
+              "purpose": "protecting work surface during cutting",
+              "optional": false
+            },
+            {
+              "name": "Rug hooking tool",
+              "purpose": "pulling fabric strips through canvas",
+              "optional": false
+            },
+            {
+              "name": "Thin string",
+              "purpose": "securing loops",
+              "optional": false
+            },
+            {
+              "name": "Darning needle",
+              "purpose": "securing loops",
+              "optional": false
+            }
+          ],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [
+            "The tension from looping the strips in place causes the strips to form attractive curled ends.",
+            "The thick T-shirt strips fill up the canvas so you only have to hook every other row.",
+            "Old T-shirts are plentiful and you shouldn't have trouble finding a wide selection of colors.",
+            "A rotary cutter, cutting mat and clear ruler help quickly slice the shirts into piles of strips."
+          ],
+          "finished_product_description": "A shaggy rug made from hooked T-shirt strips."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A colorful, shaggy rug made from hooked T-shirt strips, with pink sneakers placed on top.",
+        "A graphic of a recycling symbol within a green circle, next to the heading 'What a Green Idea!'",
+        "A blue paperclip on a lined paper background with red margins."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "T-Shirt Rug",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "T-shirt",
+              "quantity": "multiple",
+              "dimensions": null,
+              "color": "various, including white"
+            }
+          ],
+          "tools": [
+            {
+              "name": "cutting mat",
+              "purpose": "surface for cutting",
+              "optional": false
+            },
+            {
+              "name": "rotary cutter",
+              "purpose": "cutting fabric",
+              "optional": false
+            },
+            {
+              "name": "ruler",
+              "purpose": "measuring and as a straightedge",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Working over a cutting mat, use a rotary cutter to remove the T-shirt's sleeves, shoulder seams, and hem edge so that you're left with smooth, seamless fabric.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "A T-shirt outline with dashed lines indicating where to cut off the sleeves, shoulder seams, and hem. A rotary cutter and cutting mat are shown near the hem."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Using a ruler as a straightedge, cut the shirt into two 7\" (18cm) sections. You’ll get just one section out of a child’s shirt and up to three sections out of an adult's shirt.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "7\" (18cm)"
+              ],
+              "visual_description": "A T-shirt outline with a dashed line across the body, indicating a cut. A ruler is shown as a straightedge for the cut."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Stack the two 7\" (18cm) sections over each other and cut through the thickness to divide the fabric into 1\" (3cm) sections. Take the side fold into consideration, and cut the first and last strips ½\" (13mm) from the outside edge. When they unfold, they’ll be an inch in width.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "7\" (18cm)",
+                "1\" (3cm)",
+                "½\" (13mm)",
+                "inch"
+              ],
+              "visual_description": "A stack of two fabric sections, shown as a rectangle with multiple vertical lines indicating cuts. Dimensions are labeled: 1/2\" (13mm) from the left edge, 1\" (3cm) between vertical cuts, and 1/2\" (13mm) from the right edge. The right edge is also labeled as a fold."
+            },
+            {
+              "step_number": 4,
+              "instruction": "You can salvage more 1\" × 7\" (3cm × 18cm) strips by cutting horizontal strips from the top of the shirt and folded strips from the sleeves. Cut the remaining shirts, grouping the piles by color so they’re ready for hooking. Leave the white shirts for last. You’ll be better able to gauge how many you’ll need after hooking the colored sections of your rug.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "1\" × 7\"",
+                "3cm × 18cm"
+              ],
+              "visual_description": "Diagrams showing how to cut strips from the top of a shirt and from a folded sleeve. The top of the shirt is shown with horizontal dashed lines indicating cuts. A sleeve is shown folded, with vertical dashed lines indicating cuts. The sleeve diagram is labeled with 'Fold' and '3½\" (9cm) lengths, each side'."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Group the piles by color.",
+            "Leave the white shirts for last.",
+            "You’ll be better able to gauge how many you’ll need after hooking the colored sections of your rug."
+          ],
+          "finished_product_description": "Strips of fabric cut from old T-shirts, ready for hooking into a rug."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing a T-shirt with dashed lines indicating where to cut off sleeves, shoulder seams, and hem.",
+        "Diagram showing a T-shirt cut into two sections with a ruler as a straightedge.",
+        "Diagram showing stacked fabric sections being cut into strips, with dimensions labeled.",
+        "Diagrams illustrating how to cut horizontal strips from the top of a shirt and vertical strips from a folded sleeve, with dimensions labeled."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 4,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Upcycled T-shirt Rug",
+          "category": "textile",
+          "difficulty": null,
+          "materials": [
+            {
+              "item": "canvas",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "tape",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "T-shirt strips",
+              "quantity": null,
+              "dimensions": null,
+              "color": "various colors, white"
+            },
+            {
+              "item": "lightweight string",
+              "quantity": "a length",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "hooking tool",
+              "purpose": "threading strips through canvas",
+              "optional": false
+            },
+            {
+              "name": "darning needle",
+              "purpose": "stitching folded edge",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 5,
+              "instruction": "Cover all four edges of the canvas with tape. Place the raw canvas edge halfway across a length of tape, then fold the tape over the top, trapping the canvas edge inside the tape. This will protect it from unraveling and be more comfortable to work with.",
+              "technique": "edge finishing",
+              "dimensions_mentioned": [],
+              "visual_description": "Close-up photo of a canvas grid with a white tape strip folded over one edge, securing the raw canvas edge. The grid has blue lines marking squares."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Thread the hooking tool through the canvas where you want to place the first strip. The tip should sit on top of the canvas and the selected canvas bar will lie over the tool. Fold a T-shirt strip in half and hook it onto the tool. Pull the tool back down through the canvas, bringing the loop halfway out the canvas.",
+              "technique": "rug hooking",
+              "dimensions_mentioned": [],
+              "visual_description": "Close-up photo of a hooking tool inserted into a canvas grid, with a folded brown fabric strip hooked onto its tip, forming a loop. The tool's tip is on top of the canvas."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Use your fingers to push the ends through the loop, then pull the ends up to tighten the knot. Repeat the process to add strips to every other canvas square.",
+              "technique": "knotting",
+              "dimensions_mentioned": [],
+              "visual_description": "Close-up photo of a canvas grid with a brown T-shirt strip pulled through, forming a knot. The hooking tool is visible nearby."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Continue adding the same colored strips until you’ve created a square or rectangle. Switch to a contrasting color and surround your shape with a one- or two-row border. Repeat the shape and border one to two more times in other locations on the canvas. Using all your remaining colored strips, create large and small framed square and rectangle combinations and distribute them over the canvas. Fill in all the blank canvas areas with white T-shirt strips.",
+              "technique": "pattern creation",
+              "dimensions_mentioned": [
+                "one-row border",
+                "two-row border",
+                "large framed square",
+                "small framed square",
+                "large framed rectangle",
+                "small framed rectangle"
+              ],
+              "visual_description": "Close-up photo of a canvas grid with multiple T-shirt strips hooked in, forming a dense, textured area of brown, orange, and white strips."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Carefully remove the tape on one side of the rug, then fold the raw edge in half and then flat against the underside of the rug. The raw edge is now trapped in the fold. Using a length of lightweight string and a darning needle, stitch the folded edge in place. Repeat for the remaining sides, removing each section of tape just before you're ready to sew.",
+              "technique": "edge finishing",
+              "dimensions_mentioned": [],
+              "visual_description": "Close-up photo of a finished section of the rug, showing various colored hooked squares and rectangles (teal, pink, yellow, orange, green, red) on a white background, with fringed edges."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A rug made from upcycled T-shirt strips, featuring framed square and rectangle patterns in various colors, with a stitched edge."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Close-up photo of a canvas grid with a white tape strip folded over its top-left edge, securing the raw canvas edge. The grid has blue lines marking squares.",
+        "Close-up photo of a hooking tool inserted into the canvas grid, with a folded brown fabric strip hooked onto its tip, forming a loop. The tool's tip is on top of the canvas.",
+        "Close-up photo of a hooking tool next to a canvas grid where a brown fabric strip has been pulled through, forming a knot.",
+        "Close-up photo of a section of the canvas grid filled with numerous hooked fabric strips in brown, orange, and white, creating a dense, textured area.",
+        "Close-up photo of a finished section of a rug, showing a pattern of various colored hooked squares and rectangles (teal, pink, yellow, orange, green, red) on a white background, with fringed edges."
+      ],
+      "continuation_of_previous": true,
+      "project_name_if_continuation": "Upcycled T-shirt Rug"
+    }
+  },
+  {
+    "page_number": 5,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Tin Can Sewing Caddy & Pincushion",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "Aluminum can",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Scraps of patterned papers",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Buttons",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Measuring tape",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Felted sweater scraps",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Stuffing",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Chenille, cord or rickrack trims",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Metal file",
+              "purpose": "smooth sharp edges",
+              "optional": true
+            },
+            {
+              "name": "Double-sided tape",
+              "purpose": "affix paper",
+              "optional": false
+            },
+            {
+              "name": "Glue gun and glue sticks",
+              "purpose": "affix buttons or trim",
+              "optional": false
+            },
+            {
+              "name": "Sewing needle and thread",
+              "purpose": "stitch pincushion",
+              "optional": false
+            },
+            {
+              "name": "Sewing machine",
+              "purpose": "stitch pincushion",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Carefully remove and discard the lid of tin can. Use a metal file to smooth any sharp edges. Make sure you completely clean and dry the empty can before crafting.",
+              "technique": "cleaning, smoothing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Trim decorative paper to the length of the can, making sure it fits between the top and bottom rims. Use strips of double-sided tape to affix the paper around the outside of the can. Hot glue buttons or a section of measuring tape around the outside of the can.",
+              "technique": "trimming, affixing, hot gluing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Trace a circle that extends a 1/2\" (13mm) beyond the circumference of the can. Cut two circles of this size out of a felted sweater. Pin the circles right sides together. If you’re using upholstery cording, position it between the layers before pinning. Machine or hand stitch the edges together, leaving a 1\" (3cm) opening to turn the piece right side out. Tightly pack the pincushion with stuffing, then hand stitch the opening closed. If you’re trimming the piece with chenille, cord or rickrack, hot glue it around the seam.",
+              "technique": "tracing, cutting, pinning, stitching, stuffing, hot gluing",
+              "dimensions_mentioned": [
+                "1/2\"",
+                "13mm",
+                "1\"",
+                "3cm"
+              ],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Catherine Matthews Scanlon designed this lovely piece; she came up with the idea when she was cleaning out a can for recycling. She realized the can could not only make a good base for a pin cushion, but it also would make a handy storage container for a small pair of scissors, spool of thread and thimble. She covered the cans with scrapbook paper scraps and beautiful vintage buttons. I stitched together the pincushion tops with two circles of felted sweater scraps."
+          ],
+          "finished_product_description": "A tin can sewing caddy and pincushion decorated with paper, buttons, and measuring tape, with a felted sweater pincushion top."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up image of two finished tin can sewing caddies and pincushions. One is decorated with black paper, white dots, and black buttons. The other is decorated with measuring tape and cream-colored buttons. A wooden tray with spools of red thread and various colored buttons is in the background. Measuring tape is draped around the caddies."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 6,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [
+        {
+          "name": "Sock Babies",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "Odd adult and toddler socks",
+              "quantity": "3-4 per baby",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "Odd knit gloves",
+              "quantity": null,
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "Stuffing (Nature-fil)",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Sewing needle and thread",
+              "purpose": "sewing",
+              "optional": false
+            },
+            {
+              "name": "Darning needle and embroidery thread",
+              "purpose": "embroidery",
+              "optional": false
+            },
+            {
+              "name": "Scissors",
+              "purpose": "cutting",
+              "optional": false
+            }
+          ],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "Endearing little babies made from mismatched socks, filled with fiberfill and featuring simple embroidered faces. An extra sock toe can be used as a removable blanket."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Photo showing three sock babies in wooden boxes. The baby on the left is wearing a red sock with colorful circles. The baby in the middle has a striped sock body and a pink sock head with a striped hat. The baby on the right is peeking out of a blue fuzzy sock, wearing a striped sock body and a striped hat.",
+        "A graphic element with the title 'Materials List' in a handwritten font, followed by lists of recycled materials, other materials, and tools & supplies.",
+        "Text indicating finished sizes for a larger baby (9½\" x 3\" / 24cm x 28cm) and a bitty baby (6\" x 2½\" / 15cm x 16cm)."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 7,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Sock Baby",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "sock",
+              "quantity": "2",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "knit glove",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "fiberfill",
+              "quantity": "sufficient amount",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "scissors",
+              "purpose": "cutting",
+              "optional": false
+            },
+            {
+              "name": "needle and thread",
+              "purpose": "sewing",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Select the sock for the baby's body. It's best if you can use one that has little wear in the toe. Cut off the top of the sock just above the heel. Save the top part of the sock for the hat.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "A sock is shown with scissors cutting off the top part, labeled 'Hat piece'. The remaining part is labeled 'Body piece'."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Generously fill the toe portion of the sock with fiberfill. Pull the heel over the top of the opening and hand sew it closed. This will form the top of your sock baby head.",
+              "technique": "stuffing, sewing",
+              "dimensions_mentioned": [],
+              "visual_description": "The toe of the sock (body piece) is filled with fiberfill. The heel is pulled over the opening and sewn closed, forming the head of the sock baby."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Use either the saved top of the sock or the top of another sock for the baby's hat. Pull it cuff first over the baby's head. Fold over and hand stitch the top cut edge to prevent it from unraveling.",
+              "technique": "sewing",
+              "dimensions_mentioned": [],
+              "visual_description": "A sock top, labeled 'Hat piece', is shown being placed over the head of the sock baby. The cut edge is folded and stitched."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Cut the toe off a toddler sock for the baby's face and two fingers off a knit glove for the baby's arms. Turn the fingers inside out. Stuff all three pieces with fiberfill.",
+              "technique": "cutting, stuffing",
+              "dimensions_mentioned": [],
+              "visual_description": "Scissors are cutting the toe off a sock, labeled 'Face pieces'. Two fingers are cut from a knit glove, labeled 'Arm pieces'. The fingers are shown turned inside out and stuffed."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A small baby doll made from socks and a knit glove, stuffed with fiberfill."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing a sock being cut to create a body piece and a hat piece.",
+        "Diagram showing the toe of a sock being filled with fiberfill and the heel sewn to form the head of a sock baby.",
+        "Diagram showing a sock top being used as a hat for the sock baby.",
+        "Diagram showing scissors cutting the toe off a sock for the face and two fingers off a knit glove for the arms of the sock baby."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 8,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Sock Baby",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "sock",
+              "quantity": "1",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "fiberfill",
+              "quantity": "small amount",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "embroidery floss",
+              "quantity": "full six strands",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "ribbon",
+              "quantity": "optional",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "another sock",
+              "quantity": "top of",
+              "dimensions": null,
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "darning needle",
+              "purpose": "sewing",
+              "optional": false
+            },
+            {
+              "name": "sewing needle",
+              "purpose": "sewing",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 5,
+              "instruction": "Position the head over the hat cuff, making sure the cut edges are folded under and trap the fiberfill. Whipstitch around the head to anchor it to the front of the hat. Working with one stuffed arm at a time, hand stitch it to the side of the body. Be careful to catch loose knitted stitches along the cut edge with your sewing needle to prevent them from unraveling.",
+              "technique": "whipstitch, hand stitch",
+              "dimensions_mentioned": [],
+              "visual_description": "A sock body with a head attached, and two arm pieces attached to the sides. The head is made from the toe of a sock, and the body from the leg. The arms are made from the cuff of a sock. Labels indicate 'Face piece' and 'Arm pieces'."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Flip up the back of the hat. With a darning needle threaded with a full six strands of embroidery floss, make a stitch from the back of the baby’s head up through the center of its face. Make a French knot for a nose and then stitch back through to the back of the head and pull tight. Repeat the process to create two eyes above the nose. Once you’ve knotted the embroidery thread and trimmed the end, fold the hat back down.",
+              "technique": "French knot",
+              "dimensions_mentioned": [],
+              "visual_description": "A close-up of the sock baby's face, showing stitches for eyes and a nose. A label indicates 'Face piece'."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Gather the top of the baby’s hat together and cinch it with a few stitches for a younger child, or tie a ribbon around it for a child over three. Use the top of another sock to make a playful blanket pouch. Hand stitch the cut bottom edge closed and slip the finished sock baby inside.",
+              "technique": "hand stitch",
+              "dimensions_mentioned": [],
+              "visual_description": "An illustration showing the top of another sock being prepared to be a blanket pouch, with an arrow indicating it will be placed over the sock baby. The sock baby is shown with its hat gathered at the top."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A sock baby puppet with a hat and a blanket pouch made from another sock."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Illustration of a sock baby in progress, showing the head and arm pieces being attached to the body.",
+        "Close-up illustration of the sock baby's face, detailing the embroidered eyes and nose.",
+        "Illustration showing the top of another sock being prepared as a blanket pouch for the sock baby."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 9,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Coiled Pajama Laundry Basket",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "adult-sized knit pajama bottoms",
+              "quantity": "4-5",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "rope",
+              "quantity": "Approximately 150' (46m)",
+              "dimensions": "¼\" (6mm)",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Scissors",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Glue gun",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Glue sticks",
+              "purpose": null,
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": null,
+              "instruction": "Cut pajama bottoms into strips. Wrap the strips around a thick rope. Intermittently wrap the pajama strips around two thicknesses of rope to attach each new coil to the spiral. Dabs of hot glue secure the strip ends.",
+              "technique": "wrapping, coiling, gluing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "This project is easy enough for children to help with.",
+            "Just the thing to keep their rooms organized."
+          ],
+          "finished_product_description": "A coiled laundry basket made from pajama strips and rope."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A large, colorful coiled laundry basket made from strips of patterned knit pajama bottoms and rope. A red garment is draped over the side of the basket. A pair of blue socks are on the floor next to the basket."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 10,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Fabric Wrapped Rope Coil",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "pajamas",
+              "quantity": "1 pair",
+              "dimensions": "1\" (3cm) vertical strips",
+              "color": "various prints and colors"
+            },
+            {
+              "item": "rope",
+              "quantity": "1 piece",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "hot glue gun",
+              "purpose": "adhering fabric strips and anchoring",
+              "optional": false
+            },
+            {
+              "name": "scissors",
+              "purpose": "cutting fabric",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut the waist elastic, pockets and leg hems off the pajama bottoms. Cut the pajamas into 1\" (3cm) vertical strips.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "1\" (3cm)"
+              ],
+              "visual_description": "Pile of cut pajama fabric strips and some whole pajama pieces, with a pair of scissors."
+            },
+            {
+              "step_number": 2,
+              "instruction": "To begin the coil, hot glue the end of a pajama strip to the end of the rope. Wrap the strip around the rope about nine times, making sure that the fabric lays flat and smooth. Form the end of the wrapped rope into a tight spiral, and use a few drops of hot glue to anchor it in place.",
+              "technique": "wrapping, hot gluing",
+              "dimensions_mentioned": null,
+              "visual_description": "A blue hot glue gun is shown next to a piece of rope with a light blue fabric strip wrapped around its end, forming a small coil."
+            },
+            {
+              "step_number": 3,
+              "instruction": "To build on this beginning, you’ll need to connect the newly wrapped rope to the coil by looping the pajama strip around the coil directly beneath it. Wrap the rope three more times and then repeat the looping. Be sure the rope is completely concealed in fabric before and after the strip loops through the coil.",
+              "technique": "wrapping, looping, hot gluing",
+              "dimensions_mentioned": null,
+              "visual_description": "A blue hot glue gun is shown next to a coiled rope wrapped in light blue fabric. The rope is continuing to be wrapped with the fabric strip, with loops being formed around the coil."
+            },
+            {
+              "step_number": 4,
+              "instruction": "When you run out of fabric, hot glue another strip over the end and continue wrapping, coiling and looping. Try to distribute different prints and colors throughout the hamper.",
+              "technique": "wrapping, coiling, looping, hot gluing",
+              "dimensions_mentioned": null,
+              "visual_description": "A blue hot glue gun is shown next to a partially wrapped rope. The fabric strip is a different pattern than the previous step, showing a mix of colors and prints. The rope is being wrapped and coiled."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Try to distribute different prints and colors throughout the hamper."
+          ],
+          "finished_product_description": "A coiled rope wrapped in fabric strips, forming a decorative item that appears to be part of a hamper."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Image showing cut fabric strips from pajamas and scissors.",
+        "Image showing a hot glue gun and the beginning of wrapping a rope with a fabric strip to form a coil.",
+        "Image showing a hot glue gun and a partially wrapped rope with fabric, demonstrating how to loop and continue wrapping.",
+        "Image showing a hot glue gun and a partially wrapped rope with fabric, demonstrating the use of different fabric prints and colors."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 11,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Coiled Rope Hamper",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Rope",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fabric strips",
+              "quantity": "for wrapping",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Scissors",
+              "purpose": "cutting fabric strips and rope",
+              "optional": false
+            },
+            {
+              "name": "Glue gun",
+              "purpose": "securing fabric strip ends",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 5,
+              "instruction": "When your coil reaches 12\" (30cm) in diameter, begin stacking the newly wrapped rope over the last row. This marks the transition to building up the sides of the hamper.",
+              "technique": "coiling and stacking",
+              "dimensions_mentioned": [
+                "12\" (30cm)"
+              ],
+              "visual_description": "A coiled rope base of a hamper, showing the transition from flat to building upwards."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Use the same wrapping technique to layer the rope on top of itself to create and build the sides.",
+              "technique": "wrapping and layering",
+              "dimensions_mentioned": [],
+              "visual_description": "A diagram showing how to wrap the rope and fabric strip, with an arrow indicating to pull tight and begin wrapping again. It also shows 'Pajama strip wraps under row below'."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Once your hamper is 11\" (28cm) high, you need to work handles into the top. To do this, simply wrap the fabric strip that your working with around 5\" (13cm) of the rope without passing the fabric strip into the coiled sides. Return to the established pattern, stopping to make another 5\" (13cm) wrapped rope section on the opposite side of the basket. From here on, continue wrapping and coiling until you’ve made six rows above your handle.",
+              "technique": "wrapping and coiling",
+              "dimensions_mentioned": [
+                "11\" (28cm)",
+                "5\" (13cm)",
+                "5\" (13cm)"
+              ],
+              "visual_description": "A close-up image of the inside of a coiled rope hamper, showing the fabric strips and the beginning of a handle being worked in."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Once you’ve reached the end, cut off the rope. Then trim the fabric strip ¼\" (6mm) from the end of the rope and glue the fabric strip over the rope end.",
+              "technique": "cutting and gluing",
+              "dimensions_mentioned": [
+                "¼\" (6mm)"
+              ],
+              "visual_description": "A close-up image showing the top edge of the hamper, with scissors and a glue gun nearby. A rope end is visible, ready to be trimmed and glued."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A handmade hamper created by coiling and wrapping rope with fabric strips."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up photograph of a coiled rope base for a hamper, made with colorful fabric strips.",
+        "A line drawing illustrating the technique of wrapping rope with fabric strips, showing how to pull tight and continue wrapping, with a note about 'Pajama strip wraps under row below'.",
+        "A close-up photograph of the interior of a partially completed coiled rope hamper, showing the texture of the fabric-wrapped rope and the beginnings of handles.",
+        "A close-up photograph of the top edge of the hamper, showing scissors and a glue gun, indicating the finishing steps."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 12,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Denim Quilt",
+          "category": "textile",
+          "difficulty": null,
+          "materials": [
+            {
+              "item": "One pair of jeans",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Cotton fabric scraps",
+              "quantity": "in four colors",
+              "dimensions": "at least 18\" (46 cm) wide, three ¼-yard (23cm) long and one ½-yard (46cm) long",
+              "color": null
+            },
+            {
+              "item": "Corduroy scrap",
+              "quantity": "½ yard",
+              "dimensions": "46cm",
+              "color": null
+            },
+            {
+              "item": "Salvaged curtain backing, or purchased fabric",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Flannel sheet batting, or purchased batting",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Embroidery thread",
+              "quantity": null,
+              "dimensions": null,
+              "color": "yellow, red, orange, ochre, light pink, dark pink, purple, blue, turquoise, green, white"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Rotary cutter",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Clear ruler",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Self-healing mat",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Scissors",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Embroidery hoop",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Sewing machine",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Straight pins",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Darning needle",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Sewing needles",
+              "purpose": null,
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Assemble the quilt by combining salvaged jean panels (from dungarees) with bright calico pieces or sections of cotton clothing for the quilt top. Layer the quilt top with flannel sheets for batting and a salvaged curtain panel for backing. Knot the layers together at the panel corners. Add embroidery designs as desired.",
+              "technique": "quilting, sewing, embroidery, knotting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "If you are buying fabric, whenever possible look for organic cotton, fair trade material made in safe working environments and shot gun cotton that uses less harmful dyes."
+          ],
+          "finished_product_description": "A beautiful and sturdy quilt made from salvaged denim dungarees, layered with flannel sheets and a curtain panel. It features bright calico or cotton pieces and embroidery stitches, with layers simply knotted at the corners. Suitable for hanging on a wall, traveling with, or as a play mat for a baby."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up photo of a finished denim quilt, featuring various fabric squares including dark blue denim with embroidered birds and a snail, a vibrant green and blue patterned cotton fabric, and a red and white checkered fabric. The quilt has a green corduroy border. The background shows a brown paper surface and a white surface with a geometric pattern."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 13,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Denim Quilt",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "denim",
+              "quantity": "1 leg section",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "fabric",
+              "quantity": "4 pieces",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "corduroy",
+              "quantity": "1 border strip",
+              "dimensions": "25⁄8\" (7cm)",
+              "color": "any"
+            },
+            {
+              "item": "flannel batting",
+              "quantity": "1 piece",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "embroidery thread",
+              "quantity": "full strands",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "embroidery floss",
+              "quantity": "1 strand",
+              "dimensions": null,
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "scissors",
+              "purpose": "cutting denim",
+              "optional": false
+            },
+            {
+              "name": "embroidery hoop",
+              "purpose": "hooping denim",
+              "optional": false
+            },
+            {
+              "name": "sewing machine",
+              "purpose": "sewing fabric to denim, machine stitching quilt",
+              "optional": false
+            },
+            {
+              "name": "darning needle",
+              "purpose": "hand sewing opening",
+              "optional": false
+            },
+            {
+              "name": "straight pins",
+              "purpose": "anchoring layers",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Lay the jeans flat on your work surface and cut off the least worn leg section—often the back will be darker than the front. Cut one of the side seams open so the denim unfolds into a flat piece of fabric.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration of jeans with scissors cutting off the leg section and then cutting one side seam open."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Trap the denim in an embroidery hoop, pulling any slack tight before twisting the clamp. See step 3 to embroider a bird or snail.",
+              "technique": "hooping",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration of a piece of denim stretched taut in an embroidery hoop."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Begin embroidering a bird or snail with a full six strands of embroidery thread. Tie all the knots on the underside of your work. Use French knots for the tail and antennea ends, eyes and flower centers. Remove the piece from the hoop and begin embroidering the next bird on another section of the denim. Be careful to leave a generous border of fabric around each embellishment.",
+              "technique": "embroidery",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration of a bird embroidered on denim within an embroidery hoop."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Once you’ve embroidered all four designs, choose a fabric to pair with each denim piece. Follow the diagram to trim both the fabric and the denim to the appropriate sizes. Machine sew the selected fabric to either side of each denim piece to create four horizontal strips. Sew the bottom of one strip to the top of another until you’ve joined all four together to create your quilt top. Frame the finished top with a 25⁄8\" (7cm) corduroy border. Placing right sides together, lay the quilt top and curtain backing together. Place them over the flannel batting. Machine stitch around all four sides, trapping all three layers and leaving a 8\" (20cm) opening to pull the finished quilt right side out. Insert your batting through the opening, making sure it fully stretches inside the fabric. Use straight pins to anchor all three thickness together. Hand sew the opening closed. Use a darning needle and a full strand of embroidery floss to make a stitch from the quilt top to the bottom and back up again each denim corner. Securely knot the thread before trimming the ends an inch from the knot.",
+              "technique": "sewing, quilting, hand sewing",
+              "dimensions_mentioned": [
+                "25⁄8\" (7cm)",
+                "8\" (20cm)",
+                "an inch"
+              ],
+              "visual_description": "Diagram showing the layout of denim pieces with fabric, and instructions for assembling the quilt top, backing, and batting."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "denim piece 1",
+                "shape": "rectangle",
+                "width": "83⁄4\" (22cm)",
+                "height": "51⁄2\" (14cm)",
+                "details": [
+                  {
+                    "type": "embroidery",
+                    "design": "flying bird"
+                  }
+                ]
+              },
+              {
+                "name": "denim piece 2",
+                "shape": "rectangle",
+                "width": "101⁄8\" (26cm)",
+                "height": "51⁄2\" (14cm)",
+                "details": [
+                  {
+                    "type": "embroidery",
+                    "design": "none specified"
+                  }
+                ]
+              },
+              {
+                "name": "denim piece 3",
+                "shape": "rectangle",
+                "width": "12\" (30cm)",
+                "height": "57⁄8\" (15cm)",
+                "details": [
+                  {
+                    "type": "embroidery",
+                    "design": "stripe"
+                  }
+                ]
+              },
+              {
+                "name": "denim piece 4",
+                "shape": "rectangle",
+                "width": "71⁄4\" (18cm)",
+                "height": "57⁄8\" (15cm)",
+                "details": [
+                  {
+                    "type": "embroidery",
+                    "design": "flower bird"
+                  }
+                ]
+              },
+              {
+                "name": "denim piece 5",
+                "shape": "rectangle",
+                "width": "101⁄4\" (26cm)",
+                "height": "101⁄4\" (26cm)",
+                "details": [
+                  {
+                    "type": "embroidery",
+                    "design": "pink"
+                  }
+                ]
+              },
+              {
+                "name": "denim piece 6",
+                "shape": "rectangle",
+                "width": "6\" (15cm)",
+                "height": "101⁄4\" (26cm)",
+                "details": [
+                  {
+                    "type": "embroidery",
+                    "design": "snail"
+                  }
+                ]
+              },
+              {
+                "name": "denim piece 7",
+                "shape": "rectangle",
+                "width": "55⁄8\" (15cm)",
+                "height": "57⁄8\" (15cm)",
+                "details": [
+                  {
+                    "type": "embroidery",
+                    "design": "walking bird"
+                  }
+                ]
+              },
+              {
+                "name": "denim piece 8",
+                "shape": "rectangle",
+                "width": "121⁄8\" (32cm)",
+                "height": "57⁄8\" (15cm)",
+                "details": [
+                  {
+                    "type": "embroidery",
+                    "design": "flowered"
+                  }
+                ]
+              },
+              {
+                "name": "corduroy border",
+                "shape": "strip",
+                "width": "25⁄8\" (7cm)",
+                "height": "24\" (61cm)",
+                "details": []
+              }
+            ],
+            "assembly_notes": "Assemble four horizontal strips by sewing fabric to denim pieces. Sew strips together to form quilt top. Add corduroy border. Layer quilt top, backing, and batting. Machine stitch around edges, leaving an opening. Turn right side out and hand sew opening closed. Add decorative stitching to corners."
+          },
+          "tips": [
+            "Use French knots for tail and antennae ends, eyes and flower centers.",
+            "Leave a generous border of fabric around each embellishment.",
+            "Ensure batting is fully stretched inside the fabric when turning.",
+            "Securely knot thread before trimming ends."
+          ],
+          "finished_product_description": "A quilted denim item, likely a small quilt or wall hanging, with embroidered designs and a corduroy border."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram titled 'Denim Quilt Diagram' showing a grid of rectangles representing denim pieces with dimensions and embroidered designs labeled (flying bird, yellow, stripe, flower bird, pink, snail, walking bird, flowered). A corduroy border is shown at the bottom with its dimensions. Overall dimensions of the quilt top are indicated as 24\" (61cm) wide."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 14,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Chipped China Mosaic Pot",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "Broken china and glass pieces",
+              "quantity": null,
+              "dimensions": null,
+              "color": "various"
+            },
+            {
+              "item": "Ceramic pot",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Glass butterflies",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Old towel",
+              "purpose": "protecting surfaces/containing pieces",
+              "optional": false
+            },
+            {
+              "name": "Rubber mallet",
+              "purpose": "breaking china/glass",
+              "optional": false
+            },
+            {
+              "name": "Eye protection",
+              "purpose": "safety",
+              "optional": false
+            },
+            {
+              "name": "Tile nippers",
+              "purpose": "controlling break of large pieces",
+              "optional": false
+            },
+            {
+              "name": "Waterproof sealer",
+              "purpose": "sealing pot interior",
+              "optional": false
+            },
+            {
+              "name": "Tile adhesive",
+              "purpose": "adhering mosaic pieces",
+              "optional": false
+            },
+            {
+              "name": "Plastic spoon and knife",
+              "purpose": "applying adhesive/grout",
+              "optional": false
+            },
+            {
+              "name": "Sanded grout",
+              "purpose": "filling gaps between mosaic pieces",
+              "optional": false
+            },
+            {
+              "name": "Sponge",
+              "purpose": "wiping excess grout",
+              "optional": false
+            },
+            {
+              "name": "Bucket",
+              "purpose": "holding water for cleaning",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "To prepare the glass and china, place the big pieces under a towel and break them with a mallet. Wearing eye protection, use tile nippers to control break any remaining large pieces.",
+              "technique": "breaking, shaping",
+              "dimensions_mentioned": [],
+              "visual_description": "Photo showing various broken pieces of colorful china and glass scattered on a white plate, with a white towel visible next to it."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Prepare the pot by applying waterproofing to the interior, and let it dry. Apply a layer of adhesive to one side of the pot, leaving the rim and base uncovered. Press china and glass pieces and glass butterflies into the adhesive, they need to be firmly anchored. Repeat the process to apply adhesive to another section of the pot. Place them as close as possible, and try to distribute colors and varieties around the pot. Let the adhesive dry according to manufacturer's directions.",
+              "technique": "waterproofing, adhering, mosaic application",
+              "dimensions_mentioned": [],
+              "visual_description": "Photo showing a terracotta ceramic pot with one side partially covered in a mosaic of colorful broken china and glass pieces, some glass butterflies are also visible. The rim and base of the pot are still uncovered."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Spoon grout over the adhesive, working it in between the china pieces. Once you’ve encircled the pot, move over a bucket of water and use a sponge to wipe the excess grout off the china and glass. Make sure the rim and base of the pot stay clean. Let the grout dry for 24 hours. Then scrub any remaining grout off the ceramic and glass.",
+              "technique": "grouting, cleaning",
+              "dimensions_mentioned": [
+                "24 hours"
+              ],
+              "visual_description": "Photo showing a finished terracotta ceramic pot completely covered in a mosaic of colorful broken china and glass pieces, with grout filling the spaces between the pieces. The rim and base are clean."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Broken plates, cups, or bowls can be repurposed into beautiful mosaic projects.",
+            "Distribute colors and varieties of pieces evenly around the pot for a pleasing aesthetic.",
+            "Ensure the rim and base of the pot remain clean during grouting."
+          ],
+          "finished_product_description": "A terracotta ceramic pot decorated with a vibrant mosaic of colorful broken china and glass pieces, filled with green grass."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A terracotta ceramic pot decorated with a mosaic of colorful broken china and glass pieces, filled with green grass, sitting on a wooden surface.",
+        "Step 1: Various broken pieces of colorful china and glass scattered on a white plate, with a white towel visible next to it.",
+        "Step 2: A terracotta ceramic pot with one side partially covered in a mosaic of colorful broken china and glass pieces, some glass butterflies are also visible. The rim and base of the pot are still uncovered.",
+        "Step 3: A finished terracotta ceramic pot completely covered in a mosaic of colorful broken china and glass pieces, with grout filling the spaces between the pieces. The rim and base are clean."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 15,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Glossy Magazine Bowl",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "glossy full-color magazines",
+              "quantity": "Five to six",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Mod Podge (Plaid)",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Glue gun",
+              "purpose": "gluing strips together",
+              "optional": false
+            },
+            {
+              "name": "Glue sticks",
+              "purpose": "for glue gun",
+              "optional": false
+            },
+            {
+              "name": "Wax paper",
+              "purpose": "protecting work surface",
+              "optional": false
+            },
+            {
+              "name": "Glue brush",
+              "purpose": "applying Mod Podge",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Fold magazine pages into long, sturdy strips.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Coil the strips tightly together and hot glue them.",
+              "technique": "coiling, gluing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Apply a protective coat of decoupage medium (Mod Podge) to preserve the finished bowl.",
+              "technique": "decoupage",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "The amount of color and type on the pages you fold will determine the look of your bowl. For example, wedding magazines create a predominantly white and pastel-colored bowl.",
+            "This is a great group project; it's helpful to have lots of hands to fold pages."
+          ],
+          "finished_product_description": "A bowl made from coiled magazine strips, with a protective decoupage coating."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up photograph of a colorful, textured bowl filled with green apples. The bowl is made from strips of magazine pages. One apple has a bite taken out of it, placed next to the bowl."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 16,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Coiled Magazine Strip Art",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "magazine pages",
+              "quantity": "generous pile",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "fingernail",
+              "purpose": "creasing folds",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Carefully rip a generous pile of pages from the magazines. Don’t be concerned if you lose small amounts of the ripped edge; it will be concealed in the folds.",
+              "technique": "ripping",
+              "dimensions_mentioned": [],
+              "visual_description": "Two magazine covers are shown, one with the title 'I.D.' and 'Flood Simple', and another with graphics of tools and a bicycle."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Fold the page in half lengthwise, leaving the image you want on the outside. Crease the fold line with your fingernail.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A rectangle with a dashed line across the middle and a curved arrow indicating a fold downwards."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Fold in half lengthwise again, crease.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A rectangle folded in half lengthwise, with a dashed line across the middle and a curved arrow indicating a fold downwards."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Fold in half again, crease.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A rectangle folded in half lengthwise, with a dashed line across the middle and a curved arrow indicating a fold downwards. The folded edge is on the left."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Fold in half one final time.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A long, thin rectangle folded in half, with a dashed line across the middle and a curved arrow indicating a fold downwards. The folded edge is on the left."
+            },
+            {
+              "step_number": 6,
+              "instruction": "The folding transforms your ripped pages into narrow folded strips ready for coiling.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A very long, thin, folded strip, appearing to be made of multiple layers of paper. It is shown from the side."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "Narrow folded strips of magazine pages ready for coiling."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing a rectangle with a dashed line across the middle and a curved arrow indicating a fold downwards.",
+        "Diagram showing a rectangle folded in half lengthwise, with a dashed line across the middle and a curved arrow indicating a fold downwards.",
+        "Diagram showing a rectangle folded in half lengthwise, with a dashed line across the middle and a curved arrow indicating a fold downwards. The folded edge is on the left.",
+        "Diagram showing a long, thin rectangle folded in half, with a dashed line across the middle and a curved arrow indicating a fold downwards. The folded edge is on the left.",
+        "Diagram showing a very long, thin, folded strip, appearing to be made of multiple layers of paper. It is shown from the side."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 17,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Recycled Paper Bowl",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Paper strips",
+              "quantity": null,
+              "dimensions": null,
+              "color": "various"
+            },
+            {
+              "item": "Mod Podge",
+              "quantity": "generous coat",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Hot glue gun",
+              "purpose": "adhering strips",
+              "optional": false
+            },
+            {
+              "name": "Wax paper",
+              "purpose": "working surface",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 7,
+              "instruction": "Beginning in the center base of the bowl, tightly coil one end of your first strip, folded edge up. Apply a thin line of hot glue to the outside center of the coil. Wrap and press the remaining strip length into the glue. Add a second strip, folded side up, where the first strip ends. Continue applying a small line of glue to the center of the coiled paper, tightly wrapping new strips around the coil. The folded edges will become the outside of the bowl, and the rough edges will fall to the inside of the bowl.",
+              "technique": "coiling, gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing a bowl being formed by coiling and gluing strips of paper. Labels indicate 'Narrow strip' and 'Wide top strip'."
+            },
+            {
+              "step_number": 8,
+              "instruction": "When the base is the desired size (this bowl is 4½\" [11cm] in diameter), begin positioning the new strips 1/8\" (3mm) up from the strip beneath it.",
+              "technique": "layering, gluing",
+              "dimensions_mentioned": [
+                "4½\" [11cm]",
+                "1/8\" (3mm)"
+              ],
+              "visual_description": "Two images showing the process of coiling paper strips around a base, with a hot glue gun present. One image shows a coiled base with a strip being added, and the other shows a larger coiled base with a strip being added at an angle."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Continue adding strips, alternating colors and patterns until the bowl is 6½\" (16cm) high, or the desired size. To finish the top edge, fold several strips in half lengthwise three times and glue them down so that the center fold covers the top edge. Fold another set of strips in half lengthwise five times and hot glue these narrow strips over the bottom edges of the wide top strip, placing them both on the inside and outside of the bowl. This will help integrate the top piece with the established pattern.",
+              "technique": "layering, folding, gluing",
+              "dimensions_mentioned": [
+                "6½\" (16cm)"
+              ],
+              "visual_description": "Illustration showing the top edge of the bowl being finished with folded strips of paper. Labels indicate 'Narrow strip' and 'Wide top strip'."
+            },
+            {
+              "step_number": 10,
+              "instruction": "Working over wax paper, apply a generous coat of Mod Podge to the outside and inside of the finished bowl.",
+              "technique": "sealing, coating",
+              "dimensions_mentioned": [],
+              "visual_description": "Photo showing a finished coiled paper bowl on wax paper, with a paintbrush applying Mod Podge to the outside."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A bowl constructed from coiled strips of recycled paper, sealed with Mod Podge."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Illustration showing a bowl being formed by coiling and gluing strips of paper. Labels indicate 'Narrow strip' and 'Wide top strip'.",
+        "Illustration showing the top edge of the bowl being finished with folded strips of paper. Labels indicate 'Narrow strip' and 'Wide top strip'.",
+        "Photo showing a coiled paper base with a strip being added.",
+        "Photo showing a larger coiled paper base with a strip being added at an angle, with a hot glue gun present.",
+        "Photo showing a finished coiled paper bowl on wax paper, with a paintbrush applying Mod Podge to the outside."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 18,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Ruler Chalkboard",
+          "category": "woodworking",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "Masonite board or smooth board plywood",
+              "quantity": "1 sheet",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "salvaged yardsticks",
+              "quantity": "Approximately 9",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "chalkboard paint",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "magnetic paint",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Foam paint roller",
+              "purpose": "applying paint",
+              "optional": false
+            },
+            {
+              "name": "Saw",
+              "purpose": "cutting yardsticks",
+              "optional": false
+            },
+            {
+              "name": "Wood glue",
+              "purpose": "adhering yardsticks",
+              "optional": false
+            },
+            {
+              "name": "Clamps or bricks",
+              "purpose": "for weights",
+              "optional": false
+            },
+            {
+              "name": "Picture hangers",
+              "purpose": "hanging the board",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Prepare a smooth scrap of wood (e.g., a sheet of masonite).",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Paint the wood with chalkboard paint. Optionally, add a layer of magnetic paint.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Allow the paint to dry.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Create a framework of salvaged yardsticks and glue them around the chalkboard.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Chalkboard with yardsticks glued around the edges."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Flea markets and hardware stores are great places to find wooden yardsticks."
+          ],
+          "finished_product_description": "A chalkboard message board framed with salvaged yardsticks."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A chalkboard with a drawing of a recycling symbol, a sun, and two flowers, all drawn in chalk. The chalkboard is framed by old wooden yardsticks, some of which are attached to the front and others are laid out in front of the chalkboard on a brown surface. A piece of green chalk and a yellow chalk are visible in the foreground."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 19,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Chalkboard Frame",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "Masonite or board",
+              "quantity": "1 piece",
+              "dimensions": "24\" x 36\" (61cm x 91cm)",
+              "color": "any"
+            },
+            {
+              "item": "Chalkboard paint",
+              "quantity": "several coats",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "Yardsticks",
+              "quantity": "enough to frame board",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "Glue",
+              "quantity": "generous amount",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "Picture hangers",
+              "quantity": "2",
+              "dimensions": null,
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Cutting tool",
+              "purpose": "to cut yardsticks",
+              "optional": false
+            },
+            {
+              "name": "Clamp or weight",
+              "purpose": "to hold yardsticks while glue dries",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut your masonite or board to the desired size. Take a moment to plan where you want to hang your board, and size it accordingly. Our board is 24\" x 36\" (61cm x 91cm). Also keep in mind that the bigger your board is, the more yardsticks you will need to frame it.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "24\" x 36\"",
+                "61cm x 91cm"
+              ],
+              "visual_description": "A ruler showing 36\" (91cm) and another ruler showing 24\" (61cm) indicating the dimensions of the board."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Smooth several coats of chalkboard paint onto the board, letting each coat dry completely before applying the next.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Lay the yardsticks around the perimeter of your board, planning which ones will need to be cut and where. We avoided cutting the yardsticks at an angle by butting the straight cut edges against each other. Once you’ve cut the yardsticks, apply a generous amount of glue to the underside and clamp or weight them in place while the glue dries.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "A diagram showing a rectangular board with yardsticks laid out around the perimeter. Rulers are shown along the edges indicating measurements."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Attach picture hangers to the back side of the finished board.",
+              "technique": "attaching",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "The bigger your board is, the more yardsticks you will need to frame it."
+          ],
+          "finished_product_description": "A framed chalkboard made from a masonite or board, with yardsticks used as a frame."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram 1: Plan Detail shows a rectangular frame made of yardsticks around a central board. Rulers are overlaid on the edges of the frame, indicating dimensions of 36\" (91cm) along the top and 24\" (61cm) along the right side. The rulers have inch markings."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 20,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Sweet Sweater Birds",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "Felted sweater scraps (for short tail)",
+              "quantity": null,
+              "dimensions": null,
+              "color": "green, turquoise, burgundy"
+            },
+            {
+              "item": "Felted sweater scraps (for long tail)",
+              "quantity": null,
+              "dimensions": null,
+              "color": "tangerine, green, burgundy"
+            },
+            {
+              "item": "Black E beads",
+              "quantity": null,
+              "dimensions": null,
+              "color": "black"
+            },
+            {
+              "item": "Stuffing (Nature-fil)",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "18-gauge wire",
+              "quantity": null,
+              "dimensions": "18-gauge",
+              "color": null
+            },
+            {
+              "item": "Embroidery floss",
+              "quantity": null,
+              "dimensions": null,
+              "color": "turquoise, pink, fuchsia"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Straight pins",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Scissors",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Sewing and darning needles",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "item": "Thread",
+              "quantity": null,
+              "dimensions": null,
+              "color": "green, burgundy, black"
+            },
+            {
+              "name": "Flush cutters",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Beadfix glue (Beadalon)",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Glue gun and glue sticks",
+              "purpose": null,
+              "optional": false
+            },
+            {
+              "name": "Sewing machine",
+              "purpose": null,
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Use the patterns as your guide to cut out two green sides and a turquoise stomach panel. Placing right sides together, pin the three pieces together. Position the one tip of the stomach panel at the neck and the other where the side tail points meet. For the long-tail bird, the tail piece will extend beyond where the body pieces meet.",
+              "technique": "cutting, pinning, sewing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Fit the sewing machine with a heavy duty needle. Loosen the tension to accommodate the bulk of the felted fabrics. Run a double thickness test piece through the machine and make adjustments before sewing your bird."
+          ],
+          "finished_product_description": "Charming little birds made from felted sweater scraps, suitable for holiday gifts or year-round display."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A white birdhouse with an opening on the side, placed on a wooden surface. A red felt bird is perched on a nest made of straw, with a green and pink felt bird with wire legs standing on the wooden surface.",
+        "Close-up of a green and pink felt bird with black bead eyes and a red beak, standing on wire legs on a wooden surface with shredded green paper scattered around it."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 21,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Stuffed Bird",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "bird side panels",
+              "quantity": "2",
+              "color": "any"
+            },
+            {
+              "item": "stomach panel",
+              "quantity": "1",
+              "color": "any"
+            },
+            {
+              "item": "wing pattern",
+              "quantity": "1",
+              "color": "burgundy"
+            },
+            {
+              "item": "fiberfill",
+              "quantity": "small amounts"
+            },
+            {
+              "item": "green thread",
+              "quantity": "matching"
+            },
+            {
+              "item": "burgundy scraps",
+              "quantity": "small piece",
+              "purpose": "beak"
+            },
+            {
+              "item": "E beads",
+              "quantity": "2",
+              "purpose": "eyes"
+            },
+            {
+              "item": "black thread",
+              "quantity": "for eyes"
+            },
+            {
+              "item": "wire",
+              "quantity": "2 pieces",
+              "dimensions": "5½\" (14cm) each",
+              "purpose": "legs"
+            }
+          ],
+          "tools": [
+            {
+              "name": "darning needle",
+              "purpose": "stitching wings",
+              "optional": false
+            },
+            {
+              "name": "sewing needle",
+              "purpose": "stitching eyes",
+              "optional": false
+            },
+            {
+              "name": "glue",
+              "purpose": "securing wire legs",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 2,
+              "instruction": "Seam the stomach panel to each bird side. Stitch the two sides together starting at the neck, working over the top of the head and ending 1\" (3cm) before the tail. Turn the bird right side out. Stuff the bird with fiberfill, pushing small amounts into the head and then filling the remainder of the body. Using matching green thread to hand stitch the tail opening closed. Follow the same basic instructions for the long-tail bird, except place the extra tail piece in the opening before stitching it closed.",
+              "technique": "sewing, stuffing, hand stitching",
+              "dimensions_mentioned": [
+                "1\" (3cm)",
+                "tail opening"
+              ],
+              "visual_description": "Diagram shows a bird body shape with dashed lines indicating seams and an opening labeled 'Leave an opening for stuffing'."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Use the wing pattern to cut out two burgundy wings. Thread the darning needle with the full strand of embroidery thread and whipstitch the wings to the sides of the bird. Stitch an optional decorative swirl onto the center of each wing. The long-tail bird doesn't have wings, so make decorative stitches on the sides.",
+              "technique": "cutting, whipstitching, decorative stitching",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows two wing shapes with dashed lines indicating decorative swirls and stitching. One wing is attached to a bird body."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Cut a small beak from the burgundy scraps and hot glue it into the seam that joins the front of the head together. Thread a sewing needle with black thread and stitch an E bead to either side of the head. Pass the needle back through the eyes several times to pull them into the head and hold them tightly in place. Follow the same basic instructions for the long-tail bird.",
+              "technique": "cutting, hot gluing, stitching",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows a bird's head with a beak attached and two E beads stitched on as eyes, with thread passing through them."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Working on the underside of the bird, poke wire end through the center panel and side seam. Push the wire across the inside of the belly, then poke it back out through opposite side of the panel. Pull 5½\" (14cm) of wire out and fold both wires down where they emerge from the fabric. Shape each end into a 1\" (3cm) N-shaped foot. Apply a spot of glue where the wire legs emerge from the bird’s body. For the long-tail bird, shorten the length of the legs before shaping the feet.",
+              "technique": "poking, folding, shaping, gluing",
+              "dimensions_mentioned": [
+                "5½\" (14cm)",
+                "1\" (3cm)"
+              ],
+              "visual_description": "Diagram shows the underside of a bird with wire legs being threaded through. Another diagram shows how to bend the wire into an N-shaped foot. Text 'Bend foot for stability' is present."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "For the long-tail bird, shorten the length of the legs before shaping the feet."
+          ],
+          "finished_product_description": "A small stuffed bird with wire legs."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "wing pattern",
+          "scale": null,
+          "shape_description": "Two wing shapes, each with a dashed swirl pattern in the center."
+        }
+      ],
+      "diagram_descriptions": [
+        "Diagram illustrating Step 2: A bird body shape with dashed lines indicating seams and an opening labeled 'Leave an opening for stuffing'.",
+        "Diagram illustrating Step 3: Two wing shapes with dashed lines for decorative swirls, and one wing attached to a bird body.",
+        "Diagram illustrating Step 4: A bird's head with a beak attached and two E beads stitched on as eyes, with thread passing through them.",
+        "Diagram illustrating Step 5: The underside of a bird with wire legs being threaded through.",
+        "Diagram illustrating how to bend wire into an N-shaped foot, with the text 'Bend foot for stability'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 22,
+    "extracted": {
+      "page_type": "tools_reference",
+      "projects": [],
+      "tools_reference": [
+        {
+          "name": "Running Stitch",
+          "use": "Sew two pieces of fabric together or make a straight decorative line.",
+          "suitable_for": [
+            "fabric"
+          ]
+        },
+        {
+          "name": "Filling in Between the Running Stitch",
+          "use": "Fill spaces between stitches to create a solid line or decorative elements.",
+          "suitable_for": [
+            "fabric"
+          ]
+        },
+        {
+          "name": "Whipstitch",
+          "use": "Functionally or decoratively join two overlapping pieces of fabric.",
+          "suitable_for": [
+            "fabric"
+          ]
+        }
+      ],
+      "templates": [],
+      "diagram_descriptions": [
+        "Illustration of a running stitch showing needle going in and out of fabric at regular intervals.",
+        "Illustration showing how to fill in spaces between running stitches with a second running stitch.",
+        "Illustration of a whipstitch showing the needle going up and down through overlapping fabric pieces."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 23,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "French Knot",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Draw the needle up through the fabric where you need the knot to show. Push the needle through the fabric to catch a small amount on the needle (just like the first stitch in the running stitch).",
+              "technique": "French Knot",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram a shows a needle pulling thread up through fabric, with a loop of thread around the needle."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Wrap the base of the thread (where it first emerged from the fabric) four times around the needle point.",
+              "technique": "French Knot",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram b shows the thread wrapped four times around the needle point, near where it emerges from the fabric."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Pull the needle point straight up through the looped thread. If necessary, slide the loops down against the fabric.",
+              "technique": "French Knot",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram c shows the needle being pulled upwards through the wrapped thread, with the loops starting to tighten."
+            },
+            {
+              "step_number": 4,
+              "instruction": "To finish the stitch, simply poke the needle back down beside where it came up in the first step. When you pull the excess thread taut your French knot should sit on top of the fabric.",
+              "technique": "French Knot",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram d shows a finished French knot sitting on top of the fabric."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "The French knot is a clever way to make eyes and flower centers.",
+            "It's a knot that sits on top of the fabric exactly where you need it.",
+            "This technique is intentionally simplified."
+          ],
+          "finished_product_description": "A small knot that sits on top of the fabric."
+        },
+        {
+          "name": "Leaf or Flower Petal",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Draw the needle up where you want the base of the leaf or flower to be. Bring the needle back down next to where it came out. Be careful not to pull the thread tight. Position the loose thread how you’d like your finished leaf or petal to look.",
+              "technique": "Leaf or Flower Petal stitch",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram a shows a needle pulling thread up through fabric, creating a loose loop."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Bring the needle back up on the inside center of the loop.",
+              "technique": "Leaf or Flower Petal stitch",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram b shows the needle coming up from the inside center of the loop created in step a."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Bring the needle back down on the outside center of the loop leaf/petal shape.",
+              "technique": "Leaf or Flower Petal stitch",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram c shows the needle going back down on the outside center of the loop."
+            },
+            {
+              "step_number": 4,
+              "instruction": "This should make a tiny stitch that traps the first stitch in place.",
+              "technique": "Leaf or Flower Petal stitch",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram d shows the finished stitch, which resembles a leaf or petal shape."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "This stitch requires two steps.",
+            "The first stitch is a very loose loop, and the second stitch holds the center of the loop in a flower or leaf shape.",
+            "Four or five of these stitches placed together make a fabulous flower.",
+            "One or two alongside a running stitch stem make great leaves.",
+            "The more loose thread you leave in the stitch, the bigger your finished leaf or flower will be; conversely, the less thread you leave, the smaller they will be.",
+            "Be careful not to pull the thread tight."
+          ],
+          "finished_product_description": "A stitch that creates a leaf or petal shape."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing the steps to create a French Knot stitch, labeled a, b, c, and d.",
+        "Diagram showing the steps to create a Leaf or Flower Petal stitch, labeled a, b, c, and d."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 24,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Denim Quilt, Flying Bird",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "finished_product_description": "A denim quilt pattern of a flying bird."
+        },
+        {
+          "name": "Denim Quilt, Flower Bird",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "finished_product_description": "A denim quilt pattern of a bird with a flower."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A dashed line pattern of a bird in flight, with decorative swirls and markings. The bird has a pointed beak, a circular eye with radiating lines, and a striped wing. Its tail feathers are depicted as dashed lines with small circles.",
+        "A dashed line pattern of a bird, with decorative swirls and markings. The bird has a circular eye with radiating lines, a striped wing, and a flower motif near its tail. Its feet are shown as small V-shapes."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 25,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Denim Quilt, Snail",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A denim quilt design featuring a snail and mushrooms, rendered with dashed lines suggesting stitching."
+        },
+        {
+          "name": "Denim Quilt, Walking Bird",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A denim quilt design featuring a walking bird and flowers, rendered with dashed lines suggesting stitching."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A line drawing of a snail with a spiral shell and three mushrooms, all outlined with dashed lines. The snail has striped shading on its body and the mushrooms have circular patterns.",
+        "A line drawing of a bird with a long beak and legs, standing amongst flowers and grass. The bird's body has circular patterns and its beak and legs have striped shading. All elements are outlined with dashed lines."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 26,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Sweet Sweater Birds",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Sweater",
+              "quantity": "2 pieces",
+              "details": "for body"
+            },
+            {
+              "item": "Sweater",
+              "quantity": "2 pieces",
+              "details": "for wings"
+            },
+            {
+              "item": "Sweater",
+              "quantity": "1 piece",
+              "details": "for underside"
+            },
+            {
+              "item": "Sweater",
+              "quantity": "1 piece",
+              "details": "for tail"
+            }
+          ],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "Body",
+                "shape": "bird_body",
+                "quantity": "2",
+                "details": [
+                  {
+                    "type": "dot",
+                    "position": "left side"
+                  }
+                ]
+              },
+              {
+                "name": "Beak",
+                "shape": "triangle",
+                "quantity": "2"
+              },
+              {
+                "name": "Wing",
+                "shape": "wing",
+                "quantity": "2"
+              },
+              {
+                "name": "Underside",
+                "shape": "bird_underside",
+                "quantity": "1",
+                "details": [
+                  {
+                    "type": "dot",
+                    "position": "left side"
+                  }
+                ]
+              },
+              {
+                "name": "Long Tail Underside",
+                "shape": "bird_tail_underside",
+                "quantity": "1",
+                "details": [
+                  {
+                    "type": "dashed_line_shape",
+                    "description": "indicates where tail piece attaches"
+                  },
+                  {
+                    "type": "label",
+                    "text": "Underside"
+                  }
+                ]
+              },
+              {
+                "name": "Tail",
+                "shape": "tail",
+                "quantity": "1",
+                "details": [
+                  {
+                    "type": "label",
+                    "text": "Tail"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "The 'Long Tail Underside' is a complete piece that includes the tail. The 'Tail' piece is a separate tail piece only."
+          },
+          "tips": [],
+          "finished_product_description": "A bird made from sweater material."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pattern for a bird body, labeled 'Sweet Sweater Birds, Body (need 2)', with a dot on the left side.",
+        "A pattern for a bird beak, labeled 'Sweet Sweater Birds, Beak', shaped like a triangle with dots at the vertices.",
+        "A pattern for a bird wing, labeled 'Sweet Sweater Birds, Wing (need 2)', with a teardrop shape.",
+        "A pattern for a bird underside, labeled 'Sweet Sweater Birds, Underside (need 1)', with a dot on the left side.",
+        "A pattern for a long tail underside, labeled 'Sweet Sweater Birds (Long Tail), Underside (need 1 complete piece that includes the tail). Tail (need 1 piece tail only).', with dashed lines indicating where the tail piece attaches and a label 'Underside'.",
+        "A pattern for a tail, labeled 'Tail'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 27,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Cover of the ebook 'Craftcycle' showing a collage of colorful fabric scraps and recycled materials, with a green recycling symbol.",
+        "Collage of four smaller images showing various craft projects, including bags made from fabric scraps and a lampshade.",
+        "Cover of the book 'Make It Mend It' showing a collage of images related to sewing and mending.",
+        "Cover of the book 'Stitch Craft Create Vintage' showing teacups, a teapot, and other vintage-themed craft items.",
+        "Cover of the book 'Treat Yourself Natural' showing jars of natural ingredients like oils, spices, and preserved fruits.",
+        "Cover of the book 'The Complete Vintage Wedding Guide' with a lace-like pattern and text."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

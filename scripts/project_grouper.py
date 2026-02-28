@@ -9,8 +9,12 @@ import re
 logger = logging.getLogger(__name__)
 
 
-def _normalize_name(name: str) -> str:
+def _normalize_name(name) -> str:
     """Lowercase, strip whitespace and punctuation for fuzzy matching."""
+    if isinstance(name, list):
+        name = name[0] if name else ""
+    if not isinstance(name, str):
+        name = str(name) if name else ""
     return re.sub(r"[^a-z0-9 ]", "", name.lower()).strip()
 
 
@@ -101,27 +105,27 @@ def group_by_project(page_extractions: list[dict], source_book: str) -> list[dic
                 existing = projects[norm_key]
                 existing["page_numbers"].append(page_num)
                 existing["materials"] = _merge_lists_unique(
-                    existing["materials"], project.get("materials", [])
+                    existing["materials"], project.get("materials") or []
                 )
                 existing["tools"] = _merge_lists_unique(
-                    existing["tools"], project.get("tools", [])
+                    existing["tools"], project.get("tools") or []
                 )
 
                 # Append steps (re-number later)
-                new_steps = project.get("steps", [])
+                new_steps = project.get("steps") or []
                 existing["steps"].extend(new_steps)
 
                 existing["blueprint_data"] = _merge_blueprint_data(
                     existing.get("blueprint_data"), project.get("blueprint_data")
                 )
                 existing["tips"] = _merge_lists_unique(
-                    existing["tips"], project.get("tips", [])
+                    existing["tips"], project.get("tips") or []
                 )
 
                 # Merge diagram descriptions
                 existing["diagram_descriptions"] = _merge_lists_unique(
-                    existing.get("diagram_descriptions", []),
-                    extracted.get("diagram_descriptions", []),
+                    existing.get("diagram_descriptions") or [],
+                    extracted.get("diagram_descriptions") or [],
                 )
 
                 if project.get("finished_product_description"):
@@ -138,13 +142,13 @@ def group_by_project(page_extractions: list[dict], source_book: str) -> list[dic
                     "difficulty": project.get("difficulty", "beginner"),
                     "page_numbers": [page_num],
                     "source_book": source_book,
-                    "materials": project.get("materials", []),
-                    "tools": project.get("tools", []),
-                    "steps": project.get("steps", []),
+                    "materials": project.get("materials") or [],
+                    "tools": project.get("tools") or [],
+                    "steps": project.get("steps") or [],
                     "blueprint_data": project.get("blueprint_data") or {},
-                    "tips": project.get("tips", []),
-                    "diagram_descriptions": extracted.get("diagram_descriptions", []),
-                    "templates": extracted.get("templates", []),
+                    "tips": project.get("tips") or [],
+                    "diagram_descriptions": extracted.get("diagram_descriptions") or [],
+                    "templates": extracted.get("templates") or [],
                     "finished_product_description": project.get(
                         "finished_product_description", ""
                     ),

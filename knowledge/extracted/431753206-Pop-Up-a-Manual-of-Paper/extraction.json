@@ -1,0 +1,1306 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "The cover of a book titled \"Pop-Up! A Manual of Paper Mechanisms\" with a purple background. The title is in large, stylized white and black lettering. Below the title, it says \"A Manual of Paper Mechanisms\" in smaller black text. At the bottom, there is a cartoon illustration of a blue-headed character with large eyes and hands raised in a gesture of surprise or excitement."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Illustration of a stylized figure made of folded paper, emerging from a blue base on a purple background.",
+        "The words \"Pop-Up! A Manual of Paper Mechanisms\" are displayed in a stylized font.",
+        "The name \"Duncan Birmingham\" is displayed in yellow text on a purple background."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 4,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 5,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 6,
+    "extracted": {
+      "page_type": "table_of_contents",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 7,
+    "extracted": {
+      "page_type": "table_of_contents",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 8,
+    "extracted": {
+      "page_type": "tools_reference",
+      "projects": [],
+      "tools_reference": [
+        {
+          "name": "Paper or Card?",
+          "use": "Cartridge paper can be used but it should not be lighter than 135 gsm. This is the type of card which is used for postcards.",
+          "suitable_for": []
+        },
+        {
+          "name": "Scissors or Craft-knife?",
+          "use": "A pair of scissors is adequate for cutting out most of the pop-up mechanisms. However for the pull-strip designs a craft-knife is essential. A sharp edge is vital so the type of craft-knife with extending 'snap-off' blades is ideal.",
+          "suitable_for": []
+        },
+        {
+          "name": "Scoring",
+          "use": "Scoring is very important. Using a ball-point pen which has run out of ink creates a strong fold, as the paper's fibres are compressed rather than cut.",
+          "suitable_for": []
+        },
+        {
+          "name": "Glue",
+          "use": "A clear, solvent-based adhesive is best. The new 'Gel' types are probably the most effective as they can be more easily controlled. Water based glues dry slower.",
+          "suitable_for": []
+        }
+      ],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing a craft knife, scissors, a pen, a tube of glue, and a ruler.",
+        "Diagram showing a craft knife, scissors, a pen, a tube of glue, and a ruler."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 9,
+    "extracted": {
+      "page_type": "tools_reference",
+      "projects": [],
+      "tools_reference": [
+        {
+          "name": "Pencil & Ruler",
+          "use": "A propelling 'clutch' pencil or a hard ordinary pencil is advised. A ruler is essential for scoring long straight creases. A steel ruler is strongly recommended for cutting against when using a craft-knife.",
+          "suitable_for": [
+            "paper",
+            "cardstock"
+          ]
+        },
+        {
+          "name": "Cutting-board",
+          "use": "This is really necessary to save your surfaces. Thick cardboard, like the back of a drawing pad, will do, but a commercial mat is best of all.",
+          "suitable_for": [
+            "paper",
+            "cardstock"
+          ]
+        },
+        {
+          "name": "Paper-knife",
+          "use": "When sticking pieces into place, a paper knife is very useful for pressing down corners and edges that are hard to reach.",
+          "suitable_for": [
+            "paper",
+            "cardstock"
+          ]
+        },
+        {
+          "name": "Drawing Instruments",
+          "use": "Many lengths and angles have to be measured and drawn very accurately, so a set square, a protractor and a pair of compasses will be needed.",
+          "suitable_for": [
+            "paper",
+            "cardstock"
+          ]
+        }
+      ],
+      "templates": [],
+      "diagram_descriptions": [
+        "Illustration of a set square with markings for measurements.",
+        "Illustration of a pair of compasses.",
+        "Illustration of a protractor with markings for angles.",
+        "Diagram labeled 'BASICS' showing a 3D representation of a paper craft element with labels A, B, and C, indicating points and surfaces."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 10,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing a rectangle with a dashed line labeled 'A' going down the center, and a dashed line labeled 'B' going across the bottom. A label 'D' points to two small flaps at the bottom corners.",
+        "Diagram showing a folded piece of paper with two angled flaps labeled 'E' on each side, and a dashed line labeled 'C' going down the center."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 11,
+    "extracted": {
+      "page_type": "project",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram A shows a pop-up piece with one flap glued to the base.",
+        "Diagram B shows the pop-up piece folded into its closed position, with glue applied to the other flap.",
+        "Diagram C shows the base being closed, with the second flap finding its natural sticking position."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 12,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 13,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "The Simple V-Fold",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "This is one of the most simple pop-up mechanisms, and one of the most useful. In this, its most basic form, it can be enhanced by cutting the pop-up planes into exciting shapes.",
+              "technique": "pop-up mechanism",
+              "dimensions_mentioned": [],
+              "visual_description": "An illustration of a pop-up structure resembling a multi-story building (houses/apartments) standing on a V-fold mechanism, emerging from a folded card base."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "Base Card",
+                "shape": "rectangle",
+                "width": "unspecified",
+                "height": "unspecified",
+                "details": [
+                  {
+                    "type": "cut",
+                    "position": "center",
+                    "description": "V-shaped cut originating from the center of the base.",
+                    "angles": "Angles A must be the same, less than 90 degrees."
+                  }
+                ]
+              },
+              {
+                "name": "Pop-up Piece",
+                "shape": "rectangle",
+                "width": "unspecified",
+                "height": "unspecified",
+                "details": [
+                  {
+                    "type": "score_line",
+                    "position": "horizontal",
+                    "label": "B",
+                    "line_style": "straight"
+                  },
+                  {
+                    "type": "crease_line",
+                    "position": "vertical_center",
+                    "label": "C",
+                    "line_style": "vertical"
+                  },
+                  {
+                    "type": "cut",
+                    "position": "bottom",
+                    "description": "Two small V-shaped cuts at the bottom.",
+                    "angles": "Angles D are both 90 degrees."
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "The V-fold mechanism involves specific cuts and creases on both the base card and the pop-up piece to create a three-dimensional effect when the card is opened."
+          },
+          "tips": [
+            "For the base, try making angles A about 70°.",
+            "Ensure the scored line B on the pop-up piece is straight.",
+            "Ensure the central crease C on the pop-up piece is vertical.",
+            "Ensure angles D on the pop-up piece are both 90°."
+          ],
+          "finished_product_description": "A basic pop-up mechanism that can be enhanced by cutting the pop-up planes into exciting shapes, forming part of a visual design."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "An isometric illustration of a pop-up card opened to reveal a detailed, multi-story building structure (resembling houses or apartments) standing upright on a V-fold mechanism, which is integrated into the card's base.",
+        "A top-down view of a folded card base showing a central vertical dashed line (crease) and a V-shaped cut originating from the center. Two angles, labeled 'A', are indicated on either side of the V-cut, relative to the central crease.",
+        "A front view of a rectangular pop-up piece. It features a central vertical dashed line labeled 'C' (representing a crease) and a horizontal dashed line labeled 'B' (representing a scored line). At the bottom, there are two small V-shaped cuts, with angles labeled 'D' on either side, indicating 90-degree angles."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 14,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Multiple Simple Pop-Up Pieces",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": {
+            "pieces": [],
+            "assembly_notes": "When multiple pieces pop up from the base, the danger is that as the base closes, the pieces fold down their central creases (A,B,C) will clash. To avoid this, the central creases of a simple pop-up piece should be angled away from each other."
+          },
+          "tips": [],
+          "finished_product_description": "A pop-up card with multiple simple pop-up pieces."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing a pop-up card with multiple rectangular pieces standing up from a base.",
+        "Diagram labeled 'Closed position' showing multiple folded pieces within a base.",
+        "Diagram showing the angled central creases of multiple pop-up pieces, labeled F, E, D, G, H."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 15,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "The V-Fold Pointing Forwards",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [
+            "As the base closes the pop-up piece folds down towards the viewer.",
+            "Tall pop-up pieces need to be positioned near the back, or top, of the base.",
+            "This is useful as it leaves more foreground clear for illustrations or text."
+          ],
+          "finished_product_description": "A pop-up castle tower on a base."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing a piece of paper folded in half vertically, with dashed lines indicating cuts at the bottom.",
+        "Diagram showing a piece of paper folded in half vertically, with dashed lines indicating cuts at the bottom, and an arrow labeled 'B' pointing to the fold.",
+        "Diagram showing a piece of paper folded in half vertically, with dashed lines indicating cuts at the bottom, and an arrow labeled 'A' pointing to the fold.",
+        "Illustration of a pop-up castle tower standing on a folded base."
+      ],
+      "continuation_of_previous": true,
+      "project_name_if_continuation": "The V-Fold Pointing Forwards"
+    }
+  },
+  {
+    "page_number": 16,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "V-Fold Pop-up Mechanism Design Principles",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Understand that angles A on the base piece must match each other. A suggested trial value for angle A is 70°.",
+              "technique": "designing",
+              "dimensions_mentioned": [
+                "A = 70°"
+              ],
+              "visual_description": "Top-left diagram showing a folded base card with a central V-cut, indicating two equal angles labeled 'A' at the fold line."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Understand that angles B on the pop-up piece must match each other. A suggested trial value for angle B is 80°.",
+              "technique": "designing",
+              "dimensions_mentioned": [
+                "B = 80°"
+              ],
+              "visual_description": "Top-right diagram showing a flat pop-up piece, shaped like a castle turret, with two equal angles labeled 'B' at its base, indicating attachment points."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Understand the role of angles C at the base of the pop-up piece in preventing sagging, especially when the V-Fold points forward.",
+              "technique": "designing",
+              "dimensions_mentioned": [
+                "C = 90°",
+                "C < 90°"
+              ],
+              "visual_description": "Bottom-left diagram showing a flat pop-up piece, shaped like a castle turret, with two equal angles labeled 'C' at its base, indicating attachment points."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "base_card_V_cut",
+                "shape": "rectangle_with_V_cut",
+                "details": [
+                  {
+                    "type": "angle",
+                    "label": "A",
+                    "value": "70°",
+                    "position": "center_fold"
+                  }
+                ]
+              },
+              {
+                "name": "pop_up_piece_type_B",
+                "shape": "castle_turret_base",
+                "details": [
+                  {
+                    "type": "angle",
+                    "label": "B",
+                    "value": "80°",
+                    "position": "base_attachment"
+                  }
+                ]
+              },
+              {
+                "name": "pop_up_piece_type_C",
+                "shape": "castle_turret_base",
+                "details": [
+                  {
+                    "type": "angle",
+                    "label": "C",
+                    "value": "variable",
+                    "position": "base_attachment"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "Angles A must always be smaller than angles B for the base to open out flat. Making angles C less than 90° cures the sag effect, especially when the pop-up piece folds away backwards."
+          },
+          "tips": [
+            "Angles A on the base must always be smaller than angles B on the pop-up piece, or the base cannot open out flat.",
+            "When the V-Fold points forward, if angles C are 90°, the pop-up piece will tend to sag forwards unless the base is opened out perfectly flat.",
+            "Making angles C less than 90° cures the sag effect.",
+            "In Mechanism 1, if the pop-up piece folds away backwards, the sag is directed away from the viewer and actually enhances the visual effect."
+          ],
+          "finished_product_description": "A set of principles and guidelines for designing stable V-fold pop-up mechanisms, illustrating the importance of specific angles (A, B, C) for proper function and aesthetic effect."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram of a folded card base showing a central V-cut with two angles labeled 'A'.",
+        "Diagram of a flat pop-up piece, shaped like a castle turret, showing two base angles labeled 'B'.",
+        "Diagram of a flat pop-up piece, shaped like a castle turret, showing two base angles labeled 'C'.",
+        "3D illustration of an assembled pop-up mechanism with a castle turret standing upright on a partially open card base."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 17,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 18,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 19,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 20,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 21,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 22,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 23,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 24,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 25,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 26,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 27,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 28,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 29,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 30,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 31,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 32,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 33,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 34,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 35,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 36,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 37,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 38,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 39,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 40,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 41,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 42,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 43,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 44,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 45,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 46,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 47,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 48,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 49,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 50,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 51,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 52,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 53,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 54,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 55,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 56,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 57,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 58,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 59,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 60,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 61,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 62,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 63,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 64,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 65,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 66,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 67,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 68,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 69,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 70,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 71,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 72,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 73,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 74,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 75,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 76,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 77,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 78,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 79,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 80,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 81,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Cover of a book titled 'Pop up books' with a colorful illustration of open books and art supplies.",
+        "Cover of a book titled 'Pop-Up Design and Paper Mechanics'.",
+        "Cover of a book titled 'Paper Engineering' with an abstract green and brown design.",
+        "Cover of a book titled 'Libros PopUp' with a black background and the title in red and white.",
+        "Cover of a book titled 'Pop-Up Gift Cards' showing several pop-up cards.",
+        "Cover of a book titled 'SISTEMAS - POP UP SIMPLES' with a stack of colorful cards."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 82,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A book cover with the title 'POP UP' in large, stylized letters, with 'A PAPER ENGINEERING MASTERCLASS' below it.",
+        "A generic icon representing a document or image with two stylized figures interacting.",
+        "A generic icon representing a document or image with two stylized figures interacting.",
+        "A generic icon representing a document or image with two stylized figures interacting.",
+        "A generic icon representing a document or image with two stylized figures interacting.",
+        "A generic icon representing a document or image with two stylized figures interacting.",
+        "A generic icon representing a document or image with two stylized figures interacting.",
+        "A generic icon representing a document or image with two stylized figures interacting.",
+        "A generic icon representing a document or image with two stylized figures interacting."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 83,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 84,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

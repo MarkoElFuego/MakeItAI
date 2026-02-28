@@ -1,0 +1,124 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Peony petal",
+          "scale": "cut 35",
+          "shape_description": "A petal shape with a rounded, scalloped top and a tapering bottom that comes to a point."
+        },
+        {
+          "name": "Tulip petal",
+          "scale": "cut 6",
+          "shape_description": "A teardrop shape with a rounded top and a pointed bottom."
+        },
+        {
+          "name": "Lily petal",
+          "scale": "cut 5",
+          "shape_description": "A long, narrow, pointed oval shape."
+        },
+        {
+          "name": "Rose inner petals",
+          "scale": "cut 5",
+          "shape_description": "A heart-like shape with a rounded top and a pointed bottom, with a small V-shaped notch at the bottom point."
+        },
+        {
+          "name": "Rose outer petals",
+          "scale": "cut 7",
+          "shape_description": "A larger, more elongated heart-like shape with a rounded top and a pointed bottom, with a small V-shaped notch at the bottom point."
+        }
+      ],
+      "diagram_descriptions": [
+        "Diagram showing five petal templates: a large scalloped petal labeled 'PEONY cut 35', a teardrop shape labeled 'TULIP cut 6', a long narrow petal labeled 'LILY cut 5', and two heart-like shapes labeled 'ROSE (inner petals) cut 5' and 'ROSE (outer petals) cut 7'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Carnation",
+          "scale": "photocopy at 200 percent",
+          "shape_description": "A rectangular strip with a jagged top edge, divided into multiple vertical segments by fold lines. The template is intended to be cut into 3 strips, each 12 inches long and 2 inches high."
+        },
+        {
+          "name": "Spider Mum",
+          "scale": "photocopy at 200 percent",
+          "shape_description": "A rectangular template, 36 inches long and 5 inches high, with a series of vertical lines indicating cuts. The top edge is not explicitly described but implied to be cut into petal shapes."
+        },
+        {
+          "name": "Dahlia",
+          "scale": "photocopy at 200 percent",
+          "shape_description": "A template consisting of multiple petal shapes arranged in a continuous strip. Each petal is pointed at the top and rounded at the bottom. The template is 32 inches long and 3 3/4 inches high."
+        },
+        {
+          "name": "Daisy",
+          "scale": "photocopy at 200 percent",
+          "shape_description": "A template consisting of multiple rounded petal shapes arranged in a continuous strip. The template is 18 inches long and 3 1/4 inches high."
+        }
+      ],
+      "diagram_descriptions": [
+        "Diagram showing a template for Carnation petals, which are depicted as a series of U-shapes with a jagged top edge.",
+        "Diagram showing a template for Spider Mum petals, depicted as a series of long, thin, pointed shapes.",
+        "Diagram showing a template for Dahlia petals, depicted as a series of pointed shapes with curved sides, arranged in a continuous strip.",
+        "Diagram showing a template for Daisy petals, depicted as a series of rounded, U-shaped petals arranged in a continuous strip."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Standard Leaf",
+          "scale": "enlarge 133 percent",
+          "shape_description": "A symmetrical, pointed oval shape with a slightly wider middle."
+        },
+        {
+          "name": "Notched Leaf",
+          "scale": "enlarge 133 percent",
+          "shape_description": "A long, pointed shape with jagged, pointed edges along one side."
+        },
+        {
+          "name": "Teardrop Leaf",
+          "scale": "enlarge 133 percent",
+          "shape_description": "A rounded, teardrop shape with a pointed end and a straight, flat edge on the opposite side."
+        },
+        {
+          "name": "Elongated Leaf",
+          "scale": "enlarge 133 percent",
+          "shape_description": "A long, slender, pointed oval shape."
+        },
+        {
+          "name": "Grassy Leaf",
+          "scale": "cut paper to indicated size",
+          "shape_description": "A strip of paper that is folded accordion-style and then cut along solid lines to create spiky grass. The cuts do not go all the way down to the folds, leaving the strips attached in a continuous piece. The indicated size for the paper is a 5-inch strip, 2 1/2 inches high."
+        }
+      ],
+      "diagram_descriptions": [
+        "Diagram showing a standard leaf template.",
+        "Diagram showing a notched leaf template.",
+        "Diagram showing a grassy leaf template with multiple vertical cuts, indicating a 5-inch strip, 2 1/2 inches high.",
+        "Diagram showing a teardrop leaf template with horizontal lines indicating texture or fold lines.",
+        "Diagram showing an elongated leaf template."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

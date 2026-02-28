@@ -1,0 +1,609 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Pop-Up Books",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "construction paper",
+              "quantity": "2 pieces",
+              "dimensions": "9 x 12",
+              "color": "any"
+            },
+            {
+              "item": "paper",
+              "quantity": "1 piece",
+              "dimensions": null,
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "scissors",
+              "purpose": "cutting",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Take two 9 x 12 pieces of construction paper and fold them in half. Now take one paper and find a dot in the middle of the folded edge.",
+              "technique": "folding",
+              "dimensions_mentioned": [
+                "9 x 12"
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Draw a line from the marked dot to the outer edge of the paper.",
+              "technique": "drawing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Using scissors, cut along the line, starting from the folded edge. Fold back the cut to create two triangles. Fold them back so they form two triangles.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "Two triangles formed by cutting and folding."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Open the cut again and also open the entire page. Now, hold the paper in such a way that it looks like a tent. Place your finger on the top of the triangle and carefully push it down so that the triangle is pushed through to the other side of the paper.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "Paper held like a tent, with a triangle being pushed through."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Now place your finger on the bottom of the paper triangle and repeat the same process. You will see that the top and bottom triangles will be pushed out to form a mouth inside the card.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "Top and bottom triangles pushed out to form a mouth shape."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A pop-up book with a mouth-like mechanism."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up image of a pop-up book page featuring koala bears and foliage, made from layered brown and tan paper."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Pop Up 90 degrees",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 6,
+              "instruction": "Each time you open or close the card, the mouth will open and close simultaneously and it will appear to be talking.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 7,
+              "instruction": "Now you can draw a person or animal or even a monster around the mouth and glue the inside and outside pages together. But make sure you do not apply glue in the area with the pop-up mouth. Your cover for your book is ready.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 8,
+              "instruction": "Now you can add pages to cover yours. Decide how many pages you want to include and fold each paper into sections. Glue inside the edges of the folded paper and attach the pages together. Let dry.",
+              "technique": "folding, gluing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 9,
+              "instruction": "Choose the story and draw it on these pages, only when they are well dried. While writing the story on the inner pages, you can leave space to add pop-up characters.",
+              "technique": "drawing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 10,
+              "instruction": "Now cut out interesting characters for your story and determine which characters will be inserted on each page. Make sure to leave some space at the bottom of the characters.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 11,
+              "instruction": "Carefully glue the characters into the story. Make sure you fold the bottom of each character and then add a little glue on top of it. Press them firmly so they can stay in place properly. Continue the process for other characters on other pages of this book.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A pop-up book with characters that appear when the pages are opened."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up card where the paper opens halfway, like opening a laptop. It features cartoon bride and groom figures with a sign that says \"...and they lived happily ever after.\"",
+        "A pop-up card that opens fully, as seen from the side of the book. It depicts a scenic background with trees and flowers, and a bride and groom figure. The text \"...and we lived happily ever after.\" is visible."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 4,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Pop Up Cake Card",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A pop-up card that opens to reveal a tiered cake structure. The card can open to 90 or 180 degrees, forming a building-like cake shape."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up card featuring a two-tiered black cake with blue bows and white trim, topped with candles and a banner that reads 'HAPPY BIRTHDAY EGA' and the number '16'.",
+        "A pop-up card that opens to reveal a three-tiered light blue cake with gold dripping details and a '17' on top. The inside of the card has the text 'Surprise!' and 'Happy Sweet 17th Birthday'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 5,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Pop Up Jaring Kubus",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [
+            "Cube nets are usually used to attach photos and other text according to your creativity."
+          ],
+          "finished_product_description": "A pop-up that opens the paper fully, viewed from above the book."
+        },
+        {
+          "name": "Pop Up Gerak",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": null
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up card with an Eiffel Tower illustration and silhouettes of a couple kissing. The text 'Happy Anniversary' is displayed in a speech bubble.",
+        "A cube net made of colored paper, unfolded. It has a central orange square surrounded by four yellow squares and two purple squares on the sides."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 6,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Hardcover Pop Up Book",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A hardcover pop-up book with 1-8 pop-up pages."
+        },
+        {
+          "name": "Softcover Pop Up Card",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A softcover pop-up card."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A hand is shown interacting with an open pop-up book. The book's interior features a map with locations marked, including 'Semarang', 'Purwokerto', 'Solo', and 'Yogyakarta'. There are cartoon figures of a girl and a boy, a hot air balloon, and a train. Text on the book reads 'LDR Almost 4 years'. The description below states that the pop-up book has movable objects that can be played with.",
+        "A stack of hardcover books, with the top book showing the title 'STORY'. The description below indicates these are hardcover pop-up books, with each book containing 1-8 pop-up pages."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 7,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Pop Up Frame",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [
+            "This is a pop-up frame with 16 pages, containing various stories and content."
+          ],
+          "finished_product_description": "A pop-up frame with a scene inside, featuring two figures dressed as doctors, medical equipment, and a bed. The frame is black and has text that says 'Pop Up Frame A4' and 'www.popup-book.com popup book & popup card'."
+        },
+        {
+          "name": "Softcover Pop Up",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [
+            "This softcover pop-up book can only contain 1 pop-up element."
+          ],
+          "finished_product_description": "A softcover book with a cover that has a piano keyboard design and a photo in the center with the text 'With love Thiara'."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A softcover book with a piano keyboard design on the cover and a photo in the center.",
+        "A pop-up frame with a scene inside, featuring two figures dressed as doctors, medical equipment, and a bed. The frame is black and has text that says 'Pop Up Frame A4' and 'www.popup-book.com popup book & popup card'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 8,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A black, open box with a white sticker that says \"open slowly!\"",
+        "A stack of papers with colored tabs, some labeled with numbers like '2' and '1'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 9,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A spread of an open book with a black background and white stars. The left page shows the word \"RULES\" in colorful letters. Below it are two sections labeled \"page\". The first section has a grid of numbers from 3-4, 5-6, 7-8, 11-12, 15-16, and a button that says \"Open 90 degrees\". The second section has a grid of numbers 9-10, 13-14, and a button that says \"Open 180 degrees\". The right page has a dark red background with a yellow and blue triangular banner at the top. Below the banner is a white page with the text \"warning: Don't open a new page. before you pay attention to the page you previously\" and a website address \"yessiow.blogspot.com\".",
+        "A pop-up book open to a page with the word \"WELCOME\" in a doodle-style font, surrounded by cartoon characters. Below the pop-up is a white page with the text \"warning: Don't open a new page. before you pay attention to the page you previously\" and a website address \"yessiow.blogspot.com\" with a small blue square with the number 2 inside it.",
+        "Text below the pop-up book reads \"di dalam pop up ada pop up.\""
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 10,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Pop-Up Card",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A pop-up card featuring a scene with people on bicycles and balloons, and another pop-up card with a soccer stadium and players."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up card with a scene of people on bicycles in a skate park, with balloons. Text at the bottom reads 'when you really love someone, age, weight, height, distance are just number'. A website address 'yessiow.blogspot.com' is visible.",
+        "A pop-up card depicting a soccer stadium with the Real Madrid logo, and cutouts of soccer players on a green field."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 11,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up card with a map background. Two paper figures of a man and a woman are standing in front of a computer screen showing 'Skype'. A suitcase and a temple structure are also present. Text at the bottom reads 'yessiow.blogspot.com'.",
+        "An open card with a patterned border at the top. In the center is an orange envelope with a blue flap. A yellow speech bubble says 'Open Me!'. A smaller note on the envelope says 'open slowly ya :)'. Text at the bottom reads 'yessiow.blogspot.com'.",
+        "A pop-up card featuring a stack of cupcakes topped with sprinkles and a '30' cutout. The text 'happy 30' is below the cupcakes. A hand is reaching into the frame from the left. Text at the bottom reads 'yessiow.blogspot.com'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 12,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Pop-Up Card",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A pop-up card with various illustrated cutouts and text."
+        },
+        {
+          "name": "Game Board",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A game board with brick-like patterns and numbered/lettered squares."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up card with illustrated characters and graffiti-style art. Text on the card reads 'every night before I go to sleep', 'I think about you, as and how much', and 'I love you'. There are also small sticker-like cutouts of what appear to be shoes or skateboards.",
+        "A close-up view of a game board with a red brick pattern. Several squares are overlaid on the bricks, featuring numbers '1', '2', '3', '4', and the letter 'H'. The right side of the board is a solid red surface.",
+        "A close-up of the pop-up card showing illustrated characters, one with a speech bubble containing a triangle symbol. The background features colorful graffiti art and a skull illustration.",
+        "A view of the game board showing the brick pattern and the numbered/lettered squares. The solid red section of the board is also visible, with a small white square in the top right corner. A URL 'yessiow.blogspot.com' and the number '16' are visible at the bottom right."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 13,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A light blue paper box is open, revealing a brown insert with the words \"THE END\" printed in white. The text \"yessiow.blogspot.com\" is visible below the insert.",
+        "A close-up side view of a book with many pages, showing the thickness of the pages and the binding.",
+        "A close-up side view of a book with a patterned cover. The text \"copy of u 'Ado & Rio'\" is visible on the spine."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 14,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Story of us \"Adib & Rie\"",
+          "category": "other",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A pop-up book cover with two cardboard figures and bokeh lights."
+        },
+        {
+          "name": "Our Story",
+          "category": "other",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A book cover with the words \"OUR STORY\" in raised letters over a background image of a sofa."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up book cover featuring two cardboard figures, one holding the hand of the other. The background is a gradient of pink and purple with bokeh lights. Text reads \"Story of us \"Adib & Rie\"\" and \"February 17th 2012\". The book has a purple edge.",
+        "A book cover with the words \"OUR STORY\" in large, white, raised letters. The background image shows a dark sofa with wooden paneling behind it. The book has a red border.",
+        "A book, open to a page with the words \"OUR STORY\" in large, white, raised letters. The background image shows a dark sofa with wooden paneling behind it. The book has a red cover and colorful pages visible."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 15,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Our Story Photo Album",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Cardstock",
+              "quantity": "1",
+              "dimensions": "12x12in",
+              "color": "red"
+            },
+            {
+              "item": "Decorative Paper",
+              "quantity": "1",
+              "dimensions": "12x12in",
+              "color": "cream with text and patterns"
+            },
+            {
+              "item": "Striped Paper",
+              "quantity": "2 sheets",
+              "dimensions": "6x12in",
+              "color": "red and white"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Bone Folder",
+              "purpose": "Scoring and creasing",
+              "optional": false
+            },
+            {
+              "name": "Craft Knife",
+              "purpose": "Cutting paper",
+              "optional": false
+            },
+            {
+              "name": "Cutting Mat",
+              "purpose": "Protecting work surface",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Take the 12x12 inch red cardstock and score a line down the center, dividing it into two 6x12 inch panels. Fold the cardstock in half along the score line to create the album base.",
+              "technique": "scoring, folding",
+              "dimensions_mentioned": [
+                "12x12in",
+                "6x12in",
+                "center"
+              ],
+              "visual_description": "A hand holding a red cardstock, showing it folded in half."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Cut the two sheets of 6x12 inch striped paper in half to create four 6x6 inch pieces. These will be used for the inner pages of the album.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "6x12in",
+                "6x6in"
+              ],
+              "visual_description": "A box filled with red and white striped paper, with a hand reaching in."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Cut the 12x12 inch decorative paper to fit the front and back covers of the album. The dimensions will depend on the exact size of the folded album base.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "12x12in"
+              ],
+              "visual_description": "A decorative paper box with text and patterns, with a hand holding its edge."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Adhere the decorative paper to the front and back covers of the album. Then, adhere the striped paper pages inside the album.",
+              "technique": "adhering",
+              "dimensions_mentioned": [],
+              "visual_description": "A finished photo album cover with the title 'Our Story'."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Add photos and embellishments to personalize the album.",
+              "technique": "decorating",
+              "dimensions_mentioned": [],
+              "visual_description": "A close-up of a finished photo album page with text 'Happy Anniversary 1st year Mel Vinka I LOVE YOU FOR A THOUSAND YEARS 21022012-21022013'."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Use a strong adhesive for the covers.",
+            "Consider using different sizes of photos for visual interest."
+          ],
+          "finished_product_description": "A personalized photo album with the title 'Our Story', featuring decorative paper covers and striped inner pages. One page is shown with anniversary text."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Top image: A hand holding a red book cover with the embossed title 'Our Story'.",
+        "Middle image: A hand holding the edge of a decorative paper box filled with red and white striped paper. The box has text and patterns like 'Believe', 'HOPE', 'LOVE', 'mon am', 'Dream', 'friend', 'play', 'bliss', 'dear heart', 'HEARTS'.",
+        "Bottom image: A finished photo album cover with the title 'Our Story'. A close-up of a page inside the album shows the text 'Happy Anniversary 1st year Mel Vinka I LOVE YOU FOR A THOUSAND YEARS 21022012-21022013'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 16,
+    "extracted": {
+      "page_type": "materials_guide",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up card with a cityscape silhouette and the text 'LA NOSTRA STORIA' in the foreground. The cityscape is black and features buildings with windows and a bird. A yellow scalloped edge is in front of the cityscape.",
+        "A pop-up card with a red and white striped background. The card features a large pink cupcake with small red hearts and a red heart on top. Below the cupcake are three smaller pop-up elements resembling cupcakes or pastries. The text 'Happy Anniversary 16 months' is visible on the background."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

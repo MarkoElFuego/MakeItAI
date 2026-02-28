@@ -219,26 +219,33 @@ def process_single_pdf(
 
     logger.info(f"  Extracted {len(pages)} pages")
 
-    # Step 2: Vision analysis
-    vision_cfg = config.get("vision", {})
-    logger.info(f"\n[Step 2/5] Vision analysis ({len(pages)} pages)...")
-    page_extractions = analyze_all_pages(
-        pages,
-        rate_limit_delay=vision_cfg.get("rate_limit_delay", 1.0),
-        max_retries=vision_cfg.get("max_retries", 2),
-        max_tokens=vision_cfg.get("max_tokens", 2048),
-    )
-
-    # Save raw extraction for debugging
+    # Step 2: Vision analysis (with cache — reuse existing extraction.json)
     extracted_dir = PROJECT_ROOT / config["paths"]["extracted"] / pdf_name
     extracted_dir.mkdir(parents=True, exist_ok=True)
     extraction_file = extracted_dir / "extraction.json"
-    try:
-        with open(extraction_file, "w", encoding="utf-8") as f:
-            json.dump(page_extractions, f, indent=2, ensure_ascii=False, default=str)
-        logger.info(f"  Saved extraction data to {extraction_file}")
-    except Exception as e:
-        logger.warning(f"  Failed to save extraction: {e}")
+
+    if extraction_file.exists() and not reprocess:
+        logger.info(f"\n[Step 2/5] Loading cached extraction from {extraction_file}")
+        with open(extraction_file, "r", encoding="utf-8") as f:
+            page_extractions = json.load(f)
+        logger.info(f"  Loaded {len(page_extractions)} pages from cache")
+    else:
+        vision_cfg = config.get("vision", {})
+        logger.info(f"\n[Step 2/5] Vision analysis ({len(pages)} pages)...")
+        page_extractions = analyze_all_pages(
+            pages,
+            rate_limit_delay=vision_cfg.get("rate_limit_delay", 1.0),
+            max_retries=vision_cfg.get("max_retries", 2),
+            max_tokens=vision_cfg.get("max_tokens", 2048),
+        )
+
+        # Save raw extraction for debugging/cache
+        try:
+            with open(extraction_file, "w", encoding="utf-8") as f:
+                json.dump(page_extractions, f, indent=2, ensure_ascii=False, default=str)
+            logger.info(f"  Saved extraction data to {extraction_file}")
+        except Exception as e:
+            logger.warning(f"  Failed to save extraction: {e}")
 
     # Count errors in extraction
     extraction_errors = [p for p in page_extractions if p.get("extracted", {}).get("page_type") == "error"]

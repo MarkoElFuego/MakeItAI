@@ -1,0 +1,2885 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A triangular frame with a clock face inside, decorated with sunflowers.",
+        "A circular arrangement of small, colorful candle holders around a central candle.",
+        "A close-up of a small, green, pot-shaped object holding pens and pencils, placed on a dark green mat.",
+        "A circular design with intricate patterns and figures, possibly a stencil or a decorative plate."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Image of three red stencils in packaging, showing different patterns: a floral motif, a geometric pattern, and a circular mandala-like pattern.",
+        "Image of two bottles of Fevicryl 3D Cone Outliner in red and blue, and a box of Fevicryl 3D Cone Outliner showing a bottle and its packaging. The box has a green and yellow design with floral motifs.",
+        "Color chart showing regular shades of Fevicryl 3D Cone Outliner: Red (701), Blue (702), Yellow (703), Light Green (704), Orange (705), Burnt Sienna (706), White (707), Black (708). Each color is represented by a swirl pattern.",
+        "A signature with the name 'Mahesh Joshi' and the title 'Chief Sales & Marketing - ASF'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Floral Table Base",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Earthen table base",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Hobby Ideas All Surface Acrylic Colour (Lemon Yellow 11H, Lilac 80H, Dark Green 06H, Baby Pink 38H, Navy Blue 73H, Crimson 04H, White 27H)",
+              "quantity": "1 set",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fine Art Painting Brush",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Soak the earthen table base in water for 3-4 hours and let it dry completely.",
+              "technique": "soaking",
+              "dimensions_mentioned": [],
+              "visual_description": "An unpainted earthen table base."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Take the earthen table base and paint the whole surface with Hobby Ideas All Surface Acrylic Colour - White. Let it dry.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "An earthen table base being painted white."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Draw a floral design on the upper portion of the table base and some geometrical design on the lower portion of table base as shown in the picture.",
+              "technique": "drawing",
+              "dimensions_mentioned": [],
+              "visual_description": "An earthen table base with a floral design drawn on the upper part and a geometrical design on the lower part."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Take Fine Art Painting Brush and paint the design with Hobby Ideas All Surface Acrylic Colours - Lemon Yellow, Lilac, Dark Green, Baby Pink, Navy Blue, Crimson as shown in the picture.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "An earthen table base being painted with various colors according to the drawn design. The image shows a partially painted table base with floral and geometric patterns."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Let it dry.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": "A fully painted earthen table base with floral and geometric designs."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A table top with a unique shape and picturesque floral design."
+        },
+        {
+          "name": "Cuckoo Glass Painting",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Smoked glass",
+              "quantity": "1 piece",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Hobby Ideas Glass Colours - Solvent Based (Pink 815, Turquoise Blue 812, Dark Green 817, Lemon Yellow 801, Orange 805, Tomato Red 806)",
+              "quantity": "1 set",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Hobby Ideas Glass Colour Outliner (Black 832)",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fine Art Painting Brush",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Tracing paper",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Cuckoo Bird Design",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Pencil",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Clean the smoked glass with a dry cloth to remove dust.",
+              "technique": "cleaning",
+              "dimensions_mentioned": [],
+              "visual_description": "A piece of smoked glass being wiped with a dry cloth."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Trace the cuckoo bird design on the glass in mosaic pattern.",
+              "technique": "tracing",
+              "dimensions_mentioned": [],
+              "visual_description": "A cuckoo bird design being traced onto smoked glass."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Paint the head, beak and leg of the Cuckoo bird with Hobby Ideas Glass Colour - Solvent Based - Orange.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "The head, beak, and legs of a traced cuckoo bird on glass are being painted orange."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Mix Hobby Ideas Glass Colour- Solvent Based- Tomato Red and Pink colour to paint the body of the birds.",
+              "technique": "mixing, painting",
+              "dimensions_mentioned": [],
+              "visual_description": "Tomato red and pink glass colors are being mixed. The body of the cuckoo bird is being painted with the mixed colors."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Mix Hobby Ideas Glass Colour- Solvent Based – Pink and Turquoise Blue, to paint the feathers of the bird.",
+              "technique": "mixing, painting",
+              "dimensions_mentioned": [],
+              "visual_description": "Pink and turquoise blue glass colors are being mixed. The feathers of the cuckoo bird are being painted with the mixed colors."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Paint the leaves of the tree with Hobby Ideas Glass Colour- Solvent Based - Dark Green and Lemon Yellow.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "The leaves of a tree are being painted dark green and lemon yellow."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Paint the branch of the trees with a thin layer of Hobby Ideas Glass Colour- Solvent Based - Dark Green and the eyes with Hobby Ideas Glass Outliner - Black. Let it dry.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "The branches of a tree are being painted dark green, and the eyes of the cuckoo bird are being outlined in black. The artwork is shown partially completed."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A beautiful glass painting of a cuckoo bird on a tree, suitable for use as a partition wall, door panel, or sliding door visual."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing the steps for painting the floral table base: 1. Unpainted base. 2. Base painted white. 3. Design drawn. 4. Partially painted base. 5. Fully painted base.",
+        "Diagram showing the steps for painting the cuckoo bird: 1. Traced design. 2. Head, beak, and legs painted orange. 3. Body painted red and pink. 4. Feathers painted pink and turquoise. 5. Tree branches and bird's eyes painted."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 4,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Floral Mirror Lampshade",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Hobby Ideas Glass Colour – Solvent Based (Turquoise Blue 812, Tomato Red 806, Orange 805, Dark Green 817)",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Turquoise Blue, Tomato Red, Orange, Dark Green"
+            },
+            {
+              "item": "Hobby Ideas Shilpkar",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Prime Eezytear Tape",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fine Art Painting Brush",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicol MR",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "mirror",
+              "quantity": "4 pieces",
+              "dimensions": "12\"x5\", 3mm",
+              "color": null
+            },
+            {
+              "item": "Sharp knife",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Hydrochloric Acid",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Cotton buds",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "White carbon paper",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Floral stencil",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Pencil",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Small pieces of Square mirrors",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Hobby Ideas Shilpkar Resin Base and Hardener",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Wash and clean all the mirror pieces.",
+              "technique": "cleaning",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing a hand holding a mirror piece and cleaning it."
+            },
+            {
+              "step_number": 2,
+              "instruction": "On the backside of the mirror, fix the white carbon paper with the stencil design over it using Prime Eezytear Tape.",
+              "technique": "taping",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing a hand taping white carbon paper with a stencil design onto the back of a mirror piece."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Now scratch the design carefully using a knife to remove the mercury layer from the mirror. Clean the mercury dust thoroughly which was created due to scratching.",
+              "technique": "scratching",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing a hand using a knife to scratch a design on a mirror piece, with dust being removed."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Dip a cotton bud into hydrochloric acid and rub it on the scratched portion of the mirror to create evenness and get clear view of the design.",
+              "technique": "acid etching",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing a hand dipping a cotton bud into a liquid and rubbing it on the scratched design on the mirror."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Now paint the corner designs with Hobby Ideas Glass Colour – Solvent Based – Turquoise Blue, the flowers with Tomato Red and Orange and the leaves with Dark Green. Let it dry.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing a hand painting a design on a mirror piece with different colors."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Mix the Hobby Ideas Shilpkar Resin Base and Hardener to form even dough.",
+              "technique": "mixing",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing hands mixing two substances to form a dough."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Now join the four glasses in the shape of a lamp using the dough. Let it dry.",
+              "technique": "assembly",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing four glass pieces being joined together to form a lamp shape using dough."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Stick small mirror pieces on the edges of the lampshade using Fevicol MR to give the lampshade a neat look.",
+              "technique": "adhering",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing hands sticking small mirror pieces onto the edges of a lampshade."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A lampshade decorated with floral designs painted on mirrors and adorned with small mirror pieces on the edges."
+        },
+        {
+          "name": "Blooming Flowers",
+          "category": "painting",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Hobby Ideas All Surface Acrylic Colours (Crimson 04H, Dark Green 06H, Black 02H, Golden Yellow 09H, White 27H, Brown 86H)",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Crimson, Dark Green, Black, Golden Yellow, White, Brown"
+            },
+            {
+              "item": "Fine Art painting Brush",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicol Wudfin-Glossy",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "palette",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Wipe the polished door and trace the design on it.",
+              "technique": "tracing",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing a hand wiping a wooden surface and then tracing a design onto it."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Mix Hobby Ideas Acrylic All Surface - Yellow and Brown colours in a palette. Start painting strokes from the center of the flower.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing hands mixing yellow and brown paint on a palette and then painting the center of a flower."
+            },
+            {
+              "step_number": 3,
+              "instruction": "To get a lighter shade mix -Yellow, Brown and White and add these strokes to the same flower with a thick brush.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing hands mixing yellow, brown, and white paint and applying it to a flower with a thick brush."
+            },
+            {
+              "step_number": 4,
+              "instruction": "To complete the flower mix Crimson, Yellow, Brown and White.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing hands mixing crimson, yellow, brown, and white paint for a flower."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Paint the leaves with few strokes of a mixture of Dark Green, Crimson and White.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing hands painting leaves with a mixture of dark green, crimson, and white paint."
+            },
+            {
+              "step_number": 6,
+              "instruction": "After completion of the design, let it dry and give a coat of Fevicol Wudfin varnish.",
+              "technique": "varnishing",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing a hand applying varnish to a painted design."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A floral design painted on a wooden surface, likely a door or room partition, with a glossy finish."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Illustration showing 8 steps for creating the Floral Mirror Lampshade.",
+        "Illustration showing 6 steps for creating the Blooming Flowers design."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 5,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Tribal Curtain",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Jute curtain",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicryl Hobby Ideas Fabric Pen (Black R02, Cherry Red R01)",
+              "quantity": "1 set",
+              "dimensions": null,
+              "color": "Black, Cherry Red"
+            },
+            {
+              "item": "Pencil",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Iron",
+              "purpose": "to iron the curtain",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Wash, dry and iron the jute curtain.",
+              "technique": "washing, drying, ironing",
+              "dimensions_mentioned": [],
+              "visual_description": "Image shows an iron pressing a piece of fabric."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Draw or trace a tribal design on the centre of the curtain, tribal figures on the loops of the curtain and a traditional border along the border of the curtain.",
+              "technique": "drawing, tracing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows a hand drawing on a curtain with tribal figures and a border. The design is being applied to the loops and border of the curtain."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Shade the tribal figures and the intricate designs of the traditional border with Fevicryl Hobby Ideas Fabric Pen-Cherry Red.",
+              "technique": "shading",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows a hand using a red pen to shade tribal figures and border designs on the curtain."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Outline the figures with Fevicryl Hobby Ideas Fabric Pen – Black.",
+              "technique": "outlining",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows a hand using a black pen to outline tribal figures on the curtain."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A jute curtain with tribal figures and traditional border designs."
+        },
+        {
+          "name": "Radha Krishna Wall Hanging",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Textured glass",
+              "quantity": "1",
+              "dimensions": "19\"x6\"",
+              "color": null
+            },
+            {
+              "item": "Hobby Ideas Glass Colour - Solvent Based",
+              "quantity": "1 set",
+              "dimensions": null,
+              "color": "Tomato Red 806, Lemon Yellow 801, Orange 805, Turquoise Blue 812, Pink 815, Dark Green 817"
+            },
+            {
+              "item": "Hobby Ideas Glass Colour Outliner (Black 832)",
+              "quantity": "1",
+              "dimensions": null,
+              "color": "Black"
+            },
+            {
+              "item": "Fine Art Painting Brush",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Clean the glass thoroughly to remove dust.",
+              "technique": "cleaning",
+              "dimensions_mentioned": [],
+              "visual_description": "Image shows a hand wiping a piece of glass with a cloth."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Draw or trace the design on the reverse side of the textured glass.",
+              "technique": "drawing, tracing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows a hand drawing on the back of a piece of textured glass."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Outline the design with Hobby Ideas Glass Outliner – Black. Let it dry.",
+              "technique": "outlining",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows a hand using a black outliner pen to draw lines on the glass. The glass is shown drying."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Fill the design with Hobby Ideas Glass Colour- Solvent Based - Tomato Red, Lemon Yellow, Orange, Turquoise Blue, Pink and Dark Green as shown in the picture. Let it dry.",
+              "technique": "coloring",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows a hand using colored pens to fill in the design on the glass. The glass is shown drying."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A wall hanging featuring a Radha Krishna design on textured glass."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Image of a set of Fevicryl Hobby Ideas Fabric Pens in various colors.",
+        "Image of a set of Hobby Ideas Glass Colours, including solvent-based colors and an outliner pen, along with a brush and a piece of textured glass.",
+        "Diagram showing the steps for creating the Tribal Curtain: 1. Ironing the curtain. 2. Drawing/tracing a design. 3. Shading with red pen. 4. Outlining with black pen.",
+        "Diagram showing the steps for creating the Radha Krishna Wall Hanging: 1. Cleaning glass. 2. Drawing/tracing design on reverse. 3. Outlining with black outliner. 4. Filling with glass colors."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 6,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Floral Rangoli",
+          "category": "other",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "Hobby Ideas Glass Colour - Solvent Colour Based (Tomato Red 806, Orange 805, Dark Green 817)",
+              "quantity": null
+            },
+            {
+              "item": "Hobby Ideas Glass Colour Outliner (Black 832)",
+              "quantity": null
+            },
+            {
+              "item": "Fevicryl Hobby Ideas 3D Outliner (Shimmer Mint Green 452, Orange 17)",
+              "quantity": null
+            },
+            {
+              "item": "Fevicol Decoration Glue",
+              "quantity": null
+            },
+            {
+              "item": "Mirror finish round acrylic sheets",
+              "quantity": "8 pieces",
+              "dimensions": "3\"",
+              "color": null
+            },
+            {
+              "item": "Mirror finish round acrylic sheet",
+              "quantity": "1 piece",
+              "dimensions": "4\"",
+              "color": null
+            },
+            {
+              "item": "Mirror finish round acrylic sheet",
+              "quantity": "1 piece",
+              "dimensions": "10\"",
+              "color": null
+            },
+            {
+              "item": "Glass beads",
+              "quantity": null
+            },
+            {
+              "item": "Glass diyas",
+              "quantity": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Fine Art Painting Brush",
+              "purpose": null,
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Stick the round mirror measuring 4\" in the centre of the mirror measuring 10\" using Fevicol Decoration Glue. Let it dry.",
+              "technique": "gluing",
+              "dimensions_mentioned": [
+                "4\"",
+                "10\""
+              ],
+              "visual_description": "Diagram 1 shows a 10\" mirror with a 4\" mirror being centered on it."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Stick a diya on the centre of the smaller mirror using Fevicol Decoration Glue. Let it dry.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram 2 shows a hand holding a diya and placing it on the center of the 4\" mirror."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Paint the glass beads with Hobby Ideas Glass Colour - Solvent Based - Tomato Red, Orange and Dark Green. Let it dry.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram 3 shows a brush painting glass beads with red, orange, and green colors."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Make streaks in between the flower design using Fevicryl Hobby Ideas 3D Outliner – Shimmer Mint Green and orange. Let it dry.",
+              "technique": "outlining",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram 4 shows a completed rangoli design with beads and painted elements."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Stick small diyas on the small mirrors of 3\" size using Fevicol Decoration Glue. Let it dry.",
+              "technique": "gluing",
+              "dimensions_mentioned": [
+                "3\""
+              ],
+              "visual_description": "Diagram 5 shows a hand holding a small diya and placing it on a 3\" mirror."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Stick the beads in a floral pattern around the diyas using Fevicol Decoration Glue. Let it dry.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram 6 shows a hand attaching beads in a floral pattern around a diya."
+            },
+            {
+              "step_number": 7,
+              "instruction": "After all the diya’s are made, create the rangoli pattern outside your house.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram 7 shows a completed rangoli pattern with multiple diyas arranged around it."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "Floral diyas arranged in a rangoli pattern."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A collection of floral diyas, some lit with candles, arranged on a surface.",
+        "A close-up of several glass vases and jars painted with colorful patterns.",
+        "A logo with the text 'hobby ideas' in blue and pink spheres.",
+        "A graphic with the text 'Create a new dimension in Glass Painting'.",
+        "A display of Hobby Ideas glass paints and outliners.",
+        "Diagrams 1 through 7 illustrate the steps of creating the floral rangoli project, showing the placement of mirrors, diyas, painting of beads, and arrangement of the final design."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 7,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Abstract Lampshade",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Hobby Ideas All Surface Colours (Cerulean Blue 32H, Baby Pink 38H, Brown 86H, Cream 83H, Dark Green 06H, Chrome Green Light 85H, Golden Yellow 09H, Black 02H, Orange 17H, Mulberry 82H)",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fine Art Painting Brush",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicryl Hobby Ideas No Stitch Fabric Glue",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Satin fabric",
+              "quantity": "4 pieces",
+              "dimensions": "18\"x14\"",
+              "color": null
+            },
+            {
+              "item": "Mount board",
+              "quantity": "4 pieces",
+              "dimensions": "16\"x12\"",
+              "color": null
+            },
+            {
+              "item": "Knife",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Wooden lamp stand",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut four pieces of mount board measuring 16”x12”.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "16\"x12\""
+              ],
+              "visual_description": "Diagram shows four grey rectangles labeled 'MOUNT BOARD'."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Cut 4 satin pieces measuring 18” x 14”.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "18\"x14\""
+              ],
+              "visual_description": "Diagram shows four white rectangles labeled 'SATIN'."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Draw the design on the satin fabric using a pencil.",
+              "technique": "drawing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows a hand holding a pencil and drawing a leaf-like pattern on a fabric."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Paint the design with Hobby Ideas All Surface Acrylic Colour- Cerulean blue, Baby Pink, Brown, Cream, Dark Green, Chrome Green Light, Golden Yellow, Black, Orange and Mulberry. Let it dry.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows a hand holding a brush and painting the fabric with various colors, following the drawn design."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Stick the painted fabrics on the mount boards using Fevicryl Hobby Ideas No Stitch Fabric Glue. Let it dry.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows a painted fabric being applied to a mount board with glue."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Stick the mount boards on the wooden base using fabric glue to form your lamp shade.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows the assembled lampshade structure on a wooden base."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "An abstract lampshade with a design of leaves and geometric shapes, made from painted satin fabric attached to mount boards and a wooden base."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A hand holding a paintbrush with pink paint, painting a flower.",
+        "The Fevicryl hobby ideas logo with three colored bubbles.",
+        "A finished abstract lampshade with colorful stained-glass-like panels on a yellow textured background.",
+        "A collection of circular paint swatches with names and numbers: SHIMMER WHITE 376, SHIMMER LEMON YELLOW 377, SHIMMER PINK 378, SHIMMER ORANGE 382, SHIMMER CARMINE 383, SHIMMER DEEP BLUE 384, SHIMMER LILAC 385, SHIMMER BLACK 386, SHIMMER BROWN 387, SHIMMER OLIVE GREEN 381, SHIMMER EMERALD GREEN 388.",
+        "A product shot of Fevicryl All Surface Acrylic Colours paint bottles and a brush.",
+        "A Fevicryl Art logo.",
+        "The bottom corner of the page shows the publisher's information: Pidilite Industries Ltd., Ramkrishna Mandir road, Andheri (E), Mumbai 400 059 E-mail: hobbyideas@pidilite.com",
+        "The footer of the page shows publication details: FeviArt Vol 5 Issue 3 Jan - Mar 2011 11."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 8,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Chinese Dragon Wall Hanging",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Glass piece",
+              "quantity": "1",
+              "dimensions": "3\"x5\"",
+              "color": "clear"
+            },
+            {
+              "item": "Hobby Ideas Glass Colour- Solvent Based",
+              "quantity": "multiple",
+              "color": "Turquoise Blue 812, Pink 815, Dark Green 817, Tomato Red 806, Orange 805, Lemon Yellow 801"
+            },
+            {
+              "item": "Hobby Ideas Glass Colour Outliner - Black",
+              "quantity": "1",
+              "color": "Black 832"
+            },
+            {
+              "item": "Fevicryl Hobby Ideas No Stitch Fabric Glue",
+              "quantity": "1"
+            },
+            {
+              "item": "Small glass pieces",
+              "quantity": "multiple",
+              "dimensions": "various",
+              "color": "clear"
+            },
+            {
+              "item": "White oil paint",
+              "quantity": "small amount"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Toothpick",
+              "purpose": "spreading glue",
+              "optional": false
+            },
+            {
+              "name": "Fine Art Painting Brush",
+              "purpose": "painting",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Clean the 3\"x5\" glass piece thoroughly to remove dust.",
+              "technique": "cleaning",
+              "visual_description": "A 3\"x5\" clear glass piece being cleaned."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Draw or trace a dragon design on the glass piece using Hobby Ideas Glass Colour Outliner – Black and paint it as shown in the picture. Let it dry.",
+              "technique": "outlining and painting",
+              "visual_description": "A glass piece with a dragon design outlined in black and partially painted."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Draw abstract design on the small glass pieces using Fevicryl Hobby Ideas No Stitch Fabric Glue and spread them using a toothpick. Let it dry.",
+              "technique": "abstract design application",
+              "visual_description": "Small glass pieces with abstract designs applied using glue and spread with a toothpick."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Now colour the small glass pieces with Hobby Ideas Glass Colour- Solvent Based- Lemon Yellow, Orange, Tomato Red, Turquoise Blue, Pink and Dark Green.",
+              "technique": "painting",
+              "visual_description": "Small glass pieces being painted with various bright colors."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Drop little bit of White oil paint on the glass pieces with Hobby Ideas Glass Colour- Solvent Based - Dark Green to create a marbelling effect.",
+              "technique": "marbling effect",
+              "visual_description": "White oil paint being dropped onto colored glass pieces with dark green solvent-based glass color."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Assemble the glass pieces on the bigger glass piece with the dragon design in an abstarct manner and stick them using Fevicol Decoration Glue.",
+              "technique": "assembly and gluing",
+              "visual_description": "Small, decorated glass pieces being arranged and glued onto the larger glass piece with the dragon design."
+            }
+          ],
+          "finished_product_description": "A wall hanging featuring a dragon design on a glass piece, adorned with smaller decorated glass pieces."
+        },
+        {
+          "name": "Leafy Etched Mirror",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Round cornered textured glass",
+              "quantity": "1",
+              "dimensions": "8\"x8\"",
+              "color": "clear"
+            },
+            {
+              "item": "Mirror",
+              "quantity": "1",
+              "dimensions": "8\"x8\"",
+              "color": "reflective"
+            },
+            {
+              "item": "Hobby Ideas Glass Etching Paste",
+              "quantity": "1"
+            },
+            {
+              "item": "Hobby Ideas Glass Etching Stencils",
+              "quantity": "1",
+              "dimensions": "GES-1"
+            },
+            {
+              "item": "Hobby Ideas Glass Colour- Solvent Based",
+              "quantity": "multiple",
+              "color": "Turquoise Blue 812, Lemon Yellow 801, Tomato Red 806, Dark Green 817"
+            },
+            {
+              "item": "Fevicryl Hobby Ideas 3D Outliner",
+              "quantity": "1",
+              "color": "Pearl White 301"
+            },
+            {
+              "item": "Fevicol MR",
+              "quantity": "1"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Applicator",
+              "purpose": "applying etching paste",
+              "optional": false
+            },
+            {
+              "name": "Fine Art Painting Brush",
+              "purpose": "painting",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Clean 8\"x8\" mirror to remove dust. Peel and stick the Hobby Ideas Glass Stencil on the two corner of the mirror.",
+              "technique": "cleaning and stenciling",
+              "dimensions_mentioned": [
+                "8\"x8\""
+              ],
+              "visual_description": "An 8\"x8\" mirror being cleaned, and a stencil being applied to two corners."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Apply Hobby Ideas Glass Etching Paste on the design using an applicator and leave it for 30 minutes.",
+              "technique": "etching",
+              "dimensions_mentioned": [
+                "30 minutes"
+              ],
+              "visual_description": "Glass etching paste being applied over a stencil on the mirror with an applicator."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Remove the paste from the design using an applicator and peel off the stencil. Wash it under running water. Let it dry.",
+              "technique": "etching removal and cleaning",
+              "visual_description": "Etching paste being removed from the mirror, and the stencil being peeled off. The mirror is then washed."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Stick the mirror on the textured glass leaving equal space from all sides using Fevicol Decoration Glue.",
+              "technique": "adhering",
+              "visual_description": "The etched mirror being attached to a textured glass piece, with equal spacing on all sides."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Draw a floral design on the sides of the mirror on the textured glass.",
+              "technique": "drawing",
+              "visual_description": "A floral design being drawn on the textured glass surrounding the mirror."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Mix Hobby Ideas Glass Colour- Solvent Based - Tomato Red and Dark Green to form a brown shade, and paint in the centre of the flowers.",
+              "technique": "mixing and painting",
+              "visual_description": "Tomato Red and Dark Green glass colors being mixed to create brown, and then applied to the center of painted flowers."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Dip the Fine Art Painting Brush into Hobby Ideas Glass Colour- Solvent Based - Turquoise Blue and dab it on the background of the floral design. Let it dry.",
+              "technique": "painting",
+              "visual_description": "A brush dipped in Turquoise Blue glass color dabbing the background of the floral design."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Using the Fevicryl Hobby Ideas 3D Outliner- Pearl White, put dots on the centre of the flowers. Let it dry.",
+              "technique": "dotting",
+              "visual_description": "Pearl White 3D outliner being used to create dots in the center of the flowers."
+            }
+          ],
+          "finished_product_description": "A decorative mirror with a leafy etched design and painted floral elements."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing the cleaning of a glass piece.",
+        "Diagram showing a dragon design being outlined and painted on glass.",
+        "Diagram showing abstract designs being applied to small glass pieces with glue and a toothpick.",
+        "Diagram showing small glass pieces being painted in various colors.",
+        "Diagram showing white oil paint being dropped onto colored glass pieces for a marbling effect.",
+        "Diagram showing small decorated glass pieces being assembled onto a larger glass piece.",
+        "Diagram showing a mirror being cleaned.",
+        "Diagram showing a stencil being applied to the corner of a mirror.",
+        "Diagram showing glass etching paste being applied over a stencil.",
+        "Diagram showing etching paste being removed and the stencil peeled off.",
+        "Diagram showing the etched mirror being attached to textured glass.",
+        "Diagram showing a floral design being drawn on the textured glass.",
+        "Diagram showing glass colors being mixed and applied to flower centers.",
+        "Diagram showing a brush dabbing the background of a floral design with turquoise blue.",
+        "Diagram showing dots being applied to the center of flowers using 3D outliner."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 9,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [
+        {
+          "name": "Glass Colour Greeting Card",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A greeting card with a lighthouse and a pair of turtles."
+        },
+        {
+          "name": "Cricket Bat Memorabilia Kit",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "Two cricket bats decorated with images and text."
+        },
+        {
+          "name": "Terracotta Warli Wall Hanging",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A terracotta wall hanging with Warli art depicting people."
+        },
+        {
+          "name": "Sand Art Ship & Island",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "Two sand art pictures, one of a ship and one of an island with a palm tree."
+        },
+        {
+          "name": "\"My Theme\" Frame",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A cube-shaped frame decorated with various images."
+        },
+        {
+          "name": "Paper Quilling Animal Theme",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A paper quilled scene of animals in a forest."
+        },
+        {
+          "name": "Home Décor Terracotta Sun",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A terracotta sun decoration."
+        },
+        {
+          "name": "Paper Quilling Bookmark & Pencil Cap",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A paper quilled bookmark with cartoon characters and a pencil cap."
+        },
+        {
+          "name": "Sequin Art Flower & Butterfly",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "Two sequin art pictures, one of a flower and one of a butterfly."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A greeting card featuring a red and yellow striped lighthouse and a white house.",
+        "A green framed card with two turtles and red hearts, with the text 'MOM' above them.",
+        "Two decorated cricket bats, one blue with 'GO INDIA GO' text and a boy, the other white with a picture and 'MY HERO' text.",
+        "A terracotta wall hanging with a dark background and figures in a traditional Warli art style.",
+        "A framed sand art picture of a sailboat on water with clouds and a sun.",
+        "A framed sand art picture of a small island with a palm tree and a boat on water under a sun.",
+        "A paper quilled scene depicting various animals (elephants, monkeys, bears) in a forest setting with a pond.",
+        "A circular terracotta sun decoration with a face.",
+        "A cube-shaped frame with multiple images on its sides.",
+        "A paper quilled bookmark with cartoon characters and the text 'Have A Nice Day'.",
+        "A paper quilled pencil cap.",
+        "Two sequin art pictures, one featuring a purple butterfly and the other a pink flower with green leaves."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 10,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Wall Clock",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Hobby Ideas All Surface Acrylic Colours (Black 02H, White 27H)",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Black, White"
+            },
+            {
+              "item": "Hobby Ideas Glue 'n' Gloss",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fine Art Painting Brush",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Earthen Tawa",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Small Mirrors",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Make a small hole in the center of earthen tawa and soak the tawa in water for 3 to 4 hours. Let it dry.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": "Image 1 shows an earthen tawa with a small hole in the center. Image 2 shows the tawa being painted black with a brush. Image 3 shows the tawa with a Warli design painted in white. Image 4 shows a hand applying glue to the tawa. Image 5 shows a hand applying glue to the tawa. Image 6 shows the finished wall clock with mirrors attached."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Apply Hobby Ideas All Surface Colour - Black with Fine Art brush.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Paint Warli design with Hobby Ideas All Surface Acrylic Colours - White.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Stick the mirrors as shown in the picture with Fevicol MR.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Apply 2-3 coats of Hobby Ideas Glue 'n' Gloss with Fine Art brush.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 6,
+              "instruction": "Fix the clock on the centre of the earthen tawa.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A traditional Warli design wall clock on an earthen tawa."
+        },
+        {
+          "name": "Floral Wreath Table Mat",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Fevicryl Hobby Ideas Acrylic Colour",
+              "quantity": null,
+              "dimensions": null,
+              "color": "White 27, Sap Green 21, Crimson 04, Golden Yellow 09, Lemon Yellow 11, Burnt Sienna 01, Black 02, Pink 18"
+            },
+            {
+              "item": "Fevicryl Hobby Ideas No Stitch Fabric Glue",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fine Art Painting Brush",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Sponge",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Pencil",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Acrylic sheets",
+              "quantity": null,
+              "dimensions": "6” diameter",
+              "color": null
+            },
+            {
+              "item": "Cloth",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Dip the piece of sponge in a mixture of Fevicryl Hobby Ideas Acrylic Colour- Lemon Yellow and Golden Yellow and dab it on the fabric to make the background of the painting. Let it dry.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": "Image 1 shows a hand dabbing a sponge onto a yellow surface. Image 2 shows a hand drawing a floral design with a brush. Image 3 shows a hand painting flowers with brushes. Image 4 shows a hand applying glue to the edge of a circular object."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Draw a floral design along the edge.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Paint the floral design with Fevicryl Hobby Ideas Acrylic Colour - Pink, Sap Green, White and Burnt Sienna. Let it dry.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Take the round shaped acrylic sheet, a apply Fevicryl Hobby Ideas No Stitch Fabric Glue at the edge of the circle and paste the cloth in between both the acrylic sheets Let it dry.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A table mat with a floral wreath design on a yellow background."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing the 6 steps for creating the Warli Wall Clock, starting with a plain tawa, painting it black, adding the Warli design, applying mirrors, and finishing the clock.",
+        "Diagram showing the 4 steps for creating the Floral Wreath Table Mat, starting with applying a background color, drawing a floral design, painting the flowers, and assembling the mat with acrylic sheets and cloth."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 11,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Wall Hanging",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Hobby Ideas All Surface Acrylic Colour (Navy Blue 73H, White 27H, Crimson 04H, Cream 83H, Black 02H)",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicol MR",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fine Art Painting Brush",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Hardboard",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Mirror",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Kachi clay",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Sawdust",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "To prepare the dough, soak the sawdust in water for 2hrs.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Add kachi clay to it and required amount of water to form even dough.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Take hardboard and trace a design on the rough side of the board.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Apply Fevicol MR on the design and roll the dough on it, to give it an embossed mirror look for the border.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Emboss the mirrors on the mirror shaped dough pieces. Let it dry thoroughly.",
+              "technique": "embossing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 6,
+              "instruction": "Paint the painting with Hobby Ideas All Surface Acrylic colour- Navy Blue, Crimson, White, Cream and Black. Let it dry.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "An artistic portrait treated as a wall hanging."
+        },
+        {
+          "name": "Tortoise Candle Holder",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Hobby Ideas Shilpkar",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicryl Hobby Ideas Acrylic Colour (Black 02, Pearl Metallic Gold 352)",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Earthen Diya",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Sandpaper",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Ball pen refills",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Soak the diya overnight and dry it.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Scrape the surface of the diya with a sandpaper to make it even.",
+              "technique": "scraping",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Mix Hobby Ideas Shilpkar Resin Base and Hardener to form a even dough.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Make long coils out of the dough, place the diya upside down and wrap the coil around it to form the body of the tortoise.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Mould the head, four legs and a tail out of the dough and fix them to the diya. Let it dry thoroughly.",
+              "technique": "moulding",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 6,
+              "instruction": "Paint the diya with Fevicryl Hobby Ideas Acrylic colour- Black. After drying use dry brush technique and apply Fevicryl Hobby Ideas Acrylic Colour- Pearl Metallic Gold. Let it dry.",
+              "technique": "dry brush",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A candle holder shaped like a tortoise."
+        },
+        {
+          "name": "African Motif Curtain",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Fevicryl Hobby Ideas Shimmer Colours (White 376, Peach 380, Pink 378, Emerald Green 388, Olive Green 381)",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fine Art Painting Brush",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Pencil",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Blue Satin Curtain",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Wash, dry and iron the satin curtain.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Draw or trace African coil design on the upper side of the curtain in descending order.",
+              "technique": "drawing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Draw or trace rose flowers and leaves on the lower side of curtain in ascending order.",
+              "technique": "drawing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Paint the African Coil Design with Fevicryl Hobby Ideas Shimmer Colours- White and Peach alternately with Fine Art Painting Brush.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Paint the rose flowers with Fevicryl Hobby Ideas Shimmer Colours - Pink and leaves with Emerald Green and Olive Green with Fine Art Painting Brush. Let it dry.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 6,
+              "instruction": "Iron the reverse portion of the curtain after 24 hours.",
+              "technique": "ironing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A designer curtain with African motifs and rose patterns."
+        },
+        {
+          "name": "Pen & Pin Holder",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Hobby Ideas Shilpkar",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicryl Hobby Ideas Acrylic Colour (Olive Green 16, Indian Red 10, Black 02)",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fine Art Painting Brush",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Hobby Ideas Glue 'n' Gloss",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Gold dust",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Handmade paper",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Balloon",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Sponge",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Jute piece",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Mix the Hobby Ideas Shilpkar Hardener and Resin Base to form the dough.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Now roll the dough in circular shape and use the piece of jute to create textures on it.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Take a balloon, blow it and use the dough to cover the balloon to form a potli by pleating the extra dough around it. Leave it to set.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "In the same way create the tissue holder and the pin holder.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Paint the article with Fevicryl Acrylic Colour- Black.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 6,
+              "instruction": "Give dry brush strokes using Fevicryl Hobby Ideas Acrylic Colour - Olive Green. Let it dry.",
+              "technique": "dry brush",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 7,
+              "instruction": "Apply gold dust with sponge and apply a coat of Hobby Ideas Glue 'n' Gloss to varnish the pen stand.",
+              "technique": "varnishing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A pen and pin holder set with a potli-shaped holder, tissue holder, and pin holder."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Image shows a framed painting of a person playing a flute, with a mosaic-like border.",
+        "Image shows a yellow candle burning in a decorative, tortoise-shaped candle holder.",
+        "Image shows a blue satin curtain with African coil motifs and rose patterns.",
+        "Image shows a pen and pin holder set, including a potli-shaped holder, a small dish, and a tissue holder, all on a green base."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 12,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Jasmine Table Clock",
+          "category": "paper_craft",
+          "difficulty": null,
+          "materials": [
+            {
+              "item": "Hobby Ideas Paper Punches",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Coloured paper",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Lemon Yellow"
+            },
+            {
+              "item": "Coloured paper",
+              "quantity": null,
+              "dimensions": null,
+              "color": "White"
+            },
+            {
+              "item": "Coloured paper",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Light Green"
+            },
+            {
+              "item": "Coloured paper",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Grey"
+            },
+            {
+              "item": "Fevicol GlueDrops",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicol MR",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Jasmine flower punch",
+              "purpose": "punching flowers",
+              "optional": false
+            },
+            {
+              "name": "Lily flower punch",
+              "purpose": "punching flowers",
+              "optional": false
+            },
+            {
+              "name": "leaf punch",
+              "purpose": "punching leaves",
+              "optional": false
+            },
+            {
+              "name": "Big ball tool",
+              "purpose": "embossing leaves",
+              "optional": false
+            },
+            {
+              "name": "Small ball tool",
+              "purpose": "embossing flowers",
+              "optional": false
+            },
+            {
+              "name": "Clock machine",
+              "purpose": "timekeeping mechanism",
+              "optional": false
+            },
+            {
+              "name": "Scissor",
+              "purpose": "cutting paper",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Punch out jasmine flowers from the lemon yellow paper using Hobby Ideas Jasmine Paper punch, lily flowers from the white paper using lily punches & leaves from the light green paper using leaf punch.",
+              "technique": "punching",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Give eight cuts on each petal of the yellow flower using a scissor. Use the small ball tool on the reverse side of the yellow flowers to emboss them. Use the big ball tool to emboss the reverse side of the leaves.",
+              "technique": "cutting, embossing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Cut an oriental intricate design from the white paper and paste it on the board with Fevicol MR.",
+              "technique": "cutting, pasting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Stick the oriental design cut out from the white paper using Fevicol GlueDrops.",
+              "technique": "sticking",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Stick the flowers in a bunch along with leaves around it on the three corners of the grey paper.",
+              "technique": "sticking, arrangement",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A beautiful triangular table clock decorated with punch craft flowers and leaves, suitable for a tea table."
+        },
+        {
+          "name": "Mini Kitchen Murals",
+          "category": "mixed_media",
+          "difficulty": null,
+          "materials": [
+            {
+              "item": "Hobby Ideas Shilpkar",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Hobby Ideas Medium-1",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicryl Hobby Ideas Acrylic Colour",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Black 02"
+            },
+            {
+              "item": "Fevicol MR",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "wooden cuttings of figurative fork and spoon",
+              "quantity": "2",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Talcum powder",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Golden powder",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Silver Powder",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Magnets",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Tracing paper",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Yellow"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Old Pens/Pen Caps",
+              "purpose": "shaping/detailing",
+              "optional": false
+            },
+            {
+              "name": "Toothpick",
+              "purpose": "shaping/detailing",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Mix Hobby Ideas Shilpkar Resin Base and Hardener to form even dough.",
+              "technique": "mixing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Make a petal shape to emboss the face part. Put it on the wooden piece and press it lightly with the finger to make the nose, ear and eyes.",
+              "technique": "sculpting, embossing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "On the head part and the neck part apply very thin coat of Hobby Ideas Shilpkar as shown in the diagram.",
+              "technique": "applying",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing application on head and neck parts of the mural."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Paint the whole mural with Fevicryl Hobby Ideas Acrylic Colour- Black. Let it dry.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Mix Gold dust with Hobby Ideas Medium- 1 and paint the spoons with same. Let it dry.",
+              "technique": "mixing, painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 6,
+              "instruction": "Mix Silver dust with Hobby Ideas Medium- 1 and paint the ornaments on the neck and the head of the murals. Let it dry.",
+              "technique": "mixing, painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "Artistic mini kitchen fridge magnets resembling stylized human figures, one holding a fork and the other a spoon, with silver and gold accents."
+        },
+        {
+          "name": "Elizabethan Candle Stand",
+          "category": "woodworking",
+          "difficulty": null,
+          "materials": [
+            {
+              "item": "Hobby Ideas All Surface Acrylic Colours",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Cerulean Blue 32H"
+            },
+            {
+              "item": "Hobby Ideas All Surface Acrylic Colours",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Navy Blue 73H"
+            },
+            {
+              "item": "Hobby Ideas All Surface Acrylic Colours",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Cream 83H"
+            },
+            {
+              "item": "Hobby Ideas All Surface Acrylic Colours",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Black 02H"
+            },
+            {
+              "item": "Hobby Ideas Crackle Medium",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Wooden Carved Elizabethan Candle Stand",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Fine Art Painting Brush",
+              "purpose": "painting",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Clean the wooden stand to remove dust.",
+              "technique": "cleaning",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Paint the stand with Hobby Ideas All Surface Acrylic Colour- Cream. Let it dry.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Apply a coat of Hobby Ideas Crackle Medium on the wooden stand. Leave it for 30 minutes.",
+              "technique": "applying, drying",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Once tacky apply random strokes of Hobby Ideas All Surface Acrylic Colour- Cerulean Blue, Navy Blue and Black on the wooden candle stand. Cracks will form in the direction of the brush strokes.",
+              "technique": "painting, crackle effect",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "After 20 minutes cracks will start appearing. Let it dry.",
+              "technique": "drying",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "An elegant wooden carved candle stand with a crackle finish, painted in shades of blue, cream, and black, evoking an Elizabethan style."
+        },
+        {
+          "name": "Tribal Mask",
+          "category": "mixed_media",
+          "difficulty": null,
+          "materials": [
+            {
+              "item": "Hobby Ideas Shilpkar",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicryl Hobby Ideas Acrylic Colour",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Black 02"
+            },
+            {
+              "item": "Fevicryl Hobby Ideas Acrylic Colour",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Shimmer Emerald Green 388"
+            },
+            {
+              "item": "Fevicryl Hobby Ideas Acrylic Colour",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Pearl Green 304"
+            },
+            {
+              "item": "Bamboo",
+              "quantity": "1",
+              "dimensions": "wide half cut",
+              "color": null
+            },
+            {
+              "item": "Ghungroos",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Fine Art Painting Brush",
+              "purpose": "painting",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Take a wide half cut bamboo.",
+              "technique": "preparation",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Mix the Hobby Ideas Shilpkar Resin Base and Hardener to form even dough. Make a rectangular sheet out of the dough and cover the bamboo to form the mask.",
+              "technique": "mixing, sculpting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Mould out eyes, nose and lips using the dough on the mask.",
+              "technique": "moulding",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Roll dough to make thin cords and roll them below the ear to form coiled ornaments. Place the ghungroos on the head of the mask.",
+              "technique": "rolling, moulding, placement",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Mould out leaves from the dough and place them over the ghungroos to form the head gear of the mask.",
+              "technique": "moulding, placement",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 6,
+              "instruction": "Paint the mask with Fevicryl Hobby Ideas Acrylic Colour - Black. Give dry brush strokes on the mask using Fevicryl Acrylic Hobby Ideas Colour- Shimmer Emerald Green and Pearl Green. Let it dry.",
+              "technique": "painting, dry brushing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A decorative tribal mask made from Shilpkar dough over a bamboo base, featuring sculpted facial features, coiled ear ornaments, and a headgear of ghungroos and leaves, painted in black, shimmer emerald green, and pearl green."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Photo of a triangular table clock with a dark blue frame, featuring a clock face surrounded by yellow and white punched paper flowers and green leaves, arranged in the three corners of the inner triangle.",
+        "Photo of two sculpted figures (murals) resembling stylized human figures, one holding a fork and the other a spoon. They are dark grey/black with silver and gold accents, set against a red background.",
+        "Photo of a blue wooden carved candle stand with a crackle finish, holding a red candle. The stand has ornate details at the top and a small shelf for the candle.",
+        "Photo of a sculpted tribal mask, predominantly green with dark accents, featuring stylized facial features, coiled ear ornaments, and a headpiece made of leaves and ghungroos."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 13,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A portrait of Dollye Vasu, an interior designer, seated in a studio space with wooden cabinets and glass shelves in the background.",
+        "A bathroom with blue and white tiled walls, a blue toilet, and a blue vanity with a curved front.",
+        "A dining room with a glass-topped table, wooden chairs, and a large window.",
+        "A bedroom with a large bed, stuffed animals, bedside lamps, and a wooden wardrobe.",
+        "A close-up of a colorful wardrobe decorated with jungle-themed murals featuring a bear, a panther, and palm trees."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 14,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Key Chain Holder",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "Fevicryl Hobby Ideas Acrylic Colour (Lemon Yellow 11, White 27)",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Lemon Yellow, White"
+            },
+            {
+              "item": "Fevicol MR",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Hobby Ideas Glue ‘n’ Gloss",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Spices (Black Pepper, Cardamom, Red Chilly, Clove, Cinnamon, Star Anise)",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "MDF Board",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Hooks",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Pencil",
+              "purpose": "Drawing design",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Draw a design on the MDF board with pencil.",
+              "technique": "drawing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Apply Fevicryl Hobby Ideas Acrylic Colour – Lemon Yellow and White on the MDF board.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Stick all spices according to the design pattern on the MDF board with Fevicol MR. Let it dry.",
+              "technique": "adhering",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Apply 3 coats of Hobby Ideas Glue ‘n’ Gloss. Let it dry.",
+              "technique": "coating",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Fix hooks on the mount board to complete the key chain holder.",
+              "technique": "fixing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A key chain holder made from MDF board decorated with spices and acrylic colours."
+        },
+        {
+          "name": "Floral Stole",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "Plain Stole",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicryl Hobby Ideas Pearl Metallic Acrylic Colour (Gold 352, Red 356, Green 357)",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Gold, Red, Green"
+            },
+            {
+              "item": "Yellow Pencil",
+              "quantity": null,
+              "dimensions": null,
+              "color": "Yellow"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Fine Art Painting Brush",
+              "purpose": "Painting floral design",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Wash, dry and iron the stole.",
+              "technique": "laundering",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Draw or trace a floral design on the stole.",
+              "technique": "drawing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Paint the floral design with Fevicryl Hobby Ideas Pearl Metallic Acrylic Colour- Gold, Red and Green. Let it dry.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Iron the reverse portion of the stole after 24 hrs.",
+              "technique": "ironing",
+              "dimensions_mentioned": [
+                "24 hrs"
+              ],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A stole with a hand-painted floral design."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up image of three keychains hanging from hooks on a dark background. The keychains have various decorative elements, including a yellow oval fob, a white bird-shaped charm, and a gold-colored charm with an embossed figure.",
+        "A close-up image of a green fabric stole with a painted floral pattern in shades of yellow and coral. The flowers have detailed centers and are arranged in a flowing design.",
+        "A diorama depicting a farm scene with a well, a house, a fence, and miniature animals. The ground is covered in brown material resembling soil.",
+        "A diorama depicting a futuristic city or space scene with planets, a rocket, buildings, and a solar system model. The background is black and speckled with stars.",
+        "A diorama showing a model of a village with houses, a windmill, a mountain, and a body of water. The scene is set on a wooden surface.",
+        "A group of young students in uniform are looking at and interacting with a science project model involving bottles, tubes, and red structures, possibly demonstrating a process or system."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 15,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "African Mask",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Fevicryl Hobby Ideas Pearl Acrylic Colour (Lemon Yellow 302, Pink 303, Green 304, Blue 305, Lilac 307, Golden Yellow 308, Rose Pink 310, Spring Green 311, Black 306)",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicryl Hobby Ideas 3D Outliner (Glitter Green 304, Glitter Gold 401, Glitter Pink 410)",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicryl Hobby Ideas No Stitch Fabric Glue",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicol GlueDrops",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fine Art Painting Brush",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Paper plate",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Stones",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Feathers",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Chart paper",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Scissor",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Draw the African mask on the paper plate.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Paint the mask using Fevicryl Hobby Ideas Pearl Acrylic Colour – Lemon Yellow, Pink, Green, Blue, Lilac, Golden Yellow, Rose Pink and Spring Green as shown in the picture. Let it dry.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "A colorful African mask painted on a paper plate."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Outline the mask with Fevicryl Hobby Ideas Pearl Acrylic Colour- Black. Let it dry.",
+              "technique": "outlining",
+              "dimensions_mentioned": [],
+              "visual_description": "The African mask with a black outline."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Outline the different portions of the maske like the eyes, lips with Fevicryl Hobby Ideas 3D Outliner – Glitter Green, Glitter Gold and Glitter Pink to enhance these features. Let it dry.",
+              "technique": "outlining",
+              "dimensions_mentioned": [],
+              "visual_description": "The African mask with detailed outlines on eyes and lips using glitter colors."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A colorful African mask created on a paper plate with detailed outlines."
+        },
+        {
+          "name": "Tribal Woman",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Hobby Ideas Shilpkar Hardener and Resin Base",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicryl Hobby Ideas Acrylic colour (Olive Green 16, Indian Red 10, Black 02)",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fine Art Painting Brush",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Hobby Ideas Glue 'n' Gloss",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fevicol MR",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Gold dust",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Handmade paper",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Balloon",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Sponge",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Jute piece",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Mix the Hobby Ideas Shilpkar Hardener and Resin Base to form an even dough.",
+              "technique": "mixing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Take a small portion of the dough to cover the cap of the ketchup bottle and mould the head of the tribal woman on the bottle.",
+              "technique": "molding",
+              "dimensions_mentioned": [],
+              "visual_description": "A tribal woman's head being molded onto a bottle cap."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Take more portions of the dough to form the legs and hands of the woman on the bottle.",
+              "technique": "molding",
+              "dimensions_mentioned": [],
+              "visual_description": "Dough being shaped into legs and hands for the tribal woman figure."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Use small portion of the dough to mould her facial features like eyes, ears, lips and nose. Let it dry.",
+              "technique": "molding",
+              "dimensions_mentioned": [],
+              "visual_description": "Molding facial features onto the tribal woman figure."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Paint the tribal woman with Fevicryl Acrylic Colour- Black.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "The tribal woman figure painted black."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Use Fevicryl Hobby Ideas Acrylic Colour- Pearl Metallic Bronze to give dry brush strokes on the bottle. Let it dry.",
+              "technique": "dry brushing",
+              "dimensions_mentioned": [],
+              "visual_description": "Dry brush strokes of pearl metallic bronze applied to the tribal woman figure."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A tribal woman figure created from dough and attached to a bottle, with painted details."
+        },
+        {
+          "name": "Corn Leaves Bouquet",
+          "category": "other",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Fevicryl Hobby Ideas Acrylic Colour (Pearl Metallic Gold 352, Pearl Metallic Red 356, Pearl Blue 305)",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Fine Art Painting Brush",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Metallic Balls",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Blue net",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Earthen pot",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Artificial leaves",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Green tape",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Straws",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Sticks",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Corn Leaves",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Paint the corn leaves using Fevicryl Hobby Ideas Acrylic Colour – Pearl Metallic Gold and Pearl Metallic Red. Let it dry.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "Corn leaves painted with metallic gold and red."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Fold a Pearl Metallic Red corn leaf to form a petal and fix it on the stick using green tape.",
+              "technique": "folding, taping",
+              "dimensions_mentioned": [],
+              "visual_description": "A corn leaf petal attached to a stick with green tape."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Similarly use 5 more Pearl Metallic Red corn leaves to form the other petals and fix them around the stick to complete the flowers.",
+              "technique": "folding, taping",
+              "dimensions_mentioned": [],
+              "visual_description": "Corn leaf petals arranged around a stick to form a flower."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Make two more flowers using the same procedure with Pearl Metallic Gold and Pearl Metallic red corn leaves.",
+              "technique": "folding, taping",
+              "dimensions_mentioned": [],
+              "visual_description": "Two more corn leaf flowers being made."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Fix all these flowers in a small earthen pot filled with mud.",
+              "technique": "fixing",
+              "dimensions_mentioned": [],
+              "visual_description": "Corn leaf flowers arranged in an earthen pot filled with mud."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Fix artificial leaves around them to give the bouquet a plush look.",
+              "technique": "fixing",
+              "dimensions_mentioned": [],
+              "visual_description": "Artificial leaves added around the corn leaf flowers."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Paint the straws with Fevicryl Hobby Ideas Acrylic Colour- Pearl Metallic Red, Pearl Metallic Gold and Pearl Blue. Let it dry.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "Straws being painted with metallic colors."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Insert small metallic balls on the top of the straws.",
+              "technique": "inserting",
+              "dimensions_mentioned": [],
+              "visual_description": "Metallic balls placed on top of painted straws."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Fix these decorative straws in between the floral sticks to give the bouquet a complet look.",
+              "technique": "fixing",
+              "dimensions_mentioned": [],
+              "visual_description": "Decorative straws inserted into the bouquet."
+            },
+            {
+              "step_number": 10,
+              "instruction": "Wrap the earthen pot with a blue net.",
+              "technique": "wrapping",
+              "dimensions_mentioned": [],
+              "visual_description": "Earthen pot wrapped with blue net."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A bouquet made of corn leaves, decorated with painted straws and metallic balls, in an earthen pot wrapped with blue net."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up image of a colorful African mask with intricate patterns and details.",
+        "A close-up image of a tribal woman figurine, appearing to be made of dough and mounted on a bottle.",
+        "A close-up image of a bouquet made from corn leaves, with various decorative elements.",
+        "An image of a Fevicryl Hobby Ideas acrylic colours sunflower kit box.",
+        "A logo for 'creative craft'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 16,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A black and white portrait of Henry Matisse wearing a hat and glasses.",
+        "A colorful painting of a woman's face with vibrant colors.",
+        "A still life painting of a table setting with dishes and food.",
+        "A painting of a person sitting at a table with a fishbowl.",
+        "A colorful illustration of various ceramic plates and bowls with floral and fish designs.",
+        "A box of 'hobby ideas' ceramic colours, showing different colored flowers, and a small bottle of red ceramic colour with a paintbrush."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 17,
+    "extracted": {
+      "page_type": "materials_guide",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Image shows a box of Fevicryl Hobby Ideas 3D Outliners, with four small bottles of colored outliner pens.",
+        "Image shows a box of Fevicryl Hobby Ideas Acrylic Colours, with multiple small bottles of colored paints.",
+        "Image shows a box of Fevicryl Hobby Ideas Glass Colours (Solvent Based), with multiple small bottles of colored paints and a stained glass design on the box.",
+        "Image shows a box of Fevicryl Hobby Ideas Glass Colours (Water Based), with multiple small bottles of colored paints and a stained glass design on the box.",
+        "Image shows a box of Fevicryl Hobby Ideas All Surface Acrylic Colours, with multiple small bottles of colored paints and a patterned design on the box.",
+        "Image shows a box of Fevicryl Hobby Ideas No Stitch Fabric Glue, with a bottle and tube of fabric glue and a fabric design on the box.",
+        "Image shows a box of Fevicryl Hobby Ideas Ceramic Colours, with multiple small bottles of colored paints and a floral design on the box.",
+        "Image shows a bottle of Fevicryl Hobby Ideas Crackle Medium.",
+        "Image shows a box of Fevicryl Hobby Ideas Glue 'N' Gloss, with multiple small bottles of glitter glue and a colorful design on the box.",
+        "Image shows a Fevicryl Hobby Ideas Suncatcher Kit, with a blue frame and multiple small bottles of colored paints.",
+        "Image shows a Fevicryl Hobby Ideas Fabric Pen set, with multiple colored pens arranged in a row.",
+        "Image shows a Fevicryl Hobby Ideas Shilpkar kit, with a box featuring a grape design and a product name.",
+        "Image shows a Fevicryl Hobby Ideas Decorative 3D Nozzles set, with a bottle of outliner and a pack of nozzles.",
+        "Image shows a Fevicryl Hobby Ideas 3D Cone Outliner set, with two bottles of outliner and a box with a decorative pattern.",
+        "Image shows a set of Fevicryl Hobby Ideas Design Stencils, with three stencils of various circular patterns."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

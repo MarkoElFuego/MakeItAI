@@ -1,0 +1,1754 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": []
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Templates",
+          "scale": null,
+          "shape_description": null
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 7",
+          "scale": "enlarge 200%",
+          "shape_description": "A rectangular strip with a pointed top, divided into two arched sections by a vertical dashed line. It has three parallel lines indicating grain direction near the top. There are solid horizontal lines near the bottom indicating where to cut and fold."
+        },
+        {
+          "name": "Template 8",
+          "scale": "enlarge 200%",
+          "shape_description": "A rectangular strip with a pointed top, divided into three arched sections by two vertical dashed lines. It has three parallel lines indicating grain direction near the top. There are solid horizontal lines near the bottom indicating where to cut and fold."
+        },
+        {
+          "name": "Template 9",
+          "scale": "full size",
+          "shape_description": "A rectangular shape with dashed lines indicating folds on the left and right sides, and a solid line indicating a cut line across the bottom. It has three parallel lines indicating grain direction."
+        },
+        {
+          "name": "Template 10",
+          "scale": "enlarge 200%",
+          "shape_description": "A rectangular shape with dashed lines indicating folds on the left and right sides, and a solid line indicating a cut line across the bottom. It has three parallel lines indicating grain direction."
+        },
+        {
+          "name": "Template 11",
+          "scale": "full size",
+          "shape_description": "A petal shape with a pointed tip and a curved base. It has three parallel lines indicating grain direction near the tip. The number 11 is placed on the lower part of the petal."
+        },
+        {
+          "name": "Template 12",
+          "scale": "full size",
+          "shape_description": "A petal shape with a pointed tip and a curved base. It has three parallel lines indicating grain direction near the tip. The number 12 is placed on the lower part of the petal."
+        },
+        {
+          "name": "Template 1",
+          "scale": "full size",
+          "shape_description": "A large, layered petal shape with a pointed tip and a wavy bottom edge. It has three parallel lines indicating grain direction near the tip. The number 1 is placed on the petal."
+        },
+        {
+          "name": "Template 2",
+          "scale": "full size",
+          "shape_description": "A medium-sized, layered petal shape with a pointed tip and a wavy bottom edge. It has three parallel lines indicating grain direction near the tip. The number 2 is placed on the petal."
+        },
+        {
+          "name": "Template 3",
+          "scale": "full size",
+          "shape_description": "A small, layered petal shape with a pointed tip and a wavy bottom edge. It has three parallel lines indicating grain direction near the tip. The number 3 is placed on the petal."
+        },
+        {
+          "name": "Template 4",
+          "scale": "full size",
+          "shape_description": "A hand-like shape with multiple finger-like projections. It has three parallel lines indicating grain direction on the main body. The number 4 is placed on the shape."
+        },
+        {
+          "name": "Template 5",
+          "scale": "full size",
+          "shape_description": "A long, rectangular base shape with a curved top edge that tapers to a point. It has three parallel lines indicating grain direction on the main body. The number 5 is placed on the shape."
+        },
+        {
+          "name": "Template 6",
+          "scale": "full size",
+          "shape_description": "A four-petal flower shape. It has three parallel lines indicating grain direction in the center of the petals. The number 6 is placed in the center."
+        }
+      ],
+      "diagram_descriptions": [
+        "Diagram showing templates 7 and 8, which are rectangular strips with arched tops, marked for enlargement and folding.",
+        "Diagram showing template 9, a rectangle marked for enlargement and folding.",
+        "Diagram showing template 10, a rectangle marked for enlargement and folding.",
+        "Diagram showing templates 11 and 12, which are petal shapes.",
+        "Diagram showing layered petal shapes labeled 1, 2, and 3.",
+        "Diagram showing a hand-like shape labeled 4 and a rectangular base shape labeled 5.",
+        "Diagram showing a four-petal flower shape labeled 6."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 4,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 13",
+          "scale": "100%",
+          "shape_description": "A long, narrow shape with a rounded top and a notched base. It has three vertical lines near the top."
+        },
+        {
+          "name": "Template 14",
+          "scale": "100%",
+          "shape_description": "A curved shape with a straight dashed line along the top edge. It has three horizontal lines in the middle."
+        },
+        {
+          "name": "Template 15",
+          "scale": "100%",
+          "shape_description": "A large, irregular petal shape with a pointed bottom and a curved top. It has three vertical lines near the center."
+        },
+        {
+          "name": "Template 16",
+          "scale": "100%",
+          "shape_description": "A long, narrow shape with a rounded top and a notched base. It has three vertical lines near the top."
+        },
+        {
+          "name": "Template 17",
+          "scale": "100%",
+          "shape_description": "A rounded, somewhat irregular shape with three vertical lines near the center."
+        },
+        {
+          "name": "Template 18",
+          "scale": "100%",
+          "shape_description": "A large, irregular petal shape with a rounded top and a slightly pointed bottom. It has three vertical lines near the center."
+        },
+        {
+          "name": "Template 19",
+          "scale": "100%",
+          "shape_description": "A long, narrow, pointed oval shape with three vertical lines near the center."
+        },
+        {
+          "name": "Template 20",
+          "scale": "ENLARGE 200%",
+          "shape_description": "A teardrop shape with a narrow top and a wider, rounded bottom. It has three vertical lines in the narrow section. This template is part of a set of concentric shapes."
+        },
+        {
+          "name": "Template 21",
+          "scale": "100%",
+          "shape_description": "A narrow, elongated shape with a rounded top and a pointed bottom. It has three vertical lines near the top."
+        },
+        {
+          "name": "Template 22",
+          "scale": "100%",
+          "shape_description": "A narrow, elongated shape with a rounded top and a pointed bottom. It has three vertical lines near the top."
+        },
+        {
+          "name": "Template 23",
+          "scale": "ENLARGE 200%",
+          "shape_description": "A large, irregular petal shape with a curved top and a pointed bottom. It has three vertical lines near the center. This template is part of a set of concentric shapes."
+        },
+        {
+          "name": "Template 24",
+          "scale": "ENLARGE 200%",
+          "shape_description": "A large, irregular petal shape with a curved top and a pointed bottom. It has three vertical lines near the center. This template is part of a set of concentric shapes."
+        },
+        {
+          "name": "Template 25",
+          "scale": "ENLARGE 200%",
+          "shape_description": "A large, irregular petal shape with a curved top and a pointed bottom. It has three vertical lines near the center. This template is part of a set of concentric shapes."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 5,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 26",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed tip and a slightly curved base, featuring three parallel lines in the center."
+        },
+        {
+          "name": "Template 27",
+          "scale": null,
+          "shape_description": "A small, elongated petal shape with a pointed tip and a rounded base, featuring three parallel lines in the center."
+        },
+        {
+          "name": "Template 28",
+          "scale": null,
+          "shape_description": "A rectangular shape with three rounded lobes at one end, and dashed lines indicating a fold or cut line across the wider part of the rectangle."
+        },
+        {
+          "name": "Template 29",
+          "scale": null,
+          "shape_description": "A large, irregular geometric shape with two long straight edges meeting at a point, and one angled edge. It has three parallel lines in the center."
+        },
+        {
+          "name": "Template 30",
+          "scale": null,
+          "shape_description": "A bulbous shape with a curved top and a narrower base, featuring a small notch at the top and three parallel lines in the center."
+        },
+        {
+          "name": "Template 31",
+          "scale": null,
+          "shape_description": "A large, curved shape resembling a petal or leaf, with a pointed tip and a wide, curved base. It has three parallel lines in the center."
+        },
+        {
+          "name": "Template 32",
+          "scale": null,
+          "shape_description": "A small, elongated teardrop shape with a pointed tip and a rounded base, featuring three parallel lines in the center."
+        },
+        {
+          "name": "Template 34",
+          "scale": null,
+          "shape_description": "A small, rounded teardrop shape with a pointed tip, featuring three parallel lines in the center."
+        },
+        {
+          "name": "Template 35",
+          "scale": null,
+          "shape_description": "A long, slender petal shape with a pointed tip and a slightly curved base, featuring three parallel lines in the center."
+        },
+        {
+          "name": "Template 36",
+          "scale": null,
+          "shape_description": "A long, slender petal shape with a pointed tip and a slightly curved base, featuring three parallel lines in the center."
+        },
+        {
+          "name": "Template 37",
+          "scale": null,
+          "shape_description": "A long, narrow rectangular strip with slightly rounded ends, featuring three parallel lines in the center."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 6,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 33",
+          "scale": null,
+          "shape_description": "A petal shape with a rounded top and a narrow base, featuring three parallel vertical lines in the upper half."
+        },
+        {
+          "name": "Template 38",
+          "scale": null,
+          "shape_description": "A large, rounded petal shape with a narrow base, featuring three parallel vertical lines in the upper half."
+        },
+        {
+          "name": "Template 39",
+          "scale": null,
+          "shape_description": "A rectangular shape with a rounded top and a flat base, featuring three parallel vertical lines in the upper half. The base has dashed lines indicating a cut or fold."
+        },
+        {
+          "name": "Template 42",
+          "scale": null,
+          "shape_description": "A petal shape with a rounded, slightly ruffled top and a narrow base, featuring three parallel vertical lines in the upper half."
+        },
+        {
+          "name": "Template 43",
+          "scale": null,
+          "shape_description": "A petal shape with a rounded top and a narrow base, featuring three parallel vertical lines in the upper half."
+        },
+        {
+          "name": "Template 44",
+          "scale": null,
+          "shape_description": "A large petal shape with a pointed top and a narrow base, featuring three parallel vertical lines in the upper half."
+        },
+        {
+          "name": "Template 45",
+          "scale": null,
+          "shape_description": "A petal shape with a rounded, slightly ruffled top and a narrow base, featuring three parallel vertical lines in the upper half."
+        },
+        {
+          "name": "Template 40",
+          "scale": null,
+          "shape_description": "A large, elongated petal shape with a pointed top and a narrow base, featuring three parallel vertical lines in the upper half. It is outlined with a thicker line, suggesting it might be a base or outer layer."
+        },
+        {
+          "name": "Template 41",
+          "scale": null,
+          "shape_description": "A large, elongated petal shape with a pointed top and a narrow base, featuring three parallel vertical lines in the upper half. It is outlined with a thicker line, suggesting it might be a base or outer layer."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 7,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 46",
+          "scale": null,
+          "shape_description": "A leaf-like shape with three parallel score lines near the base."
+        },
+        {
+          "name": "Template 47",
+          "scale": null,
+          "shape_description": "A long, curved petal shape with three parallel score lines."
+        },
+        {
+          "name": "Template 48",
+          "scale": null,
+          "shape_description": "A narrow, elongated petal shape with three parallel score lines."
+        },
+        {
+          "name": "Template 49",
+          "scale": null,
+          "shape_description": "A large, rounded petal shape with three parallel score lines."
+        },
+        {
+          "name": "Template 50",
+          "scale": null,
+          "shape_description": "A long, tapering petal shape with three parallel score lines."
+        },
+        {
+          "name": "Template 51",
+          "scale": null,
+          "shape_description": "A lobed petal shape with three parallel score lines on one lobe."
+        },
+        {
+          "name": "Template 52",
+          "scale": null,
+          "shape_description": "A curved petal shape with three parallel score lines."
+        },
+        {
+          "name": "Template 53",
+          "scale": null,
+          "shape_description": "A fringe-like shape with multiple pointed segments and three parallel score lines."
+        },
+        {
+          "name": "Template 54",
+          "scale": null,
+          "shape_description": "A small, oval petal shape with three parallel score lines."
+        }
+      ],
+      "diagram_descriptions": [
+        "A layout of various petal templates numbered 46 through 54, with some templates showing parallel score lines."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 8,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 55",
+          "scale": null,
+          "shape_description": "Heart shape with three vertical lines inside."
+        },
+        {
+          "name": "Template 56",
+          "scale": null,
+          "shape_description": "A long, irregular shape with a dashed line on the left edge and three horizontal lines in the middle."
+        },
+        {
+          "name": "Template 57",
+          "scale": null,
+          "shape_description": "A large, irregular petal-like shape with three horizontal lines in the middle."
+        },
+        {
+          "name": "Template 58",
+          "scale": null,
+          "shape_description": "A long, narrow shape with a pointed top and three horizontal lines in the middle."
+        },
+        {
+          "name": "Template 59",
+          "scale": null,
+          "shape_description": "A leaf-like shape with five lobes and three vertical lines in the center."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 9,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 89",
+          "scale": null,
+          "shape_description": "A U-shaped template with a flat top and dashed lines at the top corners, and three vertical lines in the center of the U-shape."
+        },
+        {
+          "name": "Template 64",
+          "scale": null,
+          "shape_description": "A pointed, shield-like shape with two inward curves on the sides and three vertical lines in the center."
+        },
+        {
+          "name": "Template 63",
+          "scale": null,
+          "shape_description": "A large, irregular petal shape with three points at the top and a wavy bottom edge, with three vertical lines in the center."
+        },
+        {
+          "name": "Template 60",
+          "scale": null,
+          "shape_description": "A leaf-like shape with two lobes at the top and a pointed base, with three vertical lines in the center."
+        },
+        {
+          "name": "Template 69",
+          "scale": null,
+          "shape_description": "A crown-like shape with a jagged top edge and a flat bottom, with three vertical lines in the center."
+        },
+        {
+          "name": "Template 61",
+          "scale": null,
+          "shape_description": "A large, irregular leaf shape with multiple lobes and a pointed base, with three vertical lines in the center."
+        },
+        {
+          "name": "Template 72",
+          "scale": null,
+          "shape_description": "A small, irregular shape with multiple pointed lobes and a dashed line across the top, with three vertical lines in the center."
+        },
+        {
+          "name": "Template 62",
+          "scale": null,
+          "shape_description": "A long, narrow, pointed shape with a wavy edge on one side, with three vertical lines in the center."
+        },
+        {
+          "name": "Template 65",
+          "scale": null,
+          "shape_description": "A large, irregular petal shape with a pointed top and a wavy bottom edge, with three vertical lines in the center."
+        }
+      ],
+      "diagram_descriptions": [
+        "A layout of various petal and leaf templates, numbered 60, 61, 62, 63, 64, 65, 69, 72, and 89. Each template has three vertical lines drawn in the center, indicating fold or score lines. Template 89 also has dashed lines at the top corners. The templates are arranged on a white background."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 10,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Petal Template 66",
+          "scale": null,
+          "shape_description": "A rounded, leaf-like shape with three parallel score lines near the wider end."
+        },
+        {
+          "name": "Petal Template 78",
+          "scale": null,
+          "shape_description": "A long, pointed oval shape with three parallel score lines near the wider end."
+        },
+        {
+          "name": "Petal Template 71",
+          "scale": null,
+          "shape_description": "A long, pointed oval shape with three parallel score lines near the wider end."
+        },
+        {
+          "name": "Petal Template 70",
+          "scale": null,
+          "shape_description": "A rounded, leaf-like shape with three parallel score lines near the wider end."
+        },
+        {
+          "name": "Petal Template 73",
+          "scale": null,
+          "shape_description": "A long, pointed oval shape with three parallel score lines near the wider end."
+        },
+        {
+          "name": "Petal Template 75",
+          "scale": null,
+          "shape_description": "A long, pointed oval shape with three parallel score lines near the wider end."
+        },
+        {
+          "name": "Petal Template 74",
+          "scale": null,
+          "shape_description": "A rounded, leaf-like shape with three parallel score lines near the wider end."
+        },
+        {
+          "name": "Petal Template 67",
+          "scale": null,
+          "shape_description": "A shape resembling the top of a hand with three fingers, each with three parallel score lines."
+        }
+      ],
+      "diagram_descriptions": [
+        "A collection of paper cut-out templates for crafting petals and other floral elements. Each template is outlined with a solid line and some have dashed lines indicating folds or cut lines. Several templates are numbered (66, 78, 71, 70, 73, 75, 74, 67) and some have three parallel score lines drawn on them."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 11,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 76",
+          "scale": null,
+          "shape_description": "A series of four petal shapes with rounded tops, connected at the base. The base has dashed lines on the sides and three vertical lines in the center."
+        },
+        {
+          "name": "Template 77",
+          "scale": null,
+          "shape_description": "A rounded rectangle with dashed lines on the top and bottom edges. It has three horizontal lines in the center."
+        },
+        {
+          "name": "Template 79",
+          "scale": null,
+          "shape_description": "A shield-like shape with a flat top edge and a pointed bottom. The top edge has a dashed line and two short dashed lines below it. It has three vertical lines in the center."
+        },
+        {
+          "name": "Template 80",
+          "scale": null,
+          "shape_description": "A curved shape with a pointed end and a rounded base. It has a dashed line along its length."
+        },
+        {
+          "name": "Template 81",
+          "scale": null,
+          "shape_description": "A narrow, elongated shape with a rounded end. It is outlined by two concentric lines."
+        },
+        {
+          "name": "Template 82",
+          "scale": null,
+          "shape_description": "A narrow, elongated shape with a rounded end. It is outlined by two concentric lines, wider than template 81."
+        },
+        {
+          "name": "Template 83",
+          "scale": null,
+          "shape_description": "A narrow, elongated shape with a rounded end. It is outlined by two concentric lines, wider than template 82."
+        },
+        {
+          "name": "Template 84",
+          "scale": null,
+          "shape_description": "A curved shape with a pointed end and a rounded base. It has three vertical lines in the center."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 12,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 85",
+          "scale": null,
+          "shape_description": "A trapezoidal shape with a rectangular base and two vertical dashed lines inside."
+        },
+        {
+          "name": "Template 86",
+          "scale": null,
+          "shape_description": "A petal shape with three vertical lines inside."
+        },
+        {
+          "name": "Template 87",
+          "scale": null,
+          "shape_description": "A petal shape with three vertical lines inside."
+        },
+        {
+          "name": "Template 88",
+          "scale": null,
+          "shape_description": "A petal shape with three vertical lines inside."
+        },
+        {
+          "name": "Template 89",
+          "scale": null,
+          "shape_description": "A petal shape with three vertical lines inside."
+        },
+        {
+          "name": "Template 90",
+          "scale": null,
+          "shape_description": "A long, curved strip with three vertical lines inside."
+        },
+        {
+          "name": "Template 91",
+          "scale": null,
+          "shape_description": "A petal shape with three vertical lines inside."
+        },
+        {
+          "name": "Template 92",
+          "scale": null,
+          "shape_description": "A petal shape with three vertical lines inside."
+        },
+        {
+          "name": "Template 93",
+          "scale": null,
+          "shape_description": "A petal shape with three vertical lines inside."
+        },
+        {
+          "name": "Template 94",
+          "scale": null,
+          "shape_description": "A long, curved strip with a spiral at one end and three vertical lines inside."
+        },
+        {
+          "name": "Template 95",
+          "scale": null,
+          "shape_description": "A rectangular shape with a dashed line across the top and three horizontal lines in the middle."
+        },
+        {
+          "name": "Template 96",
+          "scale": null,
+          "shape_description": "A petal shape with three vertical lines inside."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 13,
+    "extracted": {
+      "page_type": "project",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 98",
+          "scale": null,
+          "shape_description": "A comb-like shape with 8 teeth, a dashed line across the base, and three vertical lines in the center of the main body."
+        },
+        {
+          "name": "Template 99",
+          "scale": null,
+          "shape_description": "A shape with four elongated, rounded-top segments, each with three vertical lines in the center. The bottom edge is straight."
+        },
+        {
+          "name": "Template 101",
+          "scale": null,
+          "shape_description": "A large, curved petal shape with a pointed base and a rounded top. It has three vertical lines near the center."
+        },
+        {
+          "name": "Template 102",
+          "scale": null,
+          "shape_description": "A curved, elongated shape with a pointed base and a rounded top, similar to a leaf or petal. It has three vertical lines near the center."
+        },
+        {
+          "name": "Template 103",
+          "scale": null,
+          "shape_description": "A small, oval shape with three vertical lines in the center."
+        },
+        {
+          "name": "Template 104",
+          "scale": null,
+          "shape_description": "A large, curved petal shape with a pointed base and a rounded top. It has three vertical lines near the center."
+        },
+        {
+          "name": "Template 97",
+          "scale": null,
+          "shape_description": "A long, narrow, curved shape with a pointed base and a rounded top. It has three vertical lines near the center."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 14,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 100",
+          "scale": null,
+          "shape_description": "Two identical petal shapes with a U-shaped cutout at the top and a flat base. Each has two vertical lines etched in the center of the petal body."
+        },
+        {
+          "name": "Template 105",
+          "scale": null,
+          "shape_description": "A curved, asymmetrical petal shape with a pointed tip and a wider, rounded base. It has two vertical lines etched in the center."
+        },
+        {
+          "name": "Template 106",
+          "scale": null,
+          "shape_description": "A curved, asymmetrical petal shape with a pointed tip and a wider, rounded base. It has two vertical lines etched in the center."
+        },
+        {
+          "name": "Template 107",
+          "scale": null,
+          "shape_description": "A long, slender petal shape that is wider in the middle and tapers to a point at both ends. It has two vertical lines etched in the center."
+        },
+        {
+          "name": "Template 108",
+          "scale": null,
+          "shape_description": "A curved, asymmetrical petal shape with a pointed tip and a wider, rounded base. It has two vertical lines etched in the center."
+        },
+        {
+          "name": "Template 109",
+          "scale": null,
+          "shape_description": "A large, oval-shaped petal with a pointed tip and a rounded base. It has two vertical lines etched in the center."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 15,
+    "extracted": {
+      "page_type": "project",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 110",
+          "scale": null,
+          "shape_description": "A large, irregular petal shape with a wavy top edge and a pointed bottom. It has three parallel lines drawn vertically in the center."
+        },
+        {
+          "name": "Template 111",
+          "scale": null,
+          "shape_description": "A petal shape with a rounded top and a pointed bottom. It has three parallel lines drawn vertically in the center."
+        },
+        {
+          "name": "Template 112",
+          "scale": null,
+          "shape_description": "A long, thin, pointed shape, like a leaf or a narrow petal. It has three parallel lines drawn vertically in the center."
+        },
+        {
+          "name": "Template 113",
+          "scale": null,
+          "shape_description": "A petal shape with a rounded top and a pointed bottom. It has three parallel lines drawn vertically in the center."
+        },
+        {
+          "name": "Template 114",
+          "scale": null,
+          "shape_description": "A rectangular shape with a slightly curved top edge. It has three parallel lines drawn vertically in the center."
+        },
+        {
+          "name": "Template 115",
+          "scale": null,
+          "shape_description": "A long, curved, pointed shape, like a leaf or a narrow petal. It has three parallel lines drawn vertically in the center."
+        },
+        {
+          "name": "Template 116",
+          "scale": null,
+          "shape_description": "A large, curved petal shape with a pointed end. It has three parallel lines drawn vertically in the center."
+        },
+        {
+          "name": "Template 117",
+          "scale": null,
+          "shape_description": "A long, thin, pointed shape, like a leaf or a narrow petal. It has three parallel lines drawn vertically in the center."
+        },
+        {
+          "name": "Template 118",
+          "scale": null,
+          "shape_description": "A long, curved, pointed shape, like a leaf or a narrow petal. It has three parallel lines drawn vertically in the center."
+        },
+        {
+          "name": "Template 120",
+          "scale": null,
+          "shape_description": "A rectangular shape with a scalloped top edge, featuring three rounded lobes. It has a dashed line down the center and three parallel vertical lines in the center."
+        },
+        {
+          "name": "Template 121",
+          "scale": null,
+          "shape_description": "A strip with five rounded, elongated shapes extending upwards from a base. The base has a dashed line on the right side and three parallel vertical lines in the center."
+        },
+        {
+          "name": "Template 122",
+          "scale": null,
+          "shape_description": "A small, rounded shape with a short, rectangular tab extending from the bottom. It has three parallel lines drawn vertically in the center."
+        },
+        {
+          "name": "Template 125",
+          "scale": null,
+          "shape_description": "A rectangular shape with a serrated top edge, resembling a crown or a series of points. It has three parallel lines drawn vertically in the center."
+        },
+        {
+          "name": "Template 133",
+          "scale": null,
+          "shape_description": "A long, thin, pointed shape, like a leaf or a narrow petal. It has three parallel lines drawn vertically in the center."
+        }
+      ],
+      "diagram_descriptions": [
+        "A layout of various petal and leaf shapes, each labeled with a number (110-133). Some shapes have internal lines indicating folds or details. The shapes are arranged across the page without clear assembly instructions on this specific page.",
+        "A small rectangular tab is attached to the bottom of template 122.",
+        "Template 120 has a scalloped top edge with three lobes and a dashed line down the right side.",
+        "Template 121 has five rounded, elongated shapes extending from a base, with a dashed line on the right side of the base.",
+        "Template 125 has a serrated top edge.",
+        "Several templates (110, 111, 112, 113, 114, 115, 116, 117, 118, 120, 121, 122, 125, 133) have three parallel vertical lines drawn within them, likely indicating fold lines or decorative elements."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 16,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "123",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed tip and a rounded base. It has three parallel lines drawn vertically in the center. It is labeled with '123' and '124' on a small rectangular tab at the base."
+        },
+        {
+          "name": "126",
+          "scale": null,
+          "shape_description": "A shape with three rounded lobes, resembling fingers or petals. Each lobe has two vertical lines in the center. The bottom edge is dashed, indicating a cut line. Labeled '126'."
+        },
+        {
+          "name": "127",
+          "scale": null,
+          "shape_description": "A shape with three rounded lobes, similar to template 126, but larger and without the dashed line at the bottom. Each lobe has two vertical lines in the center. Labeled '127'."
+        },
+        {
+          "name": "128",
+          "scale": null,
+          "shape_description": "A crown-like shape with a series of pointed triangular peaks along the top edge. It has two vertical lines in the center of one of the peaks. The bottom edge has dashed lines. Labeled '128'."
+        },
+        {
+          "name": "129",
+          "scale": null,
+          "shape_description": "A long, narrow petal shape with a pointed tip and a slightly rounded base. It has three parallel lines drawn vertically in the center. Labeled '129'."
+        },
+        {
+          "name": "130",
+          "scale": null,
+          "shape_description": "A small, elongated petal shape with a pointed tip and a straight base. Labeled '130'."
+        },
+        {
+          "name": "131",
+          "scale": null,
+          "shape_description": "A large, elongated petal shape with a pointed tip and a wavy, irregular base. Labeled '131'."
+        },
+        {
+          "name": "132",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed tip and a rounded base. It has three parallel lines drawn vertically in the center. Labeled '132'."
+        },
+        {
+          "name": "119",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed tip and a rounded base. It has three parallel lines drawn vertically in the center. Labeled '119'."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 17,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 134",
+          "scale": null,
+          "shape_description": "An irregular shape with a pointed end and a notched end, with three parallel lines inside."
+        },
+        {
+          "name": "Template 135",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed end and a slightly indented base, with three parallel lines inside."
+        },
+        {
+          "name": "Template 136",
+          "scale": null,
+          "shape_description": "A rounded, bulbous shape with a narrow, notched base, with three parallel lines inside."
+        },
+        {
+          "name": "Template 137",
+          "scale": null,
+          "shape_description": "A long, curved petal shape with a pointed end and a narrow, notched base, with three parallel lines inside."
+        },
+        {
+          "name": "Template 138",
+          "scale": null,
+          "shape_description": "A narrow, elongated shape with a notched base and a pointed top, with three parallel lines inside."
+        },
+        {
+          "name": "Template 139",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed end and a slightly indented base, with three parallel lines inside."
+        },
+        {
+          "name": "Template 140",
+          "scale": null,
+          "shape_description": "A rounded shape with a flat, tab-like base, with dashed lines indicating where to cut or fold, and three parallel lines inside."
+        },
+        {
+          "name": "Template 141",
+          "scale": null,
+          "shape_description": "A series of five connected petal shapes, each with a pointed top and a straight base. Each petal has a vertical line down the center, and the middle three petals have additional parallel lines."
+        },
+        {
+          "name": "Template 142",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed end and a slightly indented base, with three parallel lines inside."
+        },
+        {
+          "name": "Template 143",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed end and a slightly indented base, with three parallel lines inside."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 18,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 144",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed top and a rounded bottom, with three vertical lines in the center."
+        },
+        {
+          "name": "Template 149",
+          "scale": null,
+          "shape_description": "A shape resembling a fork or comb with five prongs at the top, and a rectangular base with three vertical lines and a dashed line indicating a fold."
+        },
+        {
+          "name": "Template 145",
+          "scale": null,
+          "shape_description": "A curved strip with a wider top and a narrower bottom, with three vertical lines in the center."
+        },
+        {
+          "name": "Template 151",
+          "scale": null,
+          "shape_description": "A long, curved petal shape with a pointed top and a wider, wavy bottom edge. It has a dashed line near the top indicating a fold."
+        },
+        {
+          "name": "Template 147",
+          "scale": null,
+          "shape_description": "A leaf-like shape with a pointed top and bottom, and three vertical lines in the center."
+        },
+        {
+          "name": "Template 148",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed top and a rounded bottom, with three vertical lines in the center."
+        },
+        {
+          "name": "Template 146",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed top and a rounded bottom, with three vertical lines in the center."
+        },
+        {
+          "name": "Template 150",
+          "scale": null,
+          "shape_description": "A rectangular shape with a dashed line indicating a fold."
+        },
+        {
+          "name": "Template 154",
+          "scale": null,
+          "shape_description": "A leaf-like shape with a pointed top and bottom, and three vertical lines in the center."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 19,
+    "extracted": {
+      "page_type": "project",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 152",
+          "scale": null,
+          "shape_description": "A rectangular piece with a pointed top edge that has three peaks. There are two vertical dashed lines in the center of the rectangle."
+        },
+        {
+          "name": "Template 153",
+          "scale": null,
+          "shape_description": "A diamond-like shape with two parallel lines in the center. One edge is dashed."
+        },
+        {
+          "name": "Template 155",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed top and a rounded bottom. There are three parallel vertical lines in the center."
+        },
+        {
+          "name": "Template 156",
+          "scale": null,
+          "shape_description": "A teardrop shape with a rounded top and a pointed bottom. There are three parallel vertical lines in the center."
+        },
+        {
+          "name": "Template 157",
+          "scale": null,
+          "shape_description": "A petal shape with a rounded top and a pointed bottom. There are three parallel vertical lines in the center."
+        },
+        {
+          "name": "Template 158",
+          "scale": null,
+          "shape_description": "A trapezoidal shape with a pointed top and a flat bottom. There are three parallel vertical lines in the center."
+        },
+        {
+          "name": "Template 159",
+          "scale": null,
+          "shape_description": "A shape with a flat bottom and a top edge that has five vertical slits. A dashed line runs diagonally from the bottom left to the top right."
+        },
+        {
+          "name": "Template 160",
+          "scale": null,
+          "shape_description": "A shape with a flat bottom and a wavy top edge. There are three parallel vertical lines in the center."
+        }
+      ],
+      "diagram_descriptions": [
+        "A layout of several paper templates numbered 152 through 160, with dashed lines indicating folds or cuts."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 20,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Leaf Template 161",
+          "scale": null,
+          "shape_description": "A large, stylized leaf shape with a pointed stem and serrated edges. It has three vertical score lines near the stem."
+        },
+        {
+          "name": "Leaf Template 162",
+          "scale": null,
+          "shape_description": "A large, elongated leaf shape with a pointed tip and a rounded base that tapers to a stem. It has three vertical score lines near the stem."
+        },
+        {
+          "name": "Petal Template 163",
+          "scale": null,
+          "shape_description": "A group of five elongated, pointed petal shapes arranged in a fan-like manner. Each petal has a dashed line at its base, indicating a cut line. Three of the petals have three vertical score lines."
+        },
+        {
+          "name": "Petal Template 164",
+          "scale": null,
+          "shape_description": "A group of five elongated, pointed petal shapes arranged in a row. Each petal has a dashed line at its base, indicating a cut line. Three of the petals have three vertical score lines."
+        },
+        {
+          "name": "Fence/Base Template 165",
+          "scale": null,
+          "shape_description": "A series of five connected, pointed arch shapes forming a fence-like or base structure. Each arch has a vertical score line near its center. The bottom edge has a dashed line indicating a cut line."
+        }
+      ],
+      "diagram_descriptions": [
+        "Diagram showing a large leaf shape labeled '161' with three vertical score lines.",
+        "Diagram showing a large, elongated leaf shape labeled '162' with three vertical score lines.",
+        "Diagram showing a group of five pointed petal shapes labeled '163', with dashed cut lines at the base and score lines on three petals.",
+        "Diagram showing a group of five pointed petal shapes labeled '164', with dashed cut lines at the base and score lines on three petals.",
+        "Diagram showing a series of five connected pointed arch shapes labeled '165', with score lines and a dashed cut line at the bottom."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 21,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 166",
+          "scale": null,
+          "shape_description": "A pointed oval shape with three parallel lines inside."
+        },
+        {
+          "name": "Template 167",
+          "scale": null,
+          "shape_description": "A narrow, elongated shape with a wider top and a narrower bottom, featuring dashed lines at the bottom."
+        },
+        {
+          "name": "Template 168",
+          "scale": null,
+          "shape_description": "A large, irregular shape with a wavy top edge and a straight bottom edge. It has three parallel lines inside."
+        },
+        {
+          "name": "Template 169",
+          "scale": null,
+          "shape_description": "A large, irregular shape with a wavy top edge and a straight bottom edge. It has three parallel lines inside."
+        },
+        {
+          "name": "Template 170",
+          "scale": null,
+          "shape_description": "A curved shape with a pointed end and a serrated edge. It has three parallel lines inside."
+        },
+        {
+          "name": "Template 171",
+          "scale": null,
+          "shape_description": "A leaf-like shape with multiple pointed lobes. It has three parallel lines inside."
+        },
+        {
+          "name": "Template 172",
+          "scale": null,
+          "shape_description": "A rounded, bulbous shape with a small tab at the top and a small protrusion at the bottom. It has three parallel lines inside."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 22,
+    "extracted": {
+      "page_type": "project",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 177",
+          "scale": null,
+          "shape_description": "A curved, elongated petal shape with three vertical lines near the wider end."
+        },
+        {
+          "name": "Template 180",
+          "scale": null,
+          "shape_description": "A large, serrated leaf or petal shape with a pointed tip and a stem. It has three vertical lines near the base of the pointed tip."
+        },
+        {
+          "name": "Template 175",
+          "scale": null,
+          "shape_description": "A rounded petal shape with a slightly pointed tip. It has three vertical lines in the center."
+        },
+        {
+          "name": "Template 182",
+          "scale": null,
+          "shape_description": "A rectangular shape with a wavy, jagged edge along the bottom. It has three vertical lines on the right side, near the top and bottom."
+        },
+        {
+          "name": "Template 183",
+          "scale": null,
+          "shape_description": "A rectangular shape with three vertical lines on the right side, near the top and bottom. This appears to be the counterpart to Template 182, possibly for a different part of a flower or a different component."
+        },
+        {
+          "name": "Template 173",
+          "scale": null,
+          "shape_description": "An elongated, curved petal shape with a pointed tip. It has three vertical lines in the center."
+        },
+        {
+          "name": "Template 178",
+          "scale": null,
+          "shape_description": "A long, pointed petal shape with a rounded base. It has three vertical lines in the center."
+        },
+        {
+          "name": "Template 174",
+          "scale": null,
+          "shape_description": "A narrow, elongated petal shape with a rounded tip and a flat base. It has three vertical lines in the center."
+        },
+        {
+          "name": "Template 179",
+          "scale": null,
+          "shape_description": "Three connected, arched petal shapes with pointed tips and a dashed line across the bottom. Each petal has three vertical lines inside."
+        },
+        {
+          "name": "Template 181",
+          "scale": null,
+          "shape_description": "A large, elongated petal shape with a rounded tip and a slightly curved base. It has three vertical lines in the center."
+        },
+        {
+          "name": "Template 176",
+          "scale": null,
+          "shape_description": "A large, rounded petal shape with a pointed tip and a flat base with dashed lines on either side. It has three vertical lines in the center."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 23,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 191",
+          "scale": null,
+          "shape_description": "A large, elongated petal shape with a pointed tip and a rounded base. It has three parallel lines drawn inside, indicating a fold or detail line."
+        },
+        {
+          "name": "Template 193",
+          "scale": null,
+          "shape_description": "A long, slender, pointed petal shape with a slightly wider base. It has three parallel lines drawn inside, indicating a fold or detail line."
+        },
+        {
+          "name": "Template 189",
+          "scale": null,
+          "shape_description": "A rectangular piece with a scalloped top edge, forming three petal-like shapes. It has three parallel lines drawn in the lower section, indicating a fold or detail line. A dashed line runs across the top, just below the scallops."
+        },
+        {
+          "name": "Template 186",
+          "scale": null,
+          "shape_description": "A U-shaped piece with a flat base. It has three parallel lines drawn inside the U shape, indicating a fold or detail line. The base has dashed lines on the sides, suggesting it is meant to be folded or attached."
+        },
+        {
+          "name": "Template 184",
+          "scale": null,
+          "shape_description": "A large, curved shape with a pointed end and a wider, somewhat irregular base. It appears to be a large petal or leaf."
+        },
+        {
+          "name": "Template 185",
+          "scale": null,
+          "shape_description": "A rectangular piece with a scalloped top edge, forming five petal-like shapes. The bottom edge has dashed lines on the sides, suggesting it is meant to be folded or attached. Three parallel lines are drawn in the center section."
+        },
+        {
+          "name": "Template 190",
+          "scale": null,
+          "shape_description": "A small, narrow, pointed shape with three parallel lines drawn inside, indicating a fold or detail line. It resembles a small petal or leaf tip."
+        },
+        {
+          "name": "Template 187",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed tip and a wider, somewhat flattened base that tapers into a stem-like section. It has three parallel lines drawn inside."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 24,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 192",
+          "scale": null,
+          "shape_description": "A T-shaped template with a rounded bottom and a rectangular top. The top has dashed lines on the sides, indicating where to cut or fold. There are three parallel lines inside the rounded part."
+        },
+        {
+          "name": "Template 195",
+          "scale": null,
+          "shape_description": "A long, narrow, triangular shape with a pointed end. There are three parallel lines inside the shape."
+        },
+        {
+          "name": "Template 188",
+          "scale": null,
+          "shape_description": "A curved, elongated shape with a pointed end. There are three parallel lines inside the shape."
+        },
+        {
+          "name": "Template 194",
+          "scale": null,
+          "shape_description": "A shape with three rounded lobes at the top, connected to a rectangular base. The base has dashed lines on the sides. There are three parallel lines inside each lobe."
+        },
+        {
+          "name": "Template 201",
+          "scale": null,
+          "shape_description": "A long, narrow, slightly curved shape with a pointed end. There are three parallel lines inside the shape."
+        },
+        {
+          "name": "Template 199",
+          "scale": null,
+          "shape_description": "An elongated oval shape with pointed ends. There are three parallel lines inside the shape."
+        },
+        {
+          "name": "Template 196/197",
+          "scale": null,
+          "shape_description": "A U-shaped template with a wide opening at the top and a flat bottom. The bottom section is a rectangle with dashed lines on the sides. There are three parallel lines inside the U-shape."
+        }
+      ],
+      "diagram_descriptions": [
+        "A collection of paper cut-out templates with numerical labels (192, 195, 188, 194, 201, 199, 196, 197). Each template has a unique shape, and some contain dashed lines indicating cuts or folds, and parallel lines suggesting texture or alignment guides. The templates appear to be for creating floral or petal-like shapes."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 25,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 198",
+          "scale": null,
+          "shape_description": "A rectangular base with a dashed line at the top and bottom. The top edge has a zig-zag pattern with five points. Three parallel vertical lines are drawn in the center of the rectangular base."
+        },
+        {
+          "name": "Template 200",
+          "scale": null,
+          "shape_description": "A trapezoidal shape with three parallel vertical lines drawn inside."
+        },
+        {
+          "name": "Template 202",
+          "scale": null,
+          "shape_description": "A long, narrow, petal-like shape with a pointed top and bottom. Three parallel vertical lines are drawn inside."
+        },
+        {
+          "name": "Template 203",
+          "scale": null,
+          "shape_description": "A large, elongated, curved shape resembling a petal or leaf. Three parallel diagonal lines are drawn inside."
+        },
+        {
+          "name": "Template 204",
+          "scale": null,
+          "shape_description": "A rectangular base with a dashed line at the bottom. The top edge has a curved, scalloped pattern with three lobes. Three parallel horizontal lines are drawn in the center, with two more horizontal lines above and below them, creating a stacked effect."
+        },
+        {
+          "name": "Template 205",
+          "scale": null,
+          "shape_description": "An elongated, pointed oval shape with three parallel vertical lines drawn inside."
+        },
+        {
+          "name": "Template 206",
+          "scale": null,
+          "shape_description": "A rectangular base with dashed lines on the left and right sides. The top edge has a scalloped pattern with five pointed arches. Three parallel vertical lines are drawn in the center."
+        },
+        {
+          "name": "Template 209",
+          "scale": null,
+          "shape_description": "A long, narrow, petal-like shape with a pointed top and bottom. Three parallel vertical lines are drawn inside."
+        },
+        {
+          "name": "Template 210",
+          "scale": null,
+          "shape_description": "A curved, elongated shape with a pointed end. Three parallel vertical lines are drawn inside."
+        },
+        {
+          "name": "Template 211",
+          "scale": null,
+          "shape_description": "A long, narrow, pointed oval shape with three parallel vertical lines drawn inside."
+        },
+        {
+          "name": "Template 215",
+          "scale": null,
+          "shape_description": "A curved, petal-like shape with a pointed top and a rounded bottom. Three parallel vertical lines are drawn inside."
+        },
+        {
+          "name": "Template 224",
+          "scale": null,
+          "shape_description": "An elongated, pointed oval shape with three parallel vertical lines drawn inside."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 26,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 212",
+          "scale": null,
+          "shape_description": "A petal shape with three concentric outlines. The innermost outline is a rounded rectangle with three parallel vertical lines inside. The outermost outline is wavy and irregular."
+        },
+        {
+          "name": "Template 213",
+          "scale": null,
+          "shape_description": "A small, irregular pentagonal shape."
+        },
+        {
+          "name": "Template 214",
+          "scale": null,
+          "shape_description": "A small, irregular pentagonal shape, similar to Template 213 but slightly larger and with a different angle."
+        },
+        {
+          "name": "Template 207",
+          "scale": null,
+          "shape_description": "A long, slender, pointed oval shape with three parallel vertical lines in the center."
+        },
+        {
+          "name": "Template 208",
+          "scale": null,
+          "shape_description": "A large, irregular petal shape with a wavy edge at the top and a pointed bottom. It has three parallel vertical lines in the center."
+        },
+        {
+          "name": "Template 221",
+          "scale": null,
+          "shape_description": "A large, heart-like shape with a rounded top and a pointed bottom. It has three parallel vertical lines in the center."
+        },
+        {
+          "name": "Template 217",
+          "scale": null,
+          "shape_description": "A small, irregular trapezoidal shape."
+        },
+        {
+          "name": "Template 218",
+          "scale": null,
+          "shape_description": "A small, irregular trapezoidal shape, similar to Template 217 but slightly larger and with a different angle."
+        },
+        {
+          "name": "Template 219",
+          "scale": null,
+          "shape_description": "A small, irregular pentagonal shape, similar to Templates 213 and 214."
+        },
+        {
+          "name": "Template 220",
+          "scale": null,
+          "shape_description": "A small, irregular trapezoidal shape, similar to Templates 217 and 218."
+        },
+        {
+          "name": "Template 216",
+          "scale": null,
+          "shape_description": "A long, narrow rectangular shape with a slightly rounded top and a flat bottom. It has three parallel vertical lines in the center."
+        }
+      ],
+      "diagram_descriptions": [
+        "Page displays multiple petal templates with numerical labels (207, 208, 212, 213, 214, 216, 217, 218, 219, 220, 221). Some templates have internal lines indicating folds or details. The page also contains copyright information and page numbering."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 27,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Petal Template 222",
+          "scale": null,
+          "shape_description": "A large, elongated petal shape with a pointed tip and a rounded base. It has three parallel lines drawn inside, oriented vertically."
+        },
+        {
+          "name": "Petal Template 223",
+          "scale": null,
+          "shape_description": "A smaller, elongated petal shape with a pointed tip and a rounded base, similar to template 222 but shorter. It has three parallel lines drawn inside, oriented vertically."
+        },
+        {
+          "name": "Petal Template 236",
+          "scale": null,
+          "shape_description": "A small, heart-like shape with a pointed tip and a rounded, indented top. It has three parallel lines drawn inside, oriented vertically."
+        },
+        {
+          "name": "Petal Template 238",
+          "scale": null,
+          "shape_description": "A large, elongated petal shape with a rounded, heart-like tip and a pointed base. It has three parallel lines drawn inside, oriented vertically."
+        },
+        {
+          "name": "Petal Template 239",
+          "scale": null,
+          "shape_description": "A medium-sized, elongated petal shape with a rounded, heart-like tip and a pointed base. It has three parallel lines drawn inside, oriented vertically."
+        },
+        {
+          "name": "Petal Template 240",
+          "scale": null,
+          "shape_description": "A small, elongated petal shape with a rounded, heart-like tip and a pointed base. It has three parallel lines drawn inside, oriented vertically."
+        },
+        {
+          "name": "Petal Template 225",
+          "scale": null,
+          "shape_description": "A very large, rounded petal shape with a slightly pointed tip. It has three parallel lines drawn inside, oriented vertically."
+        },
+        {
+          "name": "Petal Template 226",
+          "scale": null,
+          "shape_description": "A long, slender, curved petal shape with a pointed tip and a rounded base. It has three parallel lines drawn inside, oriented vertically."
+        },
+        {
+          "name": "Petal Template 227",
+          "scale": null,
+          "shape_description": "A long, slender, slightly curved petal shape with a pointed tip and a rounded base. It has three parallel lines drawn inside, oriented vertically."
+        },
+        {
+          "name": "Petal Template 228",
+          "scale": null,
+          "shape_description": "A long, slender, slightly curved petal shape with a pointed tip and a rounded base. It has three parallel lines drawn inside, oriented vertically."
+        },
+        {
+          "name": "Petal Template 229",
+          "scale": null,
+          "shape_description": "A long, slender, slightly curved petal shape with a pointed tip and a rounded base. It has three parallel lines drawn inside, oriented vertically."
+        },
+        {
+          "name": "Petal Template 241",
+          "scale": null,
+          "shape_description": "A small, curved petal shape with a pointed tip and a rounded, indented top. It has three parallel lines drawn inside, oriented vertically."
+        },
+        {
+          "name": "Petal Template 242",
+          "scale": null,
+          "shape_description": "A long, narrow, curved strip with a pointed tip and a rounded end. It has a dashed line running along its length, parallel to the edges."
+        }
+      ],
+      "diagram_descriptions": [
+        "A collection of various petal shapes, each outlined in black on a white background. Some shapes are labeled with numbers (222, 223, 236, 238, 239, 240, 225, 226, 227, 228, 229, 241, 242). Several of the petal shapes contain three parallel lines drawn inside them, oriented vertically. Template 242 is depicted with a dashed line running along its length."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 28,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 230",
+          "scale": "N/A",
+          "shape_description": "A curved, elongated petal shape with three vertical lines in the center."
+        },
+        {
+          "name": "Template 231",
+          "scale": "N/A",
+          "shape_description": "A curved, elongated petal shape with three vertical lines in the center."
+        },
+        {
+          "name": "Template 232",
+          "scale": "N/A",
+          "shape_description": "A rounded rectangular shape with two dashed lines at the bottom, indicating a fold or cut line. It has three vertical lines in the center."
+        },
+        {
+          "name": "Template 233",
+          "scale": "N/A",
+          "shape_description": "A long, narrow, curved shape with three vertical lines in the center."
+        },
+        {
+          "name": "Template 234",
+          "scale": "N/A",
+          "shape_description": "A curved shape with a dashed arc line near the bottom. It has three vertical lines in the center."
+        },
+        {
+          "name": "Template 235",
+          "scale": "N/A",
+          "shape_description": "A heart-like shape with three vertical lines in the center."
+        },
+        {
+          "name": "Template 237",
+          "scale": "N/A",
+          "shape_description": "A heart-like shape with three vertical lines in the center."
+        },
+        {
+          "name": "Template 243",
+          "scale": "N/A",
+          "shape_description": "A triangular shape with three vertical lines in the center."
+        },
+        {
+          "name": "Template 244",
+          "scale": "N/A",
+          "shape_description": "A triangular shape with three vertical lines in the center."
+        },
+        {
+          "name": "Template 245",
+          "scale": "N/A",
+          "shape_description": "A triangular shape with three vertical lines in the center."
+        }
+      ],
+      "diagram_descriptions": [
+        "A layout of various petal and leaf templates, each labeled with a number (230, 231, 232, 233, 234, 235, 237, 243, 244, 245). Most templates have three parallel vertical lines drawn in their center, indicating a fold or grain line. Template 232 has dashed lines at its base. Template 234 has a dashed arc near its base. The page also contains copyright information and page numbering at the bottom."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 29,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 252",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed top and a wider, slightly curved bottom. It has three parallel vertical lines in the center."
+        },
+        {
+          "name": "Template 251",
+          "scale": null,
+          "shape_description": "A large petal shape with a rounded top and a narrower, slightly curved bottom. It has three parallel vertical lines in the center."
+        },
+        {
+          "name": "Template 246",
+          "scale": null,
+          "shape_description": "A large petal shape with a rounded, almost bell-like top and a flat, straight bottom with dashed lines indicating a fold or cut. It has three parallel vertical lines in the center."
+        },
+        {
+          "name": "Template 247",
+          "scale": null,
+          "shape_description": "A stem with three leaf-like shapes attached. The stem has a dashed line along its left edge. The leaves are oval with a short, narrow stem connecting them to the main stem. The bottom-most leaf has three horizontal lines."
+        },
+        {
+          "name": "Template 250",
+          "scale": null,
+          "shape_description": "A petal shape with a pointed top and a wider, slightly curved bottom. It has three parallel vertical lines in the center."
+        },
+        {
+          "name": "Template 249",
+          "scale": null,
+          "shape_description": "A petal shape with a rounded top and a narrower, slightly curved bottom. It has three parallel vertical lines in the center."
+        },
+        {
+          "name": "Template 248",
+          "scale": null,
+          "shape_description": "A petal shape with a rounded top and a narrower, slightly curved bottom. It has three parallel horizontal lines near the bottom."
+        },
+        {
+          "name": "Template 254",
+          "scale": null,
+          "shape_description": "A set of three connected petal shapes, each with a rounded top and a straight bottom with dashed lines indicating a fold or cut. The middle petal has three parallel vertical lines."
+        }
+      ],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 30,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Template 257",
+          "scale": null,
+          "shape_description": "A long, thin, pointed oval shape with a slightly wider top and bottom, featuring three vertical lines in the center."
+        },
+        {
+          "name": "Template 253",
+          "scale": null,
+          "shape_description": "An irregular, somewhat shield-like shape with a pointed top and a notched bottom, featuring three vertical lines in the center."
+        },
+        {
+          "name": "Template 258",
+          "scale": null,
+          "shape_description": "A long, thin, rectangular shape with a slightly tapered bottom."
+        },
+        {
+          "name": "Template 256",
+          "scale": null,
+          "shape_description": "A long, pointed oval shape with a wider top and bottom, featuring three vertical lines in the center."
+        },
+        {
+          "name": "Template 259",
+          "scale": null,
+          "shape_description": "A leaf-like shape with a pointed tip and a scalloped bottom edge, featuring three vertical lines in the center."
+        },
+        {
+          "name": "Template 261",
+          "scale": null,
+          "shape_description": "A large, irregular, bell-like shape with a wide opening at the top and a narrower base, featuring three vertical lines in the center."
+        },
+        {
+          "name": "Template 262",
+          "scale": null,
+          "shape_description": "A small, rectangular shape."
+        },
+        {
+          "name": "Template 263",
+          "scale": null,
+          "shape_description": "A long, pointed shape with a serrated edge on one side, indicated by a dashed line for cutting."
+        },
+        {
+          "name": "Template 255",
+          "scale": null,
+          "shape_description": "A long, pointed shape with a serrated edge on one side, indicated by a dashed line for cutting, featuring three vertical lines in the center."
+        },
+        {
+          "name": "Template 260",
+          "scale": null,
+          "shape_description": "A rectangular shape with a notched top edge, indicated by a dashed line for cutting."
+        },
+        {
+          "name": "Template 264",
+          "scale": null,
+          "shape_description": "A strip with a jagged, tooth-like edge along the top, featuring three vertical lines in the center."
+        }
+      ],
+      "diagram_descriptions": [
+        "A collection of paper craft templates, each labeled with a number.",
+        "Template 257 is a long, thin, pointed oval shape with a slightly wider top and bottom, featuring three vertical lines in the center.",
+        "Template 253 is an irregular, somewhat shield-like shape with a pointed top and a notched bottom, featuring three vertical lines in the center.",
+        "Template 258 is a long, thin, rectangular shape with a slightly tapered bottom.",
+        "Template 256 is a long, pointed oval shape with a wider top and bottom, featuring three vertical lines in the center.",
+        "Template 259 is a leaf-like shape with a pointed tip and a scalloped bottom edge, featuring three vertical lines in the center.",
+        "Template 261 is a large, irregular, bell-like shape with a wide opening at the top and a narrower base, featuring three vertical lines in the center.",
+        "Template 262 is a small, rectangular shape.",
+        "Template 263 is a long, pointed shape with a serrated edge on one side, indicated by a dashed line for cutting.",
+        "Template 255 is a long, pointed shape with a serrated edge on one side, indicated by a dashed line for cutting, featuring three vertical lines in the center.",
+        "Template 260 is a rectangular shape with a notched top edge, indicated by a dashed line for cutting.",
+        "Template 264 is a strip with a jagged, tooth-like edge along the top, featuring three vertical lines in the center."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

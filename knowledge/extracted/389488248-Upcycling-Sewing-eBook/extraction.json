@@ -1,0 +1,1038 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [
+        {
+          "name": "Sweater Stitch Switch",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A sweater with a unique button closure."
+        },
+        {
+          "name": "Recycled Denim Wine Tote",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A denim tote bag designed to hold a wine bottle, decorated with stitched grapes."
+        },
+        {
+          "name": "Patched Pocket Panel",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A wall-hanging organizer made from denim pockets."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A woman wearing a red cardigan with a decorative button closure.",
+        "A denim wine tote bag with pink stitching around the top edge and a stitched grape design in pink and green on the front. A wine bottle is inside the tote.",
+        "A wall-hanging organizer made from various denim jean pockets sewn onto a quilted background. The pockets contain items like a notepad, a phone, and sunglasses."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "table_of_contents",
+      "projects": [
+        {
+          "name": "Sweater Stitch Switch",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A refashioned sweater embellished with trim, topstitching, and vintage buttons."
+        },
+        {
+          "name": "Recycled Denim Wine Tote",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "child-size jeans or denim fabric",
+              "quantity": "1 pair",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A wine tote made from recycled jeans, embellished with sashiko stitching, featuring a jeans pocket."
+        },
+        {
+          "name": "Patched Pocket Panel",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "cotton squares",
+              "quantity": null,
+              "dimensions": "small",
+              "color": "various"
+            },
+            {
+              "item": "rescued denim pockets",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A quick and easy quilted wall hanging made from cotton squares and denim pockets, suitable for storing phones, chargers, and media accessories."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A woman with auburn hair and bangs, wearing a yellow collared shirt with scalloped details at the neckline, smiling and looking to the left. She is wearing a green pendant necklace. The background is a soft yellow wall.",
+        "A graphic with the Sew Daily logo in white text on a purple background. Below the logo, it lists the editor, designer, illustrator, photographer, and project designers."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Sweater Stitch Switch",
+          "category": "textile",
+          "difficulty": null,
+          "materials": [
+            {
+              "item": "Lightweight pullover sweater",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Contrasting sewing thread",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Decorative trim such as rickrack or embroidered ribbon",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Pretty buttons",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Removable fabric-marking pen",
+              "purpose": "marking fabric",
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "If you want to energize last year’s look, just peek in your closet for a plain sweater that you’ve worn just one too many times. For spring, choose a lightweight knit, such as cashmere or fine Italian wool, something soft and airy.",
+              "technique": "material selection",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Cut the sleeves to three-quarter length for the warmer weather ahead (or trim sleeves to the desired length). Cut off the edge of any ribbing along the bottom (or if the ribbing is narrow enough you can cut it off completely; just make sure you will still be happy with the length after trimming). Cut off the edge of any ribbing along the neckline (or cut it off completely as for the bottom). Removing the ribbing",
+              "technique": "cutting, trimming",
+              "dimensions_mentioned": [
+                "three-quarter length"
+              ],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A refashioned lightweight pullover sweater, converted into a cardigan, embellished with pretty trim, topstitching, and vintage buttons. The example shows a red sweater with a patterned ribbon trim and large white buttons along the front opening."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A large photo of a woman wearing the refashioned 'Sweater Stitch Switch' project. The sweater is a red lightweight knit, styled as a cardigan with a decorative patterned ribbon trim along the front opening, secured by three large white buttons. The woman is smiling and looking towards the left."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 4,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Refashioned Cardigan",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Sweater",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Contrasting thread",
+              "quantity": "1 spool",
+              "dimensions": null,
+              "color": "bright contrasting"
+            },
+            {
+              "item": "Decorative trim or ribbon",
+              "quantity": "1 piece",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Vintage buttons",
+              "quantity": "1-2",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Removable fabric-marking pen",
+              "purpose": "testing shape",
+              "optional": true
+            },
+            {
+              "name": "Sewing machine",
+              "purpose": "topstitching, zigzag stitch, sewing buttonholes",
+              "optional": false
+            },
+            {
+              "name": "Iron or steamer",
+              "purpose": "pressing or steaming",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": null,
+              "instruction": "Cut down the center of the sweater to create a cardigan. If the neckline is too high, cut a V-shape (or other desired shape such as a scoop neck) to lower it a bit. You may want to test the shape by drawing it with a removable fabric-marking pen prior to cutting.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Topstitch three overlapping rows around each sleeve opening about ½\" in from the cut edge; make the rows straight and close together, or space as desired. Then topstitch around the neck edge and the edges from the cut down the center three times, as on the sleeves. Topstitch around the hem three times, as on the sleeves. Sewing about ½\" from the cut edge shows off the stitch detail better, and the stitching ensures that the sweater will not ravel.",
+              "technique": "topstitching",
+              "dimensions_mentioned": [
+                "½\""
+              ],
+              "visual_description": "Three rows of stitching around sleeve openings, neck edge, center front edges, and hem."
+            },
+            {
+              "step_number": 4,
+              "instruction": "If you think more is more, and the cardigan needs a bit more detail, sew a decorative trim across the bottom or on the open edges in the front. I stitched patterned ribbon along the center of the sweater opening, topstitching along both edges of the ribbon. Then I sewed a wide zigzag stitch down the center of the ribbon.",
+              "technique": "sewing, topstitching, zigzag stitch",
+              "dimensions_mentioned": [],
+              "visual_description": "Decorative trim or ribbon sewn along the bottom or open front edges, with topstitching along ribbon edges and a zigzag stitch down the center of the ribbon."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Choose a fantastic vintage button or two to close the sweater in front. An oversized button makes a nice focal point. Sew the proper size buttonholes on one side of the center cut edge, then mark the corresponding spot on the opposite edge for the button. Sew on the buttons at the mark (check the placement with the buttonholes). Be sure to place the buttonholes and buttons at least ½\" from the edge; a large button may need to be placed farther in so that it lies nicely on the garment. Press or steam to make it look snappy.",
+              "technique": "sewing buttonholes, sewing buttons",
+              "dimensions_mentioned": [
+                "½\""
+              ],
+              "visual_description": "Buttons and buttonholes placed on the front edges of the cardigan, at least ½\" from the edge."
+            },
+            {
+              "step_number": 6,
+              "instruction": "For an alternative, use this stitch detail technique on a pullover sweater that has been cut down the middle, off center. Just sew the cut edges back together with a small seam allowance using lots of stitches. Try adding additional trim or decorative buttons. The details are what count!",
+              "technique": "sewing",
+              "dimensions_mentioned": [],
+              "visual_description": "Cut edges of a sweater sewn back together with a small seam allowance."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Test the shape of the neckline with a fabric-marking pen before cutting.",
+            "Sewing about ½\" from the cut edge shows off the stitch detail better and ensures the sweater will not ravel.",
+            "An oversized button makes a nice focal point.",
+            "Check button placement with the buttonholes.",
+            "Be sure to place the buttonholes and buttons at least ½\" from the edge; a large button may need to be placed farther in so that it lies nicely on the garment.",
+            "Press or steam to make it look snappy.",
+            "The details are what count!"
+          ],
+          "finished_product_description": "A refashioned cardigan with decorative stitching, trim, and buttons."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A graphic with the words 'post. discuss. watch. comment. learn. connect.' in large, colorful text.",
+        "A graphic with the text 'Join us at Sew Daily, the new online community for modern sewists! Discuss sewing techniques and tips, get feedback and help, chat about Stitch, or start a sew-along. You can also upload photos of your work, share information about yourself and your projects, and make friends in the community. Watch technique videos, see what other users are working on, find the best magazines, books, and instructional DVDs, and more!'",
+        "A graphic with the text 'all for FREE at sewdaily.com'",
+        "A graphic with the Sew Daily logo and the tagline 'sewing made modern.'"
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 5,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Recycled Denim Wine Tote",
+          "category": "textile",
+          "difficulty": null,
+          "materials": [
+            {
+              "item": "repurposed child-size jeans",
+              "quantity": "1 pair",
+              "dimensions": "leg measurement of at least 6\" wide",
+              "color": null
+            },
+            {
+              "item": "denim fabric",
+              "quantity": "½ yd",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "cotton twill tape",
+              "quantity": "2⁄3 yd",
+              "dimensions": "¾\"-wide",
+              "color": "burgundy"
+            },
+            {
+              "item": "cream-colored twill tape",
+              "quantity": "3\"",
+              "dimensions": "½\"-wide",
+              "color": "cream"
+            },
+            {
+              "item": "all-purpose sewing thread",
+              "quantity": null,
+              "dimensions": null,
+              "color": "coordinating"
+            },
+            {
+              "item": "Jeans topstitching thread",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "No. 5 pearl cotton",
+              "quantity": "1 skein each of 2 colors",
+              "dimensions": null,
+              "color": "DMC Perle 5 variegated thread in 4210 Radiant Ruby and 92 Avocado"
+            },
+            {
+              "item": "recycled plastic",
+              "quantity": null,
+              "dimensions": "5\" square",
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Denim/Jeans needle",
+              "purpose": "for sewing machine",
+              "optional": false
+            },
+            {
+              "name": "Hera marker or fabric marking pen",
+              "purpose": "marking fabric",
+              "optional": false
+            },
+            {
+              "name": "Sashiko needle or embroidery needle",
+              "purpose": "sashiko stitching",
+              "optional": false
+            },
+            {
+              "name": "Handsewing needle",
+              "purpose": "handsewing",
+              "optional": false
+            }
+          ],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A clever wine tote embellished with sashiko stitching, constructed from a recycled pair of child-size jeans or denim fabric. It features a restitched jeans pocket on one side, perfect for holding a corkscrew or card."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Wine Tote Grapes template",
+          "scale": null,
+          "shape_description": "Template for a grape cluster design with leaves, intended for sashiko stitching on the wine tote. The design visible on the tote shows outlines of grapes and leaves."
+        }
+      ],
+      "diagram_descriptions": [
+        "Photo showing a finished Recycled Denim Wine Tote made from dark blue denim. The tote has a burgundy fabric handle with visible stitching. On the front of the tote, there is a sashiko stitched design of a grape cluster with leaves, using pink and light green threads. A dark wine bottle is placed inside the tote. In the foreground, two wine glasses are visible on a wooden surface, along with a corkscrew behind the tote."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 6,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Upcycled Jeans Tote",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "pair of jeans",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "denim fabric",
+              "quantity": "17½\" x 16\"",
+              "dimensions": "17½\" x 16\"",
+              "color": null
+            },
+            {
+              "item": "denim fabric",
+              "quantity": "6\" x 6½\"",
+              "dimensions": "6\" x 6½\"",
+              "color": null
+            },
+            {
+              "item": "strips for handles",
+              "quantity": "2",
+              "dimensions": "1½\" x 10\"",
+              "color": null
+            },
+            {
+              "item": "twill tape",
+              "quantity": "2",
+              "dimensions": "12\" lengths",
+              "color": null
+            },
+            {
+              "item": "grape design template",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "red pearl cotton",
+              "quantity": "1",
+              "dimensions": null,
+              "color": "red"
+            },
+            {
+              "item": "green pearl cotton",
+              "quantity": "1",
+              "dimensions": null,
+              "color": "green"
+            },
+            {
+              "item": "cream twill tape",
+              "quantity": "3\"",
+              "dimensions": "3\"",
+              "color": "cream"
+            }
+          ],
+          "tools": [
+            {
+              "name": "sewing machine",
+              "purpose": "stitching",
+              "optional": false
+            },
+            {
+              "name": "Jeans/Denim needle",
+              "purpose": "stitching denim",
+              "optional": false
+            },
+            {
+              "name": "hera marker or fabric marking pen",
+              "purpose": "transferring design",
+              "optional": false
+            },
+            {
+              "name": "sashiko needle",
+              "purpose": "embroidery",
+              "optional": false
+            },
+            {
+              "name": "scissors",
+              "purpose": "cutting fabric",
+              "optional": false
+            },
+            {
+              "name": "ruler",
+              "purpose": "measuring",
+              "optional": false
+            },
+            {
+              "name": "iron",
+              "purpose": "pressing seams",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "If using a pair of jeans: Measure and mark a line 16\" above and parallel to the hem on one of the legs and cut the leg along the line, leaving the hem intact. This is the tote piece. Cut around the back jeans pocket, cutting through the jeans body as close as possible to the pocket edges. Working from the wrong side, cut away the jeans body fabric underneath the pocket. From the remaining jeans fabric, cut two strips 1½\" x 10\" for handles. Cut two 12\" lengths of twill tape. OR If using denim fabric, cut: One rectangle 17½\" long x 16\" wide for the tote. One rectangle 6\" long x 6½\" wide for the pocket. Two strips 1½\" x 10\" for handles. Two 12\" lengths of twill tape.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "16\"",
+                "1½\" x 10\"",
+                "12\"",
+                "17½\" x 16\"",
+                "6\" x 6½\""
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "If you are using a repurposed jeans leg, skip to Step 4.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Fold the denim tote rectangle in half lengthwise with the right sides together and, with a Jeans needle in the sewing machine, stitch the long edge to make a tube using coordinating thread. Serge or zigzag the raw edges and press to one side.",
+              "technique": "stitching",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Press ¾\" to the wrong side on the top edge of the denim \"leg\" just created, and then fold and press another ¾\" to the wrong side. Stitch the top hem using jeans thread. Turn the tube right side out.",
+              "technique": "pressing, stitching",
+              "dimensions_mentioned": [
+                "¾\""
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Using a hera marker or fabric marking pen, transfer the grape design from the template to one side of the jeans leg, with the jeans hem facing upward. Position the grape design midway between the seams of the repurposed jeans leg or centered 3¾\" from the seam of the assembled tube, with the top of the grape design 3\" from the top of the tote.",
+              "technique": "transferring design",
+              "dimensions_mentioned": [
+                "3¾\"",
+                "3\""
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 6,
+              "instruction": "With the sashiko needle, embroider the grape design with a running stitch, using red pearl cotton for the leaves. Following the manufacturer's instructions, remove any pen marks. This is the tote front.",
+              "technique": "embroidery, running stitch",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 7,
+              "instruction": "Fold the jeans leg in half lengthwise with the grape cluster centered on one side and the seam(s) lying to the side(s) of the grapes. On the opposite side of the leg (flip the leg over so that the grapes are no longer visible), mark three parallel lines ¼\" apart from the top of the hem to the bottom of the leg. Position the first line 2\" from the fold. Use a running stitch and red pearl cotton to stitch the lines. This is the back of the tote.",
+              "technique": "stitching",
+              "dimensions_mentioned": [
+                "¼\"",
+                "2\""
+              ],
+              "visual_description": "Three parallel lines marked on the jeans leg."
+            },
+            {
+              "step_number": 8,
+              "instruction": "On the 3\" length of cream twill tape, use red pearl cotton to sew a running stitch along the center of the tape.",
+              "technique": "stitching",
+              "dimensions_mentioned": [
+                "3\""
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 9,
+              "instruction": "If using denim fabric, fold ½\" to the wrong side along the top edge of the pocket piece and press, then fold and press another ½\" to the wrong side. Topstitch in place using jeans thread. Press ½\" to the wrong side on the bottom and side edges. Decorate the pocket with topstitching as desired so it resembles a jeans pocket.",
+              "technique": "folding, pressing, topstitching",
+              "dimensions_mentioned": [
+                "½\""
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 10,
+              "instruction": "Center the repurposed or self-made pocket on the back of the wine tote with the top edge of the pocket 3½\" below the top of the tote and pin. The pocket overlaps the parallel lines of running stitches. Fold the embroidered cream twill tape in half to form a loop (one short end lying directly on top of the other) and slip its raw edges just under the right-hand side of the pocket.",
+              "technique": null,
+              "dimensions_mentioned": [
+                "3½\""
+              ],
+              "visual_description": "Pocket centered on the back of the tote, with a loop of cream twill tape tucked under its edge."
+            },
+            {
+              "step_number": 11,
+              "instruction": "Edgestitch the pocket to the tote using matching thread in your sewing machine and catching the twill tape in the seam. Be careful to stitch through one layer of the jeans leg only; turning the leg inside out may help. The pocket can also be attached by hand with slipstitches in matching thread or decorative running stitches in pearl cotton.",
+              "technique": "edgestitching",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 12,
+              "instruction": "Turn the denim tote inside out. Serge or zigzag to finish the raw bottom edge. Fold the tote as in Step 7 and stitch the bottom edges of the tote together.",
+              "technique": "serging, zigzag, stitching",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 13,
+              "instruction": "To give the tote structure, box the bottom corners. Fold the tote so the bottom seam is aligned with one of the side folds or seams, creating a triangular point. Draw a line perpendicular to the seam and 2½\" from the corner; this line will be about 3\" long. Machine stitch through both layers along the line (figure 1). Repeat.",
+              "technique": "boxing corners, stitching",
+              "dimensions_mentioned": [
+                "2½\"",
+                "3\""
+              ],
+              "visual_description": "Diagram showing how to box the bottom corners of the tote, with a line drawn perpendicular to the seam."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "For machine stitching on denim use a Jeans/Denim needle size 90/14 or 100/16."
+          ],
+          "finished_product_description": "A tote bag made from upcycled jeans or denim fabric, featuring embroidered grapes and a decorative pocket."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Grape design",
+          "scale": null,
+          "shape_description": "A cluster of grapes."
+        }
+      ],
+      "diagram_descriptions": [
+        "Figure 1: Diagram illustrating how to box the bottom corners of the tote by drawing a line perpendicular to the seam and stitching along it."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 7,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Recycled Denim Wine Tote",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "denim fabric",
+              "quantity": "leftover",
+              "dimensions": "to fit base",
+              "color": "any"
+            },
+            {
+              "item": "recycled plastic or template plastic",
+              "quantity": "1 piece",
+              "dimensions": "3\" x 4\"",
+              "color": "any"
+            },
+            {
+              "item": "twill tape",
+              "quantity": "2 strips",
+              "dimensions": "1\" longer than denim strip",
+              "color": "any"
+            },
+            {
+              "item": "pearl cotton",
+              "quantity": "for stitching",
+              "dimensions": "any",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "sewing machine",
+              "purpose": "stitching",
+              "optional": false
+            },
+            {
+              "name": "iron",
+              "purpose": "pressing",
+              "optional": false
+            },
+            {
+              "name": "scissors",
+              "purpose": "cutting",
+              "optional": false
+            },
+            {
+              "name": "ruler",
+              "purpose": "measuring",
+              "optional": false
+            },
+            {
+              "name": "plastic template",
+              "purpose": "measuring base",
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 14,
+              "instruction": "Measure the base of the tote (about 3\" x 4\"). Cut a piece of recycled or template plastic the same size as the tote base. Double the dimensions of the plastic and add 1\" to each dimension, then cut a piece of leftover denim fabric that size. Fold the denim in half, right sides together, and stitch the short ends. Clip the corners and turn the denim right side out. Insert the piece of plastic, fold the seam allowances on the open edge to the wrong side, and slipstitch the opening to secure. Slip the denim-covered plastic into the base of the tote.",
+              "technique": "sewing, slipstitching",
+              "dimensions_mentioned": [
+                "3\" x 4\"",
+                "double the dimensions",
+                "1\""
+              ],
+              "visual_description": "Diagram showing how to create a denim-covered plastic base for the tote."
+            },
+            {
+              "step_number": 15,
+              "instruction": "Press 3/8\" to the wrong side on both long edges of a denim handle strip, creating a strip measuring 3/4\" x 10\". Repeat with the other strip.",
+              "technique": "pressing",
+              "dimensions_mentioned": [
+                "3/8\"",
+                "3/4\" x 10\""
+              ],
+              "visual_description": "Diagram showing a denim strip being pressed with edges folded."
+            },
+            {
+              "step_number": 16,
+              "instruction": "Lay a prepared denim strip on a length of twill tape, wrong sides together, with the twill tape extending 1\" beyond the denim at each end. Edgestitch the twill tape to the denim along each long edge, matching the needle and bobbin threads to the respective fabrics so the stitching is almost invisible.",
+              "technique": "edgestitching",
+              "dimensions_mentioned": [
+                "1\""
+              ],
+              "visual_description": "Diagram showing a denim strip laid on twill tape, ready for stitching."
+            },
+            {
+              "step_number": 17,
+              "instruction": "Repeat Steps 15 and 16 to make the second handle.",
+              "technique": "sewing",
+              "dimensions_mentioned": [],
+              "visual_description": "None"
+            },
+            {
+              "step_number": 18,
+              "instruction": "Using pearl cotton and a running stitch, stitch along each long edge of both handles, 1/8\" from the edge.",
+              "technique": "running stitch",
+              "dimensions_mentioned": [
+                "1/8\""
+              ],
+              "visual_description": "Diagram showing decorative stitching along the edge of the handles."
+            },
+            {
+              "step_number": 19,
+              "instruction": "Fold the extra length of twill tape to the denim side of each handle, covering the raw edges. With the tote folded as in Step 7, position one handle on the front and one on the back, spacing each handle’s ends 2½\" apart. Pin the handles inside the tote’s upper edge with the handle’s denim side toward the tote and the handle ends 1\" below the tote’s upper edge. The extra twill tape should be between the handle and tote; trim any twill tape visible from the tote’s right side. Stitch an X inside a square on the end of each handle to secure the handles to the tote, matching the needle and bobbin threads to their respective fabrics.",
+              "technique": "sewing, topstitching",
+              "dimensions_mentioned": [
+                "2½\"",
+                "1\""
+              ],
+              "visual_description": "Diagram showing handles being attached to the tote with an X stitch."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Matching needle and bobbin threads to respective fabrics makes stitching almost invisible."
+          ],
+          "finished_product_description": "A wine tote made from recycled denim with decorative handles."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Recycled Denim Wine Tote Embroidery Template",
+          "scale": "Not specified",
+          "shape_description": "Outline of grapes and leaves."
+        }
+      ],
+      "diagram_descriptions": [
+        "Illustration of a bunch of grapes with leaves, intended as an embroidery template."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 8,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Patched Pocket Panel",
+          "category": "textile",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "cotton squares",
+              "quantity": "Nine",
+              "dimensions": "8\" x 8\"",
+              "color": "any"
+            },
+            {
+              "item": "cotton fabric for backing and hanging sleeve",
+              "quantity": "3/4 yd"
+            },
+            {
+              "item": "pockets from formerly loved jeans",
+              "quantity": "9"
+            },
+            {
+              "item": "batting",
+              "quantity": "1 square",
+              "dimensions": "25\""
+            },
+            {
+              "item": "thread",
+              "quantity": "to match fabrics"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Denim or size 90/14 machine needle",
+              "purpose": "sewing",
+              "optional": false
+            },
+            {
+              "name": "Rigid acrylic ruler",
+              "purpose": "measuring and cutting",
+              "optional": false
+            },
+            {
+              "name": "Self-healing mat",
+              "purpose": "cutting surface",
+              "optional": false
+            },
+            {
+              "name": "Rotary cutter",
+              "purpose": "cutting fabric",
+              "optional": false
+            }
+          ],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [
+            "A variety of pockets will add interest to your project. Make sure the pockets aren’t larger than 7\" x 7\" to comfortably fit on the patchwork squares.",
+            "All seam allowances are 1/4\"."
+          ],
+          "finished_product_description": "A quick-and-easy quilted wall hanging that combines cotton squares and rescued denim pockets, serving as storage for phones, chargers, and media accessories, or as an entryway cache for sunglasses and keys."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A wall hanging made of nine denim pockets of various sizes and washes, arranged in a 3x3 grid on a patchwork background of cotton squares. Some pockets contain items like a phone, a pen and notepad, and sunglasses. The hanging hardware (dowel, screw eyes) is described in the text but not explicitly shown in detail in the image.",
+        "A tablet computer and two notebooks are stacked on a dark surface in the foreground, below the wall hanging."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 9,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Patched Panel Wall Hanging",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "backing fabric",
+              "quantity": "1 piece",
+              "dimensions": "22 1/2\" square"
+            },
+            {
+              "item": "strip for hanging sleeve",
+              "quantity": "1 piece",
+              "dimensions": "10\" x 20 1/2\""
+            },
+            {
+              "item": "cotton squares",
+              "quantity": "9 pieces"
+            },
+            {
+              "item": "denim pockets",
+              "quantity": "9 pieces"
+            },
+            {
+              "item": "batting"
+            }
+          ],
+          "tools": [
+            {
+              "name": "denim needle",
+              "purpose": "to stitch through heavy double-stitched lines of pockets",
+              "optional": false
+            },
+            {
+              "name": "screw punch",
+              "purpose": "to screw screw eyes into ends of dowel",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Lay out the nine cotton squares and place a denim pocket on each.",
+              "visual_description": "Nine cotton squares with denim pockets placed on them."
+            },
+            {
+              "step_number": 2,
+              "instruction": "For easy placement, press each cotton square and pocket in half. Layer a pocket onto a cotton square, lining up the pressed folds, and placing the pocket 1/2\" from bottom edge of the cotton square. Pin pocket in place.",
+              "technique": "pressing, layering, pinning",
+              "dimensions_mentioned": [
+                "1/2\""
+              ],
+              "visual_description": "A denim pocket layered onto a cotton square, aligned with pressed folds and 1/2\" from the bottom edge."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Sew each pocket to a cotton square stitching on the sides and bottom, following the double-stitched lines of the pocket.",
+              "technique": "sewing",
+              "visual_description": "Denim pockets sewn to cotton squares along their original double-stitched lines."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Arrange the sewn pocket panels into 3 rows of 3 squares. Sew each row together alternating the direction of the pressed seams to nest the seams where the squares meet. This is your Patched Panel Top.",
+              "technique": "arranging, sewing",
+              "visual_description": "Nine pocket squares arranged in a 3x3 grid, sewn together to form a larger panel."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Layer the Patched Panel Top right side up, the backing wrong side up, and the batting on top. Pin the layers together. Stitch the layers together using a 1/4\" seam allowance, leaving a 4\" opening on the bottom for turning. Trim excess batting.",
+              "technique": "layering, pinning, sewing, trimming",
+              "dimensions_mentioned": [
+                "1/4\"",
+                "4\""
+              ],
+              "visual_description": "A layered panel with backing and batting, pinned and stitched with an opening for turning."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Clip corners, turn right side out and press. Turn in open seam edges and slipstitch closed.",
+              "technique": "clipping, turning, pressing, slipstitching",
+              "visual_description": "The panel turned right side out, corners clipped, and opening slipstitched closed."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Stitch in the ditch around each pocket square.",
+              "technique": "stitch in the ditch",
+              "visual_description": "Stitching along the seams between the pocket squares."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Hem the short ends of the hanging sleeve—press up 1/4\" then another 1/4\". Topstitch close to the fold.",
+              "technique": "hemming, pressing, topstitching",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "Short ends of the sleeve strip hemmed with double folds and topstitched."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Fold long raw edges of the sleeve right sides together, press and stitch using 1/4\" seam allowance. Turn sleeve right side out and press, centering the seam on the back.",
+              "technique": "folding, pressing, sewing, turning",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "A sleeve strip folded lengthwise, sewn, turned right side out, and pressed with the seam centered on the back."
+            },
+            {
+              "step_number": 10,
+              "instruction": "Pin sleeve to upper back edge of wall hanging (seam side down), centering and aligning a folded edge of sleeve with the top of the patched panel. Pin.",
+              "technique": "pinning",
+              "visual_description": "The hanging sleeve pinned to the top back edge of the wall hanging."
+            },
+            {
+              "step_number": 11,
+              "instruction": "On the front of the patched panel, edgestitch 1/4\" around the perimeter, catching in the top fold of the sleeve.",
+              "technique": "edgestitching",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "Edgestitching around the perimeter of the wall hanging, securing the sleeve."
+            },
+            {
+              "step_number": 12,
+              "instruction": "Blindstitch the bottom side of the sleeve edge and only the bottom fold of the sleeve to the patched panel back.",
+              "technique": "blindstitching",
+              "visual_description": "The bottom edge of the sleeve blindstitched to the back of the wall hanging."
+            },
+            {
+              "step_number": 13,
+              "instruction": "Screw the 1/4\" screw eyes into the ends of the dowel.",
+              "technique": "screwing",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "Screw eyes inserted into the ends of a dowel."
+            },
+            {
+              "step_number": 14,
+              "instruction": "Slide the prepared dowel into the hanging sleeve. Place nails or cup hooks on the wall or door where you want to display your patched panel. Align screw eyes with hangers and hang.",
+              "technique": "sliding, hanging",
+              "visual_description": "The dowel inserted into the sleeve, and the wall hanging displayed on hooks."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Use a denim needle to stitch through the heavy double-stitched lines of the pockets."
+          ],
+          "finished_product_description": "A wall hanging made from a patchwork of denim pockets on cotton squares, with a hanging sleeve at the top."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Figure 1: A diagram showing a pocket shape with a pressed fold line down the center and a 1/2\" measurement from the bottom edge to the pocket's bottom point.",
+        "Figure 2: A diagram illustrating the process of folding and sewing a sleeve strip. It shows a rectangle labeled 'sleeve' with fold lines and a seam line, indicating it's folded lengthwise and sewn.",
+        "Figure 3: A diagram showing a tube-like shape with 'fold' indicated at the top and bottom, and 'seam' in the middle, representing the sleeve construction before it's turned right side out."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

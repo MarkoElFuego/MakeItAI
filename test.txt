@@ -1,0 +1,1026 @@
+cd f:/github/MakeItAI/frontend && npm run dev
+
+cd f:/github/MakeItAI && ./venv/Scripts/python -m uvicsorn api.main:app --reload --port 8000
+
+
+
+ok ne svidja mi se poceo je da se gubi moramo pod hitno da pojednostavimo. 
+Dakle nece vise pisati crafter ili scout ili iome agenta, sve je Elfy the Crafet ali dok radi pise Elfy is thinking, Elfy is crafting , Elfy is drawing etc
+1 . Izbacujemo slike sa pexela ne svidjaju mi se.
+2. Moramo da ubacimo agenta koji proverava konverzciju kao i proces tutorijala da verifikuje
+3. Ubacicemo google 2 pro bana model da nacrta sta korisnik moze da pravi, dacu ti spec modela
+4. KAda korisnik potvrdi , imamo agenta koji analizira i daje od cega se sastoji taj predmet.
+5. Taj agent moze da sluzi isto ako korisnik uploaduje sliku i agent analizira i elfi predlaze kako da se napravi.
+
+Flow je dobar, svidja mi se sto malo prica to necemo dirati i sto ima ponudjene brze opecije
+Ali flow moramo malo promeniti. 
+
+Ok, ovako ostavi pocetak da 
+
+Hi! I'm Elfy
+
+Your friendly craft companion. What are we making today?
+ostavi triopcije samo.
+
+ako korisnik izabere, elfy ga pita za koga i sta ima od materijala i sve ostalo kako jeste do trenutka kada kaze korisnik sta ima od materijala i sta zeli elfy salje propmt da google bana pro 2 napravi sliku sta ce se praviti, da li je to papirni cvet ili ruza elfy daje u promptu ono sto ima u RAG-u. Elemente, i boje i od materijala i ostalo.
+
+Ako se korisnik slozi elfy analizira tu sliku i kaze korisnku sta sve treba od elementara, njihve dimenzije i materijale kao recept sastojci. 
+
+I pita ako si spreman mogu da ti dam upustv
+
+ako korinik kaze da elfy upustva ali ne ovako vec kao predhodi put a buu u posebnom kanvasu svi koraci , dakle svi koraci generisani i korisnik moze da klikce next ili prevous 
+
+dole stoje precice tipa Explain this ili I need help
+
+Onda AI mora da ga pita u tom koraku gde je stao sta ije jasno i da da bolje objasnjeje.
+
+napravi prvo plan
+
+
+Home
+    Gemini API
+    Docs
+
+Gemini 3.1 Flash Image Preview
+
+Nano Banana 2 provides high-quality image generation and conversational editing at a mainstream price point and low latency. It serves as the high-efficiency counterpart to Gemini 3 Pro Image, optimized for speed and high-volume developer use cases.
+
+Key updates:
+
+    New output resolution options:
+        New support for 0.5K, 2K and 4K, default 1K
+    New Image Search Grounding:
+        Integration of both text and image search results to inform generation with real-time web data
+        Supported with Thinking on or off
+    New 1:4, 4:1, 1:8 and 8:1 aspect ratios
+    Improved aspect ratio adherence
+    Improved image quality and consistency
+    Improved i18n text rendering
+
+Try in Google AI Studio
+Documentation
+
+Visit the Image generation page for full coverage of features and capabilities.
+gemini-3.1-flash-image-preview
+Property 	Description
+Model code 	gemini-3.1-flash-image-preview
+Supported data types 	
+
+Inputs
+
+Text and Image / PDF
+
+Output
+
+Image and Text
+Token limits[*] 	
+
+Input token limit
+
+131,072
+
+Output token limit
+
+32,768
+Capabilities 	
+
+Audio generation
+
+Not supported
+
+Batch API
+
+Supported
+
+Caching
+
+Not supported
+
+Code execution
+
+Not supported
+
+File search
+
+Not supported
+
+Function calling
+
+Not supported
+
+Grounding with Google Maps
+
+Not supported
+
+Image generation
+
+Supported
+
+Live API
+
+Not supported
+
+Search grounding
+
+Supported
+
+Structured outputs
+
+Not supported
+
+Thinking
+
+Supported
+
+URL context
+
+Not supported
+Versions 	Read the model version patterns for more details.
+
+    Preview: gemini-3.1-flash-image-preview
+
+Latest update 	February 2026
+Knowledge cutoff 	January 2025
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elfy — Paper Daffodil Flowers</title>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #FFF8F0;
+    --warm: #FEF0E1;
+    --peach: #FDDCB5;
+    --coral: #F4845F;
+    --green: #6BAB73;
+    --green-light: #E8F5E9;
+    --brown: #5D4037;
+    --brown-light: #8D6E63;
+    --text: #3E2723;
+    --text-light: #6D4C41;
+    --yellow: #FFD54F;
+    --yellow-dark: #F9A825;
+    --orange: #FF8F00;
+    --card: #FFFFFF;
+    --shadow: rgba(93, 64, 55, 0.08);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Quicksand', sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* === HEADER === */
+  .header {
+    padding: 24px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  .logo {
+    font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--coral);
+  }
+  .logo span { color: var(--green); }
+  .badge {
+    background: var(--green-light);
+    color: var(--green);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  /* === CONTAINER === */
+  .container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+  }
+
+  /* === PROJECT CARD === */
+  .project-card {
+    background: var(--card);
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 0 2px 20px var(--shadow);
+    margin-bottom: 20px;
+  }
+  .project-title {
+    font-family: 'Caveat', cursive;
+    font-size: 1.6rem;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .project-meta {
+    display: flex;
+    gap: 12px;
+    font-size: 0.8rem;
+    color: var(--text-light);
+    margin-bottom: 16px;
+  }
+  .project-meta span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .dot { 
+    width: 5px; height: 5px; 
+    border-radius: 50%; 
+    display: inline-block;
+  }
+  .dot.easy { background: var(--green); }
+
+  /* === STEP COUNTER === */
+  .step-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 20px;
+  }
+  .step-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--peach);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+  }
+  .step-dot.active {
+    width: 32px;
+    border-radius: 5px;
+    background: var(--coral);
+  }
+  .step-dot.done {
+    background: var(--green);
+  }
+
+  /* === SVG AREA === */
+  .svg-frame {
+    background: linear-gradient(135deg, #FFFDF7, #FFF5EB);
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 260px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(253, 220, 181, 0.5);
+  }
+  .svg-frame svg {
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.06));
+  }
+
+  /* === STEP CONTENT === */
+  .step-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--coral);
+    margin-bottom: 6px;
+  }
+  .step-title {
+    font-family: 'Caveat', cursive;
+    font-size: 1.35rem;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+  .step-desc {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: var(--text-light);
+    margin-bottom: 16px;
+  }
+
+  /* === MATERIALS === */
+  .materials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 20px;
+  }
+  .mat-tag {
+    background: var(--warm);
+    color: var(--brown-light);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 20px;
+  }
+
+  /* === TIP BOX === */
+  .tip-box {
+    background: var(--green-light);
+    border-radius: 12px;
+    padding: 12px 16px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .tip-icon { font-size: 1.1rem; margin-top: 1px; }
+  .tip-text {
+    font-size: 0.82rem;
+    color: var(--green);
+    line-height: 1.5;
+    font-weight: 500;
+  }
+
+  /* === BUTTONS === */
+  .btn-row {
+    display: flex;
+    gap: 10px;
+  }
+  .btn {
+    flex: 1;
+    padding: 14px;
+    border-radius: 14px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s;
+  }
+  .btn-back {
+    background: var(--warm);
+    color: var(--brown-light);
+  }
+  .btn-back:hover { background: var(--peach); }
+  .btn-back:disabled { opacity: 0.4; cursor: default; }
+  .btn-next {
+    background: var(--coral);
+    color: #fff;
+    box-shadow: 0 4px 14px rgba(244, 132, 95, 0.35);
+  }
+  .btn-next:hover { 
+    background: #e5734f;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(244, 132, 95, 0.4);
+  }
+
+  /* === STEP TRANSITION === */
+  .step-content {
+    animation: fadeSlide 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  @keyframes fadeSlide {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  /* === SOURCE === */
+  .source {
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--text-light);
+    margin-top: 16px;
+    opacity: 0.6;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">Elfy <span>✿</span></div>
+  <div class="badge">🌸 Crafter</div>
+</div>
+
+<div class="container">
+  <div class="project-card">
+    <div class="project-title">Paper Daffodil Flowers</div>
+    <div class="project-meta">
+      <span><span class="dot easy"></span> Easy</span>
+      <span>⏱ 25 min</span>
+      <span>6 steps</span>
+    </div>
+
+    <!-- Step Navigation Dots -->
+    <div class="step-nav" id="stepNav"></div>
+
+    <!-- SVG Illustration -->
+    <div class="svg-frame" id="svgFrame"></div>
+
+    <!-- Step Content -->
+    <div class="step-content" id="stepContent"></div>
+
+    <!-- Buttons -->
+    <div class="btn-row">
+      <button class="btn btn-back" id="btnBack" onclick="prevStep()">← Back</button>
+      <button class="btn btn-next" id="btnNext" onclick="nextStep()">Next →</button>
+    </div>
+  </div>
+
+  <div class="source">Source: The Paper Craft Book · Daffodil section</div>
+</div>
+
+<script>
+const steps = [
+  {
+    label: "Step 1",
+    title: "Gather Your Materials",
+    desc: "Before you start, lay everything out on a clean surface. Having all your materials ready means you won't need to stop mid-fold to hunt for scissors!",
+    tip: "Crepe paper works best because it stretches — regular paper will crack when you try to shape petals.",
+    materials: ["Yellow crepe paper", "Orange crepe paper", "Green crepe paper", "Floral wire", "Scissors", "Hot glue gun", "Pencil", "Floral tape"],
+    svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+      <!-- Table surface -->
+      <rect x="20" y="160" width="260" height="50" rx="8" fill="#E8D5B7" opacity="0.5"/>
+      <!-- Scissors -->
+      <g transform="translate(40, 90) rotate(-15)">
+        <ellipse cx="0" cy="0" rx="14" ry="8" fill="none" stroke="#78909C" stroke-width="2.5"/>
+        <ellipse cx="30" cy="-6" rx="14" ry="8" fill="none" stroke="#78909C" stroke-width="2.5"/>
+        <line x1="12" y1="0" x2="55" y2="20" stroke="#78909C" stroke-width="3" stroke-linecap="round"/>
+        <line x1="28" y1="-8" x2="55" y2="20" stroke="#78909C" stroke-width="3" stroke-linecap="round"/>
+      </g>
+      <!-- Yellow paper roll -->
+      <rect x="100" y="70" width="70" height="90" rx="4" fill="#FFD54F" opacity="0.9"/>
+      <rect x="105" y="75" width="60" height="80" rx="2" fill="#FFEB3B" opacity="0.4"/>
+      <path d="M170,70 Q180,115 170,160" stroke="#F9A825" stroke-width="1.5" fill="none"/>
+      <!-- Orange paper -->
+      <rect x="180" y="85" width="45" height="65" rx="4" fill="#FF8F00" opacity="0.8"/>
+      <rect x="184" y="89" width="37" height="57" rx="2" fill="#FFB74D" opacity="0.3"/>
+      <!-- Green paper -->
+      <rect x="230" y="100" width="40" height="55" rx="4" fill="#66BB6A" opacity="0.8"/>
+      <!-- Glue gun -->
+      <g transform="translate(55, 130)">
+        <rect x="0" y="0" width="35" height="16" rx="3" fill="#8D6E63"/>
+        <rect x="35" y="3" width="18" height="10" rx="2" fill="#A1887F"/>
+        <circle cx="53" cy="8" r="3" fill="#FFCC80"/>
+        <rect x="-5" y="12" width="15" height="20" rx="2" fill="#6D4C41"/>
+      </g>
+      <!-- Wire -->
+      <line x1="190" y1="155" x2="260" y2="145" stroke="#4CAF50" stroke-width="2" stroke-dasharray="4,3"/>
+      <line x1="195" y1="160" x2="265" y2="150" stroke="#4CAF50" stroke-width="2" stroke-dasharray="4,3"/>
+    </svg>`
+  },
+  {
+    label: "Step 2",
+    title: "Cut the Petals",
+    desc: "Cut 6 large petal shapes from yellow crepe paper using a template or freehand. Each petal should be about 6cm long and 4cm wide — like a rounded teardrop. Then cut a small strip of orange paper (about 2cm × 8cm) for the trumpet center.",
+    tip: "Cut with the grain of the crepe paper running vertically along each petal — this lets you stretch them sideways later for a natural curve.",
+    materials: [],
+    svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+      <!-- Petal template outline -->
+      <g opacity="0.15">
+        <path d="M150,30 Q190,70 185,120 Q175,155 150,160 Q125,155 115,120 Q110,70 150,30Z" fill="none" stroke="#F9A825" stroke-width="1" stroke-dasharray="4,3"/>
+      </g>
+      <!-- 6 cut petals arranged -->
+      <g>
+        <path d="M70,60 Q95,80 93,115 Q88,135 70,138 Q52,135 47,115 Q45,80 70,60Z" fill="#FFD54F" stroke="#F9A825" stroke-width="1.2"/>
+        <path d="M120,45 Q148,68 145,108 Q140,130 120,133 Q100,130 95,108 Q92,68 120,45Z" fill="#FFEB3B" stroke="#F9A825" stroke-width="1.2"/>
+        <path d="M175,50 Q200,72 198,110 Q192,132 175,135 Q158,132 152,110 Q150,72 175,50Z" fill="#FFD54F" stroke="#F9A825" stroke-width="1.2"/>
+        <path d="M230,60 Q253,82 250,115 Q245,135 230,138 Q215,135 210,115 Q207,82 230,60Z" fill="#FFEB3B" stroke="#F9A825" stroke-width="1.2"/>
+        <path d="M95,135 Q118,152 116,178 Q112,192 95,195 Q78,192 74,178 Q72,152 95,135Z" fill="#FFD54F" stroke="#F9A825" stroke-width="1.2"/>
+        <path d="M155,138 Q178,155 176,180 Q172,194 155,197 Q138,194 134,180 Q132,155 155,138Z" fill="#FFEB3B" stroke="#F9A825" stroke-width="1.2"/>
+      </g>
+      <!-- Orange trumpet strip -->
+      <rect x="200" y="155" width="65" height="18" rx="3" fill="#FF8F00" opacity="0.9"/>
+      <line x1="205" y1="160" x2="205" y2="168" stroke="#E65100" stroke-width="0.7"/>
+      <line x1="212" y1="160" x2="212" y2="168" stroke="#E65100" stroke-width="0.7"/>
+      <line x1="219" y1="160" x2="219" y2="168" stroke="#E65100" stroke-width="0.7"/>
+      <line x1="226" y1="160" x2="226" y2="168" stroke="#E65100" stroke-width="0.7"/>
+      <!-- Scissors cutting -->
+      <g transform="translate(230, 100) rotate(25)" opacity="0.5">
+        <ellipse cx="0" cy="0" rx="10" ry="6" fill="none" stroke="#78909C" stroke-width="2"/>
+        <line x1="8" y1="0" x2="35" y2="12" stroke="#78909C" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="8" y1="-3" x2="35" y2="12" stroke="#78909C" stroke-width="2.5" stroke-linecap="round"/>
+      </g>
+      <!-- "×6" label -->
+      <text x="70" y="210" font-family="Caveat, cursive" font-size="16" fill="#8D6E63" opacity="0.7">×6 petals</text>
+    </svg>`
+  },
+  {
+    label: "Step 3",
+    title: "Shape Each Petal",
+    desc: "Take one petal and gently push your thumbs into the center, stretching it outward to create a cupped shape — like a tiny bowl. Then use a pencil to curl the top edge backward. This gives each petal a natural, lifelike curve.",
+    tip: "Don't rush this step! The shaping is what makes the difference between a flat craft and a flower that looks real.",
+    materials: [],
+    svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+      <!-- Flat petal (before) -->
+      <g opacity="0.4">
+        <path d="M80,50 Q110,75 108,120 Q103,145 80,148 Q57,145 52,120 Q50,75 80,50Z" fill="#FFD54F" stroke="#F9A825" stroke-width="1"/>
+        <text x="55" y="170" font-family="Quicksand, sans-serif" font-size="11" fill="#8D6E63">before</text>
+      </g>
+      <!-- Arrow -->
+      <line x1="125" y1="100" x2="155" y2="100" stroke="#F4845F" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <defs>
+        <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+          <polygon points="0 0, 8 3, 0 6" fill="#F4845F"/>
+        </marker>
+      </defs>
+      <!-- Cupped petal (after) -->
+      <g>
+        <path d="M210,45 Q245,72 240,118 Q233,148 210,152 Q187,148 180,118 Q175,72 210,45Z" fill="#FFD54F" stroke="#F9A825" stroke-width="1.5"/>
+        <!-- Cup depth shading -->
+        <ellipse cx="210" cy="105" rx="22" ry="30" fill="#F9A825" opacity="0.15"/>
+        <!-- Curl at top -->
+        <path d="M195,58 Q210,45 225,55" fill="none" stroke="#F9A825" stroke-width="1.5" stroke-dasharray="3,2"/>
+        <path d="M198,52 Q210,40 222,50" fill="none" stroke="#FFEB3B" stroke-width="2"/>
+        <text x="185" y="175" font-family="Quicksand, sans-serif" font-size="11" fill="#8D6E63">after</text>
+      </g>
+      <!-- Thumb pressing illustration -->
+      <g transform="translate(195, 85)" opacity="0.5">
+        <ellipse cx="15" cy="10" rx="12" ry="8" fill="#FFCCBC" stroke="#BCAAA4" stroke-width="1"/>
+        <path d="M8,10 Q15,18 22,10" fill="none" stroke="#BCAAA4" stroke-width="1" stroke-dasharray="2,2"/>
+      </g>
+      <!-- Pencil for curling -->
+      <g transform="translate(170, 30) rotate(-30)">
+        <rect x="0" y="0" width="60" height="7" rx="1" fill="#FFE082"/>
+        <polygon points="60,0 68,3.5 60,7" fill="#BCAAA4"/>
+        <rect x="-3" y="0" width="6" height="7" rx="1" fill="#EF9A9A"/>
+      </g>
+      <text x="158" y="22" font-family="Caveat, cursive" font-size="13" fill="#8D6E63" opacity="0.6">curl with pencil</text>
+    </svg>`
+  },
+  {
+    label: "Step 4",
+    title: "Make the Trumpet Center",
+    desc: "Take the orange strip and cut tiny fringe lines along one long edge (about halfway through). Roll it tightly around the top of a floral wire, securing with a dab of hot glue. Fan out the fringe to create the daffodil's signature trumpet shape.",
+    tip: "Roll the base tight but let the fringe splay outward — this mimics how a real daffodil trumpet opens up.",
+    materials: [],
+    svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+      <!-- Step A: Orange strip with fringe -->
+      <g>
+        <rect x="20" y="40" width="100" height="22" rx="2" fill="#FF8F00"/>
+        <!-- Fringe cuts -->
+        <line x1="25" y1="40" x2="25" y2="50" stroke="#E65100" stroke-width="0.8"/>
+        <line x1="30" y1="40" x2="30" y2="51" stroke="#E65100" stroke-width="0.8"/>
+        <line x1="35" y1="40" x2="35" y2="49" stroke="#E65100" stroke-width="0.8"/>
+        <line x1="40" y1="40" x2="40" y2="51" stroke="#E65100" stroke-width="0.8"/>
+        <line x1="45" y1="40" x2="45" y2="50" stroke="#E65100" stroke-width="0.8"/>
+        <line x1="50" y1="40" x2="50" y2="49" stroke="#E65100" stroke-width="0.8"/>
+        <line x1="55" y1="40" x2="55" y2="51" stroke="#E65100" stroke-width="0.8"/>
+        <line x1="60" y1="40" x2="60" y2="50" stroke="#E65100" stroke-width="0.8"/>
+        <line x1="65" y1="40" x2="65" y2="49" stroke="#E65100" stroke-width="0.8"/>
+        <line x1="70" y1="40" x2="70" y2="51" stroke="#E65100" stroke-width="0.8"/>
+        <line x1="75" y1="40" x2="75" y2="50" stroke="#E65100" stroke-width="0.8"/>
+        <text x="22" y="78" font-family="Caveat, cursive" font-size="12" fill="#8D6E63">cut fringe along edge</text>
+      </g>
+      <!-- Arrow to step B -->
+      <line x1="135" y1="50" x2="160" y2="50" stroke="#F4845F" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <!-- Step B: Rolling around wire -->
+      <g transform="translate(200, 20)">
+        <!-- Wire -->
+        <line x1="30" y1="25" x2="30" y2="190" stroke="#4CAF50" stroke-width="2.5"/>
+        <!-- Rolled trumpet -->
+        <ellipse cx="30" cy="30" rx="18" ry="10" fill="#FF8F00" opacity="0.7"/>
+        <ellipse cx="30" cy="28" rx="14" ry="7" fill="#FFB74D" opacity="0.5"/>
+        <!-- Fringe splaying out -->
+        <line x1="16" y1="22" x2="10" y2="12" stroke="#FF8F00" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="20" y1="20" x2="16" y2="8" stroke="#FF8F00" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="25" y1="19" x2="23" y2="6" stroke="#FF8F00" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="30" y1="18" x2="30" y2="4" stroke="#FF8F00" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="35" y1="19" x2="37" y2="6" stroke="#FF8F00" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="40" y1="20" x2="44" y2="8" stroke="#FF8F00" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="44" y1="22" x2="50" y2="12" stroke="#FF8F00" stroke-width="1.5" stroke-linecap="round"/>
+        <!-- Glue dot -->
+        <circle cx="30" cy="38" r="4" fill="#FFCC80" opacity="0.7"/>
+        <text x="40" y="45" font-family="Caveat, cursive" font-size="11" fill="#8D6E63" opacity="0.6">glue here</text>
+      </g>
+      <!-- Rolling arrow -->
+      <path d="M180,80 Q175,55 195,45" fill="none" stroke="#8D6E63" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowhead)"/>
+      <text x="155" y="90" font-family="Caveat, cursive" font-size="12" fill="#8D6E63" opacity="0.6">roll tight</text>
+    </svg>`
+  },
+  {
+    label: "Step 5",
+    title: "Attach the Petals",
+    desc: "Apply a small dab of hot glue to the base of each shaped petal and press it firmly around the trumpet center. Place 3 inner petals first, evenly spaced, then add 3 outer petals in the gaps between them. Hold each for a few seconds until the glue sets.",
+    tip: "Stagger the layers — inner petals slightly upright, outer petals angled more outward. This creates depth and makes it look like a real flower opening up.",
+    materials: [],
+    svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+      <!-- Wire/stem -->
+      <line x1="150" y1="130" x2="150" y2="210" stroke="#4CAF50" stroke-width="3"/>
+      <!-- Outer petals (behind) -->
+      <path d="M150,60 Q190,75 188,110 Q180,135 150,130" fill="#FFEB3B" stroke="#F9A825" stroke-width="1" opacity="0.7"/>
+      <path d="M150,60 Q110,75 112,110 Q120,135 150,130" fill="#FFEB3B" stroke="#F9A825" stroke-width="1" opacity="0.7"/>
+      <path d="M150,50 Q170,30 195,55 Q200,90 175,120 Q160,132 150,130" fill="#FFD54F" stroke="#F9A825" stroke-width="1" opacity="0.6"/>
+      <path d="M150,50 Q130,30 105,55 Q100,90 125,120 Q140,132 150,130" fill="#FFD54F" stroke="#F9A825" stroke-width="1" opacity="0.6"/>
+      <!-- Inner petals (front) -->
+      <path d="M150,55 Q178,72 176,108 Q168,130 150,130" fill="#FFD54F" stroke="#F9A825" stroke-width="1.2"/>
+      <path d="M150,55 Q122,72 124,108 Q132,130 150,130" fill="#FFD54F" stroke="#F9A825" stroke-width="1.2"/>
+      <!-- Trumpet center -->
+      <ellipse cx="150" cy="75" rx="16" ry="12" fill="#FF8F00" opacity="0.8"/>
+      <ellipse cx="150" cy="73" rx="11" ry="8" fill="#FFB74D" opacity="0.5"/>
+      <!-- Fringe -->
+      <line x1="140" y1="66" x2="137" y2="58" stroke="#FF8F00" stroke-width="1.3" stroke-linecap="round"/>
+      <line x1="145" y1="64" x2="143" y2="55" stroke="#FF8F00" stroke-width="1.3" stroke-linecap="round"/>
+      <line x1="150" y1="63" x2="150" y2="53" stroke="#FF8F00" stroke-width="1.3" stroke-linecap="round"/>
+      <line x1="155" y1="64" x2="157" y2="55" stroke="#FF8F00" stroke-width="1.3" stroke-linecap="round"/>
+      <line x1="160" y1="66" x2="163" y2="58" stroke="#FF8F00" stroke-width="1.3" stroke-linecap="round"/>
+      <!-- Labels -->
+      <text x="195" y="85" font-family="Caveat, cursive" font-size="12" fill="#8D6E63" opacity="0.6">3 inner</text>
+      <path d="M193,82 Q185,80 178,85" fill="none" stroke="#8D6E63" stroke-width="0.8" opacity="0.4" marker-end="url(#arrowhead)"/>
+      <text x="195" y="115" font-family="Caveat, cursive" font-size="12" fill="#8D6E63" opacity="0.6">3 outer</text>
+      <path d="M193,112 Q187,110 183,113" fill="none" stroke="#8D6E63" stroke-width="0.8" opacity="0.4" marker-end="url(#arrowhead)"/>
+    </svg>`
+  },
+  {
+    label: "Step 6",
+    title: "Add Leaves & Finish",
+    desc: "Cut 2 long, narrow leaf shapes from green crepe paper. Run a line of hot glue along the center of each leaf, press floral wire into it, and fold the leaf in half briefly to bond. Once set, open and attach to the stem. Finally, wrap the entire stem with green floral tape, starting from the flower base and spiraling down.",
+    tip: "Stretch the floral tape slightly as you wrap — this activates the adhesive and makes it stick to itself. Your daffodil is done!",
+    materials: [],
+    svg: `<svg viewBox="0 0 300 240" xmlns="http://www.w3.org/2000/svg">
+      <!-- Main stem -->
+      <line x1="150" y1="55" x2="150" y2="230" stroke="#4CAF50" stroke-width="3.5"/>
+      <!-- Tape spiral lines -->
+      <line x1="147" y1="80" x2="153" y2="90" stroke="#388E3C" stroke-width="1" opacity="0.3"/>
+      <line x1="147" y1="100" x2="153" y2="110" stroke="#388E3C" stroke-width="1" opacity="0.3"/>
+      <line x1="147" y1="120" x2="153" y2="130" stroke="#388E3C" stroke-width="1" opacity="0.3"/>
+      <line x1="147" y1="140" x2="153" y2="150" stroke="#388E3C" stroke-width="1" opacity="0.3"/>
+      <line x1="147" y1="160" x2="153" y2="170" stroke="#388E3C" stroke-width="1" opacity="0.3"/>
+      <line x1="147" y1="180" x2="153" y2="190" stroke="#388E3C" stroke-width="1" opacity="0.3"/>
+      <!-- Flower head (simplified) -->
+      <path d="M150,30 Q170,40 168,55 Q162,65 150,65 Q138,65 132,55 Q130,40 150,30Z" fill="#FFD54F" stroke="#F9A825" stroke-width="1"/>
+      <path d="M142,25 Q150,15 158,25 Q165,40 155,50 Q150,52 145,50 Q135,40 142,25Z" fill="#FFEB3B" stroke="#F9A825" stroke-width="1"/>
+      <ellipse cx="150" cy="40" rx="8" ry="6" fill="#FF8F00" opacity="0.7"/>
+      <!-- Left leaf -->
+      <g transform="translate(110, 130) rotate(-25)">
+        <path d="M0,0 Q-15,-35 0,-75 Q15,-35 0,0Z" fill="#66BB6A" stroke="#43A047" stroke-width="1"/>
+        <line x1="0" y1="0" x2="0" y2="-72" stroke="#43A047" stroke-width="0.8" opacity="0.5"/>
+      </g>
+      <!-- Right leaf -->
+      <g transform="translate(190, 160) rotate(20)">
+        <path d="M0,0 Q-12,-30 0,-65 Q12,-30 0,0Z" fill="#81C784" stroke="#43A047" stroke-width="1"/>
+        <line x1="0" y1="0" x2="0" y2="-62" stroke="#43A047" stroke-width="0.8" opacity="0.5"/>
+      </g>
+      <!-- Completion sparkles -->
+      <text x="200" y="45" font-size="16" opacity="0.6">✨</text>
+      <text x="100" y="55" font-size="14" opacity="0.5">✨</text>
+      <text x="215" y="80" font-size="12" opacity="0.4">✨</text>
+      <!-- "Done!" label -->
+      <text x="105" y="225" font-family="Caveat, cursive" font-size="20" fill="#F4845F">Your daffodil is done! ✿</text>
+    </svg>`
+  }
+];
+
+let currentStep = 0;
+
+function render() {
+  const s = steps[currentStep];
+
+  // Dots
+  const nav = document.getElementById('stepNav');
+  nav.innerHTML = steps.map((_, i) => 
+    `<div class="step-dot ${i === currentStep ? 'active' : i < currentStep ? 'done' : ''}" onclick="goTo(${i})"></div>`
+  ).join('');
+
+  // SVG
+  document.getElementById('svgFrame').innerHTML = s.svg;
+
+  // Content
+  let html = `<div class="step-label">${s.label} of ${steps.length}</div>
+    <div class="step-title">${s.title}</div>
+    <div class="step-desc">${s.desc}</div>`;
+
+  if (s.materials && s.materials.length > 0) {
+    html += `<div class="materials">${s.materials.map(m => `<span class="mat-tag">${m}</span>`).join('')}</div>`;
+  }
+
+  if (s.tip) {
+    html += `<div class="tip-box"><span class="tip-icon">💡</span><span class="tip-text">${s.tip}</span></div>`;
+  }
+
+  document.getElementById('stepContent').innerHTML = html;
+
+  // Buttons
+  document.getElementById('btnBack').disabled = currentStep === 0;
+  document.getElementById('btnNext').textContent = currentStep === steps.length - 1 ? '🎉 Done!' : 'Next →';
+
+  // Re-trigger animation
+  const content = document.getElementById('stepContent');
+  content.style.animation = 'none';
+  content.offsetHeight;
+  content.style.animation = 'fadeSlide 0.4s cubic-bezier(0.4, 0, 0.2, 1)';
+}
+
+function nextStep() {
+  if (currentStep < steps.length - 1) { currentStep++; render(); }
+}
+function prevStep() {
+  if (currentStep > 0) { currentStep--; render(); }
+}
+function goTo(i) {
+  currentStep = i; render();
+}
+
+render();
+</script>
+</body>
+</html>
+
+ovakav canvas zelim i dizajn ali da dole ostance chat box
+
+
+Elfy v2 — Simplified Flow + Image Gen + Canvas Tutorial
+Context
+Elfy v1 problems: agent gets confused during multi-step tutorials (repeats/skips steps), Pexels images are irrelevant, phase labels (EXPLORER/CRAFTER/etc.) are confusing for users, one-step-at-a-time chat tutorial breaks down after 5-6 steps.
+
+This refactor: simplifies flow, adds AI image generation (Gemini 3.1 Flash Image) so users SEE what they'll make, replaces chat-based tutorial with a Canvas UI where ALL steps are generated at once with free Back/Next navigation. Chat stays at bottom for help/questions.
+
+New User Flow
+
+Welcome Screen ("Hi! I'm Elfy" + 3 random occasion buttons)
+    |
+User picks occasion --> Elfy asks: for who? what materials do you have?
+    |
+User answers --> Elfy generates preview image via Gemini 3.1 Flash Image
+                 (uses RAG data for accurate details: colors, elements, materials)
+    |
+Image shown in chat --> "Like this? Want to make it?"
+    |
+User confirms --> Elfy analyzes image + RAG --> lists materials/dimensions
+                  (recipe style: "ingredients" with quantities)
+    |
+User says ready --> Backend generates ALL tutorial steps at once (JSON)
+    |
+Canvas opens: step dots, SVG illustration, instructions, Back/Next
+Chat input stays at bottom with quick actions: "Explain this step", "I need help"
+    |
+User clicks help --> Elfy answers about THAT specific step in chat below canvas
+Status messages (replace phase labels):
+
+"Elfy is thinking..." (routing/chat)
+"Elfy is drawing..." (image generation)
+"Elfy is crafting your tutorial..." (tutorial generation)
+"Elfy is analyzing..." (image analysis)
+Implementation Steps (12 steps)
+Step 1: integrations/image_gen.py — Gemini 3.1 Flash Image
+Action: Rewrite
+
+Model: gemini-3.1-flash-image-preview (replaces gemini-2.5-flash-image)
+New function: generate_project_preview(project_description, materials, colors, style_hints) -> dict
+Prompt: crafty photo-realistic preview, warm/cozy style
+Returns: {image_base64, mime_type, success, error}
+Keep generate_blueprint_image() (update model)
+Resolution: default 1K
+Step 2: integrations/vision.py — Material analysis function
+Action: Add function (keep existing)
+
+Add analyze_craft_for_materials(image_base64, media_type, project_name, rag_context) -> str
+System prompt: analyze craft image, list ALL materials/dimensions/quantities as recipe
+Uses Claude Haiku
+Combines image analysis + RAG data for accurate dimensions
+Existing analyze_image() stays for user-uploaded photo analysis
+Step 3: prompts/system_prompts.py — Updated prompts
+Action: Modify
+
+Prompt	Change
+SYSTEM_PROMPT_ROUTER	Keep but simplify — no phase labels in response
+SYSTEM_PROMPT_EXPLORER	Remove Pexels, limit to 3 suggestions
+SYSTEM_PROMPT_CRAFTER	Remove step-by-step tutorial logic entirely
+SYSTEM_PROMPT_TUTORIAL_GEN	NEW — generates ALL steps as structured JSON with SVGs
+SYSTEM_PROMPT_MATERIALS	NEW — recipe-style materials list from image analysis
+SYSTEM_PROMPT_VERIFIER	NEW — checks response quality, conversation coherence
+SYSTEM_PROMPT_HELPER	Keep
+SYSTEM_PROMPT_TEACHER	Keep
+SYSTEM_PROMPT_VISION	Keep
+SYSTEM_PROMPT_RAG	Keep (legacy /ask)
+SYSTEM_PROMPT_BLUEPRINT	Remove (merged into tutorial gen)
+SYSTEM_PROMPT_TUTORIAL_GEN output format:
+
+
+{
+  "project_name": "Paper Daffodil",
+  "difficulty": "Easy",
+  "time_estimate": "25 min",
+  "steps": [
+    {
+      "title": "Gather Your Materials",
+      "description": "Before you start...",
+      "tip": "Crepe paper works best...",
+      "materials": ["Yellow crepe paper", "Scissors"],
+      "svg": "<svg viewBox='0 0 300 220'>...</svg>"
+    }
+  ]
+}
+Step 4: agent/graph.py — Simplified nodes + verification
+Action: Major refactor
+
+AgentState changes:
+
+Remove: sub_phase, tutorial_state, inspiration_images
+Add: tutorial_data: dict | None, generated_image: str | None, action: str
+Nodes (5 internal, no exposed phase names):
+
+Node	Purpose	Model
+chat_node	General conversation, asking who/what/materials	Haiku
+image_gen_node	Generate preview via Gemini	Gemini 3.1 Flash Image
+analyze_node	Analyze image (generated or uploaded), list materials	Haiku
+tutorial_gen_node	Generate ALL steps as JSON	Sonnet
+help_node	Answer questions about specific step	Haiku
+Verification (verify_node):
+
+Runs AFTER every other node output
+Checks: response coherence, no hallucinated materials, JSON validity (for tutorial)
+Uses Haiku (cheap/fast)
+If fail: regenerates with corrected prompt
+Light touch: only flags obvious errors
+Router logic:
+
+If tutorial_data exists and user asks help -> help_node
+If user message implies "generate image" / materials confirmed -> image_gen_node
+If user confirms image ("yes", "let's do it") -> analyze_node
+If user says "ready" / "start tutorial" -> tutorial_gen_node
+Default -> chat_node
+Remove: explorer_node Pexels calls, blueprint_node, all _NEXT_WORDS step tracking
+
+Step 5: api/main.py — Updated endpoints + response model
+Action: Modify
+
+ChatResponse changes:
+
+Remove: phase, sub_phase, tutorial_state, inspiration_images
+Add: action: str, status_text: str, generated_image: str | None, tutorial_data: dict | None
+Remove: /inspiration endpoint
+Keep: /ask, /analyze-image, /health, /chat
+
+Step 6: frontend/src/api.ts — New types
+Action: Rewrite types
+
+
+interface TutorialStep {
+  title: string;
+  description: string;
+  tip?: string;
+  materials?: string[];
+  svg: string;
+}
+interface TutorialData {
+  project_name: string;
+  difficulty: string;
+  time_estimate: string;
+  steps: TutorialStep[];
+}
+interface ChatResponse {
+  response: string;
+  action: string;
+  status_text: string;
+  generated_image?: string;
+  tutorial_data?: TutorialData;
+  sources: Record<string, unknown>[];
+  conversation_history: ChatMessage[];
+}
+Remove: InspirationImage, TutorialState
+
+Step 7: frontend/src/components/TutorialCanvas.tsx — NEW COMPONENT
+Action: Create new file
+
+React conversion of the provided HTML canvas design. Key features:
+
+Props: tutorialData: TutorialData, onAskHelp: (stepIndex: number, question: string) => void
+
+Structure:
+
+Project header: title, difficulty dot, time, step count
+Step navigation dots (clickable) with done/active/pending states
+SVG frame with gradient background
+Step content: label, title, description, material tags, tip box
+Back/Next buttons with slide animation
+Quick action buttons: "Explain this step", "I need help"
+Theme (from provided HTML):
+
+Fonts: Quicksand (body) + Caveat (headings)
+Colors: --cream: #FFF8F0, --coral: #F4845F, --green: #6BAB73, --peach: #FDDCB5
+Max-width: 480px centered
+Rounded cards with soft shadows
+Step 8: frontend/src/components/ChatMessage.tsx — Simplify
+Action: Modify
+
+Remove: inspiration images grid, SVG parsing (parseContent), blueprint download
+Keep: quick reply extraction + buttons, markdown rendering (bold/italic)
+Add: generated image display (<img src="data:image/png;base64,...")
+Simpler: just user/assistant bubbles with text + optional image
+Step 9: frontend/src/components/PhaseIndicator.tsx -> Delete
+Action: Delete file
+
+Replace with inline loading status in App.tsx:
+
+Animated pulsing dot + status text ("Elfy is thinking...")
+Only visible during loading
+Step 10: frontend/src/App.tsx — New flow + Canvas integration
+Action: Major refactor
+
+State:
+
+
+messages, history, tutorialData, statusText, loading, currentStep
+Layout when canvas active:
+
+
++------------------------------+
+|  Header: Elfy (flower)       |
++------------------------------+
+|                              |
+|   TutorialCanvas             |
+|   (dots, SVG, text,          |
+|    back/next)                |
+|                              |
++------------------------------+
+|  [Explain this] [I need help]|
++------------------------------+
+|  Help chat messages (if any) |
++------------------------------+
+|  Chat input box              |
++------------------------------+
+Layout before canvas:
+
+
++------------------------------+
+|  Header: Elfy (flower)       |
++------------------------------+
+|  Welcome / Chat messages     |
+|  (with generated image       |
+|   inline)                    |
++------------------------------+
+|  Chat input box              |
++------------------------------+
+Welcome screen: 3 random from pool of 6 occasions
+handleSend: routes based on action from response
+
+Step 11: frontend/index.html + frontend/src/index.css — Fonts + theme
+Action: Modify both
+
+Add Google Fonts link (Quicksand + Caveat) to index.html
+Update index.css body background to #FFF8F0
+Add CSS custom properties from canvas design
+Step 12: Cleanup
+Delete PhaseIndicator.tsx
+Remove Pexels imports from graph.py
+Remove /inspiration endpoint from main.py
+Files Summary
+File	Action	Complexity
+integrations/image_gen.py	Rewrite	Medium
+integrations/vision.py	Add function	Low
+prompts/system_prompts.py	Modify prompts	Medium
+agent/graph.py	Major refactor	High
+api/main.py	Update models/endpoints	Medium
+frontend/src/api.ts	New types	Low
+frontend/src/components/TutorialCanvas.tsx	NEW	High
+frontend/src/components/ChatMessage.tsx	Simplify	Medium
+frontend/src/components/PhaseIndicator.tsx	Delete	—
+frontend/src/App.tsx	Major refactor	High
+frontend/index.html	Add fonts	Low
+frontend/src/index.css	Theme update	Low
+Files NOT touched
+integrations/inspiration.py — keep file, just unused
+scripts/* — ingestion pipeline
+knowledge/* — RAG data
+requirements.txt — no new deps (google-genai already installed)
+Verification
+Backend: ./venv/Scripts/python -m uvicorn api.main:app --reload
+Frontend: cd frontend && npm run dev
+Happy path: occasion -> chat (who/materials) -> image generated -> materials listed -> tutorial canvas with all steps
+Canvas nav: click dots, back/next, verify SVGs render
+Help flow: click "Explain this" -> chat answer about current step
+Image upload: user uploads photo -> analysis + craft suggestions
+Verification: verify agent catches incoherent responses
+Legacy: /ask endpoint still works
+User approved the plan
+Plan odobren! Krecem sa implementacijom.
+
+Update Todos
+
+Rewrite integrations/image_gen.py — Gemini 3.1 Flash Image
+
+Add material analysis to integrations/vision.py
+
+Update prompts/system_prompts.py — new prompts
+
+Refactor agent/graph.py — simplified nodes + verification
+
+Update api/main.py — new response model + endpoints
+
+Update frontend/src/api.ts — new types
+
+Create TutorialCanvas.tsx — new canvas component
+
+Simplify ChatMessage.tsx — remove SVG/inspiration
+
+Refactor App.tsx — new flow + canvas integration
+
+Update index.html + index.css — fonts + theme
+
+Cleanup: delete PhaseIndicator, remove Pexels
+
+Test end-to-end: full flow with canvas

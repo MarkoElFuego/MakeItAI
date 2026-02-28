@@ -1,17 +1,20 @@
 """
-Vision Analyzer — Send page images to Claude Vision for structured data extraction.
-Returns structured JSON with projects, materials, steps, blueprints, etc.
+Vision Analyzer — Gemini Flash-Lite for structured data extraction from craft book pages.
+
+Primary: gemini-2.5-flash-lite ($0.10/$0.40 per M tokens)
+Fallback: gemini-2.5-flash (if dimensions missing on first pass)
+Uses response_mime_type="application/json" for guaranteed valid JSON.
 """
 
 import json
 import logging
 import os
-import re
 import time
 from pathlib import Path
 
-import anthropic
 from dotenv import load_dotenv
+from google import genai
+from google.genai import types
 
 from pdf_extractor import get_page_image_base64
 
@@ -20,9 +23,10 @@ load_dotenv(PROJECT_ROOT / ".env")
 
 logger = logging.getLogger(__name__)
 
-claude = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+client = genai.Client(api_key=os.environ["GOOGLE_API_KEY"])
 
-VISION_MODEL = "claude-haiku-4-5-20251001"
+PRIMARY_MODEL = "gemini-2.5-flash-lite"
+FALLBACK_MODEL = "gemini-2.5-flash"
 
 EXTRACTION_PROMPT = """You are analyzing a page from a craft instruction book.
 Extract ALL information in this structured JSON format:
@@ -95,14 +99,64 @@ Extract ALL information in this structured JSON format:
 }
 
 RULES:
+    
 - Extract EVERY dimension mentioned (inches, cm, mm)
 - Describe EVERY visual/diagram you see in detail
 - If you see a template/pattern, describe its EXACT shape and features
 - Be precise about positions: "center", "top-left corner", "0.5in from edge"
 - If a project continues from a previous page, set continuation_of_previous to true
 - If the page has no craft content (copyright, blank, etc.), return: {"page_type": "other", "projects": []}
-- Return ONLY valid JSON, no other text
+
+CRITICAL: Extract ALL content in ENGLISH regardless of 
+    the source language (Russian, Chinese, Japanese, etc). 
+    Translate all text, instructions, material names, and 
+    technique descriptions to English. 
+    Keep original measurements as-is (cm, mm, inches).
+
 """
+
+SYSTEM_INSTRUCTION = "You are a structured data extractor for craft books. Return ONLY valid JSON matching the requested schema."
+
+
+def _has_dimensions(extracted: dict) -> bool:
+    """Check if extraction contains any dimension data in projects."""
+    for proj in extracted.get("projects", []):
+        for mat in proj.get("materials", []):
+            if mat.get("dimensions"):
+                return True
+        for step in proj.get("steps", []):
+            if step.get("dimensions_mentioned"):
+                return True
+        bp = proj.get("blueprint_data") or {}
+        for piece in bp.get("pieces", []):
+            if piece.get("width") or piece.get("height"):
+                return True
+    return False
+
+
+def _call_gemini(
+    model_name: str,
+    image_base64: str,
+    prompt_text: str,
+    media_type: str = "image/png",
+) -> dict:
+    """Call Gemini Vision API with structured JSON output."""
+    image_part = types.Part.from_bytes(
+        data=__import__("base64").b64decode(image_base64),
+        mime_type=media_type,
+    )
+
+    response = client.models.generate_content(
+        model=model_name,
+        contents=[image_part, prompt_text],
+        config=types.GenerateContentConfig(
+            system_instruction=SYSTEM_INSTRUCTION,
+            response_mime_type="application/json",
+            temperature=0.1,
+        ),
+    )
+    raw = response.text
+    return json.loads(raw)
 
 
 def analyze_page(
@@ -110,49 +164,34 @@ def analyze_page(
     page_number: int,
     raw_text_fallback: str = "",
     media_type: str = "image/png",
-    max_tokens: int = 4096,
+    **kwargs,
 ) -> dict:
     """
-    Send a single page image to Claude Vision for structured extraction.
+    Send a single page image to Gemini for structured extraction.
 
-    Args:
-        image_base64: Base64 encoded page image.
-        page_number: 1-based page number (for logging).
-        raw_text_fallback: OCR text to include as reference.
-        media_type: MIME type of the image.
-        max_tokens: Max response tokens.
-
-    Returns:
-        Parsed JSON dict from Claude, or a fallback dict on failure.
+    Primary: gemini-2.5-flash-lite (cheap, fast)
+    Fallback: gemini-2.5-flash (if no dimensions found on first pass)
     """
     prompt_text = EXTRACTION_PROMPT
     if raw_text_fallback.strip():
         prompt_text += f"\n\nAlso, here is OCR-extracted text from this page for reference:\n{raw_text_fallback[:2000]}"
 
-    user_content = [
-        {
-            "type": "image",
-            "source": {
-                "type": "base64",
-                "media_type": media_type,
-                "data": image_base64,
-            },
-        },
-        {
-            "type": "text",
-            "text": prompt_text,
-        },
-    ]
-
     try:
-        response = claude.messages.create(
-            model=VISION_MODEL,
-            max_tokens=max_tokens,
-            system="You are a structured data extractor for craft books. Return ONLY valid JSON.",
-            messages=[{"role": "user", "content": user_content}],
-        )
-        raw_response = response.content[0].text
-        return _parse_json_robust(raw_response, page_number)
+        # Primary: Flash-Lite
+        extracted = _call_gemini(PRIMARY_MODEL, image_base64, prompt_text, media_type)
+
+        # Check if dimensions were missed — retry with stronger model
+        if extracted.get("page_type") == "project" and not _has_dimensions(extracted):
+            logger.info(f"  Page {page_number}: No dimensions found, retrying with {FALLBACK_MODEL}")
+            try:
+                fallback = _call_gemini(FALLBACK_MODEL, image_base64, prompt_text, media_type)
+                if _has_dimensions(fallback):
+                    logger.info(f"  Page {page_number}: Fallback found dimensions")
+                    return fallback
+            except Exception as e:
+                logger.warning(f"  Page {page_number}: Fallback failed: {e}")
+
+        return extracted
 
     except json.JSONDecodeError as e:
         logger.warning(f"  Page {page_number}: JSON parse failed: {e}")
@@ -172,81 +211,14 @@ def analyze_page(
         }
 
 
-def _fix_json_string(text: str) -> str:
-    """Fix common JSON issues from LLM output: trailing commas, unescaped chars."""
-    # Remove trailing commas before } or ]
-    text = re.sub(r",\s*([}\]])", r"\1", text)
-    # Fix unescaped newlines inside string values (between quotes)
-    # This is a best-effort fix for multi-line strings
-    return text
-
-
-def _parse_json_robust(raw_response: str, page_number: int) -> dict:
-    """Try multiple strategies to parse JSON from Vision model output."""
-    # Strategy 1: Direct parse
-    try:
-        return json.loads(raw_response)
-    except json.JSONDecodeError:
-        pass
-
-    # Strategy 2: Extract between first { and last }
-    start = raw_response.find("{")
-    end = raw_response.rfind("}")
-    if start != -1 and end != -1 and end > start:
-        extracted = raw_response[start : end + 1]
-
-        # Strategy 2a: Direct parse of extracted
-        try:
-            return json.loads(extracted)
-        except json.JSONDecodeError:
-            pass
-
-        # Strategy 2b: Fix trailing commas and retry
-        fixed = _fix_json_string(extracted)
-        try:
-            return json.loads(fixed)
-        except json.JSONDecodeError:
-            pass
-
-        # Strategy 2c: Try removing the last problematic field before the error
-        # Sometimes the model generates an incomplete field at the end due to token limit
-        # Trim back to last complete entry
-        for trim_char in ["},", "],", '"']:
-            last_good = fixed.rfind(trim_char)
-            if last_good > 0:
-                candidate = fixed[: last_good + len(trim_char)]
-                # Close any open structures
-                open_braces = candidate.count("{") - candidate.count("}")
-                open_brackets = candidate.count("[") - candidate.count("]")
-                candidate += "]" * open_brackets + "}" * open_braces
-                try:
-                    result = json.loads(candidate)
-                    logger.info(f"  Page {page_number}: Recovered JSON by trimming incomplete tail")
-                    return result
-                except json.JSONDecodeError:
-                    continue
-
-    # All strategies failed
-    raise json.JSONDecodeError("All JSON parse strategies failed", raw_response, 0)
-
-
 def analyze_all_pages(
     pages: list[dict],
     rate_limit_delay: float = 1.0,
     max_retries: int = 2,
-    max_tokens: int = 4096,
+    **kwargs,
 ) -> list[dict]:
     """
-    Process all pages through Vision model with rate limiting and retries.
-
-    Args:
-        pages: Output from pdf_extractor.extract_pdf().
-        rate_limit_delay: Seconds between API calls.
-        max_retries: Retries on API failure per page.
-        max_tokens: Max tokens per Vision response.
-
-    Returns:
-        List of dicts: [{"page_number": N, "extracted": {...}}, ...]
+    Process all pages through Gemini Vision with rate limiting and retries.
     """
     results = []
     total = len(pages)
@@ -255,7 +227,6 @@ def analyze_all_pages(
         page_number = page["page_number"]
         image_path = page.get("image_path")
 
-        # If no image was rendered, return raw text only
         if not image_path or not Path(image_path).exists():
             logger.warning(f"[Vision] Page {page_number}/{total}: No image, using raw text only")
             results.append({
@@ -268,10 +239,8 @@ def analyze_all_pages(
             })
             continue
 
-        # Load image as base64
         image_b64 = get_page_image_base64(Path(image_path))
 
-        # Try with retries
         extracted = None
         for attempt in range(max_retries + 1):
             try:
@@ -279,13 +248,8 @@ def analyze_all_pages(
                     image_base64=image_b64,
                     page_number=page_number,
                     raw_text_fallback=page.get("raw_text", ""),
-                    max_tokens=max_tokens,
                 )
                 break
-            except anthropic.RateLimitError:
-                wait = (2 ** attempt) * 2
-                logger.warning(f"[Vision] Page {page_number}: Rate limited, waiting {wait}s (attempt {attempt + 1})")
-                time.sleep(wait)
             except Exception as e:
                 if attempt < max_retries:
                     wait = (2 ** attempt) * 2
@@ -308,7 +272,6 @@ def analyze_all_pages(
         page_type = extracted.get("page_type", "unknown")
         logger.info(f"[Vision] Page {page_number}/{total}: type={page_type}, projects={projects_found}")
 
-        # Rate limit delay between calls
         if page_number < total:
             time.sleep(rate_limit_delay)
 

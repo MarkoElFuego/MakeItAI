@@ -1,0 +1,1017 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A spread of pop-up elements from a book or card, featuring a Joker-like character, a cityscape, and a plant-like structure. The pop-up elements are arranged in a dynamic, three-dimensional display."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A yellow background with various religious symbols and festival names. Symbols include a Star of David labeled 'Judaism', a Dharma wheel labeled 'Dharma', an Om symbol labeled 'Hinduism', and an Islamic calligraphy symbol. Festival names like 'Chanukkah', 'Rosh Hashanah (New Year)', 'Tishah be-Av', 'Wesak (Buddha day)', 'Buddhism', 'Maha Shiv Ratri', 'Jan Mah Tami', 'Diwali', 'Islamic', 'Ramadan - Fast - 1 month', 'Muharram - New Year', 'Milad-an Nabi - Birthday of the prophet', 'Christianity', 'Easter', 'Christmas', 'Ascension', 'Advent' are connected by arrows or lines.",
+        "A pop-up book page showing a scene with ghosts, bats, a cauldron with pink liquid, and other spooky elements. A black spider figure is in the foreground. Text below reads: 'All of a sudden, the book of magic potions springs to life as all the bats, spooks, ghouls and worms escape from the recipes.'"
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [
+        {
+          "name": "Scalpel",
+          "use": "Scoring folds",
+          "suitable_for": [
+            "paper",
+            "card"
+          ]
+        },
+        {
+          "name": "Metal ruler",
+          "use": "Guide for scoring",
+          "suitable_for": [
+            "paper",
+            "card"
+          ]
+        }
+      ],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing a craft knife or scalpel with a metal ruler scoring a line on a piece of yellow card.",
+        "Diagram showing a piece of card being folded along a scored line.",
+        "Diagram showing a grid with a pop-up design laid out, labeled with '1'.",
+        "Diagram showing a pop-up element with stairs on a grid, labeled with '2'.",
+        "Diagram showing a pop-up tower element on a grid, labeled with '3'.",
+        "Diagram showing a pop-up castle structure with stairs and a tower, assembled.",
+        "Diagram showing a tower element with a pointed top, on a grid.",
+        "A warning symbol with a circle and a diagonal line through a knife icon, indicating caution when using sharp tools."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 4,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "The V fold",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Apply glue to the undersides of the tabs and attach them to the backing sheet so that the point of the V touches the central fold line.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing a hand applying glue to tabs of a V-shaped paper element, and then attaching it to a backing sheet where the point of the V aligns with a central fold line."
+            },
+            {
+              "step_number": 2,
+              "instruction": "If the angle of the V is 90 degrees, the pop-up will stand vertically when the card is open. If the angle of the V is less than 90 degrees, it will lean backwards, but if it is more than 90 degrees, it will lean forwards.",
+              "technique": null,
+              "dimensions_mentioned": [
+                "90 degrees"
+              ],
+              "visual_description": "Three small diagrams showing a V-fold at different angles: 90 degrees (vertical), less than 90 degrees (leaning backwards), and more than 90 degrees (leaning forwards). Each diagram shows the V-fold on a card base."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A V-shaped pop-up mechanism that can stand vertically or lean forwards/backwards depending on the angle."
+        },
+        {
+          "name": "The pop-up box",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Scale up the diagram to the required size. Cut it out and score along the fold lines.",
+              "technique": "cutting, scoring",
+              "dimensions_mentioned": [],
+              "visual_description": "A flat, unfolded diagram of a box with various fold lines indicated by dashed and dotted lines. Numbered tabs (1, 2, 3, 4, 5) are visible."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Apply glue to the end tap and fold to join the sides of the box. Making a square ‘tube’.",
+              "technique": "gluing, folding",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing a partially assembled box where tabs are being glued to form a square tube."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Apply glue to the lid tabs. These will look neater if they are attached to the inside of the box – but will have more strength if they are glued to the outside. You will have to decide which is more suitable for your design.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration of a completed pop-up box on a card base, with glue being applied to the lid tabs. The box is shown in a 3D perspective."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Fold back the base tabs inwards and glue these to the backing sheet using the V-fold technique.",
+              "technique": "gluing, folding",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration of the base tabs of the pop-up box being folded inwards and glued to the backing sheet, demonstrating the V-fold technique."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "box_template",
+                "shape": "complex",
+                "width": null,
+                "height": null,
+                "details": [
+                  {
+                    "type": "fold_line",
+                    "position": "various",
+                    "line_style": "dashed"
+                  },
+                  {
+                    "type": "score_line",
+                    "position": "various",
+                    "line_style": "dotted"
+                  },
+                  {
+                    "type": "tab",
+                    "position": "1",
+                    "label": "1"
+                  },
+                  {
+                    "type": "tab",
+                    "position": "2",
+                    "label": "2"
+                  },
+                  {
+                    "type": "tab",
+                    "position": "3",
+                    "label": "3"
+                  },
+                  {
+                    "type": "tab",
+                    "position": "4",
+                    "label": "4"
+                  },
+                  {
+                    "type": "tab",
+                    "position": "5",
+                    "label": "5"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "Assemble the box by gluing tabs and folding along indicated lines. The base tabs are attached using the V-fold technique."
+          },
+          "tips": [],
+          "finished_product_description": "A hollow box that pops up from a card base, adaptable for various objects."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Illustration showing a hand applying glue to tabs of a V-shaped paper element, and then attaching it to a backing sheet where the point of the V aligns with a central fold line.",
+        "Three small diagrams showing a V-fold at different angles: 90 degrees (vertical), less than 90 degrees (leaning backwards), and more than 90 degrees (leaning forwards). Each diagram shows the V-fold on a card base.",
+        "A flat, unfolded diagram of a box with various fold lines indicated by dashed and dotted lines. Numbered tabs (1, 2, 3, 4, 5) are visible.",
+        "Illustration showing a partially assembled box where tabs are being glued to form a square tube.",
+        "Illustration of a completed pop-up box on a card base, with glue being applied to the lid tabs. The box is shown in a 3D perspective.",
+        "Illustration of the base tabs of the pop-up box being folded inwards and glued to the backing sheet, demonstrating the V-fold technique."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 5,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Layered Mechanisms",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "card",
+              "quantity": "multiple strips",
+              "dimensions": "variable",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "scissors",
+              "purpose": "cutting card",
+              "optional": false
+            },
+            {
+              "name": "glue",
+              "purpose": "attaching parts",
+              "optional": false
+            },
+            {
+              "name": "paper-clips",
+              "purpose": "holding parts in position",
+              "optional": false
+            },
+            {
+              "name": "pencil",
+              "purpose": "marking positions",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut a strip of card, allowing for glue tabs and fold as shown checking that the pop-up will not protrude outside the card when it is closed.",
+              "technique": "cutting, folding",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing a hand cutting a strip of card with a craft knife and ruler, and another hand folding it."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Find the correct position by holding the strip in place with paper-clips. All parts should be parallel to one page or the other. Mark the position for gluing with a pencil.",
+              "technique": "positioning, marking",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing a strip of card held in place with paper clips, with a pencil marking a line."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Glue tabs in place. The pop-up design can be glued onto the moving layer.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing glue being applied to tabs and a pop-up design being attached to a base."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A pop-up design with layered mechanisms."
+        },
+        {
+          "name": "Floating Layers",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A pop-up design with floating layers, creating a sense of depth. Features a superhero figure with the word 'ZOOM'."
+        },
+        {
+          "name": "Incised Mechanisms",
+          "category": "paper_craft",
+          "difficulty": "advanced",
+          "materials": [
+            {
+              "item": "card",
+              "quantity": "1 piece",
+              "dimensions": "variable",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "pencil",
+              "purpose": "marking lines",
+              "optional": false
+            },
+            {
+              "name": "ruler",
+              "purpose": "measuring and drawing lines",
+              "optional": false
+            },
+            {
+              "name": "craft knife",
+              "purpose": "cutting card",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Mark in pencil the central fold line on the backing sheet.",
+              "technique": "marking",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing a rectangle with a dashed line down the center."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Draw the layer mechanisms at 90 degrees to the central fold.",
+              "technique": "drawing",
+              "dimensions_mentioned": [
+                "90 degrees"
+              ],
+              "visual_description": "Diagram showing a rectangle with a central fold line and perpendicular lines extending from it."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Position as shown in the diagram. Rub out the pencil central fold line on the layer.",
+              "technique": "positioning, erasing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing a rectangle with lines indicating folds and measurements."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Measure AB (the distance between the short end and the central fold).",
+              "technique": "measuring",
+              "dimensions_mentioned": [
+                "AB"
+              ],
+              "visual_description": "Diagram showing a rectangle with a central fold line and a measurement labeled 'AB' between one end and the center."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Mark the same distance at the other end. This line will be formed into a fold on the finished mechanism.",
+              "technique": "marking",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing a rectangle with a central fold line and markings indicating equal distances from both ends to the center."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Now cut and fold your drawing to create a layer mechanism from one sheet of card.",
+              "technique": "cutting, folding",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing a 3D representation of a folded card mechanism created from a single sheet."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "card_piece",
+                "shape": "rectangle",
+                "width": "variable",
+                "height": "variable",
+                "details": [
+                  {
+                    "type": "fold_line",
+                    "position": "center",
+                    "orientation": "vertical",
+                    "line_style": "dashed"
+                  },
+                  {
+                    "type": "fold_line",
+                    "position": "at distance AB from center",
+                    "orientation": "vertical",
+                    "line_style": "dashed"
+                  },
+                  {
+                    "type": "fold_line",
+                    "position": "at distance AB from other end",
+                    "orientation": "vertical",
+                    "line_style": "dashed"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "Cut and fold the card piece along the marked lines to create the mechanism."
+          },
+          "tips": [
+            "This technique can be used to produce a multiple-layer effect or to create the whole pop-up design."
+          ],
+          "finished_product_description": "A pop-up mechanism created from a single sheet of card using incised lines for folds."
+        },
+        {
+          "name": "Multiply Layers",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "card",
+              "quantity": "two or three strips",
+              "dimensions": "different lengths",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "paper-clips",
+              "purpose": "holding parts in position",
+              "optional": false
+            },
+            {
+              "name": "pencil",
+              "purpose": "marking positions",
+              "optional": false
+            },
+            {
+              "name": "glue",
+              "purpose": "attaching parts",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut two or three strips of card of different lengths. The length will depend on the size of your card. Allow for glue tabs.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing strips of card being cut."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Hold in position with paper-clips. Check that the layers are parallel and that the pop-up will not show when the card is closed. Mark the correct positions with a pencil.",
+              "technique": "positioning, marking",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing multiple strips of card held with paper clips, with a pencil marking positions."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Glue the tabs in position. Glue the pop-up designs onto the individual layer mechanisms.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing glue being applied to tabs and pop-up designs being attached to layer mechanisms. Also shows a finished pop-up with a cat face."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A pop-up design with multiple layers, creating depth. Includes an illustration of a cat face pop-up."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Illustration of a layered mechanism with a superhero figure and the word 'ZOOM'.",
+        "Diagram showing a rectangle with a central fold line and perpendicular lines, with measurements indicated.",
+        "Diagram showing a rectangle with a central fold line and markings for equal distances from the ends to the center.",
+        "3D sketch of a pop-up mechanism created from a single sheet of card.",
+        "Illustration showing the process of cutting and folding card for layered mechanisms.",
+        "Illustration showing strips of card being held with paper clips and marked for gluing.",
+        "Illustration of a finished pop-up design featuring a cat's face."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 6,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Sliding Mechanism",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "card backing sheet",
+              "quantity": "1 piece",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "small pieces of card",
+              "quantity": "2 pieces",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "stiff card",
+              "quantity": "1 strip",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "image to move",
+              "quantity": "1 piece",
+              "dimensions": null,
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "scissors",
+              "purpose": "cutting card",
+              "optional": false
+            },
+            {
+              "name": "glue",
+              "purpose": "attaching pieces",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut a slot in the card backing sheet, in the direction of the required movement.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "A hand holding scissors cutting a slot in a piece of card. The slot is a straight line."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Fold two small pieces of card in half and pass these through the slot – as shown.",
+              "technique": "folding, inserting",
+              "dimensions_mentioned": [],
+              "visual_description": "Two small folded pieces of card being passed through a slot in a larger piece of card. An arrow indicates the direction of movement."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Cut a strip of stiff card as pull tab. The length will depend on the size of your card.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "A hand holding scissors cutting a strip of card. The strip is labeled 'PULL'."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Glue this to the back of the two smaller pieces.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Two small folded pieces of card with a strip of card being glued to their back. A glue stick is shown."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Near the edge of the card, attach a guide for the pull tab.",
+              "technique": "attaching",
+              "dimensions_mentioned": [],
+              "visual_description": "A piece of card with a slot and the glued pull tab. A small piece of card is being attached near the edge to guide the pull tab."
+            },
+            {
+              "step_number": 6,
+              "instruction": "The image that is required to move can now be glued to the front of the two small pieces of card.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "A card with the sliding mechanism assembled. An image of a spaceship and planets is being glued to the front of the two small folded pieces of card."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A card with a sliding mechanism that moves an image."
+        },
+        {
+          "name": "Rotary Mechanism",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "backing card",
+              "quantity": "1 piece",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "card",
+              "quantity": "1 piece",
+              "dimensions": "30 mm diameter circle",
+              "color": "any"
+            },
+            {
+              "item": "card",
+              "quantity": "1 piece",
+              "dimensions": "large enough to protrude beyond backing card",
+              "color": "any"
+            },
+            {
+              "item": "image to move",
+              "quantity": "1 piece",
+              "dimensions": null,
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "scissors",
+              "purpose": "cutting card",
+              "optional": false
+            },
+            {
+              "name": "hole punch",
+              "purpose": "making holes",
+              "optional": false
+            },
+            {
+              "name": "glue",
+              "purpose": "attaching pieces",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut a 10 mm hole in the backing card at the centre of the circular movement.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "10 mm"
+              ],
+              "visual_description": "A hand holding scissors cutting a 10mm hole in the center of a piece of card. Arrows indicate the center."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Use another piece of card and cut a 30 mm diameter circle. This can be cut to act as gluing tabs. Mark out and cut as shown in the diagram.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "30 mm"
+              ],
+              "visual_description": "A piece of card with a 30mm circle drawn on it, with lines indicating where to cut tabs. A hand is shown cutting the circle and tabs."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Stick the centre circle of the tabs to the image that is required to move.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "A 30mm circle with tabs is being glued to the center of an image. A glue stick is shown."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Now cut a circle of card that is large enough to protrude beyond the backing card. Push the tabs through the hole and glue them to the centre of the disc. This will provide a wheel to turn the image on the front of the card.",
+              "technique": "cutting, gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "A large circle of card is shown. Tabs from the image are being pushed through a hole in the backing card and glued to the center of the large circle. An arrow indicates rotation."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A card with a rotating mechanism that turns an image."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Illustration of the sliding mechanism showing a card with a slot and a pull tab, with an image of a spaceship and planets.",
+        "Illustration of the rotary mechanism showing a card with a central hole, a 30mm diameter circle with tabs, and a larger circle for rotation, with an image of a propeller plane.",
+        "Diagram showing the steps for the sliding mechanism: cutting a slot, folding and passing card pieces through the slot, cutting a pull tab, gluing the tab, attaching a guide, and gluing the image.",
+        "Diagram showing the steps for the rotary mechanism: cutting a 10mm hole, cutting a 30mm circle with tabs, gluing the tabs to an image, and attaching a larger rotating circle."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 7,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Illustration of a person with glasses and a ponytail sitting at a desk, drawing on a piece of paper with a pencil and ruler. A computer monitor is visible on the desk.",
+        "Illustration of a stylized head with spiky hair, looking to the side.",
+        "Illustration of hands using a craft knife and ruler to cut out a shape from a piece of paper on a cutting mat.",
+        "A warning symbol with a circle and a diagonal line through it, indicating caution."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 8,
+    "extracted": {
+      "page_type": "project",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagrams showing various pop-up mechanisms, including V-folds, box-like structures, and layered elements.",
+        "A comic strip with six panels depicting a superhero named 'Bug Boy' interacting with other characters. The panels show dialogue bubbles and action sequences."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 9,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "V-fold Pop-up Mechanism",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "paper or cardstock",
+              "quantity": "1 piece",
+              "dimensions": "unspecified",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "craft knife or scissors",
+              "purpose": "cutting paper",
+              "optional": false
+            },
+            {
+              "name": "ruler",
+              "purpose": "guiding cuts and folds",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Prepare a rectangular piece of paper or cardstock and mark a central vertical fold line.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A large blank rectangle with a dashed vertical line down its center, indicating a fold line."
+            },
+            {
+              "step_number": 2,
+              "instruction": "On a section of the paper, make a horizontal fold and a vertical cut.",
+              "technique": "cutting and folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A smaller rectangular piece of paper with a dashed horizontal line across its center and a solid vertical line extending from the top edge to the dashed horizontal line."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Push the cut and folded section inwards to create the V-fold pop-up.",
+              "technique": "assembling",
+              "dimensions_mentioned": [],
+              "visual_description": "An isometric view showing a rectangular piece of paper with a V-shaped section being pushed inwards from the bottom, creating a pop-up element. A downward arrow indicates the pushing direction."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Understand the legend for a cut line.",
+              "technique": "reading blueprint",
+              "dimensions_mentioned": [],
+              "visual_description": "A solid line next to a symbol resembling a craft knife, indicating a cut."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Understand the legend for a mountain fold.",
+              "technique": "reading blueprint",
+              "dimensions_mentioned": [],
+              "visual_description": "A dashed line next to a symbol resembling a mountain fold (a V-shape pointing upwards)."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Understand the legend for a valley fold.",
+              "technique": "reading blueprint",
+              "dimensions_mentioned": [],
+              "visual_description": "A dashed line next to a symbol resembling a valley fold (a V-shape pointing downwards)."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "base card",
+                "shape": "rectangle",
+                "width": "unspecified",
+                "height": "unspecified",
+                "details": [
+                  {
+                    "type": "fold_line",
+                    "position": "vertical_center",
+                    "line_style": "dashed"
+                  }
+                ]
+              },
+              {
+                "name": "V-fold insert",
+                "shape": "rectangle",
+                "width": "unspecified",
+                "height": "unspecified",
+                "details": [
+                  {
+                    "type": "cut_line",
+                    "position": "vertical_center",
+                    "line_style": "solid"
+                  },
+                  {
+                    "type": "fold_line",
+                    "position": "horizontal_center",
+                    "line_style": "dashed"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "Fold the base card in half along the central vertical dashed line. Cut and fold the V-fold insert as indicated, then integrate it into the base card to create the pop-up."
+          },
+          "tips": [
+            "Refer to the line legends for cutting and folding instructions."
+          ],
+          "finished_product_description": "A pop-up card featuring a V-shaped mechanism that stands out when the card is opened."
+        },
+        {
+          "name": "Incised Pop-up Mechanism",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "paper or cardstock",
+              "quantity": "1 piece",
+              "dimensions": "unspecified",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "craft knife or scissors",
+              "purpose": "cutting paper",
+              "optional": false
+            },
+            {
+              "name": "ruler",
+              "purpose": "guiding cuts and folds",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Prepare a rectangular piece of paper or cardstock and mark a central horizontal fold line.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A large blank rectangle with a dashed horizontal line across its center, indicating a fold line."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Inside the main rectangle, make two vertical cuts and two horizontal folds to create the incised pop-up element.",
+              "technique": "cutting and folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A large rectangle with a central dashed horizontal line. Inside this, a smaller rectangle is defined by two solid vertical lines and two dashed horizontal lines (top and bottom of the inner rectangle). The inner rectangle is centered horizontally on the main rectangle's central fold line."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "base card",
+                "shape": "rectangle",
+                "width": "unspecified",
+                "height": "unspecified",
+                "details": [
+                  {
+                    "type": "fold_line",
+                    "position": "horizontal_center",
+                    "line_style": "dashed"
+                  }
+                ]
+              },
+              {
+                "name": "incised pop-up section",
+                "shape": "rectangle",
+                "width": "unspecified",
+                "height": "unspecified",
+                "details": [
+                  {
+                    "type": "cut_line",
+                    "position": "vertical_sides_of_inner_rectangle",
+                    "line_style": "solid"
+                  },
+                  {
+                    "type": "fold_line",
+                    "position": "top_and_bottom_of_inner_rectangle",
+                    "line_style": "dashed"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "Fold the base card in half along the central horizontal dashed line. Make the vertical cuts and horizontal folds for the inner rectangular section to create the incised pop-up element that will push forward when the card is opened."
+          },
+          "tips": [],
+          "finished_product_description": "A pop-up card featuring an incised mechanism where a rectangular section pops forward from the card's surface when opened."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing a large blank rectangle with a dashed vertical line down its center, labeled 'V-fold'.",
+        "Diagram showing a smaller rectangular piece of paper with a dashed horizontal line across its center and a solid vertical line in the middle.",
+        "Isometric diagram illustrating a V-fold mechanism being formed by pushing a cut section inwards, with a downward arrow indicating the action.",
+        "Legend symbol: A solid line indicating a cut, next to a graphic of a craft knife.",
+        "Legend symbol: A dashed line indicating a mountain fold, next to a graphic of a mountain fold.",
+        "Legend symbol: A dashed line indicating a valley fold, next to a graphic of a valley fold.",
+        "Diagram showing a large blank rectangle with a dashed horizontal line across its center, labeled 'Incised mechanism'.",
+        "Diagram showing a large rectangle with a central dashed horizontal line, and within it, a smaller inner rectangle defined by two solid vertical lines and two dashed horizontal lines (top and bottom of the inner rectangle)."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 10,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Pop-up mechanisms",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "paper or cardstock",
+              "quantity": "various pieces",
+              "dimensions": "change size of base accordingly",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "scissors",
+              "purpose": "cutting out patterns",
+              "optional": false
+            },
+            {
+              "name": "craft knife",
+              "purpose": "cutting out patterns",
+              "optional": true
+            },
+            {
+              "name": "ruler",
+              "purpose": "scoring and straight cuts",
+              "optional": false
+            },
+            {
+              "name": "bone folder",
+              "purpose": "scoring and creasing folds",
+              "optional": true
+            },
+            {
+              "name": "glue",
+              "purpose": "assembling pop-up elements",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut out the desired pop-up mechanism patterns from paper or cardstock.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "Various flat patterns for pop-up mechanisms are shown."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Score and fold along all dashed lines on the patterns.",
+              "technique": "scoring, folding",
+              "dimensions_mentioned": [],
+              "visual_description": "Dashed lines are visible on all patterns, indicating fold lines."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Assemble the pop-up mechanisms by gluing tabs as indicated (e.g., for the pop-up cube) to create 3D structures.",
+              "technique": "gluing, assembly",
+              "dimensions_mentioned": [],
+              "visual_description": "An assembled pop-up cube is shown with 'GLUE' labels on its tabs and numbered corners."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [],
+            "assembly_notes": "The page provides various templates for different pop-up mechanisms, including single layer, multiple layers, and floating layers. Adjust the size of the base card and pop-up elements as needed."
+          },
+          "tips": [
+            "Change size of base accordingly"
+          ],
+          "finished_product_description": "A collection of various pop-up mechanisms, including simple strips, U-shaped elements, and a complex pop-up cube, designed to be integrated into cards or other paper crafts."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Base Card Template",
+          "scale": "not specified",
+          "shape_description": "A large rectangular pattern with a single vertical dashed line down its center, indicating a fold line for a base card."
+        },
+        {
+          "name": "Pop-up Strip Templates",
+          "scale": "not specified",
+          "shape_description": "Two rectangular strip patterns of different lengths. Each strip features three vertical dashed lines, dividing it into four sections, which are intended as fold lines for creating pop-up elements."
+        },
+        {
+          "name": "U-shaped Pop-up Mechanism Templates",
+          "scale": "not specified",
+          "shape_description": "Two distinct patterns, each consisting of a rectangle with a U-shaped cutout from its top edge. Both patterns include two horizontal dashed lines: one at the base of the U-cutout and another near the bottom edge of the rectangle, indicating fold lines."
+        },
+        {
+          "name": "Rectangular Pop-up Support Template",
+          "scale": "not specified",
+          "shape_description": "A single rectangular pattern with two horizontal dashed lines, dividing the rectangle into three sections, indicating fold lines for a simple pop-up support."
+        },
+        {
+          "name": "Pop-up Cube Mechanism Template",
+          "scale": "not specified",
+          "shape_description": "A complex flat pattern designed to fold into a pop-up cube. It features a central rectangular panel, with two rectangular panels and trapezoidal tabs extending from its sides. Above the central panel, there is a section with a V-shaped cutout and two rectangular tabs. Below the central panel, another rectangular section with a trapezoidal tab is present. The pattern is marked with numerous vertical and horizontal dashed lines for folds, solid lines for cuts, and numbered points (1, 2, 3, 4, 5) on its corners and edges, which correspond to assembly points."
+        }
+      ],
+      "diagram_descriptions": [
+        "A large diagram showing a rectangular base card pattern with a central vertical dashed fold line.",
+        "Two diagrams showing rectangular strip patterns, each with three vertical dashed fold lines.",
+        "Three diagrams showing vertical pop-up patterns: two are U-shaped cutouts from rectangles with horizontal fold lines, and one is a simple rectangle with two horizontal fold lines.",
+        "A large, complex flat pattern for a pop-up cube, featuring multiple rectangular and trapezoidal sections, numerous dashed fold lines, and numbered points (1-5) for assembly.",
+        "An isometric view of an assembled pop-up cube, showing it partially open from a base. The cube has 'GLUE' labels on its top and side flaps, and numbered corners (1-5) corresponding to the flat pattern, illustrating the final 3D form and assembly points."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

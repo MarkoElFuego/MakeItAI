@@ -1,0 +1,4083 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "5 Great Gift Projects",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A collection of wooden toys and projects including a biplane, a truck with a load of barrels, a coffee grinder, a small drawer unit, and a box for playing cards."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A collection of wooden toys and projects displayed on a wooden surface. The projects include a biplane with a propeller, a wooden truck filled with round barrels, a vintage-style coffee grinder, a small wooden drawer unit with a knob, and a wooden box holding playing cards. A bottle of wood glue and a can of paint are also visible."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [
+        {
+          "name": "Wooden Toys",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "Wooden toys that are scale models of real things, with intricate details."
+        },
+        {
+          "name": "Box Joints",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "Small boxes made with box joints, described as not fancy but well-made."
+        },
+        {
+          "name": "Fender Prototype",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Make two prototype fenders.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Mount the fenders to one of the early versions of the cab and chassis.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": "Fenders mounted to a toy truck cab and chassis."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Drop the truck from a height of three feet to the shop floor to test the fenders.",
+              "technique": null,
+              "dimensions_mentioned": [
+                "three feet"
+              ],
+              "visual_description": "Toy truck being dropped from a height."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "Fenders for a toy truck that are sturdy enough to withstand being dropped."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Illustration of a toy truck with detailed fenders, cab, and gas tank.",
+        "Diagram showing the construction of a toy truck, including the cab, gas tank, and fenders."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "other",
+      "projects": [
+        {
+          "name": "Exact Kerfs for Splines",
+          "category": "woodworking",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "hardboard",
+              "quantity": "1 piece",
+              "dimensions": "1/4\"",
+              "color": "any"
+            },
+            {
+              "item": "Plexiglas",
+              "quantity": "1 piece",
+              "dimensions": "12\" diameter",
+              "color": "clear"
+            }
+          ],
+          "tools": [
+            {
+              "name": "router",
+              "purpose": "cutting splines",
+              "optional": false
+            },
+            {
+              "name": "table saw",
+              "purpose": "cutting splines",
+              "optional": false
+            },
+            {
+              "name": "saw sharpener",
+              "purpose": "adjusting tooth set",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Have a saw sharpener adjust the tooth set of a table saw blade to cut a groove just wide enough to take the hardboard.",
+              "technique": "sawing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram of a router with a 12\" diameter Plexiglas base attached. The base has a large cavity. The workpiece is shown being held against the base."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Using clear Plexiglas for the router base allows you to follow a line and see what you are doing.",
+            "Use the existing base plate as a template for drilling and countersinking the mounting screw holes."
+          ],
+          "finished_product_description": null
+        },
+        {
+          "name": "Upright Clamping Fixture",
+          "category": "woodworking",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "wood stock",
+              "quantity": "2 pieces",
+              "dimensions": "any",
+              "color": "any"
+            },
+            {
+              "item": "wedge",
+              "quantity": "1",
+              "dimensions": "any",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "woodworking vise",
+              "purpose": "clamping",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Build a simple clamp fixture using two pieces of stock and a wedge. One piece is attached to the miter gauge. The other piece holds the workpiece down by fitting right on top of it. Determine the thickness of the workpiece and screw this second board securely to the auxiliary fence so the workpiece will slide in under the top board.",
+              "technique": "clamping",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram of a woodworking vise with a workpiece held upright. A fixed wedge is on the left, and a loose wedge is being tapped in on the right. A crossbar extends from the vise."
+            },
+            {
+              "step_number": 2,
+              "instruction": "To use the clamp fixture, place the edge of the workpiece against the fixed wedge. Then slide the crossbar into the vise until the opposite edge of the workpiece bears against the side of the vise. Tighten the vise and tap in the loose wedge until the workpiece is held firmly in place.",
+              "technique": "clamping",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram of a woodworking vise with a workpiece held upright. A fixed wedge is on the left, and a loose wedge is being tapped in on the right. A crossbar extends from the vise."
+            },
+            {
+              "step_number": 3,
+              "instruction": "By making the crossbar of the fixture project at least 1¼\" above the top of the bench, I can C-clamp the workpiece to the fixture for added strength.",
+              "technique": "clamping",
+              "dimensions_mentioned": [
+                "1¼\""
+              ],
+              "visual_description": "Diagram of a woodworking vise with a workpiece held upright. A fixed wedge is on the left, and a loose wedge is being tapped in on the right. A crossbar extends from the vise."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": null
+        },
+        {
+          "name": "Soap for Screws?",
+          "category": "woodworking",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [
+            "Soap is often suggested as a lubricant to help when driving screws into hardwood.",
+            "Unfortunately, soap readily absorbs moisture from the atmosphere. This can lead to rusting that may ruin the appearance of light-colored woods.",
+            "Beeswax works just as well and won't lead to rusting."
+          ],
+          "finished_product_description": null
+        },
+        {
+          "name": "Wide Panels on the Table Saw",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "panel",
+              "quantity": "any",
+              "dimensions": "wide",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "table saw",
+              "purpose": "cutting dadoes",
+              "optional": false
+            },
+            {
+              "name": "roller stand",
+              "purpose": "support",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "When cutting dadoes on wide panels, the weight of the panel hanging over the end of the saw can cause the remaining part of the panel to tip up before the cut is completed. To hold the panel flat against the table and tight to the fence, a jig was designed.",
+              "technique": "sawing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram of a table saw with a wide panel being cut. A hold-down board is shown pressing the panel against the miter gauge."
+            },
+            {
+              "step_number": 2,
+              "instruction": "To use the jig, slip the workpiece between the fence and the front board and hold it firmly against the vertical board. This should provide good vertical support and ensure a perpendicular cut.",
+              "technique": "sawing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram of a router table with a jig holding a workpiece. The jig has a vertical member that is 90° to the horizontal pieces. The workpiece is held against the vertical member."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "A roller stand can help support wide panels when cutting dadoes."
+          ],
+          "finished_product_description": null
+        },
+        {
+          "name": "Routing Board Ends",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "scrap wood",
+              "quantity": "3 pieces",
+              "dimensions": "any",
+              "color": "any"
+            },
+            {
+              "item": "workpiece",
+              "quantity": "any",
+              "dimensions": "long board",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "router table",
+              "purpose": "cutting dovetail tongues",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "While making dovetail tongues on the ends of long boards with a router table, it's difficult to hold the workpiece firmly enough to keep it from wobbling around.",
+              "technique": "routing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram of a router table with a jig holding a workpiece. The jig has a vertical member that is 90° to the horizontal pieces. The workpiece is held against the vertical member."
+            },
+            {
+              "step_number": 2,
+              "instruction": "The jig built consists of three pieces of scrap that securely hold the workpiece upright. The vertical piece must be the same thickness as the workpiece and attached at 90° to the two horizontal pieces.",
+              "technique": "routing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram of a router table with a jig holding a workpiece. The jig has a vertical member that is 90° to the horizontal pieces. The workpiece is held against the vertical member."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": null
+        },
+        {
+          "name": "Large Auxiliary Router Base",
+          "category": "woodworking",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "Plexiglas",
+              "quantity": "1 piece",
+              "dimensions": "large, clear, ¼\"",
+              "color": "clear"
+            }
+          ],
+          "tools": [
+            {
+              "name": "hand-held router",
+              "purpose": "routing",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "The base of a hand-held router is often too small to ride over large cavities when making items such as trays. The problem is that the router dips down into the cavity, resulting in an uneven cut.",
+              "technique": "routing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram of a router with a large clear Plexiglas base attached. The base has a large cavity. The workpiece is shown being held against the base."
+            },
+            {
+              "step_number": 2,
+              "instruction": "To solve the problem, remove the existing base plate on the router and replace it with a large clear ¼\" Plexiglas base.",
+              "technique": "routing",
+              "dimensions_mentioned": [
+                "¼\""
+              ],
+              "visual_description": "Diagram of a router with a large clear Plexiglas base attached. The base has a large cavity. The workpiece is shown being held against the base."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": null
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram of a router with a 12\" diameter Plexiglas base attached. The base has a large cavity. The workpiece is shown being held against the base.",
+        "Diagram of a woodworking vise with a workpiece held upright. A fixed wedge is on the left, and a loose wedge is being tapped in on the right. A crossbar extends from the vise.",
+        "Diagram of a table saw with a wide panel being cut. A hold-down board is shown pressing the panel against the miter gauge.",
+        "Diagram of a router table with a jig holding a workpiece. The jig has a vertical member that is 90° to the horizontal pieces. The workpiece is held against the vertical member."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 4,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Toy Truck",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "4/4 stock",
+              "quantity": "1 piece",
+              "dimensions": "2 1/4\" wide by 11\" long",
+              "notes": "actual thickness 13/16\""
+            },
+            {
+              "item": "4/4 stock",
+              "quantity": "1 piece",
+              "dimensions": "for engine compartment block",
+              "notes": "glued with a 7/8\"-thick piece"
+            },
+            {
+              "item": "stock",
+              "quantity": "1 piece",
+              "dimensions": "7/8\" thick",
+              "notes": "for radiator"
+            }
+          ],
+          "tools": [
+            {
+              "name": "miter gauge",
+              "purpose": "cutting notch on back of chassis",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut a piece of 4/4 stock 2 1/4\" wide by 11\" long for the chassis.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "4/4 stock",
+                "2 1/4\" wide",
+                "11\" long"
+              ],
+              "visual_description": "Diagram labeled 'FIGURE 1' shows a side view of the chassis with dimensions and dado locations."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Cut two 1/2\"-wide dadoes near the back for the rear axles and one near the front axle on the bottom of the chassis.",
+              "technique": "cutting dadoes",
+              "dimensions_mentioned": [
+                "1/2\"-wide",
+                "bottom of the chassis"
+              ],
+              "visual_description": "Diagram labeled 'FIGURE 1' shows the location and size of dadoes for axles."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Cut a 1\"-wide dado on the top side of the chassis for the foot well, and a 7/8\"-wide dado just behind it for the back wall of the cab.",
+              "technique": "cutting dadoes",
+              "dimensions_mentioned": [
+                "1\"-wide",
+                "7/8\"-wide",
+                "top side of the chassis"
+              ],
+              "visual_description": "Diagram labeled 'FIGURE 1' shows the location and size of dadoes for foot well and cab back wall."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Cut a notch on the back end of the chassis to hold the tilting mechanism for the bed. Stand the chassis block on end and clamp it to a fence on the miter gauge to make this cut.",
+              "technique": "cutting notch",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram labeled 'FIGURE 1' shows the back end of the chassis with a notch."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Assemble the engine compartment by gluing a 7/8\"-thick piece to a piece of 4/4 stock.",
+              "technique": "gluing",
+              "dimensions_mentioned": [
+                "7/8\"-thick",
+                "4/4 stock"
+              ],
+              "visual_description": "Diagram labeled 'FIGURE 2' (not shown) would likely illustrate this step."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Cut the engine compartment block to width to match the width of the chassis.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagrams would show the engine block being trimmed to match chassis width."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Chamfer the top edges to form the engine compartment.",
+              "technique": "chamfering",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagrams would show the chamfered edges of the engine compartment."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Cut the engine to length to fit on the chassis in front of the foot well.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagrams would show the engine fitted onto the chassis."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Prepare the radiator by resawing a piece of stock 7/8\" thick and cutting it so it sticks out 1/16\" from the sides and top of the engine compartment.",
+              "technique": "resawing, cutting",
+              "dimensions_mentioned": [
+                "7/8\" thick",
+                "1/16\""
+              ],
+              "visual_description": "Diagrams would show the radiator piece and its placement on the engine compartment."
+            },
+            {
+              "step_number": 10,
+              "instruction": "Drill four 1/4\" corner holes and cut out the center portion of the radiator.",
+              "technique": "drilling, cutting",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "Diagrams would show the drilled holes and cut-out center of the radiator."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "Chassis",
+                "shape": "rectangular bar",
+                "width": "2 1/4\"",
+                "height": "unknown",
+                "length": "11\"",
+                "details": [
+                  {
+                    "type": "dado",
+                    "position": "bottom, near back",
+                    "width": "1/2\"",
+                    "quantity": 2
+                  },
+                  {
+                    "type": "dado",
+                    "position": "bottom, near front",
+                    "width": "1/2\"",
+                    "quantity": 1
+                  },
+                  {
+                    "type": "dado",
+                    "position": "top side, for foot well",
+                    "width": "1\"",
+                    "quantity": 1
+                  },
+                  {
+                    "type": "dado",
+                    "position": "top side, behind foot well dado, for cab back wall",
+                    "width": "7/8\"",
+                    "quantity": 1
+                  },
+                  {
+                    "type": "notch",
+                    "position": "back end",
+                    "purpose": "tilting mechanism"
+                  }
+                ]
+              },
+              {
+                "name": "Engine Compartment Block",
+                "shape": "rectangular block",
+                "dimensions": "width to match chassis, length to fit in front of foot well",
+                "details": [
+                  {
+                    "type": "chamfer",
+                    "position": "top edges"
+                  }
+                ]
+              },
+              {
+                "name": "Radiator",
+                "shape": "rectangular piece",
+                "dimensions": "sticks out 1/16\" from sides and top of engine compartment",
+                "details": [
+                  {
+                    "type": "hole",
+                    "position": "corners",
+                    "diameter": "1/4\"",
+                    "quantity": 4
+                  },
+                  {
+                    "type": "cutout",
+                    "position": "center portion"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "Assemble engine compartment, then fit to chassis. Attach radiator to engine compartment. Notch chassis for bed tilting mechanism."
+          },
+          "tips": [
+            "When working with small pieces, it's best to cut them oversize to begin with. Then make any shaping cuts before they're trimmed to final size."
+          ],
+          "finished_product_description": "A wooden toy truck with a functional tilting bed, engine compartment, and radiator."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "FIGURE 1: Side view of the toy truck chassis showing dimensions for length (11\"), width (2 1/4\"), dadoes for axles (1/2\" wide), dado for foot well (1\" wide), dado for cab back wall (7/8\" wide), and a notch at the back end for the tilting mechanism. Also shows a 45° bevel on the front corners of the chassis and dimensions for the dadoes for axles (1/4\" deep).",
+        "Illustration of the toy truck, showing the front and side view of the wooden model with a cargo bed filled with barrels."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 5,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Wooden Toy Truck",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "stock",
+              "quantity": "1 strip",
+              "dimensions": "3/8\" thick",
+              "notes": "for dashboard and cab back"
+            },
+            {
+              "item": "stock",
+              "quantity": "1 strip",
+              "dimensions": "1\" wide",
+              "notes": "for seats"
+            },
+            {
+              "item": "stock",
+              "quantity": "1 piece",
+              "dimensions": "3/8\" thick",
+              "notes": "for roof"
+            },
+            {
+              "item": "dowel",
+              "quantity": "4 pieces",
+              "dimensions": "1/4\" diameter",
+              "notes": "for bumper and radiator cap"
+            },
+            {
+              "item": "dowel",
+              "quantity": "2 pieces",
+              "dimensions": "1/4\" diameter",
+              "notes": "for engine compartment"
+            },
+            {
+              "item": "dowel",
+              "notes": "for steering wheel column"
+            },
+            {
+              "item": "steering wheel",
+              "dimensions": "3\" diameter"
+            }
+          ],
+          "tools": [
+            {
+              "name": "coping saw",
+              "purpose": "cutting out shapes",
+              "optional": false
+            },
+            {
+              "name": "patternmaker's files",
+              "purpose": "smoothing edges",
+              "optional": false
+            },
+            {
+              "name": "drill",
+              "purpose": "making holes",
+              "optional": false
+            },
+            {
+              "name": "clamp",
+              "purpose": "holding pieces",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Glue the radiator directly to the front (end grain) of the engine compartment.",
+              "technique": "gluing",
+              "notes": "Glue set up after holding for about 30 seconds.",
+              "visual_description": "Radiator being glued to the front of the engine compartment."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Cut the bumper to size. Clamp it to the radiator and drill two 1/4\" holes through the bumper and into the radiator.",
+              "technique": "cutting, drilling",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "Bumper being cut and drilled."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Resaw a strip of stock 3/8\" thick to fit the 1/4\" dado in the chassis and rough size to 2 1/2\" wide by 8\" long for the dashboard and cab back.",
+              "technique": "resawing, cutting",
+              "dimensions_mentioned": [
+                "3/8\"",
+                "1/4\"",
+                "2 1/2\"",
+                "8\""
+              ],
+              "visual_description": "Strip of wood being cut to size."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Rip this piece down to final width to match the width of the chassis.",
+              "technique": "ripping",
+              "visual_description": "Wood piece being ripped to width."
+            },
+            {
+              "step_number": 5,
+              "instruction": "For the cab's back, drill four 1/4\" holes at one end of the strip to form the back window, and cut the window to shape with a coping saw.",
+              "technique": "drilling, cutting",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "Cab back piece with window holes drilled and cut out."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Cut the back to length so the bottom of the window is 1\" above the chassis and glue it in the dado.",
+              "technique": "cutting, gluing",
+              "dimensions_mentioned": [
+                "1\""
+              ],
+              "visual_description": "Cab back being glued into the chassis dado."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Use the remainder of the strip to make the dashboard. Drill a 1/4\" hole in this piece at a 30° angle for the steering wheel column.",
+              "technique": "drilling",
+              "dimensions_mentioned": [
+                "1/4\"",
+                "30°"
+              ],
+              "visual_description": "Dashboard piece with angled hole drilled for steering wheel column."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Mount the steering wheel (a 3\" diameter wheel) to the dashboard.",
+              "technique": "mounting",
+              "dimensions_mentioned": [
+                "3\""
+              ],
+              "visual_description": "Steering wheel attached to the dashboard."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Glue the dashboard assembly to the back of the engine.",
+              "technique": "gluing",
+              "visual_description": "Dashboard assembly glued to the engine back."
+            },
+            {
+              "step_number": 10,
+              "instruction": "Resaw a 1/4\"-thick strip 1\" wide to make the seats. Round over one edge of this strip and cut the seat cushions to length to match the width of the chassis.",
+              "technique": "resawing, rounding over, cutting",
+              "dimensions_mentioned": [
+                "1/4\"",
+                "1\""
+              ],
+              "visual_description": "Seat pieces being cut and shaped."
+            },
+            {
+              "step_number": 11,
+              "instruction": "Glue the seats in place in front of the cab's back.",
+              "technique": "gluing",
+              "visual_description": "Seats glued into the cab."
+            },
+            {
+              "step_number": 12,
+              "instruction": "To make the doors, resaw another strip 3/8\" thick and drill 1/4\" holes to cut out the shape of windows. Then round the bottom corners (except the top edge).",
+              "technique": "resawing, drilling, cutting, rounding over",
+              "dimensions_mentioned": [
+                "3/8\"",
+                "1/4\""
+              ],
+              "visual_description": "Door pieces with window cutouts and rounded corners."
+            },
+            {
+              "step_number": 13,
+              "instruction": "Clamp the doors to the cab and drill 1/4\" holes for small dowel pins. Then apply glue and use the pins to hold the doors in place while the glue sets up.",
+              "technique": "clamping, drilling, gluing",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "Doors being held in place with dowel pins while glued."
+            },
+            {
+              "step_number": 14,
+              "instruction": "To complete the cab, resaw a piece 3/8\" thick for the roof and bevel one end at 15°. Then cut it to length to fit on top of the doors, drill holes for dowel pins, and glue it to the top of edge of the doors.",
+              "technique": "resawing, beveling, cutting, drilling, gluing",
+              "dimensions_mentioned": [
+                "3/8\"",
+                "15°"
+              ],
+              "visual_description": "Roof piece being cut, beveled, and glued onto the cab."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "Radiator",
+                "shape": "rectangle with rounded corners",
+                "dimensions": "2 1/4\" x 2 1/4\"",
+                "details": [
+                  {
+                    "type": "hole",
+                    "size": "1/4\"",
+                    "count": 4,
+                    "position": "evenly spaced"
+                  }
+                ],
+                "notes": "1/4\" thick"
+              },
+              {
+                "name": "Bumper",
+                "shape": "elongated rectangle with rounded ends",
+                "dimensions": "2 1/4\" x 3/8\"",
+                "details": [
+                  {
+                    "type": "hole",
+                    "size": "1/4\"",
+                    "count": 2,
+                    "position": "centered on ends"
+                  }
+                ],
+                "notes": "1/4\" thick"
+              },
+              {
+                "name": "Cab Back",
+                "shape": "trapezoid with a rectangular cutout for window",
+                "dimensions": "3\" height, 2 1/4\" width at base, tapering to 1 3/4\" at top",
+                "details": [
+                  {
+                    "type": "hole",
+                    "size": "1/4\"",
+                    "count": 4,
+                    "position": "forming window corners"
+                  },
+                  {
+                    "type": "window",
+                    "shape": "rectangular",
+                    "dimensions": "1 1/4\" x 1 1/4\"",
+                    "position": "centered, 1\" from bottom edge"
+                  }
+                ],
+                "notes": "3/8\" thick"
+              },
+              {
+                "name": "Dashboard",
+                "shape": "rectangle",
+                "dimensions": "2 1/4\" x 1 1/4\"",
+                "details": [
+                  {
+                    "type": "hole",
+                    "size": "1/4\"",
+                    "position": "angled at 30° for steering wheel column"
+                  }
+                ],
+                "notes": "3/8\" thick"
+              },
+              {
+                "name": "Seats",
+                "shape": "rectangular strips",
+                "dimensions": "variable length to match chassis width, 1\" wide",
+                "details": [
+                  {
+                    "type": "rounded edge",
+                    "position": "one long edge"
+                  }
+                ],
+                "notes": "1/4\" thick"
+              },
+              {
+                "name": "Doors",
+                "shape": "rectangular with rectangular window cutout",
+                "dimensions": "approx. 2 1/4\" x 2 1/4\"",
+                "details": [
+                  {
+                    "type": "window",
+                    "shape": "rectangular",
+                    "dimensions": "approx. 1\" x 1\""
+                  },
+                  {
+                    "type": "rounded corners",
+                    "position": "bottom two corners"
+                  }
+                ],
+                "notes": "3/8\" thick"
+              },
+              {
+                "name": "Roof",
+                "shape": "trapezoidal",
+                "dimensions": "approx. 3 1/4\" x 2 1/4\"",
+                "details": [
+                  {
+                    "type": "bevel",
+                    "angle": "15°",
+                    "position": "one end"
+                  }
+                ],
+                "notes": "3/8\" thick"
+              }
+            ],
+            "assembly_notes": "Glue back, dashboard, steering wheel, and seat before attaching sides. Use dowels to position doors before gluing. Glue roof to top edge of doors."
+          },
+          "tips": [
+            "End-grain gluing of radiator to engine compartment was successful after holding for 30 seconds.",
+            "Use small dowel pins to hold doors in place while glue sets up."
+          ],
+          "finished_product_description": "A toy truck with a cab, radiator, bumper, seats, and doors."
+        }
+      ],
+      "diagram_descriptions": [
+        "Figure 1: Exploded view of the truck chassis, engine compartment, and radiator, showing how they fit together with dowels.",
+        "Figure 2: Detail of the engine compartment and radiator, showing chamfered top edge and dowels for alignment.",
+        "Figure 3: Side view of the cab interior, showing the steering wheel set at 30°, the back panel, and the seat.",
+        "Figure 4: Top view and side view of the door pieces, showing dimensions, hole placements for windows, and radius corners. Also shows dimensions for the back piece and dashboard, including hole for steering wheel.",
+        "Figure 5: Top view and cross-section of the roof piece, showing dimensions, bevel, and rounded edge. Also shows an illustration of the roof being attached to the cab with dowels."
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 6,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Wooden Toy Truck",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "wood strip",
+              "quantity": "1 piece",
+              "dimensions": "3/4\" thick, 12\" long",
+              "notes": "for axles"
+            },
+            {
+              "item": "wood strip",
+              "quantity": "1 piece",
+              "dimensions": "1/4\" stock",
+              "notes": "for fenders"
+            },
+            {
+              "item": "wood dowel",
+              "quantity": "2 pieces",
+              "dimensions": "1/4\" diameter",
+              "notes": "for pivot piece"
+            },
+            {
+              "item": "wood dowel",
+              "quantity": "1 piece",
+              "dimensions": "1/4\" diameter",
+              "notes": "for gas cap"
+            },
+            {
+              "item": "wood dowel",
+              "quantity": "1 piece",
+              "dimensions": "1/4\" diameter",
+              "notes": "for gas tank"
+            },
+            {
+              "item": "wood dowel",
+              "quantity": "1 piece",
+              "dimensions": "1\" diameter",
+              "notes": "for gas tank"
+            },
+            {
+              "item": "8-penny nails",
+              "quantity": "2 pieces",
+              "notes": "as axle rods (if using wheels with 1/8\" holes)"
+            },
+            {
+              "item": "wood",
+              "quantity": "1 piece",
+              "dimensions": "2x4",
+              "notes": "for holding axles during drilling"
+            }
+          ],
+          "tools": [
+            {
+              "name": "router table",
+              "purpose": "rounding edges of axle strip"
+            },
+            {
+              "name": "drill press",
+              "purpose": "drilling holes in axles, mounting dowels, shaping gas tanks"
+            },
+            {
+              "name": "band saw",
+              "purpose": "cutting fenders to shape"
+            },
+            {
+              "name": "drum sander",
+              "purpose": "smoothing fenders"
+            },
+            {
+              "name": "belt sander",
+              "purpose": "flattening gas tank sides"
+            },
+            {
+              "name": "V-shaped file",
+              "purpose": "forming grooves on gas tanks"
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut axles from a 3/4\" thick, 12\" long wood strip. Round over two edges on the router table.",
+              "technique": "cutting, routing",
+              "dimensions_mentioned": [
+                "3/4\"",
+                "12\""
+              ],
+              "visual_description": "Diagram shows a 12\" long strip with two 2 1/4\" sections labeled 'AXLE' and one 1 1/2\" section labeled 'PIVOT PIECE'. The strip is 13/16\" wide. A separate illustration shows a rounded axle piece."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Cut the axles to length so they are a total of 1/2\" (1/4\" on each side) longer than the chassis is wide.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "1/2\"",
+                "1/4\""
+              ],
+              "visual_description": "Illustration shows a rounded axle piece with dimensions indicating it is longer than the chassis width."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Cut the pivot piece to fit the notch in the chassis.",
+              "technique": "cutting",
+              "visual_description": "Diagram shows the pivot piece fitting into a notch on the chassis."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Drill 1/8\" holes in the ends of each axle for the axle rods. To hold the axles for drilling, cut a notch in the end of a 2x4 and clamp it to the drill press table.",
+              "technique": "drilling, notching",
+              "dimensions_mentioned": [
+                "1/8\""
+              ],
+              "visual_description": "Diagram shows a 2x4 clamped to a drill press table with a notch to hold an axle. A drill bit is shown drilling into the end of the axle. The axle is shown with a 1/4\" dimension from the notch to the end and a 1/2\" dimension from the notch to the top edge. The drill bit is 1/8\" diameter and drills 1\" deep."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Mount the axles so they stick out an equal amount on each side of the chassis. Drill 1/8\" holes in the ends of the pivot piece and in the sides of the chassis.",
+              "technique": "drilling",
+              "dimensions_mentioned": [
+                "1/8\""
+              ],
+              "visual_description": "Diagram shows two axles mounted to the chassis, extending equally on both sides. A pivot piece is shown positioned between the axles. Holes are indicated in the pivot piece and chassis sides."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Put a dab of glue in the pivot piece holes only and slide 1/4\" dowels through the holes in the chassis.",
+              "technique": "gluing, assembly",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "Diagram shows 1/4\" dowels being inserted through the chassis into the pivot piece."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Trace the full-sized fender pattern (Figure 9) onto a piece of 1/4\" stock and cut it to shape on a band saw. Smooth it to shape with a drum sander on a drill press.",
+              "technique": "tracing, cutting, sanding",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "Diagram shows a fender shape with a 1 1/4\" radius and a 60° angle. The front edge is beveled. A separate diagram shows a piece of wood being cut into the fender shape."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Cut a plate to size and glue it to the bottom of the chassis. This plate is where the running board section of the fender is mounted.",
+              "technique": "cutting, gluing",
+              "visual_description": "Diagram shows a plate being glued to the bottom of the chassis, below the cab. Fenders are shown being attached to this plate and the engine compartment."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Mount the fenders by applying glue to their edges and holding them in place for about 30 seconds.",
+              "technique": "gluing, assembly",
+              "dimensions_mentioned": [
+                "30 seconds"
+              ],
+              "visual_description": "Illustration shows fenders being attached to the truck chassis."
+            },
+            {
+              "step_number": 10,
+              "instruction": "Make gas tanks from 1\" dowels. Mount the dowels in the drill press and use a V-shaped file to form grooves at both ends.",
+              "technique": "shaping, drilling",
+              "dimensions_mentioned": [
+                "1\""
+              ],
+              "visual_description": "Diagram shows a 1\" dowel being held in a drill press chuck. A V-shaped file is shown shaping grooves into the ends of the dowel. The dowel is shown with a 2\" dimension indicating its length."
+            },
+            {
+              "step_number": 11,
+              "instruction": "To mount the gas tanks to the sides of the chassis, hold the tank down on a belt sander and sand a 3/8\"-wide flat side. Drill a 1/8\" hole for a 1/4\" dowel gas cap.",
+              "technique": "sanding, drilling",
+              "dimensions_mentioned": [
+                "3/8\"",
+                "1/8\"",
+                "1/4\""
+              ],
+              "visual_description": "Diagram shows a gas tank being flattened on a belt sander. Another diagram shows a gas cap made from a 1/4\" dowel. The gas tanks are positioned 1/4\" from the cab and are flush with the top of the chassis."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "If using wheels with 1/4\" holes, the wooden axle rods usually sold with them are not long enough for dual wheels. In this case, make the axles 1/2\" longer (so they stick out a total of 1/4\" on each side) and use only one wheel on each side.",
+            "Clamping the fenders is not necessary; just apply glue and hold them in place with finger pressure for about 30 seconds."
+          ],
+          "finished_product_description": "A wooden toy truck with axles, wheels, fenders, and gas tanks."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Fender Pattern",
+          "scale": "Full-sized",
+          "shape_description": "A curved shape with a 1 1/4\" radius and a 60° angle. The front edge is beveled."
+        }
+      ],
+      "diagram_descriptions": [
+        "Figure 6: Diagram showing the dimensions for cutting the axle and pivot pieces from a wood strip. Includes a detailed illustration of a rounded axle piece.",
+        "Figure 7: Diagram illustrating how to hold an axle for drilling using a notched 2x4 clamped to a drill press table. Shows dimensions for the notch and drilling depth.",
+        "Figure 8: Diagram showing the placement of axles and the pivot piece on the chassis, with indications for drilling holes for the pivot piece dowels.",
+        "Figure 9: Diagram showing the fender detail with radius and angle measurements, and a beveled front edge. Also shows a plate being glued to the chassis for fender mounting, and the fenders attached to the chassis.",
+        "Figure 10: Diagram illustrating the process of shaping gas tanks from dowels using a drill press and a V-shaped file. Shows a 1\" dowel and its length (2\"). Also shows the gas tanks positioned on the truck chassis and a detail of the gas cap."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 7,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "The Truck Bed",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "stock for bed",
+              "quantity": "1 piece",
+              "dimensions": "3/4\" thick, 4 1/4\" wide by 7 1/4\" long",
+              "color": "any"
+            },
+            {
+              "item": "stock for stakes",
+              "quantity": "1 piece",
+              "dimensions": "1/4\" thick, 1 3/8\" wide by 24\" long",
+              "color": "any"
+            },
+            {
+              "item": "stock for fences",
+              "quantity": "2 sections",
+              "dimensions": "1/4\" thick, 1 3/8\" wide by 7\" long",
+              "color": "any"
+            },
+            {
+              "item": "stock for end fences",
+              "quantity": "2 sections",
+              "dimensions": "1/4\" thick, 1 3/8\" wide by 4\" long",
+              "color": "any"
+            },
+            {
+              "item": "dadoes for stakes",
+              "quantity": "8",
+              "dimensions": "1/4\" wide, 1/8\" deep",
+              "color": "any"
+            },
+            {
+              "item": "dowel pins",
+              "quantity": "4",
+              "dimensions": "1/8\"",
+              "color": "any"
+            },
+            {
+              "item": "wheels",
+              "quantity": "6",
+              "dimensions": "with 1/4\" holes",
+              "color": "any"
+            },
+            {
+              "item": "6-penny common nails",
+              "quantity": "4",
+              "dimensions": "1 1/4\" diameter",
+              "color": "any"
+            },
+            {
+              "item": "epoxy",
+              "quantity": "as needed",
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "Wateo Danish Oil",
+              "quantity": "2 coats",
+              "dimensions": null,
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "saw",
+              "purpose": "cutting stock",
+              "optional": false
+            },
+            {
+              "name": "table saw",
+              "purpose": "cutting kerfs",
+              "optional": false
+            },
+            {
+              "name": "Forstner bit",
+              "purpose": "counterboring holes",
+              "optional": false
+            },
+            {
+              "name": "wire cutters",
+              "purpose": "scoring nail ends",
+              "optional": false
+            },
+            {
+              "name": "clamp",
+              "purpose": "holding pieces",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut a piece of stock for the bed, 3/4\" thick, 4 1/4\" wide by 7 1/4\" long.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "3/4\"",
+                "4 1/4\"",
+                "7 1/4\""
+              ],
+              "visual_description": "Figure 11 shows the top view of the truck bed with dimensions."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Cut notches around the edges of the bed and add strips to cover the open ends of the notches.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "1/2\" deep"
+              ],
+              "visual_description": "Figure 11 shows the truck bed with notches. Figure 12 shows the bed with added strips."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Mount the bed to the pivot piece at the back of the chassis. Drill two 1/8\" holes for dowel pins. Clamp the bed to the chassis and drill through these holes into the pivot piece.",
+              "technique": "drilling, clamping",
+              "dimensions_mentioned": [
+                "1/8\""
+              ],
+              "visual_description": "Figure 12 shows the bed being attached to the pivot piece with dowels."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Apply glue to the top edge of the pivot piece, insert 1/8\" dowel pins, and hold the bed in place until the glue sets up.",
+              "technique": "gluing, doweling",
+              "dimensions_mentioned": [
+                "1/8\""
+              ],
+              "visual_description": "Figure 12 shows the bed being glued and doweled to the pivot piece."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Resaw a piece of 1/4\"-thick stock, 1 3/8\" wide by 24\" long. Cut off two 7\"-long sections for the side fences and two 4\"-long sections for the end fences.",
+              "technique": "resawing, cutting",
+              "dimensions_mentioned": [
+                "1/4\"",
+                "1 3/8\"",
+                "24\"",
+                "7\"",
+                "4\""
+              ],
+              "visual_description": "Figure 13 shows the stock for fences and side fences with dimensions."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Cut 1/8\"-deep dadoes for the stakes, making sure these dadoes line up with the mortises in the truck bed.",
+              "technique": "cutting dadoes",
+              "dimensions_mentioned": [
+                "1/8\"",
+                "1/4\"",
+                "1 3/8\""
+              ],
+              "visual_description": "Figure 13 shows the placement of dadoes for stakes. Figure 14 shows the end view of the fence with stakes."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Cut the stakes to fit snugly in the dadoes, and make them 3/8\" longer than the fences are wide (so they stick out 3/8\" on the bottom edge).",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "3/8\""
+              ],
+              "visual_description": "Figure 13 shows stakes fitting into dadoes."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Glue the stakes in the dadoes.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Figure 13 shows stakes glued into dadoes."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Set the blade on the table saw to just barely cut through the thickness of the fences, and cut three kerfs on each piece to form the four boards of each fence.",
+              "technique": "cutting kerfs",
+              "dimensions_mentioned": [],
+              "visual_description": "Figure 14 shows the end view of the fence with kerfs cut."
+            },
+            {
+              "step_number": 10,
+              "instruction": "Mount the wheels. If using wheels with 1/4\" holes for the axle rods, use a Forstner bit to drill out a 3/8\" counterbore in six wheels to accept the head of the 6-penny nail used for the axle rod.",
+              "technique": "drilling, counterboring",
+              "dimensions_mentioned": [
+                "1/4\"",
+                "3/8\""
+              ],
+              "visual_description": "Figure 15 shows a Forstner bit counterboring a wheel."
+            },
+            {
+              "step_number": 11,
+              "instruction": "Glue two wheels together for the four back sets.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Figure 15 shows two wheels glued together to form a tandem wheel."
+            },
+            {
+              "step_number": 12,
+              "instruction": "For the axle rods, clip 6-penny nails to length and score the ends with wire cutters. Slip the nails through the wheels and fasten them in the axles with epoxy.",
+              "technique": "cutting, scoring, epoxying",
+              "dimensions_mentioned": [
+                "1 1/4\" diameter"
+              ],
+              "visual_description": "Figure 16 shows a nail being scored and epoxied into the wheels as an axle."
+            },
+            {
+              "step_number": 13,
+              "instruction": "If wheels with 1/4\" holes are used, the normal wooden axle rods can be used to mount them to the axles, but only one wheel per side.",
+              "technique": "mounting",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 14,
+              "instruction": "To finish the truck, apply two coats of Wateo Danish Oil.",
+              "technique": "finishing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "Truck Bed",
+                "shape": "rectangle with notches",
+                "width": "4 1/4\"",
+                "height": "7 1/4\"",
+                "thickness": "3/4\"",
+                "details": [
+                  {
+                    "type": "notch",
+                    "position": "all edges",
+                    "depth": "1/2\""
+                  }
+                ]
+              },
+              {
+                "name": "Side Fences",
+                "shape": "rectangle",
+                "width": "1 3/8\"",
+                "height": "7\"",
+                "thickness": "1/4\"",
+                "details": [
+                  {
+                    "type": "dado",
+                    "position": "along length",
+                    "count": 4,
+                    "width": "1/4\"",
+                    "depth": "1/8\""
+                  }
+                ]
+              },
+              {
+                "name": "End Fences",
+                "shape": "rectangle",
+                "width": "1 3/8\"",
+                "height": "4\"",
+                "thickness": "1/4\"",
+                "details": [
+                  {
+                    "type": "dado",
+                    "position": "along length",
+                    "count": 2,
+                    "width": "1/4\"",
+                    "depth": "1/8\""
+                  }
+                ]
+              },
+              {
+                "name": "Stakes",
+                "shape": "rectangular prism",
+                "width": "1 3/8\"",
+                "height": "variable (to fit dadoes)",
+                "thickness": "variable (to fit dadoes)",
+                "details": [
+                  {
+                    "type": "projection",
+                    "position": "bottom edge",
+                    "length": "3/8\""
+                  }
+                ]
+              },
+              {
+                "name": "Wheels",
+                "shape": "disc",
+                "diameter": "variable",
+                "thickness": "variable",
+                "details": [
+                  {
+                    "type": "hole",
+                    "position": "center",
+                    "diameter": "1/4\""
+                  },
+                  {
+                    "type": "counterbore",
+                    "position": "one side of center hole",
+                    "diameter": "3/8\"",
+                    "depth": "variable"
+                  }
+                ]
+              },
+              {
+                "name": "Axle Rods",
+                "shape": "rod",
+                "length": "variable",
+                "diameter": "variable (from 6-penny nail)",
+                "details": [
+                  {
+                    "type": "scored end",
+                    "position": "both ends"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "Glue and dowel bed to pivot piece. Glue stakes into dadoes on fences. Cut kerfs in fences. Mount wheels using nails as axles."
+          },
+          "tips": [
+            "Make sure dadoes for stakes align with mortises in the truck bed.",
+            "Stakes should be 3/8\" longer than the fences are wide to create a bottom edge projection.",
+            "When cutting kerfs in fences, set the table saw blade to just barely cut through the thickness of the fences.",
+            "If using wheels with 1/4\" holes, wooden axle rods can be used, but only one wheel per side."
+          ],
+          "finished_product_description": "A model truck with a functional bed and wheels."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Figure 11: Top view of the truck bed, showing dimensions of 4 1/4\" width and 7 1/4\" length. It has notches on all sides, with a depth of 1/2\". The stock is 3/4\" thick.",
+        "Figure 12: Exploded view showing the truck bed being attached to a pivot piece. It illustrates the use of 1/8\" dowels for alignment and attachment. A rear axle assembly is also partially shown.",
+        "Figure 13: Diagram showing the stock for side fences (7\" long) and end fences (4\" long), with dimensions for width (1 3/8\") and thickness (1/4\"). It also indicates the placement and size of dadoes for stakes (1/4\" wide, 1/8\" deep).",
+        "Figure 14: End view of a fence section with stakes in place. It shows the stakes fitting into dadoes and the fence thickness. It also illustrates the concept of cutting grooves (kerfs) in the fence after gluing the stakes.",
+        "Figure 15: Illustration of using a Forstner bit to counterbore a wheel to a depth of 3/8\" for a 1/4\" hole. It also shows two wheels glued together to form a tandem wheel.",
+        "Figure 16: Close-up view of the truck's rear axle assembly. It shows a 6-penny common nail (1 1/4\" diameter) being cut to size, its end scored with wire cutters, and then epoxied into the wheels as an axle."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 8,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "The Sopwith Camel Flies Again",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "strips",
+              "quantity": "2",
+              "dimensions": "1/4\"-thick, 2\" wide, 10 1/2\" long",
+              "color": "wood"
+            },
+            {
+              "item": "dowels",
+              "quantity": "1/4\"",
+              "dimensions": "1/4\" diameter",
+              "color": "wood"
+            }
+          ],
+          "tools": [
+            {
+              "name": "bandsaw",
+              "purpose": "cutting off corners",
+              "optional": false
+            },
+            {
+              "name": "disk sander",
+              "purpose": "rounding corners",
+              "optional": false
+            },
+            {
+              "name": "drill",
+              "purpose": "drilling holes for struts",
+              "optional": false
+            },
+            {
+              "name": "angle-drilling jig",
+              "purpose": "holding wings at a 25° angle for drilling",
+              "optional": true
+            },
+            {
+              "name": "table saw with special insert",
+              "purpose": "cutting bevels for wing flaps",
+              "optional": true
+            },
+            {
+              "name": "drum sander",
+              "purpose": "smoothing notches",
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Resaw two strips 1/4\"-thick, 2\" wide by 10 1/2\" long. (Resawing in this case is nothing more than ripping on edge, see page 21.)",
+              "technique": "resawing",
+              "dimensions_mentioned": [
+                "1/4\"-thick",
+                "2\" wide",
+                "10 1/2\" long"
+              ],
+              "visual_description": "Two strips of wood."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Join the two wings together with struts (1/4\" dowels). The wings should be joined with the top wing canted out in front of the bottom wing.",
+              "technique": "joining",
+              "dimensions_mentioned": [
+                "1/4\" dowels"
+              ],
+              "visual_description": "Two wings joined by struts, with the top wing angled forward."
+            },
+            {
+              "step_number": 3,
+              "instruction": "After a little experimenting, drill holes for the struts at an angle of 25°, see Fig. 1.",
+              "technique": "drilling",
+              "dimensions_mentioned": [
+                "25°"
+              ],
+              "visual_description": "Diagram showing holes drilled at an angle in the wing."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Tape the two wings together with masking tape and mark the position of the holes as shown in Figure 1. Then drill the four holes so they go all the way through the bottom wing and stop half-way through the top wing, see Detail in Fig. 1. (Shop Note: To hold the wings at a 25° angle, use the angle-drilling jig shown on page 22.)",
+              "technique": "drilling",
+              "dimensions_mentioned": [
+                "25°"
+              ],
+              "visual_description": "Diagram showing wings taped together with marked hole positions and a drill bit entering the wood at an angle. A cross-section detail shows the drill stopping halfway through the top wing."
+            },
+            {
+              "step_number": 5,
+              "instruction": "After the holes are drilled, the shaping process on the wings can begin. While the wings are still taped together, use a bandsaw to cut off the corners, see Fig. 2. Then gently round these corners on a disk sander.",
+              "technique": "cutting, sanding",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing the corners of the wings being cut off at an angle and then rounded."
+            },
+            {
+              "step_number": 6,
+              "instruction": "To form the wing flaps, cut a 13° bevel on the trailing edge of each wing, leaving a thickness of 1/8\", see Fig. 3. (Shop Note: To make this cut you should have a special insert in your table saw, see page 22.)",
+              "technique": "beveling",
+              "dimensions_mentioned": [
+                "13°",
+                "1/8\""
+              ],
+              "visual_description": "Diagram showing a bevel cut on the trailing edge of a wing."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Next, on the bottom wing, cut an angled notch on the trailing (flap) edge of the wing, see Fig. 4. This notch should be deep enough to remove the beveled portion of the wing (the flap), and wide enough (1 1/2\") to match the width of the fuselage.",
+              "technique": "notching",
+              "dimensions_mentioned": [
+                "1 1/2\""
+              ],
+              "visual_description": "Diagram showing an angled notch cut into the trailing edge of the bottom wing."
+            },
+            {
+              "step_number": 8,
+              "instruction": "On the top wing, cut a half-circle notch centered on the length of the wing, see Fig. 5. I cut this 1/4\"-radius on a bandsaw and smoothed it with a small drum sander on the drill press.",
+              "technique": "notching, sanding",
+              "dimensions_mentioned": [
+                "1/4\"-radius"
+              ],
+              "visual_description": "Diagram showing a half-circle notch cut into the top wing."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Now the wings can be sanded to final shape. Round over the front edge of both wings on a disk sander. Then sand a slight bevel on the bottom side of each wing (below the bevel cut that was made on the table saw) so the trailing edge of the wing flap is narrowed to about 1/16\" thick. Finally, sand all surfaces smooth (trying not to remove the crisp angle of the bevel that forms the flaps).",
+              "technique": "sanding",
+              "dimensions_mentioned": [
+                "1/16\""
+              ],
+              "visual_description": "Diagram showing the sanding of wing edges and flaps."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "To hold the wings at a 25° angle, use the angle-drilling jig shown on page 22.",
+            "To make the bevel cut for the wing flaps, you should have a special insert in your table saw, see page 22."
+          ],
+          "finished_product_description": "A wooden model of a Sopwith Camel biplane."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Figure 1 shows a diagram of the wing construction, including dimensions for width and length, and details on drilling holes at a 25° angle. It also shows a cross-section of the wing with a drill bit.",
+        "Figure 2 illustrates the process of shaping the wing corners, showing them being cut off at 45° angles and then rounded with a disk sander.",
+        "Figure 3 shows a detail of the wing flap, indicating a 13° bevel cut on the trailing edge, leaving a thickness of 1/8\".",
+        "Figure 4 shows a notch being cut into the trailing edge of the bottom wing, with dimensions indicating it should be wide enough to match the fuselage width.",
+        "Figure 5 shows a half-circle notch being cut into the top wing, with a radius of 1/4\"."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 9,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "The Fuselage",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [
+            {
+              "name": "bandsaw",
+              "purpose": "cutting fuselage to shape, cutting side profile, cutting recessed section for cockpit, tapering, cutting notches",
+              "optional": false
+            },
+            {
+              "name": "drill",
+              "purpose": "drilling holes for cockpit and propeller shaft",
+              "optional": false
+            },
+            {
+              "name": "table saw",
+              "purpose": "cutting notches",
+              "optional": false
+            },
+            {
+              "name": "miter gauge",
+              "purpose": "guiding cuts",
+              "optional": false
+            },
+            {
+              "name": "auxiliary fence",
+              "purpose": "guiding cuts",
+              "optional": false
+            },
+            {
+              "name": "rubber cement",
+              "purpose": "fastening patterns to wood",
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Obtain or create patterns for the side and top view of the fuselage.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": "Diagrams showing patterns for top and side views of the fuselage, with dimensions."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Fasten the patterns to the wood block.",
+              "technique": "fastening",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing patterns taped to a wood block."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Drill a 1/4\" diameter, 1/4\" deep hole on top of the fuselage for the cockpit.",
+              "technique": "drilling",
+              "dimensions_mentioned": [
+                "1/4\" diameter",
+                "1/4\" deep"
+              ],
+              "visual_description": "Diagram showing a fuselage blank with a hole drilled on top, labeled '1/4\" HOLE, 1/4\" DEEP'."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Drill a 1/2\" hole, 3/4\" deep on the front of the fuselage for the propeller shaft.",
+              "technique": "drilling",
+              "dimensions_mentioned": [
+                "1/2\" hole",
+                "3/4\" deep"
+              ],
+              "visual_description": "Diagram showing a fuselage blank with a hole drilled on the front, labeled '1/2\" HOLE, 3/4\" DEEP'."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Cut a notch on the bottom of the block to fit the notched area of the bottom wing. This can be cut by making multiple passes on the table saw.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing a fuselage blank with a notch cut on the bottom, labeled 'CUT TO FIT WING'."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Cut a second notch on the end of the block for the tail wing. Use an auxiliary fence to the miter gauge and clamp the fuselage block to this fence. Cut a 1/4\"-wide notch 1 3/8\" deep.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "1/4\"-wide",
+                "1 3/8\" deep"
+              ],
+              "visual_description": "Diagram showing a fuselage blank clamped to an auxiliary fence with a miter gauge, and a notch being cut."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Cut the fuselage to rough shape on a bandsaw, first out the side profile to form the shape of the tail section, the recessed section for the cockpit, and the nose.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing the fuselage blank after the side profile has been cut out."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Tape the top view pattern to the top edge of the fuselage block. Make cuts on the bandsaw so the blade just barely skims along the edge of the pattern.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing the fuselage blank with the top pattern taped on, and cuts being made."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Trim the corners of the nose area to more of a point.",
+              "technique": "trimming",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing the finished fuselage with a pointed nose."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Use rubber cement (available at art supply stores) to fasten the patterns to the wood."
+          ],
+          "finished_product_description": "A wooden fuselage for a model airplane."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Fuselage Side Pattern",
+          "scale": null,
+          "shape_description": "A complex shape with a straight bottom edge, a curved top edge, a recessed section for the cockpit, and a tapered nose. Dimensions are provided for various sections, including 1 1/4\", 5/8\", 2\", 3\", 1 1/4\", 1/4\", 7 1/4\", 3/16\", and 1 5/8\"."
+        },
+        {
+          "name": "Fuselage Top Pattern",
+          "scale": null,
+          "shape_description": "A long, tapered shape with a curved front and a notched rear. Dimensions are provided for various sections, including 1 1/4\", 5/8\", 2\", 3\", 1 1/4\", 1/4\", 7 1/4\", 3/16\", and 1 5/8\"."
+        }
+      ],
+      "diagram_descriptions": [
+        "Figure 3: Diagram showing a wing being cut on a bandsaw with a fence. The blade is set at 13 degrees. A 1/4\" margin is left.",
+        "Figure 4: Diagram showing the top view of a bottom wing with notches cut for the fuselage. Dimensions are 1 1/4\" and 3/4\". A corner is cut off after cutting the notch.",
+        "Figure 5: Diagram showing a half-circle with a 1/4\" radius, labeled 'REAR EDGE'.",
+        "Figure 6: Diagram showing a rough wing profile with a bevel on the rear edge. Labeled 'FRONT' and 'FINISHED WING PROFILE'.",
+        "Figure 7: Diagram showing a top pattern for a wing. Dimensions are 1 1/4\" and 3/4\".",
+        "Figure 8: Diagram showing a fuselage blank with patterns attached. It shows a 1/4\" hole, 1/4\" deep for the cockpit, and a 1/2\" hole, 3/4\" deep for the propeller shaft. It also shows a notch cut to fit the wing, and the depth of the notch equals the thickness of the wing. Dimensions are 1 1/4\", 5/8\", 2\", 3\", 1 1/4\", 1/4\", 7 1/4\", 3/16\", and 1 5/8\".",
+        "Figure 9: Diagram showing a fuselage blank clamped to an auxiliary fence attached to a miter gauge, with a notch being cut with a table saw. The notch is 1/4\" wide and 1 3/8\" deep.",
+        "Figure 10: Diagram showing a fuselage blank with the side profile cut out, indicating the shape of the tail section, cockpit recess, and nose.",
+        "Diagram showing the top view of the fuselage blank with the top pattern taped on, ready for cutting. It indicates to cut the top profile with a bandsaw."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 10,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Airplane",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [
+            {
+              "name": "router",
+              "purpose": "rounding edges",
+              "optional": false
+            },
+            {
+              "name": "band saw",
+              "purpose": "cutting shapes",
+              "optional": false
+            },
+            {
+              "name": "file",
+              "purpose": "shaping",
+              "optional": false
+            },
+            {
+              "name": "disk sander",
+              "purpose": "shaping and smoothing",
+              "optional": false
+            },
+            {
+              "name": "chisel",
+              "purpose": "shaping",
+              "optional": false
+            },
+            {
+              "name": "drill",
+              "purpose": "making holes",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Smooth the fuselage. After the fuselage is cut to rough shape, all surfaces should be sanded to remove the cut marks left by the band saw. Then all the edges are rounded over. I did this with a 1/4\" round-over bit on the router table to get to as many edges as possible. However, there are two areas you don't want to rout: the end of the tail which could be chipped off too easily, and the bottom of the notch for the bottom wing, see Fig. 11.",
+              "technique": "sanding, routing",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "Illustration of a rough-shaped airplane fuselage with arrows pointing to areas to sand and round over, and areas to avoid routing."
+            },
+            {
+              "step_number": 2,
+              "instruction": "In order to shape the tail section, I used a file and sanding block, rounding the edges to match the routed edges.",
+              "technique": "filing, sanding",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing the tail section of the fuselage being shaped with a file and sanding block."
+            },
+            {
+              "step_number": 3,
+              "instruction": "When the fuselage is smoothed, the tail can be formed to shape. First resaw a piece of stock to thickness so it fits snugly into the notch in the tail of the fuselage. (You want it to fit snugly because it can't be clamped when the glue is applied.) After this piece is resawn to the proper thickness, cut it to size: 1 3/4\" wide by 3 1/2\" long. Before shaping it, slide it in the notch and mark the outline of the fuselage on the top and bottom.",
+              "technique": "resawing, cutting, marking",
+              "dimensions_mentioned": [
+                "1 3/4\"",
+                "3 1/2\""
+              ],
+              "visual_description": "Diagram of the tail wing pattern with dimensions. It is a trapezoidal shape with a flat top and bottom edge, and angled side edges. Also shows a cross-section of the fuselage notch."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Now to shape it, first trim the corners on a band saw, see Fig. 12. Then use a file, chisel or disk sander to round over the front edge and taper the trailing edges without sanding the outlined area.",
+              "technique": "cutting, filing, chiseling, sanding",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagrams showing the shaping of the tail wing. Figure 12 shows the tail wing pattern and a cross-section. Figures 13, 14, 15, and 16 show the process of creating the landing gear."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Working with all these small pieces can be a problem. This was especially true with the landing gear. What I wound up doing was shaping the landing gear at the end of a larger block so it was easier to handle. Start with a piece of stock 2\" wide and about 7\" long (or any length that's comfortable to work with). Then drill a 1/4\" hole 1/2\" from the end of the stock for the axles, see Fig. 13. Shop Note: This hole should be sized to fit the wooden axles you have. The axles I used require a 3/32\"-diameter hole.",
+              "technique": "shaping, drilling",
+              "dimensions_mentioned": [
+                "2\"",
+                "7\"",
+                "1/4\"",
+                "1/2\"",
+                "3/32\""
+              ],
+              "visual_description": "Diagrams illustrating the creation of the landing gear. Figure 13 shows a block of wood with a hole drilled near the end. Figure 14 shows the block being cut to form struts. Figure 15 shows dry assembly of wheels. Figure 16 shows attaching the landing strut to the wing."
+            },
+            {
+              "step_number": 6,
+              "instruction": "SHAPE THE STRUTS. Next, the end of the block is divided to form the two landing struts. First, bore a 3/4\" hole centered 1/2\" from the end of the block, see Step 2 in Fig. 13. Then cut out the end section on a band saw to form the two struts (Step 3 in Fig. 14), and round the ends of the struts with a disk sander, see Step 4 in Fig. 14. Finally, round over all the edges with a 1/4\" round-over bit on the router table. (This is when the longer workpiece is necessary.)",
+              "technique": "boring, cutting, sanding, routing",
+              "dimensions_mentioned": [
+                "3/4\"",
+                "1/2\"",
+                "1/4\""
+              ],
+              "visual_description": "Diagrams illustrating the creation of the landing gear. Figure 13 shows a block of wood with a hole drilled near the end. Figure 14 shows the block being cut to form struts. Figure 15 shows dry assembly of wheels. Figure 16 shows attaching the landing strut to the wing."
+            },
+            {
+              "step_number": 7,
+              "instruction": "CUT TO LENGTH. After routing the edges, assemble the wheels and axles to make sure the wheels spin freely. With the wheels mounted to the struts, mark the final length of the landing strut 1/4\" above the top of the wheels, see Fig. 15. Then move the wheels and cut the landing strut to length.",
+              "technique": "cutting, assembly",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "Diagrams illustrating the creation of the landing gear. Figure 13 shows a block of wood with a hole drilled near the end. Figure 14 shows the block being cut to form struts. Figure 15 shows dry assembly of wheels. Figure 16 shows attaching the landing strut to the wing."
+            },
+            {
+              "step_number": 8,
+              "instruction": "MOUNT TO WING. Now the landing strut is ready to be mounted to the wing. Align the strut 1/4\" from the front edge of the wing, see Fig. 16.",
+              "technique": "mounting, alignment",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "Diagrams illustrating the creation of the landing gear. Figure 13 shows a block of wood with a hole drilled near the end. Figure 14 shows the block being cut to form struts. Figure 15 shows dry assembly of wheels. Figure 16 shows attaching the landing strut to the wing."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Shop Note: This hole should be sized to fit the wooden axles you have. The axles I used require a 3/32\"-diameter hole."
+          ],
+          "finished_product_description": "A wooden airplane with detailed landing gear."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Tail Wing Pattern",
+          "scale": null,
+          "shape_description": "A trapezoidal shape with a flat top and bottom edge, and angled side edges. Dimensions are provided: 3\" top width, 3 1/4\" bottom width, 1 3/4\" height. A cross-section shows a notch for the fuselage and a rounded front edge."
+        }
+      ],
+      "diagram_descriptions": [
+        "Figure 11: Illustration of an airplane fuselage showing areas to round over with a 1/4\" round-over bit, and areas to avoid routing (tail end and bottom of wing notch).",
+        "Figure 12: Diagram of the tail wing pattern with dimensions (3\" top width, 3 1/4\" bottom width, 1 3/4\" height). Includes a cross-section showing a notch for the fuselage and a rounded front edge.",
+        "Figure 13: Illustration of a block of wood (landing strut blank) being drilled with a 1/4\" bit, 1/2\" from the end. Dimensions of the blank are 2\" height and approximately 7\" length.",
+        "Figure 14: Diagrams showing the process of shaping the landing struts. Step 2 shows a 3/4\" hole centered 1/2\" from the end of the block. Step 3 shows the end section cut out on a band saw. Step 4 shows rounding the ends with a disk sander.",
+        "Figure 15: Illustration of a hand dry-assembling wheels to a landing strut to ensure proper fit. A pencil marks a line 1/4\" above the top of the wheel.",
+        "Figure 16: Diagram showing the alignment of a landing strut to the wing, with the strut positioned 1/4\" from the front edge of the wing. A dowel is used to hold the strut in place while drilling."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 11,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Model Airplane",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "wood strip",
+              "quantity": "1 strip",
+              "dimensions": "1/8\" thick, 4\" long by 3/4\" wide",
+              "color": "not specified"
+            },
+            {
+              "item": "dowel",
+              "quantity": "1",
+              "dimensions": "1/4\" diameter",
+              "color": "not specified"
+            },
+            {
+              "item": "wood",
+              "quantity": "1 piece",
+              "dimensions": "not specified",
+              "color": "not specified"
+            },
+            {
+              "item": "wax",
+              "quantity": "small amount",
+              "dimensions": "not specified",
+              "color": "not specified"
+            },
+            {
+              "item": "glue",
+              "quantity": "not specified",
+              "dimensions": "not specified",
+              "color": "not specified"
+            },
+            {
+              "item": "tung oil",
+              "quantity": "3 coats",
+              "dimensions": "not specified",
+              "color": "not specified"
+            }
+          ],
+          "tools": [
+            {
+              "name": "clamp",
+              "purpose": "holding parts",
+              "optional": false
+            },
+            {
+              "name": "drill",
+              "purpose": "making holes",
+              "optional": false
+            },
+            {
+              "name": "disk sander",
+              "purpose": "shaping wood",
+              "optional": false
+            },
+            {
+              "name": "saw",
+              "purpose": "cutting wood",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": null,
+              "instruction": "Mount the strut to the bottom wing, 1/4\" back from the front edge. Use a 1/4\" dowel cut in half as a pad for the clamp. Drill two 1/4\" holes through the wing and into the strut, and glue 1/4\" dowels into the holes.",
+              "technique": "mounting, drilling, gluing",
+              "dimensions_mentioned": [
+                "1/4\"",
+                "1/4\"",
+                "1/4\""
+              ],
+              "visual_description": "Diagram shows a clamp holding a strut to a wing, with dowels being inserted into holes."
+            },
+            {
+              "step_number": null,
+              "instruction": "Mount the wing and landing strut assembly to the fuselage.",
+              "technique": "mounting",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows the wing and strut assembly being attached to the fuselage, with labels for gluing the tail wing and lower wing into position."
+            },
+            {
+              "step_number": null,
+              "instruction": "When the glue is dry on the tail wing, drill a 45° angle hole at the bottom of the tail section for the rear landing runner. Start with a 3/32\" bit and work up to a 5/16\" final size. Round off the end of a 5/16\" dowel and glue it in place.",
+              "technique": "drilling, rounding, gluing",
+              "dimensions_mentioned": [
+                "45°",
+                "3/32\"",
+                "5/16\"",
+                "5/16\""
+              ],
+              "visual_description": "Diagram shows a close-up of the tail section of the fuselage with a hole being drilled at a 45° angle into the tail wing, and a dowel being inserted."
+            },
+            {
+              "step_number": null,
+              "instruction": "Cut a strip of wood 1/8\" thick, 4\" long by 3/4\" wide. Drill a 5/16\" hole (which is 1/16\" larger than the wooden axle) centered on the length and width of the strip.",
+              "technique": "cutting, drilling",
+              "dimensions_mentioned": [
+                "1/8\"",
+                "4\"",
+                "3/4\"",
+                "5/16\"",
+                "1/16\""
+              ],
+              "visual_description": "Diagram shows a propeller pattern with dimensions and a hole in the center."
+            },
+            {
+              "step_number": 1,
+              "instruction": "Cut the propeller to the rough shape shown at the top of Figure 19. Then, on a disk sander, gently sand the edges to the rounded shape shown in Step 2.",
+              "technique": "cutting, sanding",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows steps for shaping the propeller, starting with a rough cut and then sanding the edges to a rounded shape."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Sand half of the front side of each blade to a sharp angle.",
+              "technique": "sanding",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows step 3 of propeller shaping, with arrows indicating sanding to a sharp angle on alternate sides of the blades."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Sand the other half at a gentle angle, and also sand the back side of the blade at a gentle curve to complete the shape.",
+              "technique": "sanding",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows step 4 of propeller shaping, with arrows indicating sanding remaining corners at a slight angle and the back side in a curve."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Refine the shape so the edges feather to a point.",
+              "technique": "sanding",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows step 5 of propeller shaping, with arrows indicating tapering the ends of the blades."
+            },
+            {
+              "step_number": null,
+              "instruction": "Cut the wooden axle to final length and test the propeller on the end of the shaft to make sure it spins freely. Put a small dab of glue in the fuselage hole and push the shaft in place.",
+              "technique": "cutting, testing, gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram shows attaching the propeller to the fuselage with a wooden pin, dab of wax, and dab of glue."
+            },
+            {
+              "step_number": null,
+              "instruction": "Cut four struts (1/4\" dowels) 2 1/2\" long and glue them into the holes in the top wing. While the glue is still wet, put a dab of glue in the holes in the bottom wing, and slide the dowels through these holes. Then cut off the excess length and sand the ends of the dowels flush with the wings.",
+              "technique": "cutting, gluing, sanding",
+              "dimensions_mentioned": [
+                "1/4\"",
+                "2 1/2\""
+              ],
+              "visual_description": "Diagram shows dowels being glued into the top wing and then inserted into the bottom wing."
+            },
+            {
+              "step_number": null,
+              "instruction": "After giving the entire airplane a final sanding, finish it with three coats of tung oil.",
+              "technique": "sanding, finishing",
+              "dimensions_mentioned": [],
+              "visual_description": "Not applicable."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Use a 1/4\" dowel cut in half as a pad for the clamp to avoid marring the strut.",
+            "A little wax helps the propeller spin freely."
+          ],
+          "finished_product_description": "A wooden model airplane with two wings, a propeller, and landing gear."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Propeller Pattern",
+          "scale": "not specified",
+          "shape_description": "A pattern for a two-bladed propeller. The overall length is 4\". Each blade is diamond-shaped with a 1\" length. There is a 5/16\" hole in the center for the axle. The pattern also indicates a bandsaw cut line and areas to sand."
+        }
+      ],
+      "diagram_descriptions": [
+        "Figure 17: Assembly of the wing and landing strut, showing a clamp holding the parts in place and labels for gluing the tail wing and lower wing.",
+        "Figure 18: Detail of drilling a 45° angle hole in the tail section for the rear landing runner, showing dimensions.",
+        "Figure 19: Propeller pattern with dimensions for the overall length, blade length, and center hole. Also shows a bandsaw pattern and sanding steps.",
+        "Figure 20: Attaching the propeller to the fuselage, illustrating the use of a wooden pin, dab of wax, and dab of glue.",
+        "Figure 21: Mounting the top wing and struts, showing dowels being glued into the top wing and then inserted into the bottom wing."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 12,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Child's Stool",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [
+            {
+              "name": "jig",
+              "purpose": "cutting angled box joints",
+              "optional": false
+            },
+            {
+              "name": "screw",
+              "purpose": "attaching indexing pin to jig",
+              "optional": false
+            },
+            {
+              "name": "round over bit",
+              "purpose": "routing handle recess",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut the legs to final length by cutting a 10° bevel on both ends. Cut these bevels so they're parallel to each other and produce a length of 9\" from long point to short point.",
+              "technique": "bevel cutting",
+              "dimensions_mentioned": [
+                "10°",
+                "9\""
+              ],
+              "visual_description": "Diagram shows a leg with a 10° angle marked at the bottom and a length of 9\" indicated from the long point to the short point."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Rip the top to a working width of 9\".",
+              "technique": "ripping",
+              "dimensions_mentioned": [
+                "9\""
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Cut a 10° bevel on both ends of the top. The bevel is cut in opposite directions on each end to produce a 12\" overall length from short point to short point.",
+              "technique": "bevel cutting",
+              "dimensions_mentioned": [
+                "10°",
+                "12\""
+              ],
+              "visual_description": "Diagram shows the top piece with 10° bevels on each end and an overall length of 12\" indicated."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Cut the box joints on the legs. Place the leg panel in the jig and cut slots across the entire 12½\" width of the panel.",
+              "technique": "box joint cutting",
+              "dimensions_mentioned": [
+                "12½\""
+              ],
+              "visual_description": "Diagram labeled 'BOX JOINT DETAIL' shows a series of interlocking rectangular slots. Diagram labeled 'FIGURE 1 BULLNOSE DETAIL' shows the end of a leg with chamfers and the box joints."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Cut the box joints on the top. A special procedure is required. The first slot is positioned 1\" from the edge. Temporarily remove the indexing pin to make this cut.",
+              "technique": "box joint cutting",
+              "dimensions_mentioned": [
+                "1\""
+              ],
+              "visual_description": "Diagram labeled 'BOX JOINT DETAIL' shows a series of interlocking rectangular slots. Diagram labeled 'TOP VIEW' shows the top of the stool with slots cut into the edges and a handle recess."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Rout the handle recess with a ¼\" round over bit on the top and bottom edges.",
+              "technique": "routing",
+              "dimensions_mentioned": [
+                "¼\""
+              ],
+              "visual_description": "Diagram labeled 'TOP VIEW' shows an oval-shaped handle recess routed into the top surface of the stool."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "Leg Panels",
+                "shape": "rectangular with angled bottom",
+                "width": "12½\"",
+                "height": "9\"",
+                "details": [
+                  {
+                    "type": "bevel",
+                    "angle": "10°",
+                    "position": "both ends"
+                  },
+                  {
+                    "type": "box_joints",
+                    "position": "ends"
+                  }
+                ]
+              },
+              {
+                "name": "Top Panel",
+                "shape": "rectangular",
+                "width": "12\"",
+                "height": "9½\"",
+                "details": [
+                  {
+                    "type": "bevel",
+                    "angle": "10°",
+                    "position": "both ends",
+                    "direction": "opposite"
+                  },
+                  {
+                    "type": "box_joints",
+                    "position": "ends"
+                  },
+                  {
+                    "type": "handle_recess",
+                    "shape": "oval",
+                    "position": "top and bottom edges",
+                    "bit_type": "¼\" round over"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "Join legs to top using angled box joints. Ensure bevels are cut correctly for proper fit."
+          },
+          "tips": [
+            "The jig must be angled at 10° to cut the joint on the beveled ends of the legs and top.",
+            "The index pin must be attached to the jig with a screw so it can be removed to produce the special joint arrangement needed on the top.",
+            "Slots are cut ½\" deeper than the thickness of the stock."
+          ],
+          "finished_product_description": "A child's stool constructed with angled box joints for strength and an attractive appearance. It features a handle recess on the top."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram labeled 'FIGURE 1 BULLNOSE DETAIL' shows the end view of a stool leg, indicating a 5/8\" chamfer on the top edge, hand chamfered bottom edges of the legs, a 4\" radius curve at the bottom, and a 2\" dimension from the bottom edge to the start of the curve. It also shows the box joints on the end of the leg.",
+        "Diagram labeled 'END VIEW' shows the width of the top as 8½\", the height of the legs as 9\", and a 10° angle at the bottom of the legs. It also shows a 2\" dimension from the top edge to the start of the leg's curve and a 1¼\" dimension from the bottom edge to the center line.",
+        "Diagram labeled 'SIDE VIEW' shows the overall length of the stool as 12\" and the height of the apron as 1¼\".",
+        "Diagram labeled 'TOP VIEW' shows the top of the stool with dimensions of 12\" in length and 5\" in width. It illustrates the routed handle recess and the box joints on the ends.",
+        "Diagram labeled 'BOX JOINT DETAIL' shows a close-up of the interlocking finger joints, with a note that the slots are cut ½\" deeper than the thickness of the stock.",
+        "Photograph of a child's stool with a Kermit the Frog toy sitting on it, surrounded by alphabet blocks."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 13,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Stool",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [
+            {
+              "name": "sabre saw",
+              "purpose": "remove waste",
+              "optional": false
+            },
+            {
+              "name": "router",
+              "purpose": "round over edges, chamfer edges",
+              "optional": false
+            },
+            {
+              "name": "hand plane",
+              "purpose": "clean up edge",
+              "optional": false
+            },
+            {
+              "name": "band saw",
+              "purpose": "cut taper",
+              "optional": false
+            },
+            {
+              "name": "drum sander",
+              "purpose": "sand radius smooth",
+              "optional": false
+            },
+            {
+              "name": "chisel",
+              "purpose": "chamfer bottom edge of feet",
+              "optional": false
+            },
+            {
+              "name": "belt sander",
+              "purpose": "sand joints smooth",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Position the panel to cut a slot 1\" from the edge, see Step 1 in Fig. 4. Then replace the pin, and cut six more slots in the normal manner, see Step 2 in Fig. 4.",
+              "technique": "cutting slots",
+              "dimensions_mentioned": [
+                "1\"",
+                "six"
+              ],
+              "visual_description": "Diagrams 4, 1 and 2 show the process of cutting slots on a rectangular piece of wood, creating box joints."
+            },
+            {
+              "step_number": null,
+              "instruction": "In order to have the box joints line up on both ends of the top, it has to be trimmed to final width before the slots are cut on the other end. Trim the waste off the edge so the last slot is 1\" from the edge, see Step 3 in Fig. 4.",
+              "technique": "trimming",
+              "dimensions_mentioned": [
+                "1\""
+              ],
+              "visual_description": "Diagram 4, step 3 shows a piece of wood with slots cut on one end, and a measurement indicating 1\" from the edge for the last slot."
+            },
+            {
+              "step_number": null,
+              "instruction": "Complete the joint by removing the indexing pin, cutting the first slot 1\" from the edge, replacing the pin, and cutting the remaining six slots, see Step 4 in Fig. 4.",
+              "technique": "cutting box joints",
+              "dimensions_mentioned": [
+                "1\"",
+                "six"
+              ],
+              "visual_description": "Diagram 4, step 4 shows a piece of wood with box joints being cut on the second end, following the same procedure."
+            },
+            {
+              "step_number": null,
+              "instruction": "Once the box joints are cut, drill two 1\" holes in the top for the handle, see Fig. 3. Remove the waste between the holes and rout the edges clean. (See page 22 for a tip on doing this.)",
+              "technique": "drilling, routing",
+              "dimensions_mentioned": [
+                "1\""
+              ],
+              "visual_description": "Diagram 3 shows a rectangular piece of wood with two 1\" holes drilled 5\" apart, and an area marked to be removed with a sabre saw."
+            },
+            {
+              "step_number": null,
+              "instruction": "To finish the top, round over the edge of the handle recess with a 1/2\" round-over bit, see Fig. 1. Then round over the outside edges of the top using a 1/2\" round-over bit set 3/8\" high, see Bullnose Detail in Fig. 1.",
+              "technique": "rounding over edges",
+              "dimensions_mentioned": [
+                "1/2\"",
+                "3/8\""
+              ],
+              "visual_description": "Diagram 1 shows a detail of a rounded edge on a piece of wood."
+            },
+            {
+              "step_number": null,
+              "instruction": "Next, taper the legs as shown in Fig. 2. Draw a line from the bottom outside corner of the third slot to a point 6\" from the center line of the leg. Then cut this taper on a bandsaw and clean up the edge with a hand plane.",
+              "technique": "tapering",
+              "dimensions_mentioned": [
+                "6\""
+              ],
+              "visual_description": "Diagram 2 shows a trapezoidal shape with a center line, indicating a taper from the bottom outside corner of the third slot to a point 6\" from the center line."
+            },
+            {
+              "step_number": null,
+              "instruction": "To complete the legs, draw a 1 1/2\" radius centered 1 1/2\" below the bottom edge of both legs, see Fig. 1. Cut this radius on a bandsaw, and sand it smooth with a drum sander.",
+              "technique": "cutting radius, sanding",
+              "dimensions_mentioned": [
+                "1 1/2\"",
+                "1 1/2\""
+              ],
+              "visual_description": "Diagram 1 shows a detail of a rounded corner on a leg."
+            },
+            {
+              "step_number": null,
+              "instruction": "Now, the two aprons can be added. First, cut two pieces 1 1/4\" wide and to a rough length of 13\". Then miter both ends at 10° so the length from short point to short point is exactly the same length as the distance between the box joint slots on the stool's top, see Fig. 5.",
+              "technique": "cutting, mitering",
+              "dimensions_mentioned": [
+                "1 1/4\"",
+                "13\"",
+                "10°"
+              ],
+              "visual_description": "Diagram 5 shows a cross-section of how an apron is attached to the top, with mitered ends at 10°."
+            },
+            {
+              "step_number": null,
+              "instruction": "Before assembly, use a router to chamfer the bottom edges of the apron, as well as the tapered edges and the radius on the legs. Note: The bottom edge of the \"feet\" are also chamfered but this has to be done with a chisel because of the angle on the bottom edge of the legs.",
+              "technique": "chamfering",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram 5 shows a chamfered bottom edge of an apron. Diagram 7 shows a 20 degree angle for drilling counterbores."
+            },
+            {
+              "step_number": null,
+              "instruction": "To attach the aprons, drill counterbores at a 20° angle to the face of the leg, centered over the first full slot, see Fig. 6. (See page 22 for the jig used to drill angled holes.)",
+              "technique": "drilling counterbores",
+              "dimensions_mentioned": [
+                "20°"
+              ],
+              "visual_description": "Diagram 6 shows a close-up of box joints with a counterbore drilled under the first full slot. Diagram 7 shows a leg with an apron attached, with a 20 degree counterbore."
+            },
+            {
+              "step_number": null,
+              "instruction": "After the legs are counterbored, glue and screw the aprons to the top so they're centered over the first pin, see Fig. 5. Then dry assemble the legs and top and complete the pilot holes by drilling into the ends of the aprons.",
+              "technique": "gluing, screwing, drilling pilot holes",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram 5 shows a cross-section of an apron attached to the top with a screw."
+            },
+            {
+              "step_number": null,
+              "instruction": "Finally, assemble the stool by gluing the box joints together and screwing the legs to the aprons. Then plug the counterbore holes on the legs and sand the joints smooth using a belt sander. I finished the stool with three coats of tung oil.",
+              "technique": "assembly, gluing, screwing, sanding, finishing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram 7 shows a leg attached to an apron with a screw and a plugged counterbore."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Use page 22 for a tip on removing waste between handle holes.",
+            "Use page 22 for the jig used to drill angled holes."
+          ],
+          "finished_product_description": "A stool with box joint construction, tapered legs, and rounded edges."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Figure 1: Detail of a rounded edge on a piece of wood, showing a 1/2\" round-over bit and a 3/8\" height setting.",
+        "Figure 2: Diagram showing the tapering of a leg. A line is drawn from the bottom outside corner of the third slot to a point 6\" from the center line.",
+        "Figure 3: Diagram of the top piece showing two 1\" holes drilled 5\" apart for the handle, with an area marked for waste removal with a sabre saw.",
+        "Figure 4: A series of four diagrams illustrating the process of cutting box joints. Diagram 1 shows cutting the first slot 1\" from the edge. Diagram 2 shows cutting six more slots. Diagram 3 shows trimming the edge to produce a 1\" tongue before cutting the second end. Diagram 4 shows cutting box joints on the second end.",
+        "Figure 5: Cross-section view of how an apron is attached to the top. The apron end is mitered at 10°, and a countersunk #8 x 1 1/4\" wood screw is used. The mitered ends of the aprons must be flush with the bottoms of the slots. The center apron is positioned over the first full tongue on the bottom side.",
+        "Figure 6: Close-up view of box joints on the top and leg. A counterbore is centered under the first full slot.",
+        "Figure 7: Detail showing the attachment of a leg to an apron. A 1/4\" counterbore is drilled at a 20° angle, and the hole is plugged with a dowel. A #8 x 1 1/4\" wood screw is used."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 14,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Cutting Box Joints",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [
+            {
+              "name": "miter gauge",
+              "purpose": "support workpiece",
+              "optional": false
+            },
+            {
+              "name": "dado blade",
+              "purpose": "cutting notches",
+              "optional": false
+            },
+            {
+              "name": "saw",
+              "purpose": "cutting",
+              "optional": false
+            },
+            {
+              "name": "clamp",
+              "purpose": "holding fence to miter gauge",
+              "optional": false
+            },
+            {
+              "name": "cutting gauge",
+              "purpose": "scoring wood",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "To make the fence, cut a notch for the index pin about 6\" from the end. Make sure pin is exact width of the notch.",
+              "technique": "cutting notch",
+              "dimensions_mentioned": [
+                "6\""
+              ],
+              "visual_description": "A piece of wood with a notch cut into it, labeled 'INDEX KEY'. Another piece of wood is labeled 'FENCE'. Dimensions of 4\" and 24\" are shown."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Clamp fence to miter gauge and use a spacer block to get the correct distance between the index pin and blade.",
+              "technique": "clamping, measuring",
+              "dimensions_mentioned": [],
+              "visual_description": "A fence is clamped to a miter gauge. A spacer block is positioned between the index pin and the saw blade. Hands are shown holding the pieces."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Drill pilot holes in the back of the fence and screw it to the miter gauge. Make sure index pin is aligned correctly.",
+              "technique": "drilling, screwing",
+              "dimensions_mentioned": [],
+              "visual_description": "A piece of wood (fence) is being screwed to a miter gauge. A hand is shown aligning the index pin. The text 'FIRST CUT' is visible on the workpiece."
+            },
+            {
+              "step_number": 4,
+              "instruction": "To complete the index pin, chamfer off the top edges and apply a coat of wax so the workpiece slides easily over pin.",
+              "technique": "chamfering, waxing",
+              "dimensions_mentioned": [],
+              "visual_description": "A close-up of the index pin with its top edges chamfered. The text 'CHAMFER TOP EDGES OF INDEX KEY' is present."
+            },
+            {
+              "step_number": 5,
+              "instruction": "The back side of the cut often chips out. To prevent this, score the back side of the wood with a cutting gauge.",
+              "technique": "scoring",
+              "dimensions_mentioned": [],
+              "visual_description": "A piece of wood is being scored with a cutting gauge on its back side to prevent chip-out. The text 'SCORE EDGE TO PREVENT CHIP-OUT' is visible."
+            },
+            {
+              "step_number": 6,
+              "instruction": "To cut the joint, be sure board is vertical and tight against the index pin. Then guide it through the blade.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "A board is held vertically against an index pin and being fed through a saw blade. The text 'FIRST PIN ON FIRST BOARD' and 'SECOND BOARD' are indicated."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Continue to cut notches across the width of the board. Last partial notch is used to rip boards to final width.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "A board is being cut with a dado blade, creating multiple notches. The text 'FIRST CUT' is visible on the workpiece."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Use pin in first board to align notch in second board. Cut first notch and slide it over pin to cut remaining notches.",
+              "technique": "aligning, cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "A second board is being aligned with the notches of the first board using the index pin. The saw blade is positioned to cut the next notch. The text 'FIRST PIN ON FIRST BOARD' and 'SECOND BOARD' are indicated."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Joints should fit with a good friction fit. To aid in clamping, cut a notched block to put pressure directly on each pin.",
+              "technique": "clamping, cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "A close-up of two joined box joints, showing a good fit. A notched block is shown being used to apply clamping pressure."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "The fence is a piece of 3/4\" plywood or solid wood that's high enough to comfortably support the workpiece.",
+            "The fence used is 4\" high by 24\" long.",
+            "The notch for the index key should be about 6\" from the end.",
+            "The notch must be exactly 1/4\" wide if you want 1/4\"-wide pins.",
+            "The height of the notch should be slightly less than the thickness of the stock.",
+            "The index pin should be shorter than the notch.",
+            "Cut the index pin to fit precisely in the notch.",
+            "Cut a piece longer than needed so a section can be used later as a spacer.",
+            "In most cases, the index pin can be glued into the notch.",
+            "For one project (child's stool), the pin had to be removable, mounted with a screw.",
+            "Align the fence to the miter gauge and align it with the dado blade.",
+            "Score the back side of the wood to prevent chip-out.",
+            "Joints should fit with a good friction fit.",
+            "Use a notched block to aid in clamping."
+          ],
+          "finished_product_description": "Box joints with interlocking pins and notches."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing a jig or fence attached to a miter gauge, with an index key and fence labeled. Dimensions of 4\" and 6\" are indicated.",
+        "Diagram showing a fence clamped to a miter gauge with a spacer block positioned between the index pin and the saw blade.",
+        "Diagram showing a fence being screwed to a miter gauge, with an index pin aligned.",
+        "Close-up diagram of the index pin with its top edges chamfered.",
+        "Diagram showing a piece of wood being scored on its back side with a cutting gauge.",
+        "Diagram showing a board held vertically against an index pin and being fed through a saw blade.",
+        "Diagram showing a board being cut with a dado blade, creating multiple notches.",
+        "Diagram showing a second board being aligned with the notches of the first board using the index pin, and being cut.",
+        "Close-up diagram of two joined box joints, showing a good fit, with a notched block used for clamping."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 15,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Box Joints at an angle",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "wood board",
+              "quantity": "1 piece",
+              "dimensions": "2x4",
+              "color": null
+            },
+            {
+              "item": "workpiece",
+              "quantity": "multiple",
+              "dimensions": "1/16\" longer than needed (for pins), 1/4\" to 1/2\" wider than needed (rough width)",
+              "color": null
+            },
+            {
+              "item": "mating board",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "trial piece",
+              "quantity": "1 piece",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "real boards",
+              "quantity": "multiple",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "glue",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "wax",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "saw blade",
+              "purpose": "cutting angles and notches",
+              "optional": false
+            },
+            {
+              "name": "miter gauge",
+              "purpose": "guiding cuts at an angle",
+              "optional": false
+            },
+            {
+              "name": "chisel",
+              "purpose": "chamfering top edges of index pin",
+              "optional": false
+            },
+            {
+              "name": "cutting gauge",
+              "purpose": "scoring the back side of the workpiece to prevent chip out",
+              "optional": false
+            },
+            {
+              "name": "index pin",
+              "purpose": "positioning workpiece for cutting notches",
+              "optional": false
+            },
+            {
+              "name": "dado blade",
+              "purpose": "used with spacer for fence adjustment",
+              "optional": false
+            },
+            {
+              "name": "notched block",
+              "purpose": "applying pressure to pins during clamping",
+              "optional": false
+            },
+            {
+              "name": "belt sander",
+              "purpose": "sanding down ends of pins",
+              "optional": false
+            },
+            {
+              "name": "clamps",
+              "purpose": "holding assembled joint",
+              "optional": false
+            },
+            {
+              "name": "spacer",
+              "purpose": "adjusting fence position",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Angle the saw blade and raise it to make a partial cut (as deep as the miter gauge is high) on the edge of a 2x4 board (Step 1 in Fig. 1).",
+              "technique": "sawing",
+              "dimensions_mentioned": [
+                "2x4"
+              ],
+              "visual_description": "Diagram showing a saw blade making a partial cut into the edge of a 2x4 board, labeled '1'."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Rip the bottom edge of the 2x4 at the same angle (Step 2 in Fig. 1).",
+              "technique": "ripping",
+              "dimensions_mentioned": [
+                "2x4"
+              ],
+              "visual_description": "Diagram showing the 2x4 board with its bottom edge ripped at an angle, labeled '2'."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Make a cut to trim out an angled notch to fit on the miter gauge (Step 3 in Fig. 1). This creates the angled fence.",
+              "technique": "sawing, trimming",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing the 2x4 board with an angled notch cut out, labeled '3', and an 'ANGLED FENCE' label pointing to it. A miter gauge is also shown."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Attach the newly created angled fence to the miter gauge and cut the slot for the index pin, then cut the pin, and finally mount the pin.",
+              "technique": "attaching, cutting, mounting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Adjust the fence so the spacer fits precisely between the index pin and the dado blade (refer to Fig. 2).",
+              "technique": "adjusting",
+              "dimensions_mentioned": [],
+              "visual_description": "Image showing a workpiece being cut on a table saw with an angled fence and miter gauge, with hands guiding the workpiece."
+            },
+            {
+              "step_number": 6,
+              "instruction": "With the fence clamped in place, mark the location of the mounting holes in the miter gauge, and drill pilot holes in the back of the fence. Then screw the fence to the miter gauge (refer to Fig. 3).",
+              "technique": "marking, drilling, screwing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 7,
+              "instruction": "As the screws are tightened, check the alignment again to make sure the spacer block fits snugly between the index pin and the blade.",
+              "technique": "checking alignment",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 8,
+              "instruction": "Use a chisel to chamfer the top edges of the index pin and wax the sides so the workpiece will slide easily over the pin (refer to Fig. 4).",
+              "technique": "chamfering, waxing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 9,
+              "instruction": "Miter the ends of the boards at the same angle as the joint. Also, rip the boards a little wider than needed to allow some flexibility in setting up the joint.",
+              "technique": "mitering, ripping",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 10,
+              "instruction": "To cut the joints, start with a trial piece and cut the joints across one end of the board as usual (refer to Fig. 2).",
+              "technique": "cutting joints",
+              "dimensions_mentioned": [],
+              "visual_description": "Image showing a workpiece being cut on a table saw with an angled fence and miter gauge, with hands guiding the workpiece."
+            },
+            {
+              "step_number": 11,
+              "instruction": "Before cutting the other end, this board has to be trimmed to final width (refer to Fig. 3 and Fig. 4).",
+              "technique": "trimming",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 12,
+              "instruction": "To trim the board to width, you may need to switch blades. Trim the trial piece to width according to the final spacing of the joints.",
+              "technique": "trimming, switching blades",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 13,
+              "instruction": "Rip the \"real\" boards to width and cut the angled joints on both ends.",
+              "technique": "ripping, cutting joints",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 14,
+              "instruction": "Hold the workpiece tightly against the index pin and flat on the table.",
+              "technique": "holding",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 15,
+              "instruction": "Guide the workpiece through the blade to make the first notch (refer to Fig. 6).",
+              "technique": "cutting notches",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing a wooden board with several notches cut into one end, labeled 'TRIM TO WIDTH ACCORDING TO LAST NOTCH'."
+            },
+            {
+              "step_number": 16,
+              "instruction": "Place the first notch over the index pin and slide the workpiece through the blade again. Repeat this until notches are cut across the width of the board.",
+              "technique": "cutting notches",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 17,
+              "instruction": "If the workpiece has been cut slightly wider than needed, the last cut should be a partial notch (refer to Fig. 7). Later, use the edge of this notch to trim the workpiece to final width.",
+              "technique": "cutting partial notch, trimming",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 18,
+              "instruction": "Cut the second board with mating joints. Since the first board starts with a pin, the second board has to start with a notch. Use the first board as a guide. Flip it around so the first pin is between the key and the second board.",
+              "technique": "cutting mating joints",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 19,
+              "instruction": "Position the second board properly so the notch can be cut (refer to Fig. 8). After cutting this notch, slide it over the pin and continue to cut notches across the width of the board to complete the joint.",
+              "technique": "positioning, cutting notches",
+              "dimensions_mentioned": [],
+              "visual_description": "Image showing hands holding a workpiece with cut notches, positioning it against an index pin on a table saw setup."
+            },
+            {
+              "step_number": 20,
+              "instruction": "Trim both boards to final width. Set up the saw using the partial notch on the first board as a guide, and rip both boards to width.",
+              "technique": "trimming, ripping",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 21,
+              "instruction": "Test the fit of the joints. They should fit together with a good friction fit. Then to assemble the joint, apply glue to the inside edges of the pins and notches.",
+              "technique": "testing fit, gluing, assembling",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 22,
+              "instruction": "To pull the joint tight, use a notched block to apply pressure directly to each pin when the clamps are tightened (refer to Fig. 9).",
+              "technique": "clamping",
+              "dimensions_mentioned": [],
+              "visual_description": "Image showing a wooden joint being clamped, with a notched block applying pressure to the pins."
+            },
+            {
+              "step_number": 23,
+              "instruction": "When the glue is dry, use a belt sander to sand down the ends of the pins.",
+              "technique": "sanding",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "When setting the height of the blade to cut the joint, raise the blade so it's just slightly higher than the thickness of the workpiece. This makes the pins (fingers) of the box joint slightly longer than needed so they stick out from the surface of the mating board. (I usually cut the workpiece 1/16\" longer than needed and set the height of the blade 1/32\" higher than the thickness to cut the pins on each end.) This allows for easier sanding down of slightly longer pins rather than having to sand the whole side of the box if pins are too short.",
+            "Before cutting the joint, score the back side of the workpiece (the side that will be against the fence) with a cutting gauge (see Fig. 5). This score line will prevent chip out on the back side of the cut.",
+            "A cutting gauge is similar to a marking gauge, but it has a knife edge instead of a round point. You can make your own cutting gauge (see article in Woodsmith No. 19).",
+            "It's best to cut the workpiece a little wider than what's needed for the finished width. This allows some flexibility for setting up the joint. It's best to cut the boards to rough width, 1/4\" to 1/2\" wider than needed. Then trim the boards to the final width according to the final layout of the joints."
+          ],
+          "finished_product_description": "Box joints cut at an angle, with pins slightly proud for final sanding."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Figure 1: A sequence of three diagrams (labeled 1, 2, 3) illustrating the steps to create an angled fence from a 2x4 board. Diagram 1 shows a partial cut on the edge of the 2x4. Diagram 2 shows the bottom edge ripped at an angle. Diagram 3 shows an angled notch cut out, with a miter gauge indicated.",
+        "Figure 2: An image depicting hands guiding a wooden workpiece through a table saw setup, with an angled fence and miter gauge, in the process of cutting box joints.",
+        "Figure 6: A diagram of a wooden board with several box joint notches cut into one end. A dashed line with text 'TRIM TO WIDTH ACCORDING TO LAST NOTCH' indicates where the board should be trimmed.",
+        "Figure 8: An image showing hands holding a wooden workpiece with cut box joint notches, positioning it against an index pin on a table saw setup, ready for the next cut.",
+        "Figure 9: An image of a wooden box joint assembly being clamped. A 'notched block' is shown applying pressure directly to the pins of the joint."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 16,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Coffee Grinder - An Old-Fashioned Box Joint Project",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "stock",
+              "quantity": "1 piece",
+              "dimensions": "5\" x 5\"",
+              "notes": "for the coffee grinder mechanism, check dimensions against provided diagram"
+            },
+            {
+              "item": "stock",
+              "quantity": "4 pieces",
+              "dimensions": "5\" long x 4 1/4\" wide",
+              "notes": "cut to rough size, then resawn to 3/8\" thickness"
+            },
+            {
+              "item": "stock",
+              "quantity": "1 piece",
+              "dimensions": "6\" wide x 48\" long",
+              "notes": "resawn to 3/8\" thickness"
+            },
+            {
+              "item": "stock",
+              "quantity": "1 piece",
+              "dimensions": "5\" long x 2 1/2\" wide",
+              "notes": "for the front of the box"
+            },
+            {
+              "item": "stock",
+              "quantity": "1 piece",
+              "dimensions": "5\" long x 2 1/2\" wide",
+              "notes": "for the drawer front"
+            },
+            {
+              "item": "stock",
+              "quantity": "1 piece",
+              "dimensions": "5 1/4\" x 5 1/4\"",
+              "notes": "for the base"
+            },
+            {
+              "item": "wood screws",
+              "quantity": "4",
+              "dimensions": "#4 x 1 1/4\""
+            }
+          ],
+          "tools": [
+            {
+              "name": "box joint jig",
+              "purpose": "cutting box joints",
+              "optional": false
+            },
+            {
+              "name": "bandsaw",
+              "purpose": "resawing stock",
+              "optional": true
+            },
+            {
+              "name": "hand plane",
+              "purpose": "cleaning up resawn stock",
+              "optional": true
+            },
+            {
+              "name": "table saw",
+              "purpose": "resawing stock",
+              "optional": true
+            },
+            {
+              "name": "drill",
+              "purpose": "countersinking screw holes",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut the back (A) and both sides (B) of the box to rough size 5\" long by 4 1/4\" wide.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "5\"",
+                "4 1/4\""
+              ],
+              "visual_description": "Diagram labeled 'FIGURE 1' shows four rectangular pieces with box joints on the ends. The 'LEFT SIDE' and 'RIGHT SIDE' pieces are labeled with dimensions 5\" (width) and 4 1/4\" (height). They have 4 pins (5 slots) on each side. The 'BACK' piece is also shown with similar joint details. Notes indicate all pieces are 3/8\" thick."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Cut the front (C) of the box and the drawer front (D) to size, each 5\" long by 2 1/2\" wide. To achieve a continuous grain pattern across the front of the grinder box, cut both pieces from a double-wide piece, marking the top half as the box front (C), and the bottom half as the drawer front (D).",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "5\"",
+                "2 1/2\""
+              ],
+              "visual_description": "Diagram labeled 'FIGURE 1' shows a 'FRONT' piece labeled (C) with dimensions 5\" (width) and 2 1/2\" (height). It has 5 pins (4 slots) on each side. A note indicates to 'TRIM TO BOTTOM OF 5th PIN'."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Set up the box joint jig to cut a 1/4\"-wide slot, 3/8\" deeper than the thickness of the stock (so the pins extend 1/8\" beyond the joint).",
+              "technique": "cutting box joints",
+              "dimensions_mentioned": [
+                "1/4\"",
+                "3/8\"",
+                "1/8\""
+              ],
+              "visual_description": "Diagram labeled 'FIGURE 2' shows a close-up of a corner joint. It indicates slots are cut 1/8\" deeper than the thickness of the stock. It also shows a 1/4\" dimension related to the slot width."
+            },
+            {
+              "step_number": 4,
+              "instruction": "To cut the joints, start with the back (A). Butt the top edge of the back against the indexing pin, and cut the first slot. Then re-position this slot over the indexing pin and cut another slot. Continue this procedure until a total of 9 slots are cut on both ends of the back piece.",
+              "technique": "cutting box joints",
+              "dimensions_mentioned": [
+                "9"
+              ],
+              "visual_description": "Diagram labeled 'FIGURE 1' shows the 'BACK' piece with notes indicating 'TRIM TO 9 PINS (9 SLOTS)' on each side."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Resaw the stock down to a 3/8\" thickness for the four sides. This can be done on a bandsaw and cleaned up with a hand plane, or two 3\" widths can be resawn on a table saw and edge-glued together. The goal is to end up with a piece 3/8\" thick, 6\" wide and 48\" long.",
+              "technique": "resawing",
+              "dimensions_mentioned": [
+                "3/8\"",
+                "3\"",
+                "6\"",
+                "48\""
+              ],
+              "visual_description": "Text describes the process of resawing stock."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Cut the box joints on the remaining pieces (left side, right side, and front) according to the jig setup.",
+              "technique": "cutting box joints",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagrams in 'FIGURE 1' show the joint details for the sides and front."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Assemble the box using the cut pieces.",
+              "technique": "assembly",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram labeled 'FIGURE 3' shows a partially assembled box from a bottom view, indicating the base placement."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Prepare the base. The base should be 5 1/4\" x 5 1/4\". Allow 1/8\" overhang on all 4 sides of the box. Countersink the base for #4 x 1 1/4\" wood screws.",
+              "technique": "cutting and assembly",
+              "dimensions_mentioned": [
+                "5 1/4\"",
+                "1/8\""
+              ],
+              "visual_description": "Diagram labeled 'FIGURE 3 BOTTOM VIEW OF BASE' shows a square base with dashed lines indicating the box placement and a 1/8\" overhang. It also shows screw locations and dimensions for the base."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Attach the base to the assembled box using wood screws.",
+              "technique": "assembly",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram labeled 'FIGURE 3' shows the base attached to the bottom of the box."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "Left Side",
+                "shape": "rectangle",
+                "width": "5\"",
+                "height": "4 1/4\"",
+                "thickness": "3/8\"",
+                "details": [
+                  {
+                    "type": "box_joint",
+                    "position": "both ends",
+                    "pins": 4,
+                    "slots": 5
+                  }
+                ]
+              },
+              {
+                "name": "Right Side",
+                "shape": "rectangle",
+                "width": "5\"",
+                "height": "4 1/4\"",
+                "thickness": "3/8\"",
+                "details": [
+                  {
+                    "type": "box_joint",
+                    "position": "both ends",
+                    "pins": 4,
+                    "slots": 5
+                  }
+                ]
+              },
+              {
+                "name": "Back",
+                "shape": "rectangle",
+                "width": "5\"",
+                "height": "4 1/4\"",
+                "thickness": "3/8\"",
+                "details": [
+                  {
+                    "type": "box_joint",
+                    "position": "both ends",
+                    "pins": 9,
+                    "slots": 9
+                  }
+                ]
+              },
+              {
+                "name": "Front",
+                "shape": "rectangle",
+                "width": "5\"",
+                "height": "2 1/2\"",
+                "thickness": "3/8\"",
+                "details": [
+                  {
+                    "type": "box_joint",
+                    "position": "both ends",
+                    "pins": 5,
+                    "slots": 4
+                  },
+                  {
+                    "type": "trim_line",
+                    "position": "bottom",
+                    "note": "Trim to bottom of 5th pin"
+                  }
+                ]
+              },
+              {
+                "name": "Drawer Front",
+                "shape": "rectangle",
+                "width": "5\"",
+                "height": "2 1/2\"",
+                "thickness": "3/8\"",
+                "details": [
+                  {
+                    "type": "box_joint",
+                    "position": "both ends",
+                    "pins": 5,
+                    "slots": 4
+                  },
+                  {
+                    "type": "trim_line",
+                    "position": "bottom",
+                    "note": "Trim to bottom of 5th pin"
+                  }
+                ]
+              },
+              {
+                "name": "Base",
+                "shape": "square",
+                "width": "5 1/4\"",
+                "height": "5 1/4\"",
+                "details": [
+                  {
+                    "type": "overhang",
+                    "dimension": "1/8\"",
+                    "position": "all sides"
+                  },
+                  {
+                    "type": "countersink_holes",
+                    "quantity": 4,
+                    "screw_type": "#4 x 1 1/4\""
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "Box joints are cut with a 1/4\" wide slot, 1/8\" deeper than stock thickness. Pins extend 1/8\" beyond the joint. Base has 1/8\" overhang on all sides."
+          },
+          "tips": [
+            "Resawing a 6\" wide piece can be done on a bandsaw and cleaned up with a hand plane, or two 3\" widths can be resawn on a table saw and edge-glued together.",
+            "Sand extending pins flush with sides."
+          ],
+          "finished_product_description": "A wooden box designed to hold a coffee grinder, featuring box joint construction for an attractive drawer and sides."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "FIGURE 1: Diagrams showing the 'LEFT SIDE', 'BACK', and 'RIGHT SIDE' pieces of the box, illustrating the box joint cuts. Dimensions are provided for width (5\") and height (4 1/4\"). Notes indicate the number of pins and slots (e.g., 4 pins, 5 slots) and that all pieces are 3/8\" thick. A diagram for the 'FRONT' piece is also shown with dimensions 5\" (width) and 2 1/2\" (height), and 5 pins (4 slots).",
+        "FIGURE 2: A close-up detail of a corner joint, illustrating the box joint construction. It shows the depth of the slots relative to the stock thickness and the width of the slots.",
+        "FIGURE 3: A perspective view of the partially assembled box, showing the base being attached. It also includes a 'BOTTOM VIEW OF BASE' diagram which details the placement of the box on the base, the 1/8\" overhang on all sides, and the location for countersinking wood screws.",
+        "Image: A photograph of a vintage coffee grinder sitting on top of a wooden box with a drawer. A bag of coffee beans and loose beans are scattered around the grinder."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 17,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Coffee Grinder Box",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "wood",
+              "quantity": "4 pieces",
+              "dimensions": "1/2\" thick",
+              "notes": "for drawer front, back, and sides"
+            },
+            {
+              "item": "plywood",
+              "quantity": "1 piece",
+              "dimensions": "1/4\" thick",
+              "notes": "for drawer bottom"
+            }
+          ],
+          "tools": [
+            {
+              "name": "router",
+              "purpose": "cutting round-over on base and finger joints",
+              "optional": false
+            },
+            {
+              "name": "round-over bit",
+              "purpose": "cutting round-over on base",
+              "dimensions": "1/4\"",
+              "optional": false
+            },
+            {
+              "name": "saw",
+              "purpose": "cutting pieces to size",
+              "optional": false
+            },
+            {
+              "name": "drill",
+              "purpose": "drilling pilot holes for mounting screws",
+              "optional": false
+            },
+            {
+              "name": "belt sander",
+              "purpose": "sanding pins flush",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut the drawer pieces to width. The drawer front (D) is cut to width to fit the height of the opening in the assembled box. The drawer sides (E) and back (F) are cut 1/4\" (or the equivalent of one pin) narrower than the width of the front, refer to Fig. 7.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "1/4\"",
+                "Fig. 7"
+              ],
+              "visual_description": "Diagrams showing drawer front, sides, and back with finger joints and dimensions."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Cut these pieces to final length. The drawer front and back are cut 1/2\" longer than the width of the box opening (see Fig. 5), and the sides 1/2\" longer than the depth of the box. Shop Note: This extra 1/2\" in length allows the pins to extend 1/2\" beyond the box joints.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "1/2\"",
+                "Fig. 5"
+              ],
+              "visual_description": "Diagrams showing drawer front, sides, and back with finger joints and dimensions."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Cut a rabbet on the inside bottom edge of all 4 drawer pieces for a 1/4\" plywood bottom, see Detail in Fig. 8.",
+              "technique": "rabbeting",
+              "dimensions_mentioned": [
+                "1/4\"",
+                "Fig. 8"
+              ],
+              "visual_description": "Detail showing a rabbet cut on the bottom edge of a drawer piece."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Assemble the drawer. Cut the plywood bottom to fit, and drill a hole in the drawer front for the pull, see Fig. 8. Then glue the drawer together with the bottom in place. When the glue is dry, sand the corner joints flush.",
+              "technique": "assembly, gluing, sanding",
+              "dimensions_mentioned": [
+                "Fig. 8"
+              ],
+              "visual_description": "Diagram showing drawer assembly with rabbeted edges and plywood bottom."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Position the coffee grinder mechanism on top of the box and drill pilot holes for the mounting screws.",
+              "technique": "positioning, drilling",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing a coffee grinder mechanism placed on top of the box."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Finish the coffee grinder with three coats of Behlen's salad bowl finish. This finish is one of the safest finishes to use around food.",
+              "technique": "finishing",
+              "dimensions_mentioned": [
+                "three coats"
+              ],
+              "visual_description": "No visual description provided for this step."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "Drawer Front (D)",
+                "shape": "rectangular",
+                "width": "to fit opening height",
+                "height": "variable",
+                "details": [
+                  {
+                    "type": "finger_joints",
+                    "count": "5 pins",
+                    "orientation": "vertical"
+                  },
+                  {
+                    "type": "rabbet",
+                    "position": "bottom inside edge",
+                    "width": "1/4\""
+                  }
+                ]
+              },
+              {
+                "name": "Drawer Side (E)",
+                "shape": "rectangular",
+                "width": "variable",
+                "height": "variable",
+                "details": [
+                  {
+                    "type": "finger_joints",
+                    "count": "4 pins",
+                    "orientation": "vertical"
+                  },
+                  {
+                    "type": "rabbet",
+                    "position": "bottom inside edge",
+                    "width": "1/4\""
+                  }
+                ]
+              },
+              {
+                "name": "Drawer Back (F)",
+                "shape": "rectangular",
+                "width": "variable",
+                "height": "variable",
+                "details": [
+                  {
+                    "type": "finger_joints",
+                    "count": "4 pins",
+                    "orientation": "vertical"
+                  },
+                  {
+                    "type": "rabbet",
+                    "position": "bottom inside edge",
+                    "width": "1/4\""
+                  }
+                ]
+              },
+              {
+                "name": "Drawer Bottom",
+                "shape": "rectangular",
+                "width": "to fit rabbet",
+                "height": "to fit rabbet",
+                "details": []
+              }
+            ],
+            "assembly_notes": "Drawer front is 1/4\" wider than sides and back. Drawer front and back are 1/2\" longer than box opening width. Drawer sides are 1/2\" longer than box opening depth. Rabbet for bottom is 1/4\" wide. A small gap may appear on the sides of the finger joint after assembly, which can be filled with sawdust and glue."
+          },
+          "tips": [
+            "The base must be able to move slightly with seasonal changes in humidity.",
+            "When the drawer is assembled, a small gap may appear on the sides of the finger joint. This gap can be filled with a mixture of sawdust and glue."
+          ],
+          "finished_product_description": "A wooden box designed to hold a coffee grinder mechanism, with a functional drawer."
+        }
+      ],
+      "tools_reference": [
+        {
+          "name": "Round-over bit",
+          "use": "To round the edges of the base.",
+          "dimensions": "1/4\"",
+          "set_height": "3/16\""
+        },
+        {
+          "name": "Finger Joints",
+          "use": "Joinery for drawer construction.",
+          "details": "Cut on drawer front, sides, and back. Pins on the top edge of the front and sides, and on the bottom edge of the back (flipped)."
+        },
+        {
+          "name": "Rabbet",
+          "use": "To accept the plywood drawer bottom.",
+          "dimensions": "1/4\" wide",
+          "position": "Inside bottom edge of all four drawer pieces."
+        }
+      ],
+      "templates": [],
+      "diagram_descriptions": [
+        "Figure 4: Diagram showing a router with a 1/4\" round-over bit set at 3/16\" high, cutting the edge of a piece labeled 'BASE' against a 'FENCE'.",
+        "Detail of Cut: Shows a cross-section of a finger joint with dimensions and labels for 'DRAWER BACK', 'DRAWER SIDE', and '4 PINS (4 SLOTS)'.",
+        "Figure 5: Front view of the assembled box with drawer opening. Shows dimensions for the 'FRONT', 'DRAWER FRONT', and 'BASE'. Labels indicate 'CUT DRAWER FRONT TO FIT OPENING'.",
+        "Figure 6: Diagrams showing the dimensions and finger joint configuration for 'DRAWER SIDE', 'DRAWER BACK', and 'DRAWER FRONT'. Also shows '1/4\" PLYWOOD' for the bottom.",
+        "Figure 7: Perspective view of the assembled drawer box, showing the finger joints on the front, sides, and back. Labels indicate 'DRAWER SIDE (E)', 'DRAWER BACK (F)', and 'FRONT (D)'. Notes mention 'TRIM TOP FOR CLEARANCE IF NEEDED' and 'SAND FLUSH AFTER ASSEMBLY'.",
+        "Figure 8: Diagram illustrating the drawer pull location and the rabbet detail for the drawer bottom. Shows dimensions for the rabbet and the thickness of the plywood.",
+        "Rabbet Detail: Close-up view of the rabbet cut on the bottom edge of a drawer piece, showing how the plywood bottom fits."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 18,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Card Holder",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut two pieces of stock 1/4\" thick. These strips should be 1 1/2\" wide by 35\" long, which will yield enough stock for the four sides of the tray, the tray divider, and the four sides of the lid, with some left over for trial cuts.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "1/4\" thick",
+                "1 1/2\" wide",
+                "35\" long"
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Cut the two tray sides (A) to a length of 5 1/4\", and the ends (B) to a length of 4 1/4\".",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "5 1/4\"",
+                "4 1/4\""
+              ],
+              "visual_description": "Diagram labeled 'TRAY DETAIL' showing two rectangular pieces. One labeled 'SIDE (A)' with dimensions 5 1/4\" long and 1 1/2\" wide. The other labeled 'END (B)' with dimensions 4 1/4\" long and 1 1/2\" wide. Both pieces have finger joints on the ends."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Cut the four pieces for the lid (F and G). The length of the lid side (F) is equal to the length of the tray side (A) plus the thickness of the two tray ends (B). Likewise, the length of the lid end (G) is equal to the length of the lid end plus the thickness of the two lid sides.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram labeled 'LID DETAIL' showing two rectangular pieces. One labeled 'SIDE (F)' and the other labeled 'END (G)'. Both pieces have finger joints on the ends."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Cut the finger joints on the tray sides (A) so there's a slot on the top edge.",
+              "technique": "cutting finger joints",
+              "dimensions_mentioned": [],
+              "visual_description": "Close-up of finger joints on the edge of a wooden piece."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Cut the finger joints on the lid pieces (F and G). The joints on the four pieces for the lid are the reverse of the joints on the tray. That is, start with a slot on the top edge of the sides (F), and with a finger on the top edge of the ends (G).",
+              "technique": "cutting finger joints",
+              "dimensions_mentioned": [],
+              "visual_description": "Close-up of finger joints on the edge of a wooden piece."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Trim the bottom edge of the tray sides (A) to leave five full fingers and slots.",
+              "technique": "trimming",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing the bottom edge of a tray side piece with finger joints."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "Tray Side (A)",
+                "shape": "rectangle",
+                "width": "1 1/2\"",
+                "height": "5 1/4\"",
+                "details": [
+                  {
+                    "type": "finger_joints",
+                    "position": "both ends"
+                  }
+                ]
+              },
+              {
+                "name": "Tray End (B)",
+                "shape": "rectangle",
+                "width": "1 1/2\"",
+                "height": "4 1/4\"",
+                "details": [
+                  {
+                    "type": "finger_joints",
+                    "position": "both ends"
+                  }
+                ]
+              },
+              {
+                "name": "Lid Side (F)",
+                "shape": "rectangle",
+                "width": "1 1/2\"",
+                "height": "Length of tray side (A) + 2x thickness of tray ends (B)",
+                "details": [
+                  {
+                    "type": "finger_joints",
+                    "position": "both ends"
+                  }
+                ]
+              },
+              {
+                "name": "Lid End (G)",
+                "shape": "rectangle",
+                "width": "1 1/2\"",
+                "height": "Length of lid end (G) + thickness of two lid sides",
+                "details": [
+                  {
+                    "type": "finger_joints",
+                    "position": "both ends"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "All dimensions are finished dimensions. Depth of slots equals thickness of stock (1/4\")."
+          },
+          "tips": [
+            "The 1/4\" thickness for this stock should be pretty much on the money.",
+            "These lengths are based on building a tray for standard-size cards. If the tray is built for bridge cards, the lengths have to be changed because these cards are narrower. In this case, cut the tray side 5 1/4\" long and the ends 3 7/8\" long.",
+            "Note: All dimensions are finished dimensions."
+          ],
+          "finished_product_description": "A wooden card holder designed to hold two decks of cards, constructed using box joints for a decorative and strong finish."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Photograph of a wooden card holder with two decks of cards inside, and several cards fanned out in front of it.",
+        "Diagram labeled 'TRAY DETAIL' showing the top view of a tray side piece (A) and a tray end piece (B). Both are rectangular with finger joints at the ends. Dimensions are indicated.",
+        "Diagram labeled 'LID DETAIL' showing the top view of a lid side piece (F) and a lid end piece (G). Both are rectangular with finger joints at the ends. Dimensions are indicated.",
+        "Diagram showing the layout of all pieces for the tray and lid, with labels and dimensions. Includes top views and side views of individual pieces with finger joints."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 19,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Wooden Card Tray",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [
+            {
+              "name": "Saw",
+              "purpose": "cutting joints, cutting dadoes, cutting out curves",
+              "optional": false
+            },
+            {
+              "name": "Miter Gauge",
+              "purpose": "support for small pieces when cutting dadoes",
+              "optional": false
+            },
+            {
+              "name": "Rip Fence",
+              "purpose": "setting stop for dado cuts",
+              "optional": false
+            },
+            {
+              "name": "Forstner Bit",
+              "purpose": "drilling holes",
+              "optional": false
+            },
+            {
+              "name": "Nickel",
+              "purpose": "template for laying out radius",
+              "optional": false
+            },
+            {
+              "name": "Band Saw",
+              "purpose": "cutting out pieces to shape",
+              "optional": false
+            },
+            {
+              "name": "Drum Sander",
+              "purpose": "sanding edges smooth",
+              "optional": false
+            },
+            {
+              "name": "Artist's Brush",
+              "purpose": "applying glue",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut joints on tray sides and ends, then trim to finished width.",
+              "technique": "cutting joints",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing finger joints on the ends of two pieces of wood, labeled 'SIDE (A)' and 'END (B)'."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Cut dadoes for the divider (C) exactly centered on the inside faces of the tray sides.",
+              "technique": "cutting dadoes",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing a saw blade cutting a dado into a piece of wood. Labels indicate using the rip fence as a stop and the miter gauge for support."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Adjust the depth of cut to 1/8\" and make a pass. Flip the piece and make a second pass to center the dado.",
+              "technique": "cutting dadoes",
+              "dimensions_mentioned": [
+                "1/8\""
+              ],
+              "visual_description": "Diagram showing a piece of wood on a table saw with the blade cutting a dado. Arrows indicate flipping the piece and adjusting the rip fence."
+            },
+            {
+              "step_number": 4,
+              "instruction": "If the dado isn't wide enough, tap the rip fence away from the blade and make two more passes.",
+              "technique": "cutting dadoes",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing the rip fence being moved away from the saw blade to widen a dado."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Mark the curved cutouts on all four pieces of the tray. Locate the center points of the 1/2\"-diameter holes on the side and ends and drill them with a Forstner bit.",
+              "technique": "drilling holes",
+              "dimensions_mentioned": [
+                "1/2\""
+              ],
+              "visual_description": "Diagram showing a piece of wood with circles marked for drilling and curved lines for cutouts. Labels indicate using a nickel to lay out the top radius and drilling holes with a Forstner bit."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Lay out the radius on the top edge of each corner using a nickel as a pattern. Cut the pieces to shape on a band saw, and sand the edges smooth with a small drum sander.",
+              "technique": "cutting curves, sanding",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing a piece of wood with a radius laid out on the corner using a nickel. A band saw is implied for cutting."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Assemble the tray frame by applying glue with an artist's brush and pushing the joints tightly together by hand. Ensure the joints are square and let the assembly dry.",
+              "technique": "gluing, assembly",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing four pieces of wood with finger joints being glued together to form a square frame. A label indicates 'GLUE PIECES TOGETHER AND CHECK FOR SQUARE'."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Make the platform (D) by resawing a piece of stock 3/8\" thick and cutting it to fit tight inside the tray frame.",
+              "technique": "resawing, cutting to fit",
+              "dimensions_mentioned": [
+                "3/8\""
+              ],
+              "visual_description": "Diagram showing a flat rectangular piece labeled 'PLATFORM (D)' being placed inside the assembled tray frame."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Cut the divider (C) to width so the top edge is flush with the top edge of the tray.",
+              "technique": "cutting to width",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing a divider piece being placed inside the tray, flush with the top edges."
+            },
+            {
+              "step_number": 10,
+              "instruction": "Dry assemble the lid sides and ends of the lid and test the fit. Glue up the lid and then sand down the sides of the tray until the lid fits easily over the tray.",
+              "technique": "dry assembly, fitting, gluing, sanding",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing the assembled lid frame being placed over the assembled tray. Labels indicate 'ASSEMBLE LID FRAME AND FIT TO TRAY'."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "For cleanest hole, drill from both sides."
+          ],
+          "finished_product_description": "A wooden tray with a divider and a separate lid."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Figure 2: Tray Detail showing finger joints on the side and end pieces of the tray. Labels indicate 'SIDE (A)' and 'END (B)'. Shows five fingers and four slots.",
+        "Figure 3: Lid Detail showing finger joints on the side and end pieces of the lid. Labels indicate 'SIDE (F)' and 'END (G)'. Shows five fingers and four slots. Includes instruction 'TRIM OFF BOTTOM EDGE AFTER CUTTING JOINTS'.",
+        "Figure 4: Diagram illustrating the process of cutting dadoes on a table saw. Shows a piece of wood being cut with a dado blade. Labels indicate 'MAKE FIRST CUT SLIGHTLY OFF CENTER', 'USE FENCE ON MITER GAUGE TO SUPPORT PIECE', and 'USE RIP FENCE AS STOP'.",
+        "Figure 5: Diagram showing the second pass for cutting dadoes, indicating 'FLIP PIECE AND MAKE SECOND PASS'. Also shows 'MOVE FENCE AWAY FROM BLADE TO WIDEN DADO'.",
+        "Figure 6: Tray Cutout Detail. Shows a side view and an end view of a tray piece. The side view shows five finger joints and four slots, with dimensions '1 1/4\"' between the center of the first and last slot. It also shows two 1/2\" diameter holes with centers marked. The end view shows the finger joints and two 1/2\" diameter holes. A label indicates 'USE NICKEL TO LAY OUT TOP RADIUS' and 'DRILL HOLES WITH 1/4\" FORSTNER BIT'.",
+        "Figure 7: Diagram showing the assembly of the tray frame by gluing four pieces together. A label indicates 'GLUE PIECES TOGETHER AND CHECK FOR SQUARE'.",
+        "Figure 8: Diagram showing the platform (D) being placed inside the assembled tray frame. A label indicates 'CUT PLATFORM TO FIT TIGHT INSIDE TRAY'. The platform is a flat rectangle.",
+        "Figure 9: Diagram showing the divider (C) being placed inside the tray, flush with the top edges. A label indicates 'CUT DIVIDER TO FIT BETWEEN DADOES'.",
+        "Figure 10: Diagram showing the assembled lid frame being placed over the assembled tray. A label indicates 'ASSEMBLE LID FRAME AND FIT TO TRAY'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 20,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Card Holder",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "stock for lid and base",
+              "quantity": "1 piece",
+              "dimensions": "1/2\" thick",
+              "color": "any"
+            },
+            {
+              "item": "hold-down pads",
+              "quantity": "2",
+              "dimensions": "1/2\" thick",
+              "color": "any"
+            },
+            {
+              "item": "felt pads",
+              "quantity": "4",
+              "dimensions": "any",
+              "color": "any"
+            },
+            {
+              "item": "finish",
+              "quantity": "3 coats",
+              "dimensions": "any",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "saw",
+              "purpose": "resaw stock",
+              "optional": false
+            },
+            {
+              "name": "lid frame",
+              "purpose": "guide for cutting",
+              "optional": false
+            },
+            {
+              "name": "C-clamps",
+              "purpose": "clamping",
+              "optional": false
+            },
+            {
+              "name": "board",
+              "purpose": "even out clamp pressure",
+              "optional": false
+            },
+            {
+              "name": "router table",
+              "purpose": "rout chamfers",
+              "optional": false
+            },
+            {
+              "name": "chisel",
+              "purpose": "clean up corners after routing",
+              "optional": false
+            },
+            {
+              "name": "sander",
+              "purpose": "sanding",
+              "optional": false
+            },
+            {
+              "name": "drill",
+              "purpose": "drill holes for felt pads",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut the base (E) to match the lid frame size.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing a lid frame and a base piece, with an arrow indicating the base should be cut to match the lid frame."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Mount the base to the bottom of the tray so there's an even overhang on all four edges.",
+              "technique": "mounting",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing the tray frame aligned on top of the base, with arrows indicating alignment and gluing."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Align the tray using the lid frame as a guide. Place the lid frame over the base and mark the inside circumference.",
+              "technique": "aligning",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing a pencil tracing the inside perimeter of the lid frame onto the base."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Glue the tray to the base. Use a board on top of the tray edges to even out the pressure of the C-clamps.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing the tray frame glued to the base, with C-clamps and a board on top for even pressure."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Carve symbols for the four suits on the lid top (H). Figure 18 is a full-size pattern.",
+              "technique": "carving",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing a lid top with two rectangular pads glued to the underside. Also shows a router bit and a chisel working on the edge of the lid."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Cut two 1/2\" thick hold-down pads (I) and glue them to the underside of the lid top, centered over each tray.",
+              "technique": "cutting and gluing",
+              "dimensions_mentioned": [
+                "1/2\" thick"
+              ],
+              "visual_description": "Diagram showing the bottom side of the lid with two rectangular pads glued to it, centered over where the trays will be."
+            },
+            {
+              "step_number": 7,
+              "instruction": "Glue the lid top (H) to the lid frame. After it's dry, sand the outside perimeter of the box until the surfaces of the top, lid frame, and base are flush.",
+              "technique": "gluing and sanding",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing the lid being placed on the tray, with an arrow indicating sanding the outside perimeter."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Use the router table to rout a 1/4\" chamfer all the way around the top edge of the lid. Use a chisel to clean up the corners.",
+              "technique": "routing and chiseling",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "Diagram showing a router bit chamfering the top edge of the lid, and a chisel cleaning up a corner."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Drill shallow holes for the felt pads on the bottom of the base. Locate the centerpoints of the holes 1/4\" from each edge.",
+              "technique": "drilling",
+              "dimensions_mentioned": [
+                "1/4\""
+              ],
+              "visual_description": "Diagram showing the bottom of the base with arrows indicating the placement of felt pads and dimensions for drilling holes."
+            },
+            {
+              "step_number": 10,
+              "instruction": "Mount felt pads to the bottom of the tray.",
+              "technique": "mounting",
+              "dimensions_mentioned": [],
+              "visual_description": "Diagram showing felt pads being placed on the bottom corners of the base."
+            },
+            {
+              "step_number": 11,
+              "instruction": "Sand all surfaces of the card holder smooth and apply the finish (three coats of Sutherland Welles Tung Oil).",
+              "technique": "sanding and finishing",
+              "dimensions_mentioned": [],
+              "visual_description": "None"
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "The easiest way to even out the pressure of the C-clamps was to make a \"sandwich\" by placing a board on the top edges of the tray.",
+            "As the decks are used, they tend to \"puff up.\" These pads help keep the cards in the trays and prevent them from sliding over the center divider.",
+            "It may be necessary to do some additional sanding for a better fit.",
+            "The router bit won't quite fit into the corners, so you had to clean them up with a chisel."
+          ],
+          "finished_product_description": "A card holder with a carved lid top featuring symbols for the four suits of playing cards."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Carving Pattern for Card Suits",
+          "scale": "Actual Size",
+          "shape_description": "Includes patterns for a spade, diamond, club, and heart."
+        }
+      ],
+      "diagram_descriptions": [
+        "Figure 11: Exploded view of the lid frame and base, showing how they fit together. Labels include 'LID FRAME', 'LID TOP (H)', 'BASE (E)', and 'CUT TOP AND BASE TO MATCH LID FRAME'.",
+        "Figure 12: Diagram showing a pencil tracing the inside perimeter of the lid frame onto the base.",
+        "Figure 13: Diagram showing the tray frame being aligned and glued to the base, with arrows indicating alignment and the 'ALIGN AND GLUE TRAY FRAME TO BASE' instruction.",
+        "Figure 14: Diagram showing the bottom side of the lid top (H) with two rectangular pads (I) glued to it, labeled 'GLUE 1/2\" THICK PADS TO BOTTOM SIDE OF LID'. Dimensions for the pads are shown as 1 1/4\" x 1 3/4\".",
+        "Figure 15: Diagram illustrating chamfering the outside edges of the lid top and the inside bottom edges of the lid, with a router bit and chisel shown.",
+        "Figure 16: Detail view showing how to use a chisel to complete the chamfer in the corners of the lid.",
+        "Figure 17: Diagram showing the bottom of the base with arrows indicating where to place felt pads and dimensions for drilling holes (1/4\" from each edge).",
+        "Figure 18: Actual size patterns for the four card suits: spade, diamond, club, and heart."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 21,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Producing Thin Stock on a Table Saw",
+          "category": "woodworking",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [
+            {
+              "name": "Table Saw",
+              "purpose": "resawing stock",
+              "optional": false
+            },
+            {
+              "name": "24-tooth rip blade",
+              "purpose": "making first cuts for resawing",
+              "optional": false
+            },
+            {
+              "name": "40- or 50-tooth combination blade",
+              "purpose": "making final cuts for resawing",
+              "optional": false
+            },
+            {
+              "name": "Push stick",
+              "purpose": "feeding stock through the saw",
+              "optional": false
+            },
+            {
+              "name": "Hand plane",
+              "purpose": "cleaning up rough surface",
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut each piece about 6\" longer than needed so the ends can be cut off after the piece is resawn.",
+              "technique": null,
+              "dimensions_mentioned": [
+                "6\""
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Rough cut the stock to about 1/16\" thicker than the final thickness you want.",
+              "technique": "rough cutting",
+              "dimensions_mentioned": [
+                "1/16\""
+              ],
+              "visual_description": "Figure 2 shows rough cutting stock on a table saw."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Raise the saw blade no more than 1½\" on the first cut, and position the fence to cut the stock 1/16\" thicker than the final thickness needed.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "1½\"",
+                "1/16\""
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Use a large push stick to feed the board through the blade, keeping the board tight against the fence. Then flip the piece end for end (so the same face is still against the fence) and make a second cut on the opposite edge.",
+              "technique": "feeding",
+              "dimensions_mentioned": [],
+              "visual_description": "Figure 3 shows a sequence of cuts on a board, illustrating flipping the piece end for end."
+            },
+            {
+              "step_number": 5,
+              "instruction": "On stock that's 3\" wide or less, try to complete the resawing with the second pass. If the stock is too wide for two cuts, raise the blade in ½\" increments and run both edges through the saw a second time.",
+              "technique": "resawing",
+              "dimensions_mentioned": [
+                "3\"",
+                "½\""
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 6,
+              "instruction": "As the final cuts are made, push the board through the blade without hesitating. This will help prevent burning. Then flip the stock end for end to complete the trimming cut.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "Figure 4 shows making final cuts in two passes using a featherboard."
+            },
+            {
+              "step_number": 7,
+              "instruction": "If the stock is cupped at all, it will probably spring back as soon as it clears the featherboard. The result is that the blade will gouge the last couple of inches at both ends of the board. Simply cut off both ends to remove the areas affected.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": "Figure 5 illustrates using a featherboard to flatten cup in stock, showing adjustments for concave and convex cuts. Figure 6 shows an end view of a piece of stock that is longer than needed, with a note to remove ends after resawing."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "The actual height of the blade for the first pass should be varied according to the species of wood and the horsepower of the motor on your table saw.",
+            "Very often the stock will develop a minor cup after the first cuts. If this happens use a featherboard to hold the board flat against the fence.",
+            "Set up the featherboard just ahead of the blade.",
+            "If the stock is cupped toward the fence, raise the position of the featherboard to the center of the board.",
+            "If the stock is cupped away from the fence, keep the featherboard flush with the table top and push the top edge against the fence as the cut is made.",
+            "Start with longer pieces than needed."
+          ],
+          "finished_product_description": null
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Figure 1: Diagram showing how to build a resawing fence to straddle the rip fence. It indicates a 6\" height for the resawing fence.",
+        "Figure 2: Illustration of rough cutting stock on a table saw, with a hand pushing the wood.",
+        "Figure 3: A sequence of five diagrams (labeled 1 through 5) showing the process of resawing a board, including flipping the piece.",
+        "Figure 4: Illustration of making final cuts in two passes on a table saw, using a featherboard.",
+        "Figure 5: Two diagrams illustrating the use of a featherboard to flatten cupped stock. The left diagram shows the featherboard low for a concave cup, and the right diagram shows it high for a convex cut.",
+        "Figure 6: An end view of a piece of stock that is longer than needed, with a note indicating that the ends should be removed after resawing."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 22,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing a drill press table with a workpiece mounted on an adjustable block hinged to the table, allowing for drilling at an angle. The diagram labels the workpiece, adjust block to change angle, hinge, drill press table, and indexing point.",
+        "Diagram showing a top view of a router table fence with a straight bit. It indicates the direction of feed for the workpiece.",
+        "Diagram showing a drill press with a plywood plate that has an oversized drill hole. The diagram labels the drill hole in plywood, drill press table, and the sanding drum."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 23,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [
+        {
+          "name": "Spray Mount",
+          "use": "Spray adhesive for temporarily attaching patterns to wood.",
+          "suitable_for": [
+            "paper",
+            "wood"
+          ]
+        },
+        {
+          "name": "Photo Mount",
+          "use": "Spray adhesive for paper-to-paper tack.",
+          "suitable_for": [
+            "paper"
+          ]
+        },
+        {
+          "name": "Carpet Tape",
+          "use": "Double-sided tape for holding two pieces of wood together for cutting or sanding.",
+          "suitable_for": [
+            "wood"
+          ]
+        },
+        {
+          "name": "Table Saw Insert",
+          "use": "Shop-built replacement for standard metal inserts, provides support for work piece up to the blade.",
+          "suitable_for": [
+            "table saw"
+          ]
+        },
+        {
+          "name": "V-groove bit",
+          "use": "Used on a router table to cut a V-shaped recess in a table saw insert.",
+          "suitable_for": [
+            "router table"
+          ]
+        },
+        {
+          "name": "Rockwell Speed Bloc",
+          "use": "Palm sander.",
+          "suitable_for": [
+            "sanding"
+          ]
+        }
+      ],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing how to rip boards to final width. Boards are laid out with arrows pointing in the same direction. An end view shows the grain direction marked and an arrow indicating the direction of rip.",
+        "Diagram showing a cross-section of a table saw insert. It illustrates the insert, the saw blade, a V-groove bit on a router table, and the fence. The workpiece shoulder rests on the insert.",
+        "Diagram of a table saw insert with finger holes and a saw opening. It shows the shape of the insert and where the saw blade will pass through."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 24,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

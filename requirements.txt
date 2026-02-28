@@ -1,6 +1,7 @@
 ollama
 regex
 langchain-google-genai
+google-genai
 supabase
 python-dotenv
 langchain-text-splitters

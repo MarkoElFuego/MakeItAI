@@ -1,0 +1,99 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Paper Flowers",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "tissue paper",
+              "quantity": "various colors",
+              "dimensions": "cut into squares",
+              "color": "various"
+            },
+            {
+              "item": "pipe cleaners",
+              "quantity": "1 or more",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "scissors",
+              "purpose": "cutting tissue paper",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Make a pile of square tissue paper with three different colored layers. The bottom layer will have six sheets of one color, the middle will have four sheets, and the top will have two sheets.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Lay each sheet of tissue paper neatly one on top of the other. Be sure to get the ends and sides to meet. It’s okay if they are not exact, but try to make them as close as possible.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Fold the combined sheets of tissue paper accordion style, making sure each fold is about 1-inch wide. Keep all the sheets of paper together as you fold, and continue until you run out of tissue.",
+              "technique": "accordion fold",
+              "dimensions_mentioned": [
+                "1-inch wide"
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Wrap a pipe cleaner around the center of the flowers at the crease. Wrap enough that the paper is held securely, and then twist the ends together to form a knot.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": "Image shows a stack of folded tissue paper secured in the middle with a green pipe cleaner, creating an hourglass shape."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Unfold the flower. Starting with the top or bottom, fan out the tissue paper so that no sheets are stuck together, being careful not to tear it.",
+              "technique": "unfolding",
+              "dimensions_mentioned": [],
+              "visual_description": "Image shows the folded tissue paper from step 4 being fanned out, revealing layers of blue and green tissue paper."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Pull apart the petals. With your fan unfolded, adjust the petals by pulling them outwards from each other. If needed, straighten out the petals one part at a time.",
+              "technique": "petal shaping",
+              "dimensions_mentioned": [],
+              "visual_description": "Image shows a finished paper flower with multiple layers of blue, purple, and green petals, resembling a chrysanthemum."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "You can make a bouquet of flowers using the pipe cleaners as stems or use those to attach the flowers to a display.",
+            "If you would like to make smaller flowers, cut down the tissue paper into quarters (or smaller) and repeat steps 1-6. Just make sure the sheets are cut into squares.",
+            "Remember, these are only suggestions. This project should be fun and creative, so use whatever supplies you have on-hand for substitutions."
+          ],
+          "finished_product_description": "A flower made from layered and fanned-out tissue paper."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A colorful, layered paper flower with orange, yellow, light green, and dark green petals. Two smaller, colorful flowers (one pink/yellow/blue, one orange/yellow) are also visible.",
+        "Step 4: A stack of folded blue and green tissue paper, cinched in the middle with a green pipe cleaner, forming an hourglass shape.",
+        "Step 5: The folded tissue paper from step 4, now partially unfolded and fanned out, showing layers of blue and purple tissue paper.",
+        "Step 6: A finished paper flower with multiple layers of blue, purple, and green petals, resembling a chrysanthemum."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

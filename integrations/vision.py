@@ -1,7 +1,7 @@
 """
 MakeItAi – Vision Integration (Phase 3)
 
-Analyzes user-uploaded images using Claude Vision API.
+Analyzes user-uploaded images using Gemini Vision API.
 The craft mentor reviews work-in-progress photos and gives feedback.
 """
 
@@ -9,17 +9,18 @@ import base64
 import os
 from pathlib import Path
 
-import anthropic
 from dotenv import load_dotenv
+from google import genai
+from google.genai import types
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(PROJECT_ROOT / ".env")
 
 from prompts.system_prompts import SYSTEM_PROMPT_VISION
 
-claude = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+client = genai.Client(api_key=os.environ["GOOGLE_API_KEY"])
 
-VISION_MODEL = "claude-haiku-4-5-20251001"
+VISION_MODEL = "gemini-3-flash-preview"
 
 
 def analyze_image(
@@ -29,7 +30,7 @@ def analyze_image(
     conversation_history: list[dict] | None = None,
 ) -> str:
     """
-    Send an image to Claude Vision for craft analysis.
+    Send an image to Gemini Vision for craft analysis.
 
     Args:
         image_base64: Base64 encoded image data (no data:... prefix).
@@ -38,33 +39,38 @@ def analyze_image(
         conversation_history: Previous messages for context.
 
     Returns:
-        Analysis text from Claude.
+        Analysis text from Gemini.
     """
     history = conversation_history or []
+    
+    # Format the payload
+    prompt_parts = []
+    
+    # Very basic history representation for one-shot
+    for msg in history[-3:]:
+        role = msg.get("role", "user")
+        text = msg.get("content", "")
+        if isinstance(text, str):
+            prompt_parts.append(f"[{role}]: {text}")
+            
+    prompt_parts.append(
+        types.Part.from_bytes(
+            data=base64.b64decode(image_base64),
+            mime_type=media_type,
+        )
+    )
+    prompt_parts.append(user_message)
 
-    # Build the multimodal message
-    user_content = [
-        {
-            "type": "image",
-            "source": {
-                "type": "base64",
-                "media_type": media_type,
-                "data": image_base64,
-            },
-        },
-        {
-            "type": "text",
-            "text": user_message,
-        },
-    ]
-
-    messages = history + [{"role": "user", "content": user_content}]
-
-    response = claude.messages.create(
+    response = client.models.generate_content(
         model=VISION_MODEL,
-        max_tokens=1024,
-        system=SYSTEM_PROMPT_VISION,
-        messages=messages,
+        contents=prompt_parts,
+        config=types.GenerateContentConfig(
+            system_instruction=SYSTEM_PROMPT_VISION,
+            temperature=0.4,
+        )
     )
 
-    return response.content[0].text
+    return getattr(response, "text", "")
+
+
+# End of file

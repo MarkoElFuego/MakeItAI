@@ -1,0 +1,90 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing a book opening to 90 degrees, with a yellow arc indicating the viewing angle from 90 degrees up and down, and 180 degrees left to right.",
+        "Diagram showing a book opening to 180 degrees, with a yellow cone indicating the viewing angle from 360 degrees and from bird's eye view.",
+        "Diagram showing a book opening and turning inside out to form a 360-degree structure, with a yellow cone indicating the viewing angle from 360 degrees and from bird's eye view."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing a pop-up element with parallel folds.",
+        "Diagram showing a pop-up element with angle folds.",
+        "Diagram illustrating a flap mechanism in a pop-up.",
+        "Diagram illustrating a pull tab mechanism in a pop-up.",
+        "Diagram illustrating a wheel mechanism in a pop-up.",
+        "Diagram showing a combination of pop-up elements."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 4,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram 1 shows a pop-up structure that can be viewed 90 degrees up and down and 180 degrees left to right, opening fully at 90 degrees.",
+        "Diagram 2 shows a pop-up structure that can be viewed 360 degrees and from bird's eye view, opening fully at 180 degrees.",
+        "Diagram 3 shows a pop-up structure that can be viewed 360 degrees and from bird's eye view, illustrating opening the book and turning the page 360 degrees inside out."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 5,
+    "extracted": {
+      "page_type": "error",
+      "projects": [],
+      "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+      "raw_text": "1. The idea\n- Customers have the ideas of the pop-up project.\n- Customers provide the drawings, photos, sketches, illustration \nor any other materials.\n- Mention or point out what, where and how they want to do \npop-ups (better use pictures or photos for better explaination)\n- The Paper Engineer will decide roughly which mechanics will \nwork best on which spread.  \n2. Budget \n(this also can be work out together with the 1st stage)\n- Know customer budget. \n- How they would like the pop-up book to"
+    }
+  },
+  {
+    "page_number": 6,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing two 35\" x 47\" sheets. The left sheet is divided into four sections labeled A, B, C, and D, containing intricate die-cut shapes. The right sheet is divided into two sections, one labeled '1' and the other 'playing pieces', also containing die-cut shapes. Below the right sheet, a smaller diagram illustrates a boat shape with different colored lines indicating 'die lines' (red), 'crease lines' (green), 'glue areas' (purple), and a '3-5 mm bleeding area' (red line with text).",
+        "Screenshot of Adobe Illustrator showing a nesting plan with various die-cut shapes in purple. The layers panel is visible, showing layers named 'info', 'glue area', 'crease lines', and 'die lines'.",
+        "A detailed illustration of a pop-up castle structure, laid out flat on a page. The illustration shows various components of the castle, including walls, towers, windows, and decorative elements, with some parts highlighted in magenta, likely indicating glue areas or die-cut lines. The layout is divided into sections labeled '1' and '2', and a section labeled 'playing pieces' and 'pocket'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

@@ -1,0 +1,679 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "The background of the page is a textured fabric with a gradient from red at the top to blue at the bottom. Overlaid on this fabric are various stitched lines in different colors (white, yellow, pink, blue). The title 'CREATIVE Fabric Techniques' is prominently displayed in large white, sans-serif, outlined letters. Below this, in smaller, lighter-colored text, is 'For quilters, embroiderers and textile artists'. The author's name, 'Annette Morgan', is centered below this in large white, sans-serif, outlined letters. In the bottom right corner, there is a small logo with a rainbow arc and the text 'rainbow disks'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "table_of_contents",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up portrait of a woman with blonde hair and glasses, wearing a teal scarf and top, looking towards the viewer. She is seated and appears to be looking at a sketchbook or notebook in front of her.",
+        "A close-up of three abstract textile art pieces arranged horizontally. The pieces feature vibrant colors like red, blue, and purple, with textured elements and metallic gold accents. The central piece shows three stylized red flower-like shapes outlined in gold.",
+        "A page number '4' inside a rainbow-colored arc."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 4,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A colorful, abstract quilt with geometric patterns in shades of blue, teal, red, and white. The quilt has a border of wavy blue fabric. The title of the quilt is 'Out of the Dustbin I' and it is noted to be part of 'Trash Quilts'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 5,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up, detailed image of a fabric with vertical stripes of pink, orange, and yellow. The fabric is textured with swirling patterns and embellished with small, shiny silver beads, larger pinkish-red circular embellishments, and delicate white fabric flowers."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 6,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up image of a textile art piece with a red background, quilted with a diamond pattern. It features appliqued teal-colored leaves and flowers, outlined with blue stitching. The edges are bordered with a light purple fabric with a scalloped edge."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 7,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Needle Case",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Fabric as made on pages 11-16",
+              "quantity": "1 piece",
+              "dimensions": "9½ × 5½in (25 × 15cm)",
+              "color": "any"
+            },
+            {
+              "item": "Coloured felt",
+              "quantity": "2 pieces",
+              "dimensions": "one slightly larger than the cover, one much smaller than the cover",
+              "color": "any"
+            },
+            {
+              "item": "Embroidery thread",
+              "quantity": "to match fabric",
+              "color": "any"
+            },
+            {
+              "item": "Cords",
+              "quantity": "as described below",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Rotary Cutter",
+              "purpose": "cutting fabric and felt",
+              "optional": false
+            },
+            {
+              "name": "board",
+              "purpose": "cutting surface",
+              "optional": false
+            },
+            {
+              "name": "ruler",
+              "purpose": "measuring",
+              "optional": false
+            },
+            {
+              "name": "Sewing machine",
+              "purpose": "sewing",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut the newly created fabric with a rotary cutter to a suitable size 9½ × 5½in (25 × 15cm) to make the cover.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "9½ × 5½in",
+                "(25 × 15cm)"
+              ],
+              "visual_description": "A quilted fabric piece cut to size."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Cut a layer of felt very slightly larger than the cover. Pin the two layers together.",
+              "technique": "cutting, pinning",
+              "dimensions_mentioned": [
+                "slightly larger than the cover"
+              ],
+              "visual_description": "A piece of felt placed on top of the fabric cover and pinned."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Cut another piece of felt much smaller than the cover, to make the inner page in the needle case. Pin this smaller piece of felt to the centre of the larger piece of felt.",
+              "technique": "cutting, pinning",
+              "dimensions_mentioned": [
+                "much smaller than the cover"
+              ],
+              "visual_description": "A smaller piece of felt pinned to the center of the larger felt piece."
+            },
+            {
+              "step_number": 4,
+              "instruction": "The next stage is to make the cords – see below.",
+              "technique": "making cords",
+              "dimensions_mentioned": [],
+              "visual_description": "A piece of purple felt and orange cords are shown."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A needle case made from quilted fabric with a felt inner page and cords for closure."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Needlecase",
+          "scale": "print pages 17-18",
+          "shape_description": "Pattern for needlecase"
+        }
+      ],
+      "diagram_descriptions": [
+        "A close-up of a closed needle case made of purple quilted fabric, tied with a pink cord.",
+        "A piece of red quilted fabric with intricate stitching patterns.",
+        "A piece of purple felt.",
+        "Orange cords are shown next to the purple felt."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 8,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "On the Wire",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "strips of fabrics",
+              "quantity": null,
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "sheers",
+              "quantity": null,
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "painted papers",
+              "quantity": null,
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "plastic",
+              "quantity": null,
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "threads",
+              "quantity": null,
+              "dimensions": null,
+              "color": "any"
+            },
+            {
+              "item": "yarns",
+              "quantity": null,
+              "dimensions": null,
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "wire frame",
+              "purpose": "base for weaving",
+              "optional": false
+            },
+            {
+              "name": "wire coat hanger",
+              "purpose": "to make a wire frame",
+              "optional": true
+            },
+            {
+              "name": "hot air gun",
+              "purpose": "to create additional texture",
+              "optional": false
+            },
+            {
+              "name": "mask",
+              "purpose": "safety",
+              "optional": false
+            },
+            {
+              "name": "goggles",
+              "purpose": "safety",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": null,
+              "instruction": "Weave strips of fabric and other materials onto a wire frame.",
+              "technique": "weaving",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": null,
+              "instruction": "Stitch together the various layers to make a stable fabric.",
+              "technique": "stitching",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": null,
+              "instruction": "Use a hot air gun to create additional texture.",
+              "technique": "hot air gunning",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": null,
+              "instruction": "Cut up the resulting fabrics into smaller pieces and apply to other surfaces.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Have ready lots of strips of fabrics, including sheers, painted papers and plastic.",
+            "If you can’t find a wire frame, make one from a wire coat hanger.",
+            "Try using just paper strips or just plastic.",
+            "Plastic can be stitched and melted with a hot air gun too – but beware of fumes, wear mask, goggles and work in a well ventilated area."
+          ],
+          "finished_product_description": "A new fabric woven on a wire frame, which can be ethereal or chunky depending on the materials used. The fabric can be cut up and applied to other surfaces, allowing underlying layers to show through if the fabric has holes."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Photograph showing a close-up of a fabric woven on a wire frame. The fabric is made of red and pinkish-red strips, with some yellow and blue visible underneath. The strips are woven in a grid pattern and stitched with thin, light-colored thread. There are many holes and gaps in the fabric, revealing the wire frame beneath and allowing light to pass through. The edges of the fabric are frayed."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 9,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Laying It All On",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A detailed close-up of a mixed media textile piece with layered fabrics, stitching, paint, and foiling, described as a 'box lid made with the Laying It All On technique'."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up, detailed photograph of a mixed media textile artwork. The artwork features layered fabrics with visible textures, intricate stitching in dark thread, and areas of painted color (pinks, whites, yellows, blues) and metallic foiling. The texture is varied, with some areas appearing rough and raised, while others are smoother. The stitching creates patterns and defines shapes within the composition. The overall impression is one of depth and complexity."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 10,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up photograph of a pile of colorful, shredded silk fabric and ribbons in shades of red, blue, and teal. A white tube with a label is partially visible in the center right of the image. The label reads \"tynotions Ribbon 100g Multi-coloured silk for embellishing and all textile...\" and a website address."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 11,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Trash Quilts",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "old quilts",
+              "quantity": "2",
+              "dimensions": "yard square",
+              "color": "any"
+            },
+            {
+              "item": "white emulsion paint",
+              "quantity": "sufficient",
+              "dimensions": null,
+              "color": "white"
+            },
+            {
+              "item": "acrylic paint",
+              "quantity": "sufficient",
+              "dimensions": null,
+              "color": "various"
+            },
+            {
+              "item": "iridescent medium",
+              "quantity": "sufficient",
+              "dimensions": null,
+              "color": "iridescent"
+            }
+          ],
+          "tools": [
+            {
+              "name": "paint brush",
+              "purpose": "applying paint",
+              "optional": false
+            },
+            {
+              "name": "dry brush",
+              "purpose": "dry brushing technique",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Lay the quilts on a work table.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Paint the quilts with white emulsion paint, both back and front, to cover imperfections and provide a blank canvas.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Apply emulsion paint thoroughly to half the quilt and lightly to the other half, retaining some of the original colour near the stitching.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Once the emulsion paint is dry, exploit the quilted texture by dry brushing with acrylic paint. Mix acrylic paint with an iridescent medium.",
+              "technique": "dry brushing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Cut up the painted quilted fabric, rearrange it, and stitch it back together.",
+              "technique": "cutting, rearranging, stitching",
+              "dimensions_mentioned": [],
+              "visual_description": "Detail of the painted surface of the quilted fabric which has been cut up, rearranged and stitched back together."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "The plan was to cover up the imperfections and provide me with a blank canvas.",
+            "This is just what artists used to do with paintings that they didn’t like.",
+            "Initially, I loaded the whole quilt surface with paint, which concealed all the colour of the fabric and stitching.",
+            "Then I discovered that if you brush the surface lightly with the emulsion paint, some of the colour near the stitching is retained.",
+            "Mixing the acrylic paint with an iridescent medium worked very well."
+          ],
+          "finished_product_description": "Contemporary art quilts made from old, unwanted quilts that have been painted, cut up, rearranged, and stitched back together."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Detail of Out of the Dustbin I (see page 5). This image shows the painted surface of the quilted fabric which has been cut up, rearranged and stitched back together."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 12,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Serendipity & Soldering",
+          "category": "textile",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "fabric remnant",
+              "quantity": "14 metres",
+              "dimensions": null,
+              "color": "unknown, dyed with rust colour"
+            },
+            {
+              "item": "wadding (batting)",
+              "quantity": null,
+              "dimensions": null,
+              "color": "black"
+            }
+          ],
+          "tools": [
+            {
+              "name": "soldering iron",
+              "purpose": "to create texture by burning the fabric",
+              "optional": false
+            },
+            {
+              "name": "iron",
+              "purpose": "to iron the fabric",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Dye a fabric remnant using a rust colour.",
+              "technique": "dyeing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Iron the dyed fabric on a cotton setting.",
+              "technique": "ironing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Use a soldering iron to burn the fabric, incorporating it into a technique that uses wadding (batting).",
+              "technique": "burning with soldering iron",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Use the soldering iron between rows of quilting to create texture.",
+              "technique": "quilting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "The fabric must have been a polyester cotton mix as some of the fabric retained the dye, and the fabric burnt easily with the iron.",
+            "Instead of using white wadding (batting), use black, which would show through when the fabric was burnt.",
+            "Many quilts have straight line quilting so the soldering iron can be used between the rows of quilting to create texture."
+          ],
+          "finished_product_description": "A textured quilt surface that looks like birch bark, achieved with the use of a soldering iron."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up photograph of a quilt with a grid-like pattern of squares and rectangles. Some squares contain circular cut-outs or layered rings. The texture of the fabric is visible, appearing as if it has been burned or distressed. The colors are predominantly earthy tones of brown, beige, and muted blue-green, with some darker areas suggesting burning or shadow. The overall impression is rustic and textured."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 13,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A spiral-bound notebook open to a page with several collaged photographs of industrial machinery. The photographs are of rusted metal structures, pipes, and circular elements. Some of the images are overlaid with handwritten text.",
+        "A close-up of a handwritten note on a page of a notebook, describing photographs of Whitehaven mine and their inspiration for image transfer experiments."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 14,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Image Transfer Collage",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "cotton",
+              "quantity": "1 piece",
+              "dimensions": null,
+              "color": "white"
+            },
+            {
+              "item": "scrim",
+              "quantity": "1 piece",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Bondaweb",
+              "quantity": "1 piece",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "printer",
+              "purpose": "printing images",
+              "optional": false
+            },
+            {
+              "name": "iron",
+              "purpose": "transferring images",
+              "optional": false
+            },
+            {
+              "name": "sewing machine",
+              "purpose": "stitching",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Print images of fishing boats at Old Felixstowe.",
+              "technique": "image transfer",
+              "dimensions_mentioned": [],
+              "visual_description": "Collage of images of fishing boats."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Apply foiling to the printed images.",
+              "technique": "foiling",
+              "dimensions_mentioned": [],
+              "visual_description": "Images of fishing boats with foiling applied."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Print the images onto cotton and paper together with scrim.",
+              "technique": "printing",
+              "dimensions_mentioned": [],
+              "visual_description": "Printed images on fabric and paper with scrim."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Place the printed images onto a white cotton ground using Bondaweb.",
+              "technique": "adhering",
+              "dimensions_mentioned": [],
+              "visual_description": "Images arranged on a white cotton background."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Stitch the collage.",
+              "technique": "stitching",
+              "dimensions_mentioned": [],
+              "visual_description": "Collage with visible stitching lines."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A mixed media collage featuring images of fishing boats from Old Felixstowe, enhanced with foiling and stitching on a cotton ground."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Top image: A detailed view of a textile collage featuring a fishing boat with the number 'IH36' on its side. The background is a patchwork of various fabrics and textures, with visible stitching.",
+        "Bottom image: A close-up view of a textile collage, similar to the top image, focusing on a fishing boat with the number 'IH36' visible. The boat is rendered with fabric and stitching, set against a textured background."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 15,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A portrait of Annette Morgan, a woman with short blonde hair and glasses, wearing a teal scarf.",
+        "A CD cover titled \"Glitzy Quilts: add sparkle to your stitching\" by Annette Morgan, published by Rainbow Disks in 2007. The cover features a close-up of a vibrant, textured quilt with purple and pink fabrics and metallic threads."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

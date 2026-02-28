@@ -88,11 +88,11 @@ def create_chunks_for_project(project: dict, source_book: str) -> list[dict]:
     if name == "_book_reference":
         return _create_reference_chunks(project, source_book)
 
-    materials = project.get("materials", [])
-    tools = project.get("tools", [])
-    steps = project.get("steps", [])
-    blueprint = project.get("blueprint_data", {})
-    tips = project.get("tips", [])
+    materials = project.get("materials") or []
+    tools = project.get("tools") or []
+    steps = project.get("steps") or []
+    blueprint = project.get("blueprint_data") or {}
+    tips = project.get("tips") or []
 
     # 1. OVERVIEW chunk
     mat_names = [_format_material(m).split(" (")[0] for m in materials[:5]]
@@ -150,7 +150,7 @@ def create_chunks_for_project(project: dict, source_book: str) -> list[dict]:
         tools_used = []
         for s in step_group:
             if isinstance(s, dict):
-                dimensions.extend(s.get("dimensions_mentioned", []))
+                dimensions.extend(s.get("dimensions_mentioned") or [])
                 if s.get("technique"):
                     techniques.append(s["technique"])
 
@@ -166,8 +166,8 @@ def create_chunks_for_project(project: dict, source_book: str) -> list[dict]:
         })
 
     # 4. BLUEPRINT chunk (only if blueprint data exists and is non-empty)
-    pieces = blueprint.get("pieces", [])
-    assembly = blueprint.get("assembly_notes", "")
+    pieces = blueprint.get("pieces") or []
+    assembly = blueprint.get("assembly_notes") or ""
     if pieces or assembly:
         bp_lines = []
         for piece in pieces:
@@ -179,7 +179,7 @@ def create_chunks_for_project(project: dict, source_book: str) -> list[dict]:
                     piece_desc += f", width: {piece['width']}"
                 if piece.get("height"):
                     piece_desc += f", height: {piece['height']}"
-                details = piece.get("details", [])
+                details = piece.get("details") or []
                 for d in details:
                     if isinstance(d, dict):
                         piece_desc += f"\n  - {d.get('type', '')}: {d.get('position', '')} ({d.get('line_style', '')})"

@@ -1,0 +1,32 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Illustration of art supplies in a box: scissors, a craft knife, a pencil, and a ruler.",
+        "Illustration of three figures sitting on a bench, with a pop-up effect."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A portrait of Carol Barton, a woman with short brown hair and a bright floral shirt, smiling at the camera.",
+        "A quote about learning to make pop-ups, attributed to Carol Barton."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

@@ -1,0 +1,413 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Paper Engineering: Fold, Pull, Pop & Turn",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A pop-up book with intricate paper engineering elements that move when pages are manipulated."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up book open to a spread with colorful, abstract paper sculptures that rise from the page. The text 'Fold, Pull, Pop & Turn' is overlaid in yellow.",
+        "The title 'Paper Engineering' is displayed prominently in white, stylized text with a yellow dot above the 'i' in 'Engineering', set against a red circular background."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up book scene depicting a house with an orange tiled roof, a chimney, and green trees in the background. A horse-drawn carriage with two figures is in the foreground on a dirt path. The book is open, showing the pop-up elements.",
+        "Text overlay on the pop-up book image reads: \"The 'pop-up' Pinocchio Illustrations and paper engineering by Harold Lentz New York: Blue Ribbon Books, 1933\""
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 4,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up book open, showing a complex mechanical structure with gears and levers that rises from the page.",
+        "A close-up of the pop-up mechanism, illustrating intricate paper engineering with multiple layers and moving parts."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 5,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [
+        {
+          "name": "Volvelles",
+          "use": "Used to align data to calculate the position of the stars, church calendar, astrological signs, and the like.",
+          "suitable_for": [
+            "medieval books",
+            "astronomy",
+            "calendars",
+            "astrology"
+          ]
+        }
+      ],
+      "templates": [],
+      "diagram_descriptions": [
+        "A photograph of an open, old book with text and illustrations. The illustrations show geometric shapes, specifically pyramids, constructed from paper and attached to the pages. The text on the page is in Latin.",
+        "A title card overlaying the book image reads: \"The elements of geometrie . . . London: J.Daye, 1570\""
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 6,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A circular illustration depicting a complex astronomical device with a central portrait of a man. The device features a dragon-like creature intertwined with sun-like rays and celestial markings. The text below the image identifies it as \"Astronomicum caesareum [The emperor's astronomy]\" by Peter Apian, created in Ingolstadt, Germany, in 1540, and notes it is on loan from Mr. and Mrs. Robert Gordon and the Adler Planetarium."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 7,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "An open book displaying an anatomical illustration of a heart and lungs, with a small, detailed drawing of a mushroom or fungus placed on top of the illustration. The illustration is in black and white, with intricate line work. Text below the image reads \"De homine [On man] René Descartes Leiden, Netherlands: Petrus Leffen & Franciscus Moyardus, 1662\"."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 8,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A page from an open book showing an illustration within a decorative frame. A flap is lifted, revealing a figure underneath. The text below the illustration reads 'THE STRONGEST BREAST PLATE.' A smaller text box in the upper left corner of the page reads 'A suit of armour for youth Text by Stacey Grimaldi London, 1824.'"
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 9,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up book spread showing two framed illustrations. The left frame depicts a soldier with a helmet made of two heads, one facing forward and one backward, standing in a battlefield scene with cannons and horses. The text below reads: \"Strife is sad, whate'er 'tis for, — Oh, why should men delight in War!\" The right frame is partially visible and appears to show a similar scene.",
+        "A label on the left side of the pop-up book spread reads: \"Dean's new book of dissolving views London: Dean & Son, 1860 Gift of Margery Masinter\""
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 10,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Illustration of a man with a large nose and a wig, wearing a striped shirt and apron, pointing at a shaggy dog. The dog is sitting on the floor, looking up at the man. There is a table with a jug and bread on it in the background. A pull-tab mechanism is visible at the bottom of the illustration."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 11,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up book page depicting a menagerie with a lion's head motif above a barred enclosure containing three deer. The enclosure has a light blue decorative trim.",
+        "Text box with the title \"The model menagerie: with natural history stories\", followed by author names, publication details, and a gift attribution."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 12,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A detailed illustration of a garden scene with multiple figures in period clothing, appearing to be dancing or interacting. The scene is presented in a diorama-like format, suggesting a pop-up or tunnel book element. The text below the image identifies it as a 'Garden scene' by 'Martin Engelbrecht', from 'Augsburg, Germany, ca. 1740'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 13,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up book illustration depicting a scene from Cinderella. A young woman in a green dress is sitting by a fireplace, weaving. A black cat is at her feet. A basket with blue feathers is to her right. A window in the background shows a crescent moon and stars. The text below the illustration reads \"CINDERELLA: OR, THE LITTLE GLASS SLIPPER.\""
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 14,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up book illustration depicting a theatrical stage scene from Ali Baba and the 40 Thieves. The scene features a central archway with a figure in a red robe and turban standing on a staircase. To the left, two figures are visible, one in armor. The backdrop shows ornate architecture with green curtains framing the stage."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 15,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up book open to a scene with a camel standing in a desert landscape. The camel is intricately cut and folded paper. The book has a yellow interior with black and white illustrations on the left page. The text overlaying the image reads: \"Animal life in fact, fancy, and fun\", \"Edited and produced by S. Louis Giraud\", \"England: Daily Sketch & Sunday Graphic, ca. 1930\", and \"Gift of Dr. Daniel J. Mason\"."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 16,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A comic book style illustration of three characters on a ship's deck, with pop-up elements of trees and hills. The character on the left is a man with dark hair, wearing a red shirt and blue pants, reaching out with his left hand. The character in the center is a man with a beard and a hooded robe, holding a red object in his right hand and stepping forward. The character on the right is a woman with dark hair, wearing a dark dress, looking towards the center character."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 17,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up book spread featuring a large, colorful, three-dimensional creature resembling a lion or tiger standing over a blue, segmented turtle. The creature has orange and purple fur, with sharp claws and teeth. The turtle has a detailed, textured shell. The pop-up elements are made of intricately cut and folded paper, emerging from the book's pages. Text is visible on the pages below the pop-up.",
+        "A text box overlaying the image contains the title \"Mega-beasts\" in large font, followed by \"Robert Sabuda and Matthew Reinhart\" and \"Cambridge, MA: Candlewick Press, 2007\" in smaller font."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 18,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up book page showing a white paper sculpture of the letter 'J' with a red and white spiral design on a circular element emerging from the top of the 'J'. The sculpture is on a black background, which is part of an open book."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 19,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up of a biplane with three wings, a propeller, and landing gear, rising from a landscape scene on an open book.",
+        "A close-up view of the biplane pop-up, showing the layered paper construction and the mechanism that allows it to stand up."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 20,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A photograph of a vintage personal computer with a screen, keyboard, and disk drives. The text \"Inside the personal computer\" is overlaid on the image, along with publication details and a gift attribution."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 21,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [
+        {
+          "name": "Leporello",
+          "use": "An accordion book formed of one long sheet of folded paper that stretches out in a zigzag or concertina shape.",
+          "suitable_for": [
+            "paper"
+          ]
+        },
+        {
+          "name": "Paper engineer",
+          "use": "An artist who uses various techniques (e.g., cutting, folding, and/or gluing) to make paper illustrations move or pop up.",
+          "suitable_for": [
+            "paper"
+          ]
+        },
+        {
+          "name": "Pull-tab",
+          "use": "A sliding paper tab, ribbon, or string is pulled, pushed, and maneuvered to reveal a new image. The tabs can also activate a pop-up.",
+          "suitable_for": [
+            "paper"
+          ]
+        },
+        {
+          "name": "Stage set or multiple layers",
+          "use": "A book becomes a theater set when it is opened to a 90-degree angle. This was one of the first constructions to be used for pop-up books and particularly suited to display interior scenes.",
+          "suitable_for": [
+            "paper"
+          ]
+        },
+        {
+          "name": "Tunnel book or peep-show",
+          "use": "A series of cut-paper panels are placed or hinged one behind the other, creating the illusion of depth and perspective, like looking into a tunnel.",
+          "suitable_for": [
+            "paper"
+          ]
+        },
+        {
+          "name": "V-fold",
+          "use": "This versatile form is what most people think of when they hear the term “pop-up.” The pop-up element is attached to facing pages and unfolds from the center of the page when the book is open; it collapses into itself when the book is closed.",
+          "suitable_for": [
+            "paper"
+          ]
+        }
+      ],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up book spread showing three panels. The left panel depicts a man in a chair looking down. The center panel shows a man carrying a large bundle of sticks on his back, walking forward. The right panel shows a landscape with trees and a hill. Text is visible below each panel.",
+        "A title card at the bottom of the pop-up book spread reads 'The falsehood of external appearances England, ca. 1790'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 22,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [
+        {
+          "name": "Volvelle or wheel",
+          "use": "An illustrated paper disc or circle attached to a page using string, paper, or grommets and revolves around a central pivot. As the reader turns the wheel, the discs align images and information. The disc can be perforated to reveal designs underneath. The word volvelle is derived from the Latin verb, volvere, to turn.",
+          "suitable_for": []
+        },
+        {
+          "name": "Waterfall",
+          "use": "An embellishment of the pull-tab activated flap, several flaps open onto each other sequentially as the single tab is pulled in the opposite direction.",
+          "suitable_for": []
+        }
+      ],
+      "templates": [],
+      "diagram_descriptions": [
+        "A pop-up book titled 'Aladdin, or, The wonderful lamp' with a theatrical scene depicting characters on a rocky landscape and an audience in the foreground. The book was published by McLoughlin Brothers around 1880 and is a gift from Ellen Liman."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 23,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 24,
+    "extracted": {
+      "page_type": "other",
+      "projects": []
+    }
+  }
+]

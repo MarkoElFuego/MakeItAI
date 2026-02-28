@@ -1,0 +1,350 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Paper Flowers",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Scissors",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Glue",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Paperclip",
+              "quantity": "optional",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Paper flower petals",
+              "quantity": "3 copies",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "Stem and leaves",
+              "quantity": "1 copy",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Scissors",
+              "purpose": "cut out paper flower pieces",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Using scissors, carefully cut out all paper flower pieces along solid grey lines.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "An illustration of scissors cutting along a solid line."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Take one petal piece and lay printed-side down. Fold in half from corner to corner to form a large triangle shape.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A square piece of paper is shown. An arrow indicates folding it in half from corner to corner to form a triangle. The resulting triangle is shown."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Fold both sides of triangle up to form a diamond shape.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A triangle is shown. Arrows indicate folding the two bottom corners up to meet at the top point, forming a diamond shape. The resulting diamond shape is shown."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Fold right side down, making sure to line it up with the edge beneath. Repeat on the other side.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A diamond shape is shown. An arrow indicates folding the right side down to align with the bottom edge. The resulting shape is shown. Another illustration shows the left side folded down."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Flip the left side up to align with the top of the diamond shape. Insert finger into pocket and fold down, as shown below. Remove finger and press section flat. Repeat on the other side.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A diamond shape is shown. An arrow indicates flipping the left side up. An illustration shows a finger being inserted into a pocket and folding down. The resulting shape is shown. Another illustration shows the other side being folded."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Fold back the top portion of the left side so that it is level with the edge of the paper. Next, unfold that portion and tuck it behind the pocket. Repeat on the other side.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A shape is shown. An arrow indicates folding the top portion of the left side back. Another illustration shows the portion unfolded and tucked behind a pocket. Another illustration shows the other side being tucked."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A paper flower made from folded paper petals."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A large banner at the top of the page with the title 'PAPER FLOWERS ASSEMBLY INSTRUCTIONS'.",
+        "An image of a bouquet of finished paper flowers in a glass vase.",
+        "A diagram illustrating the cutting of paper flower pieces.",
+        "Diagrams illustrating the folding steps for creating a paper flower petal.",
+        "Diagrams illustrating the folding and tucking steps for assembling the paper flower.",
+        "Copyright information at the bottom: '© 2009 Hewlett-Packard Company hp.com/create'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Paper Flowers",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [
+            {
+              "name": "glue",
+              "purpose": "adhering paper parts",
+              "optional": false
+            },
+            {
+              "name": "pencil",
+              "purpose": "reference for stem width",
+              "optional": false
+            },
+            {
+              "name": "paperclip",
+              "purpose": "to create a curve in the stem",
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 7,
+              "instruction": "Take one triangle shape and fold upward, folding the shape in half. Repeat on the other side.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "Two diagrams showing a light blue folded paper shape. The first diagram shows a square folded into a triangle, with dashed lines and arrows indicating upward folds on two corners. The second diagram shows the result, a smaller triangle with the two corners folded up, forming a petal base."
+            },
+            {
+              "step_number": 8,
+              "instruction": "Apply glue to one side and adhere to the opposite side to form a cone.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "A diagram showing the folded paper shape from step 7. A red line indicates where glue is applied on one edge, and an arrow shows that edge being brought over to meet the opposite edge, forming a cone shape for a petal."
+            },
+            {
+              "step_number": 9,
+              "instruction": "Repeat steps 2-8 to make a total of five petals.",
+              "technique": "repetition",
+              "dimensions_mentioned": [],
+              "visual_description": "Two diagrams. The top diagram shows five individual petal cones arranged in a circular formation, suggesting a flower. The bottom diagram shows four individual petal cones lined up horizontally."
+            },
+            {
+              "step_number": 10,
+              "instruction": "Now you are ready to create your flower. Add a thin line of glue along the inside edge of one petal, and then adhere it to another. Let the petals dry completely before gluing the next one on.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "Two diagrams. The first shows two petal cones being glued together. A glue bottle is applying a thin line of glue along the inside edge of one petal, and an arrow indicates it being joined to another petal. The second diagram shows a completed five-petal flower, viewed from the top, with all petals joined."
+            },
+            {
+              "step_number": 11,
+              "instruction": "To create the stem, first fold along the score line. Next, roll into a thin tube, about the width of a pencil. (To create a slight curve in the stem, straighten a paperclip and insert it inside, near the top.) Apply a strip of glue along the inside edge of the stem and hold in place until dry.",
+              "technique": "folding",
+              "dimensions_mentioned": [
+                "width of a pencil"
+              ],
+              "visual_description": "A diagram showing a rectangular piece of paper. A dashed line indicates a score line near one edge. A curved arrow shows the paper being rolled into a tube. A red arrow points to glue being applied along the inside edge of the rolled tube to secure it."
+            },
+            {
+              "step_number": 12,
+              "instruction": "Insert the stem through the top center of the five petals.",
+              "technique": "assembly",
+              "dimensions_mentioned": [],
+              "visual_description": "A diagram showing the five-petal flower from the top. A long, thin tube (the stem) is being inserted through the central hole of the flower, indicated by a red arrow."
+            },
+            {
+              "step_number": 13,
+              "instruction": "Fold the leaf pieces in half along the score lines, and glue together. Cut out along solid lines.",
+              "technique": "folding",
+              "dimensions_mentioned": [],
+              "visual_description": "A diagram showing a leaf shape. It is folded in half along a dashed score line. A glue bottle is applying glue to the inside of the folded leaf, and an arrow indicates the two halves being pressed together."
+            },
+            {
+              "step_number": 14,
+              "instruction": "Glue your leaves to the stem. Add one leaf where the petals meet the stem. Add the other leaves a little farther down.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "A diagram showing the assembled flower with the stem. A glue bottle is applying glue to the stem near the base of the petals, where one leaf is attached. Another leaf is shown being attached further down the stem, indicated by a red arrow."
+            },
+            {
+              "step_number": 15,
+              "instruction": "If you added a paperclip in step 11, gently bend the top of the stem to create the natural curve of the flower. You’re done!",
+              "technique": "shaping",
+              "dimensions_mentioned": [],
+              "visual_description": "A diagram showing the completed paper flower. The stem has a gentle curve, and two leaves are attached to it. The flower head has five petals."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [],
+            "assembly_notes": "Assemble five individual paper petals into a flower head. Create a paper stem by rolling and gluing. Insert the stem through the center of the flower. Fold and glue leaf pieces. Attach leaves to the stem at varying positions. Optionally, use a paperclip inside the stem to create a natural curve."
+          },
+          "tips": [
+            "Let the petals dry completely before gluing the next one on.",
+            "To create a slight curve in the stem, straighten a paperclip and insert it inside, near the top, before bending."
+          ],
+          "finished_product_description": "A completed paper flower with five petals, a curved stem, and two leaves attached."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram showing a folded paper shape with indicated upward folds.",
+        "Diagram showing the result of folding, a smaller triangle shape.",
+        "Diagram showing glue application to one side of the folded shape and adhering it to the opposite side to form a cone.",
+        "Diagram showing five individual petal cones arranged in a circular formation.",
+        "Diagram showing four individual petal cones lined up horizontally.",
+        "Diagram showing two petal cones being glued together along their inside edges.",
+        "Diagram showing a completed five-petal flower viewed from the top.",
+        "Diagram showing a rectangular piece of paper with a score line, being rolled into a tube.",
+        "Diagram showing glue being applied to the inside edge of the rolled paper tube to secure the stem.",
+        "Diagram showing the five-petal flower with a long, thin stem being inserted through its top center.",
+        "Diagram showing a leaf shape folded in half along a score line, with glue being applied to the inside.",
+        "Diagram showing the assembled flower with the stem, and a glue bottle applying glue to attach one leaf near the petals and another leaf farther down the stem.",
+        "Diagram showing the final completed paper flower with a curved stem and two leaves."
+      ],
+      "continuation_of_previous": true,
+      "project_name_if_continuation": "Paper Flowers"
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Paper Flowers: Petals",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "Paper",
+              "quantity": "3 copies",
+              "dimensions": null,
+              "color": "various"
+            }
+          ],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A page with four repeating floral patterns, designed to be printed and cut out."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "The page displays a repeating pattern of stylized flowers and butterflies. The pattern is divided into four quadrants, with each quadrant featuring a different color scheme and arrangement of floral elements. The top-left quadrant has a light green background with red, pink, and orange flowers. The top-right quadrant has a yellow background with blue, pink, and orange flowers. The bottom-left quadrant has a light blue background with red, pink, and green flowers. The bottom-right quadrant has a pink background with green, blue, and orange flowers. A thin horizontal line divides the top two quadrants from the bottom two quadrants."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 4,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Paper Flowers: Stem and Leaves",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [],
+          "tools": [],
+          "steps": [],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "stem",
+                "shape": "rectangle",
+                "width": "unknown",
+                "height": "unknown",
+                "details": []
+              },
+              {
+                "name": "leaf",
+                "shape": "leaf",
+                "width": "unknown",
+                "height": "unknown",
+                "details": [
+                  {
+                    "type": "fold_line",
+                    "position": "horizontal_center",
+                    "line_style": "dotted"
+                  }
+                ]
+              },
+              {
+                "name": "leaf",
+                "shape": "leaf",
+                "width": "unknown",
+                "height": "unknown",
+                "details": [
+                  {
+                    "type": "fold_line",
+                    "position": "horizontal_center",
+                    "line_style": "dotted"
+                  }
+                ]
+              },
+              {
+                "name": "leaf",
+                "shape": "leaf",
+                "width": "unknown",
+                "height": "unknown",
+                "details": [
+                  {
+                    "type": "fold_line",
+                    "position": "horizontal_center",
+                    "line_style": "dotted"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "Print 1 copy"
+          },
+          "tips": [],
+          "finished_product_description": "Templates for paper flower stems and leaves."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A long, narrow green rectangle on the left side of the page, likely a stem template.",
+        "Three identical green leaf shapes arranged vertically on the right side of the page. Each leaf shape is composed of two symmetrical lobes meeting at a central point, with a dotted horizontal line indicating a fold or cut line.",
+        "Copyright information at the bottom right: '© 2009 Hewlett-Packard Company hp.com/create'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

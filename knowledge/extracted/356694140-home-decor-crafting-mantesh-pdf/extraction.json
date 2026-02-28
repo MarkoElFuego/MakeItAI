@@ -1,0 +1,2505 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A framed picture with a decorative 'R' on a yellow and brown patterned background.",
+        "Two cone-shaped decorations with a green pattern, placed on a green circular mat with a silver ball in the center.",
+        "A wall with colorful squares in red, orange, yellow, green, blue, and purple, with two pillows on a bed in front of it.",
+        "A living room scene with a blue wall, a dark brown sofa, a white round lamp, and four square decorative wall hangings.",
+        "A decorated can with a red, white, and blue theme, featuring stars and the word 'CELEBRATE' on a banner.",
+        "A cabinet with three shelves, each displaying a row of small, detailed black and white illustrations, possibly of animals or figures. A decorative bowl is on top of the cabinet.",
+        "A close-up of decorative items on a dark wooden surface, including two textured spheres, one larger textured sphere, and a bird of paradise flower.",
+        "The title 'Cheap Home Décor' in large white letters with a shadow effect.",
+        "The text 'favecrafts' in teal letters below the main title.",
+        "The text 'Crafting with Paper eBook' in large white letters at the bottom of the page."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 2,
+    "extracted": {
+      "page_type": "other",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 3,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 4,
+    "extracted": {
+      "page_type": "table_of_contents",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 5,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Blue and Brown Circles Wall Art",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "STYROFOAM™ Brand Foam Sheets",
+              "quantity": "two",
+              "dimensions": "36\" x 12\" x 1\"",
+              "notes": "one sheet yields 3 squares"
+            },
+            {
+              "item": "STYROFOAM™ Brand Foam Squares",
+              "quantity": "four",
+              "dimensions": "12\" x 12\" x 1\""
+            },
+            {
+              "item": "Decorative ribbon (grosgrain or velvet)",
+              "quantity": "1-1/2 yds. per square",
+              "dimensions": "1\" wide"
+            },
+            {
+              "item": "Scrapbook paper",
+              "quantity": "two blue, two cream",
+              "dimensions": "12\" x 12\""
+            },
+            {
+              "item": "Circles sheer sheet",
+              "quantity": "four"
+            },
+            {
+              "item": "Acrylic craft paint",
+              "quantity": "1",
+              "color": "brown"
+            },
+            {
+              "item": "Paintbrush",
+              "quantity": "1"
+            },
+            {
+              "item": "Carpenter's level",
+              "quantity": "1"
+            },
+            {
+              "item": "Low-temp glue gun and glue sticks",
+              "quantity": "1 set"
+            },
+            {
+              "item": "Serrated knife",
+              "quantity": "1"
+            },
+            {
+              "item": "Candle stub or paraffin",
+              "quantity": "1"
+            },
+            {
+              "item": "Pencil",
+              "quantity": "1"
+            },
+            {
+              "item": "Ruler",
+              "quantity": "1"
+            },
+            {
+              "item": "Dental floss",
+              "quantity": "1",
+              "notes": "optional"
+            },
+            {
+              "item": "Scissors",
+              "quantity": "1"
+            },
+            {
+              "item": "Putty knife",
+              "quantity": "1",
+              "dimensions": "1\" wide"
+            },
+            {
+              "item": "Liquid paper glue or stick-flat paste",
+              "quantity": "1"
+            },
+            {
+              "item": "Sawtooth hangers and nails",
+              "quantity": "four",
+              "notes": "or poster putty"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Serrated knife",
+              "purpose": "cutting foam",
+              "optional": false
+            },
+            {
+              "name": "Putty knife",
+              "purpose": "spreading glue",
+              "optional": false
+            },
+            {
+              "name": "Glue gun",
+              "purpose": "adhering elements",
+              "optional": false
+            },
+            {
+              "name": "Carpenter's level",
+              "purpose": "hanging art",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Paint Circles sheer sheet brown; let dry.",
+              "technique": "painting",
+              "materials_used": [
+                "Circles sheer sheet",
+                "brown acrylic paint"
+              ]
+            },
+            {
+              "step_number": 2,
+              "instruction": "If using 12\" x 12\" x 1\" squares, skip to Step 3. Wax serrated knife with candle stub or paraffin. Measure and cut each foam sheet into three 12\" squares. Or, use dental floss: stand the sheet on its edge, and hold a 20\" length of dental floss along the scored line, positioning one hand at the bottom of the board and the other at the top; draw the dental floss down through the foam sheet along the scored line.",
+              "technique": "cutting foam",
+              "materials_used": [
+                "STYROFOAM™ Brand Foam Sheets",
+                "serrated knife",
+                "candle stub or paraffin",
+                "dental floss"
+              ],
+              "dimensions_mentioned": [
+                "12\" x 12\" x 1\"",
+                "12\" squares",
+                "20\" length"
+              ]
+            },
+            {
+              "step_number": 3,
+              "instruction": "Use putty knife to spread thin, even coat of glue on foam square. Center one sheet of paper on pasted foam; smooth paper with fingers. Repeat to cover all foam squares. Let dry. (Hint: Papers might appear wavy at first, and will smooth out as the glue dries.)",
+              "technique": "gluing and smoothing",
+              "materials_used": [
+                "putty knife",
+                "foam square",
+                "paper",
+                "glue"
+              ],
+              "notes": "Papers might appear wavy at first, and will smooth out as the glue dries."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Using glue gun, glue Circles sheer sheet onto paper-covered squares; let dry.",
+              "technique": "gluing",
+              "materials_used": [
+                "glue gun",
+                "Circles sheer sheet",
+                "paper-covered squares"
+              ]
+            },
+            {
+              "step_number": 5,
+              "instruction": "Beginning and ending at one lower corner, use glue gun to secure ribbon around edges of each foam square; trim excess, allowing a bit of overlap.",
+              "technique": "gluing and trimming",
+              "materials_used": [
+                "glue gun",
+                "ribbon",
+                "foam square"
+              ]
+            },
+            {
+              "step_number": 6,
+              "instruction": "Use level and poster adhesive to secure squares to wall as shown. Or, glue sawtooth picture hanger to back. For additional hold, insert and glue two straight pins through holes in sawtooth picture hanger.",
+              "technique": "hanging",
+              "materials_used": [
+                "carpenter's level",
+                "poster adhesive",
+                "foam squares",
+                "sawtooth picture hanger",
+                "straight pins"
+              ],
+              "visual_description": "Wall art squares secured to wall with adhesive, or with sawtooth hangers attached to the back."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Circles sheer sheet found on Mayaroad"
+          ],
+          "finished_product_description": "Wall art made of foam squares covered in scrapbook paper and decorated with sheer circles and ribbon."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A photograph shows a wall decorated with four square pieces of art. Each square art piece has a brown background with a circular pattern in shades of brown and cream. The art pieces are arranged in a horizontal line on a blue wall."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 6,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Mosaic Wall",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "Multicolored scrapbook page packs",
+              "quantity": "2 packs",
+              "notes": "Purchased at Target, 50 sheets per pack"
+            },
+            {
+              "item": "Zot adhesive glue dots",
+              "quantity": "1 pack"
+            },
+            {
+              "item": "Tape measure",
+              "quantity": "1"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Tape measure",
+              "purpose": "measuring wall length",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Measure out the length of the wall and figure out how many 12x12 inch pieces of paper would fit into that length.",
+              "technique": "measuring",
+              "dimensions_mentioned": [
+                "12x12 inches"
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Pick out 9 different colors from a multi-color pack. Starting at the top, horizontally place the paper. To adhere to the wall, put Zot dots in the four corners of the paper and press.",
+              "technique": "adhering",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Begin on the next row. The goal is to not repeat two colors in a row vertically or horizontally. It was a challenge, but not that hard once started. Try not to get too many colors together or have similar colors sitting next to each other. The goal is to look like a mosaic of color that looks random in placement and aesthetically pleasing overall.",
+              "technique": "placement",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Try not to get too many colors together or have similar colors sitting next to each other.",
+            "The goal is to look like a mosaic of color that looks random in placement and aesthetically pleasing overall."
+          ],
+          "finished_product_description": "A mosaic wall made of colored scrapbook paper squares arranged in a grid."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A wall decorated with a grid of colorful 12x12 inch squares of scrapbook paper. The squares are arranged randomly in terms of color, with no two similar colors placed next to each other vertically or horizontally. The wall is behind a bed with white bedding and pillows."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 7,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Free Patterned Wall Art",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "STYROFOAM™ Brand Foam Sheets",
+              "quantity": "3",
+              "dimensions": "12\" x 36\" x 1\"",
+              "notes": "or nine 12\" x 12\" x 1\" squares"
+            },
+            {
+              "item": "Ribbon",
+              "quantity": "12-1/3 yds",
+              "dimensions": "1\" wide"
+            },
+            {
+              "item": "Scrapbook paper",
+              "quantity": "9 sheets",
+              "dimensions": "12\" x 12\"",
+              "notes": "heavier weight"
+            },
+            {
+              "item": "Sawtooth picture hangers",
+              "quantity": "9",
+              "notes": "or poster putty"
+            },
+            {
+              "item": "Thick, white craft glue",
+              "quantity": "1"
+            },
+            {
+              "item": "Putty knife",
+              "quantity": "1"
+            },
+            {
+              "item": "Straight pins",
+              "quantity": "optional"
+            },
+            {
+              "item": "Ruler",
+              "quantity": "optional",
+              "notes": "If using 12\" x 36\" x 1\" foam sheets"
+            },
+            {
+              "item": "Pencil",
+              "quantity": "optional",
+              "notes": "If using 12\" x 36\" x 1\" foam sheets"
+            },
+            {
+              "item": "Serrated knife",
+              "quantity": "optional",
+              "notes": "If using 12\" x 36\" x 1\" foam sheets"
+            },
+            {
+              "item": "Old candle",
+              "quantity": "optional",
+              "notes": "If using 12\" x 36\" x 1\" foam sheets"
+            },
+            {
+              "item": "Dental floss",
+              "quantity": "optional",
+              "notes": "If using 12\" x 36\" x 1\" foam sheets"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Putty knife",
+              "purpose": "Spread craft glue",
+              "optional": false
+            },
+            {
+              "name": "Glue gun",
+              "purpose": "Secure ribbon",
+              "optional": false
+            },
+            {
+              "name": "Level",
+              "purpose": "Hang squares on wall",
+              "optional": false
+            },
+            {
+              "name": "Ruler",
+              "purpose": "Score foam sheet",
+              "optional": true
+            },
+            {
+              "name": "Pencil",
+              "purpose": "Score foam sheet",
+              "optional": true
+            },
+            {
+              "name": "Serrated knife",
+              "purpose": "Cut foam sheet",
+              "optional": true
+            },
+            {
+              "name": "Old candle",
+              "purpose": "Wax serrated knife",
+              "optional": true
+            },
+            {
+              "name": "Dental floss",
+              "purpose": "Cut foam sheet",
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "If using 12\" x 12\" x 1\" squares, skip to Step #2. Using ruler and pencil, score foam sheet to create three, 12\" x 12\" squares. Wax serrated knife with an old candle. Holding foam sheet firmly on a flat surface, extend one end and cut across the score line, using knife like a saw. Or, try dental floss: Stand the sheet on its edge and hold a 20\" length of dental floss along the scored line, positioning one hand at the bottom of the board and the other at the top; draw the dental floss down through the foam sheet along the scored line. Repeat for remaining two foam sheets, creating a total of nine, 12\" x 12\" squares.",
+              "technique": "scoring, cutting",
+              "dimensions_mentioned": [
+                "12\" x 12\" x 1\"",
+                "20\" length",
+                "12\" x 12\""
+              ],
+              "visual_description": "Illustration of a foam sheet being cut with a knife or dental floss along a scored line."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Use putty knife to spread craft glue on foam sheet. Adhere paper to foam sheet, smoothing with fingers. Repeat to cover all foam squares. If necessary, pin corners in place until glue dries.",
+              "technique": "adhering, smoothing",
+              "dimensions_mentioned": [],
+              "visual_description": "Close-up of a hand smoothing scrapbook paper onto a foam square."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Cut ribbon into nine equal lengths. Beginning and ending at one lower corner, use glue gun to secure ribbon around edges of each foam square; trim excess, allowing a bit of overlap.",
+              "technique": "cutting, adhering",
+              "dimensions_mentioned": [],
+              "visual_description": "A foam square with ribbon being glued around its edges."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Use level and poster adhesive to secure squares to wall as shown. Or, glue sawtooth picture hanger to back on each square. For additional hold, insert and glue two straight pins through holes in sawtooth picture hanger.",
+              "technique": "adhering, hanging",
+              "dimensions_mentioned": [],
+              "visual_description": "Illustration showing how to attach sawtooth hangers to the back of the foam squares and how to hang them on the wall."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Let dry before hanging.",
+              "technique": "drying",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Papers might appear wavy at first, and will smooth out as the glue dries.",
+            "STYROFOAM™ brand foam is very forgiving. If the paper square does not exactly meet the edges of the foam sheet, run the edge of the foam square along a tabletop, compressing the foam."
+          ],
+          "finished_product_description": "A bistro-style wall art piece composed of nine patterned foam squares arranged in a 3x3 grid."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Photo showing a finished wall art piece made of nine 12\"x12\" squares with different patterns, hung on a wall above a small round table with two chairs."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 8,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Decoupage Bud Vase",
+          "category": "mixed_media",
+          "difficulty": null,
+          "materials": [
+            {
+              "item": "small round glass vase",
+              "quantity": "1",
+              "dimensions": null,
+              "color": null,
+              "details": "$1"
+            },
+            {
+              "item": "scrapbook paper",
+              "quantity": "1 sheet",
+              "dimensions": null,
+              "color": null,
+              "details": "on hand"
+            },
+            {
+              "item": "ribbon",
+              "quantity": "1",
+              "dimensions": "12 inches",
+              "color": "orange",
+              "details": "on hand"
+            },
+            {
+              "item": "Gloss Mod Podge",
+              "quantity": null,
+              "dimensions": null,
+              "color": null,
+              "details": "on hand"
+            },
+            {
+              "item": "paper flowers",
+              "quantity": null,
+              "dimensions": null,
+              "color": null,
+              "details": "on hand"
+            },
+            {
+              "item": "buttons",
+              "quantity": "5",
+              "dimensions": null,
+              "color": null,
+              "details": "coordinating, on hand"
+            },
+            {
+              "item": "craft glue",
+              "quantity": null,
+              "dimensions": null,
+              "color": null,
+              "details": "on hand"
+            }
+          ],
+          "tools": [
+            {
+              "name": "paint brush",
+              "purpose": null,
+              "optional": false,
+              "details": "on hand"
+            },
+            {
+              "name": "pencil or pen",
+              "purpose": null,
+              "optional": false,
+              "details": "on hand"
+            },
+            {
+              "name": "craft knife",
+              "purpose": null,
+              "optional": false,
+              "details": "on hand"
+            },
+            {
+              "name": "mat",
+              "purpose": "for craft knife",
+              "optional": false,
+              "details": "on hand"
+            },
+            {
+              "name": "ruler",
+              "purpose": null,
+              "optional": false,
+              "details": "on hand"
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Before you work with glass for decoupage, wash the glass vase thoroughly to remove hand smudges and oil. Dry completely.",
+              "technique": "cleaning",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "An inexpensive bud vase transformed into a beautiful home accent using scrapbook paper, ribbon, and embellishments to create a colorful bud vase."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Photo labeled 'Before' showing a clear, empty, tall, cylindrical glass vase standing upright on a light-colored surface.",
+        "Photo showing the finished project: a tall, cylindrical glass vase decorated with horizontal stripes of orange, green, and white scrapbook paper. The vase is embellished with orange paper flowers and coordinating buttons. It holds a bouquet of white daisy-like flowers. A plain pink vase is visible in the blurred background."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 9,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Decorated Vase",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "scrapbook paper",
+              "quantity": "1 strip",
+              "dimensions": "7 inches",
+              "color": "any"
+            },
+            {
+              "item": "Mod Podge",
+              "quantity": "1 layer",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "craft knife",
+              "purpose": "cutting paper",
+              "optional": false
+            },
+            {
+              "name": "paint brush",
+              "purpose": "applying Mod Podge",
+              "optional": false
+            },
+            {
+              "name": "ruler",
+              "purpose": "measuring",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Trim the scrapbook paper to a 7 inch strip. Measure 7 inches on the top and bottom of the paper and use a craft knife to cut it.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "7 inches"
+              ],
+              "visual_description": "A hand holding a ruler and a craft knife to cut a piece of white paper on a cutting mat."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Cut the paper strip to the correct length to wrap around the vase with about 1/4\" to 1/2\" of overlap.",
+              "technique": "measuring and cutting",
+              "dimensions_mentioned": [
+                "1/4\"",
+                "1/2\""
+              ],
+              "visual_description": "A hand is rolling a vase in a strip of scrapbook paper and marking where to cut."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Apply a medium-thin layer of Mod Podge to the vase with a paint brush, ensuring the corners are well covered.",
+              "technique": "applying adhesive",
+              "dimensions_mentioned": [],
+              "visual_description": "A hand is using a paint brush to apply Mod Podge to a white surface."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Note: Using your thumb to stabilize the craft knife is not required."
+          ],
+          "finished_product_description": "A vase decorated with scrapbook paper."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A logo for FAVE CRAFTS with the text 'Cheap Home Décor: Crafting with Paper eBook'.",
+        "A hand holding a ruler and a craft knife to cut a piece of white paper on a cutting mat.",
+        "A hand holding a ruler and a craft knife to cut a piece of white paper on a cutting mat.",
+        "A hand is rolling a vase in a strip of scrapbook paper and marking where to cut.",
+        "A hand is using a paint brush to apply Mod Podge to a white surface.",
+        "Page number 9 in a light blue circle."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 10,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Paper Covered Vase",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "paper",
+              "quantity": "1 roll",
+              "dimensions": null,
+              "color": "patterned"
+            },
+            {
+              "item": "Mod Podge",
+              "quantity": "1 bottle",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "ribbon",
+              "quantity": "2 pieces",
+              "dimensions": "1/4\" to 1/2\" extra",
+              "color": null
+            },
+            {
+              "item": "craft glue",
+              "quantity": "1 bottle",
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "paint brush",
+              "purpose": "applying Mod Podge",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cover the vase with paper. Roll the paper onto the vase, adding more Mod Podge if needed to cover missed areas. Ensure the paper is rolled tightly to avoid wrinkles. Smooth with fingers. Wipe away excess Mod Podge from the top or bottom.",
+              "technique": "adhering paper",
+              "dimensions_mentioned": [],
+              "visual_description": "A hand is shown smoothing patterned paper onto a glass vase that has been coated with Mod Podge. A bottle of Mod Podge and a white lid are visible in the background, along with a paintbrush."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Coat the entire outside of the paper with Mod Podge, going up to the edge of the paper and slightly over onto the glass. Allow to dry for 15-20 minutes. Apply a second coat and let dry.",
+              "technique": "sealing",
+              "dimensions_mentioned": [],
+              "visual_description": "A paintbrush is shown applying Mod Podge to the patterned paper that covers a glass vase. Some Mod Podge has dripped onto the surface below."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Accent with ribbon. Wrap ribbon around the top of the vase, leaving an extra 1/4\" to 1/2\" as done with the paper. Cut the ribbon. Cut another piece of the same length for the bottom.",
+              "technique": "applying ribbon",
+              "dimensions_mentioned": [
+                "1/4\"",
+                "1/2\""
+              ],
+              "visual_description": "A hand is shown wrapping orange ribbon around the top of a glass vase that is covered in patterned paper. A bottle of gold glitter spray paint is visible in the background."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Glue on the ribbon. Place a thin bead of craft glue around the top of the vase, then press the ribbon down. Seam the ribbon where you did the paper. Smooth with fingers and wipe away any excess glue. Repeat for the bottom.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": "A hand is shown applying craft glue from a bottle to the top edge of a glass vase. Orange ribbon is being pressed onto the glue. A small white cap is also visible on the table."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Wipe excess Mod Podge on husband or children (joking)."
+          ],
+          "finished_product_description": "A glass vase decorated with patterned paper and ribbon accents at the top and bottom."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A hand is shown smoothing patterned paper onto a glass vase that has been coated with Mod Podge. A bottle of Mod Podge and a white lid are visible in the background, along with a paintbrush.",
+        "A paintbrush is shown applying Mod Podge to the patterned paper that covers a glass vase. Some Mod Podge has dripped onto the surface below.",
+        "A hand is shown wrapping orange ribbon around the top of a glass vase that is covered in patterned paper. A bottle of gold glitter spray paint is visible in the background.",
+        "A hand is shown applying craft glue from a bottle to the top edge of a glass vase. Orange ribbon is being pressed onto the glue. A small white cap is also visible on the table."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 11,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Layered Flower Vase Decoration",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "layered flowers",
+              "quantity": "5",
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "buttons",
+              "quantity": null,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "vase",
+              "quantity": "1",
+              "dimensions": "small",
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "glue",
+              "purpose": "attaching flowers and buttons",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Grab the flowers and start gluing them down.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Layer the flowers and worked my way around the vase.",
+              "technique": "layering",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Glue buttons in the middle of the flowers.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Allow it to dry for 24 hours before using.",
+              "technique": "drying",
+              "dimensions_mentioned": [
+                "24 hours"
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Stick your flowers in it and go!",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "You’ll want to use more for a bigger vase.",
+            "Did I mention that I’m obsessed with buttons?"
+          ],
+          "finished_product_description": "A bright and cheery room decoration made from a vase covered in layered flowers and buttons."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up image shows a hand applying glue from a bottle onto a yellow, layered paper flower that is being attached to a vase decorated with orange, pink, and white stripes. A pair of blue scissors with black ribbon is visible to the left of the vase."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 12,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Decoupage Dresser",
+          "category": "mixed_media",
+          "difficulty": null,
+          "materials": [
+            {
+              "item": "Design",
+              "details": "from a print book or other source"
+            },
+            {
+              "item": "Water-based matt découpage medium"
+            },
+            {
+              "item": "Barcelona Orange paint"
+            },
+            {
+              "item": "Monet Blue paint"
+            },
+            {
+              "item": "Olive Green paint"
+            },
+            {
+              "item": "Water"
+            },
+            {
+              "item": "Tin of clear wax"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Computer",
+              "purpose": "adjusting, scanning, and printing designs",
+              "optional": false
+            },
+            {
+              "name": "Scanner",
+              "purpose": "scanning designs",
+              "optional": false
+            },
+            {
+              "name": "Printer",
+              "purpose": "printing designs",
+              "optional": false
+            },
+            {
+              "name": "Scissors",
+              "purpose": "cutting paper designs",
+              "optional": false
+            },
+            {
+              "name": "Paintbrush",
+              "quantity": "1",
+              "dimensions": "1in (2.5cm)",
+              "purpose": "applying medium",
+              "optional": false
+            },
+            {
+              "name": "Small artists’ brush",
+              "purpose": "painting",
+              "optional": false
+            },
+            {
+              "name": "Paintbrush",
+              "quantity": "1",
+              "dimensions": "1in (2.5cm)",
+              "purpose": "applying wax",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Choose a design (e.g., a hilarious medieval chase with skirts flying and arms waving from a book of découpage prints). Measure the height of the dresser drawers. Scan the chosen design and enlarge it to the required size. Adjust the color if the initial printout is too dark (e.g., to a brownish black). Print the design. Reverse the design on the computer for specific drawers (e.g., the middle drawer so people run the opposite way).",
+              "technique": "design selection, scanning, digital adjustment, printing",
+              "dimensions_mentioned": [
+                "height of the drawers",
+                "required size"
+              ],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "If you struggle with computers, take your chosen design to a local copy shop; they will be able to help you scan and print it out."
+          ],
+          "finished_product_description": "A dresser with decoupage designs, inspired by an 18th-century découpage cabinet with sepia prints colored gently and haphazardly with watercolor, as seen in the Doge’s Palace. The specific design chosen for this project features people running along each drawer, with the design on the middle drawer reversed."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Photo of a three-drawer dresser with plain white drawer fronts, a dark top, and a dark base. This image represents the dresser 'Before' the decoupage project.",
+        "Photo of a three-drawer dresser with decoupage designs on each drawer front, depicting a medieval chase scene with figures running. The dresser has a dark top and base, and a decorative floral bowl is placed on top. This image represents the finished 'Decoupage Dresser'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 13,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Decoupage Drawer Front",
+          "category": "mixed_media",
+          "difficulty": "intermediate",
+          "materials": [],
+          "tools": [
+            {
+              "name": "scissors",
+              "purpose": "cutting out figures",
+              "optional": false
+            },
+            {
+              "name": "brush",
+              "purpose": "applying decoupage medium and paint",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 2,
+              "instruction": "Cut out the figures with a sharp pair of scissors, getting as close to the edge of the design as possible. It’s best if you cut everything out before you start gluing so you can plan roughly where you are going to position each figure. Next, paint the whole area of one drawer front with the découpage medium.",
+              "technique": "cutting, painting",
+              "dimensions_mentioned": [],
+              "visual_description": "Hands holding a sheet of paper with cut-out figures, showing a close-up of the edge of a design."
+            },
+            {
+              "step_number": 3,
+              "instruction": "With the découpage medium still wet, place a cut-out figure at one end of the drawer. At the same time brush over the design with the medium, which will now act as a varnish. Try to avoid the paper bubbling up by brushing from one end to the other. If a bubble does come up try to press it down and out the side, but do this quickly before the varnish begins to dry. Repeat the process until the whole drawer front is filled with images. Varnish the drawer twice more, allowing each layer to dry thoroughly.",
+              "technique": "decoupage, varnishing",
+              "dimensions_mentioned": [],
+              "visual_description": "A hand is placing a cut-out figure onto a drawer front that has been coated with decoupage medium. The hand is also brushing over the figure with the medium."
+            },
+            {
+              "step_number": 4,
+              "instruction": "For the painting of the pictures choose one main color and two or three others to partner it. I selected watered down Barcelona Orange as my main color with some Monet Blue and Olive Green—one hot and two cool colors. I applied the colors to the “clothes,” sometimes deliberately missing the area a little so it looks more like a painting. Use the paint like watercolor and make the color uneven in parts. If you make a mistake take the paint off with water.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": "A hand is painting details onto a decoupage image on a drawer front. The paint is applied unevenly, resembling watercolor. A palette with several colors is visible."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Cut everything out before you start gluing so you can plan roughly where you are going to position each figure.",
+            "Try to avoid the paper bubbling up by brushing from one end to the other.",
+            "If a bubble does come up try to press it down and out the side, but do this quickly before the varnish begins to dry.",
+            "Use the paint like watercolor and make the color uneven in parts.",
+            "If you make a mistake take the paint off with water."
+          ],
+          "finished_product_description": "A drawer front decorated with cut-out figures applied using the decoupage technique and then painted to resemble a watercolor painting."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Image showing several cut-out figures from a historical scene, layered on top of each other, with scissors nearby.",
+        "Close-up of hands holding a sheet of paper with cut-out figures, showing the intricate details of the designs.",
+        "A hand is applying decoupage medium to a drawer front, preparing it for the cut-out figures.",
+        "A hand is painting details onto a decoupage image on a drawer front, using a watercolor-like technique."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 14,
+    "extracted": {
+      "page_type": "project",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Close-up of a drawer front with a detailed illustration of figures in a battle scene.",
+        "Close-up of the side of a drawer, showing the orange interior and the edge of the illustrated front.",
+        "Several drawers are shown stacked, with the orange interior visible and illustrated fronts.",
+        "A close-up of an open drawer showing the orange interior and illustrated sides."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 15,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Paper Covered Picture Frame",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "Walnut Hollow® #27753 Wood Frame – Small",
+              "quantity": "1",
+              "color": null
+            },
+            {
+              "item": "Walnut Hollow® #9912 Oil Colored Pencils",
+              "quantity": "1 set",
+              "color": null
+            },
+            {
+              "item": "Alphabet Stencil",
+              "quantity": "1",
+              "color": null
+            },
+            {
+              "item": "Paint",
+              "quantity": "1",
+              "color": "color of choice"
+            },
+            {
+              "item": "Coordinating Decorative Paper",
+              "quantity": "2 sheets",
+              "color": null
+            },
+            {
+              "item": "Plain Construction Paper",
+              "quantity": "1 sheet",
+              "color": null
+            },
+            {
+              "item": "Brush",
+              "quantity": "1",
+              "color": null
+            },
+            {
+              "item": "Craft glue or paper glue",
+              "quantity": "1",
+              "color": null
+            },
+            {
+              "item": "Paper towel",
+              "quantity": "1",
+              "color": null
+            },
+            {
+              "item": "Pencil",
+              "quantity": "1",
+              "color": null
+            },
+            {
+              "item": "Phillips screwdriver",
+              "quantity": "1",
+              "color": null
+            },
+            {
+              "item": "Ruler",
+              "quantity": "1",
+              "color": null
+            },
+            {
+              "item": "Sandpaper",
+              "quantity": "1",
+              "color": null
+            },
+            {
+              "item": "Scissors or X-acto knife",
+              "quantity": "1",
+              "color": null
+            },
+            {
+              "item": "Spray varnish",
+              "quantity": "1",
+              "color": null
+            }
+          ],
+          "tools": [
+            {
+              "name": "Phillips screwdriver",
+              "purpose": "remove screws",
+              "optional": false
+            },
+            {
+              "name": "Sandpaper",
+              "purpose": "lightly sand wood surface",
+              "optional": false
+            },
+            {
+              "name": "Brush",
+              "purpose": "apply paint",
+              "optional": false
+            },
+            {
+              "name": "Ruler",
+              "purpose": "measure decorative paper",
+              "optional": false
+            },
+            {
+              "name": "Scissors or X-acto knife",
+              "purpose": "cut paper",
+              "optional": false
+            },
+            {
+              "name": "X-acto knife",
+              "purpose": "cut along outer edges and frame opening",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "To prepare wood for painting, use Phillips screwdriver to remove screws holding tabs on back of frame. Remove tabs, backing, and glass. Use sandpaper to lightly sand wood surface. Remove dust with paper towel.",
+              "technique": "sanding",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Use brush to apply a coat of paint to entire wood surface. Let dry. Apply second coat. Let dry.",
+              "technique": "painting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Apply 2-3 coats of spray varnish to frame. Let dry.",
+              "technique": "varnishing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Use ruler to measure decorative paper the same size as the front of frame. Use scissors to cut paper to size. Use glue to adhere paper to frame. (Another option) Apply glue to frame front. Place a piece of paper that is larger than frame on glue. Press in place. Place frame, paper side down, on cutting mat. Use X-acto knife to cut along outer edges and frame opening. Let dry.",
+              "technique": "measuring, cutting, adhering",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Use scissors or X-acto knife and ruler to cut construction paper to size of glass. Cut coordinating decorative paper slightly smaller than the frame opening so a quarter inch of construction paper shows around frame opening.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "quarter inch"
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 6,
+              "instruction": "Choose stencil alphabet letter to trace. Place stencil on the smaller decorative paper. Use pencil to trace letter. Use colored pencils to color in letter. Use glue to adhere initialed paper to construction paper.",
+              "technique": "tracing, coloring, adhering",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 7,
+              "instruction": "Replace glass in frame. Insert initialed paper. Replace backing. Use Phillips screwdriver to replace screws.",
+              "technique": "assembling",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A decorative picture frame covered with patterned paper, featuring a stenciled and colored initial."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up image of a picture frame covered in a colorful, paisley-like patterned paper. The frame has an opening in the center where a piece of paper with vertical stripes and a large, ornate letter 'R' is visible."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 16,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Paper Flower Centerpiece",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Sizzix Originals Die - Flower Layers #2",
+              "quantity": "1",
+              "brand": "Sizzix"
+            },
+            {
+              "item": "Silk Flower Stems",
+              "quantity": "multiple"
+            },
+            {
+              "item": "Plain Paper",
+              "quantity": "multiple sheets"
+            },
+            {
+              "item": "Sticks",
+              "quantity": "multiple"
+            },
+            {
+              "item": "Vase",
+              "quantity": "1"
+            },
+            {
+              "item": "Embroidery Thread",
+              "quantity": "1 spool"
+            },
+            {
+              "item": "Jewels",
+              "quantity": "multiple"
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Remove silk flower from the stems.",
+              "technique": "removing",
+              "visual_description": "Close-up of silk flower stems with flowers attached."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Die-cut Flowers out of coordinating paper and use them to replace the silk flowers.",
+              "technique": "die-cutting",
+              "visual_description": "Paper die-cuts shaped like flowers."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Arrange Flower stems with sticks in a vase.",
+              "technique": "arranging",
+              "visual_description": "A vase filled with flower stems and sticks."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Use thread to hang jewels and table numbers from the Flower stems.",
+              "technique": "hanging",
+              "visual_description": "Jewels and small table numbers hanging from flower stems by thread."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "Delicate die-cut paper flowers replace silk flowers in these homemade wedding centerpieces.",
+            "Jewels and pretty table numbers add additional flourish."
+          ],
+          "finished_product_description": "A vase filled with flower stems, adorned with die-cut paper flowers, hanging jewels, and table numbers."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A tall, clear glass vase filled with thin, decorative branches and purple paper flowers. Small purple table numbers and clear jewels are hanging from the branches by thin threads."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 17,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Holiday Tree Centerpiece",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "STYROFOAM™ Brand Foam Cones",
+              "quantity": "2",
+              "dimensions": "12\" x 4\" and 9\" x 4\""
+            },
+            {
+              "item": "Small silver ornaments",
+              "quantity": "2"
+            },
+            {
+              "item": "Green scrapbook paper",
+              "quantity": "four - five sheets",
+              "dimensions": "12\" x 12\""
+            },
+            {
+              "item": "Foam-safe spray adhesive",
+              "quantity": "1 can"
+            },
+            {
+              "item": "Straight pins",
+              "quantity": "1 pack",
+              "optional": true
+            },
+            {
+              "item": "Low-temp glue gun and glue sticks or thick, white craft glue",
+              "quantity": "1 set"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Pattern",
+              "purpose": "cutting cone coverings",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Use patterns to cut cone coverings from scrapbook papers. Papers will need to be pieced together to cover the cones.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Spray foam cone with adhesive; wrap cone with paper cut in Step 1. If needed, spot glue and pin edges in place. Let dry completely. Repeat with second cone.",
+              "technique": "adhering, gluing, pinning",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Glue silver ornament to top of each cone.",
+              "technique": "gluing",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "Decorated foam cones resembling trees, adorned with silver ornaments."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Photograph of two decorated holiday trees made from foam cones and scrapbook paper, placed on a table as a centerpiece. The trees are green with white patterns, and each is topped with a silver ornament. They are surrounded by white decorative elements and sit on a dark surface."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 18,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Paper Star Fourth of July Centerpieces",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "red and white striped 12x12 scrapbook paper \"Wild Love\"",
+              "quantity": "2 Sheets",
+              "details": "from Paper Trunk Maybe Baby line"
+            },
+            {
+              "item": "designer Kraft paper",
+              "quantity": "1 Sheet",
+              "dimensions": "12x12 inch",
+              "details": "from the Paper Trunk Krafty Collection"
+            },
+            {
+              "item": "Journal spots",
+              "quantity": "3",
+              "details": "from the Paper Trunk Krafty Collection"
+            },
+            {
+              "item": "white \"Benny\" alphabet stickers",
+              "quantity": "1 set",
+              "details": "from Paper Trunk"
+            },
+            {
+              "item": "strips of paper",
+              "quantity": "12 inch long",
+              "details": "from the Paper Trunk Rockabilly Collection Small scallop border Fiskars punch"
+            },
+            {
+              "item": "6 petal flower punch",
+              "quantity": "1"
+            },
+            {
+              "item": "Tattered Angels Glimmer mists",
+              "quantity": "1",
+              "color": "blue and red"
+            },
+            {
+              "item": "Colorbox blue pigment ink",
+              "quantity": "1"
+            },
+            {
+              "item": "Black Soot Distress Ink",
+              "quantity": "1",
+              "brand": "Ranger"
+            },
+            {
+              "item": "Recycled craft sticks",
+              "quantity": "various",
+              "details": "from rub-on packages"
+            },
+            {
+              "item": "Wide ribbon",
+              "quantity": "various"
+            },
+            {
+              "item": "Hot glue gun",
+              "quantity": "1"
+            },
+            {
+              "item": "Scrapbooking adhesive",
+              "quantity": "1"
+            },
+            {
+              "item": "Recycled cappuccino can",
+              "quantity": "1"
+            },
+            {
+              "item": "Red, white, and blue plastic bags",
+              "quantity": "various"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Fiskars punch",
+              "purpose": "small scallop border",
+              "optional": false
+            },
+            {
+              "name": "6 petal flower punch",
+              "purpose": "cutting flower shapes",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Follow the instructions here for making a 5 point star using a 12x12 inch piece of paper and one cut. Use the star pattern to cut a star from the red and white striped paper and the sheet of kraft paper.",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "12x12 inch"
+              ],
+              "visual_description": "A 5-point star shape is used as a pattern to cut stars from paper."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Fold the red and white striped stars in half at each of the points. From the center point of the star, each arm of the star will be folded so that the fold is up. The part of each fold that does not go out to the arm of the star is folded so that the crease goes down. When finished, the stars will look like barn stars. With the star folded flat cut about 1 inch off the peak in the center part of the star so that you have a star shaped hole in the middle of the star when it is unfolded.",
+              "technique": "folding, cutting",
+              "dimensions_mentioned": [
+                "1 inch"
+              ],
+              "visual_description": "Stars are folded at points, creating a barn star shape. A star-shaped hole is cut from the center of the folded star."
+            },
+            {
+              "step_number": 3,
+              "instruction": "One of the red and white striped stars will go on each side of the Kraft paper.",
+              "technique": "assembly",
+              "visual_description": "A red and white striped star is attached to each side of the Kraft paper star."
+            }
+          ],
+          "diagram_descriptions": [
+            "Two images of a finished Fourth of July centerpiece. The centerpiece features a layered star design with red, white, and blue striped paper, zebra print paper, and a blue ribbon bow. The base is a decorated can with the word 'CELEBRATE' visible."
+          ],
+          "finished_product_description": "A patriotic Fourth of July centerpiece made from layered paper stars, decorated with ribbon and placed in a decorated can."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 19,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "4th of July Centerpiece",
+          "category": "paper_craft",
+          "difficulty": "intermediate",
+          "materials": [
+            {
+              "item": "Kraft paper",
+              "quantity": "unspecified",
+              "details": "for journal spots and star arms"
+            },
+            {
+              "item": "Paper Trunk Rockabilly paper",
+              "quantity": "unspecified",
+              "details": "for scalloped border and can strip"
+            },
+            {
+              "item": "Popsicle sticks",
+              "quantity": "at least 3",
+              "details": "for star support"
+            },
+            {
+              "item": "wide ribbon",
+              "quantity": "unspecified",
+              "details": "for bows"
+            },
+            {
+              "item": "empty cappuccino can",
+              "quantity": "1",
+              "details": "for centerpiece base"
+            },
+            {
+              "item": "red Glimmer Mist",
+              "quantity": "unspecified",
+              "details": "for paper and star"
+            },
+            {
+              "item": "blue Glimmer Mist",
+              "quantity": "unspecified",
+              "details": "for roses, paper, and star"
+            },
+            {
+              "item": "Benny Alphabet stickers",
+              "quantity": "unspecified",
+              "details": "for spelling 'celebrate'"
+            },
+            {
+              "item": "blue ink",
+              "quantity": "unspecified",
+              "details": "for scalloped border edges"
+            },
+            {
+              "item": "scrap paper",
+              "quantity": "1 piece",
+              "details": "for star mask"
+            },
+            {
+              "item": "Krafty Collection paper",
+              "quantity": "unspecified",
+              "details": "for journal spot"
+            },
+            {
+              "item": "red and white striped stars",
+              "quantity": "unspecified",
+              "details": "with star-shaped holes"
+            },
+            {
+              "item": "Kraft star",
+              "quantity": "unspecified",
+              "details": "for stick attachment"
+            }
+          ],
+          "tools": [
+            {
+              "name": "hot glue gun",
+              "purpose": "adhering components",
+              "optional": false
+            },
+            {
+              "name": "quick drying adhesive",
+              "purpose": "alternative to hot glue gun",
+              "optional": true
+            },
+            {
+              "name": "flower punch",
+              "purpose": "making paper roses",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Glue the tip of each star arm to the tip of the Kraft paper star arms using a hot glue gun or quick drying adhesive.",
+              "technique": "gluing",
+              "materials_mentioned": [
+                "Kraft paper star arms",
+                "hot glue gun",
+                "quick drying adhesive"
+              ]
+            },
+            {
+              "step_number": 4,
+              "instruction": "Cut two journal spots from the Kraft paper for your fourth of July centerpieces.",
+              "technique": "cutting",
+              "materials_mentioned": [
+                "journal spots",
+                "Kraft paper"
+              ]
+            },
+            {
+              "step_number": 5,
+              "instruction": "Punch a scalloped border from the Paper Trunk Rockabilly paper.",
+              "technique": "punching",
+              "materials_mentioned": [
+                "scalloped border",
+                "Paper Trunk Rockabilly paper"
+              ]
+            },
+            {
+              "step_number": 6,
+              "instruction": "Cut 3/4 of the way through the paper from the straight edge toward the top of each of the scallops. Over lap each of the cuts so that a circular shape can be made out of the strip of paper. Glue the scalloped strip to the back of the circular journal spot. Ink the edges of the scalloped border with blue ink. Make two paper roses using the flower punch (there are quite a few tutorials on this on the Internet).",
+              "technique": "cutting",
+              "dimensions_mentioned": [
+                "3/4 of the way"
+              ],
+              "materials_mentioned": [
+                "paper",
+                "scallops",
+                "strip of paper",
+                "scalloped strip",
+                "circular journal spot",
+                "scalloped border",
+                "blue ink",
+                "paper roses",
+                "flower punch"
+              ]
+            },
+            {
+              "step_number": 7,
+              "instruction": "Spray blue Glimmer Mist on the roses.",
+              "technique": "spraying",
+              "materials_mentioned": [
+                "blue Glimmer Mist",
+                "roses"
+              ]
+            },
+            {
+              "step_number": 8,
+              "instruction": "Glue one rose to the center of each journal spot 9. Add Happy 4th of July around the edge of the circular journal spot.",
+              "technique": "gluing",
+              "materials_mentioned": [
+                "rose",
+                "journal spot",
+                "Happy 4th of July (text)"
+              ]
+            },
+            {
+              "step_number": 9,
+              "instruction": "To make the \"th\" on 4th trim down the \"t\" and \"h\" letters. Add July 4th around the rose on the second journal spot, also trimming the \"t\" and \"h\".",
+              "technique": "trimming",
+              "materials_mentioned": [
+                "t letters",
+                "h letters",
+                "July 4th (text)",
+                "rose",
+                "second journal spot"
+              ]
+            },
+            {
+              "step_number": 10,
+              "instruction": "Using a hot glue gun, adhere the journal spots over the star-shaped holes in the center of the red and white striped stars",
+              "technique": "gluing",
+              "materials_mentioned": [
+                "hot glue gun",
+                "journal spots",
+                "star-shaped holes",
+                "red and white striped stars"
+              ]
+            },
+            {
+              "step_number": 11,
+              "instruction": "Add hot glue to the top of a Popsicle stick and glue it to the Kraft star by sticking it underneath the red and white striped star. Do this on both sides of the Kraft star.",
+              "technique": "gluing",
+              "materials_mentioned": [
+                "hot glue",
+                "Popsicle stick",
+                "Kraft star",
+                "red and white striped star"
+              ]
+            },
+            {
+              "step_number": 12,
+              "instruction": "Glue two additional sticks to the bottom of the first sticks so that the support for the star is three sticks long.",
+              "technique": "gluing",
+              "materials_mentioned": [
+                "sticks"
+              ]
+            },
+            {
+              "step_number": 13,
+              "instruction": "Tie two bows from the wide ribbon and glue them to each side of the Popsicle sticks.",
+              "technique": "tying",
+              "materials_mentioned": [
+                "wide ribbon",
+                "bows",
+                "Popsicle sticks"
+              ]
+            },
+            {
+              "step_number": 14,
+              "instruction": "Cut a strip of Rockabilly paper wide enough to cover an empty cappuccino can. On the black and white side of the paper, spray red Glimmer Mist along one of the long edges and blue glimmer mist along the other long edge.",
+              "technique": "cutting",
+              "materials_mentioned": [
+                "strip of Rockabilly paper",
+                "empty cappuccino can",
+                "black and white side of the paper",
+                "red Glimmer Mist",
+                "blue glimmer mist"
+              ]
+            },
+            {
+              "step_number": 15,
+              "instruction": "Glue the red, white, and blue strip of Rockabilly paper to the can. It may not go all the way around.",
+              "technique": "gluing",
+              "materials_mentioned": [
+                "red, white, and blue strip of Rockabilly paper",
+                "can"
+              ]
+            },
+            {
+              "step_number": 16,
+              "instruction": "Cut a third journal spot from the Krafty Collection paper.",
+              "technique": "cutting",
+              "materials_mentioned": [
+                "third journal spot",
+                "Krafty Collection paper"
+              ]
+            },
+            {
+              "step_number": 17,
+              "instruction": "Cut out a star shape from a piece of scrap paper to create a mask. You do not need the star shape, you need the star-shaped hole in the piece of paper. Place the mask on the journal spot and spray red Glimmer Mist on the bottom of the star and blue Glimmer Mist on the top of the star.",
+              "technique": "cutting",
+              "materials_mentioned": [
+                "star shape",
+                "scrap paper",
+                "mask",
+                "star-shaped hole",
+                "journal spot",
+                "red Glimmer Mist",
+                "blue Glimmer Mist"
+              ]
+            },
+            {
+              "step_number": 18,
+              "instruction": "Spell out the word \"celebrate\" in Benny Alphabet stickers.",
+              "technique": "decorating",
+              "materials_mentioned": [
+                "Benny Alphabet stickers"
+              ]
+            },
+            {
+              "step_number": 19,
+              "instruction": "Glue the journal spot to the can to cover the gap between the ends of the paper or the seam where the ends",
+              "technique": "gluing",
+              "materials_mentioned": [
+                "journal spot",
+                "can",
+                "paper"
+              ]
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "journal spots",
+                "shape": "circular",
+                "details": [
+                  {
+                    "type": "decoration",
+                    "description": "Happy 4th of July text around edge"
+                  },
+                  {
+                    "type": "decoration",
+                    "description": "rose in center"
+                  }
+                ]
+              },
+              {
+                "name": "scalloped border",
+                "shape": "strip",
+                "details": [
+                  {
+                    "type": "cut",
+                    "position": "3/4 of the way through from straight edge towards scallops"
+                  },
+                  {
+                    "type": "assembly",
+                    "description": "cuts overlapped to form circular shape"
+                  },
+                  {
+                    "type": "decoration",
+                    "description": "edges inked with blue ink"
+                  }
+                ]
+              },
+              {
+                "name": "paper roses",
+                "shape": "rose",
+                "details": [
+                  {
+                    "type": "decoration",
+                    "description": "sprayed with blue Glimmer Mist"
+                  }
+                ]
+              },
+              {
+                "name": "star mask",
+                "shape": "star-shaped hole",
+                "details": [
+                  {
+                    "type": "material",
+                    "description": "cut from scrap paper"
+                  }
+                ]
+              },
+              {
+                "name": "Rockabilly paper strip",
+                "shape": "rectangle",
+                "width": "wide enough to cover cappuccino can",
+                "details": [
+                  {
+                    "type": "decoration",
+                    "description": "red Glimmer Mist along one long edge, blue Glimmer Mist along other long edge"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "Support for the star is three sticks long. Journal spots are adhered over star-shaped holes in red and white striped stars. Popsicle sticks are glued underneath the red and white striped star to the Kraft star. Ribbon bows are glued to each side of the Popsicle sticks. Rockabilly paper strip is glued to the can."
+          },
+          "tips": [
+            "Refer to online tutorials for making paper roses using a flower punch."
+          ],
+          "finished_product_description": "A 4th of July centerpiece featuring a circular decorative element with 'HAPPY 4TH OF JULY' text and a paper rose, supported by Popsicle sticks, possibly attached to a decorated cappuccino can, and incorporating various paper elements and glimmer mist effects."
+        }
+      ],
+      "diagram_descriptions": [
+        "A close-up photo of a circular craft piece with a scalloped edge, featuring the text 'HAPPY 4TH OF JULY' arranged in a circle, and a dark blue/purple paper rose in the center. The craft piece is placed on a black and white zebra-print fabric."
+      ],
+      "continuation_of_previous": true,
+      "project_name_if_continuation": "4th of July Centerpiece"
+    }
+  },
+  {
+    "page_number": 20,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Patriotic Centerpiece",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "red, white, and blue plastic bags",
+              "quantity": null,
+              "dimensions": null,
+              "color": "red, white, and blue"
+            },
+            {
+              "item": "star",
+              "quantity": 1,
+              "dimensions": null,
+              "color": null
+            },
+            {
+              "item": "can",
+              "quantity": 1,
+              "dimensions": null,
+              "color": null
+            }
+          ],
+          "tools": [],
+          "steps": [
+            {
+              "step_number": 20,
+              "instruction": "Stuff the can with red, white, and blue plastic bags.",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": "A can decorated with a star and the word 'CELEBRATE', filled with red, white, and blue plastic bags, and adorned with a blue ribbon with white stars."
+            },
+            {
+              "step_number": 21,
+              "instruction": "Place the star in the can and put your new centerpiece on display!",
+              "technique": null,
+              "dimensions_mentioned": [],
+              "visual_description": "A finished patriotic centerpiece in a can, decorated with stars and ribbons, and filled with red, white, and blue plastic bags."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A patriotic centerpiece made from a decorated can filled with red, white, and blue plastic bags and topped with a star."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A close-up image of a decorated can filled with red, white, and blue plastic bags. The can has a label with the word 'CELEBRATE' and a red star. It is decorated with a blue ribbon with white stars tied around the top."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 21,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Pretty Paper Pinwheel Wreath",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "STYROFOAM™ Brand Foam Round Face Wreath",
+              "quantity": "1",
+              "dimensions": "12\" x 2-1/2\" x 1\"",
+              "notes": "Pretty Paper Pinwheel Wreath pattern"
+            },
+            {
+              "item": "Single- or double-sided scrapbook paper assortment",
+              "quantity": "1 assortment",
+              "notes": "including one sheet of solid red"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Pencil",
+              "purpose": "marking lines",
+              "optional": false
+            },
+            {
+              "name": "Medium flat paintbrush",
+              "purpose": "painting",
+              "optional": false
+            },
+            {
+              "name": "Disposable palette",
+              "purpose": "holding paint",
+              "optional": false
+            },
+            {
+              "name": "Paper paste",
+              "purpose": "adhering paper",
+              "optional": false
+            },
+            {
+              "name": "Low-temp glue gun and glue sticks",
+              "purpose": "adhering components",
+              "optional": false
+            },
+            {
+              "name": "Red grosgrain ribbon",
+              "quantity": "1\"",
+              "dimensions": "1\" x 8\"",
+              "optional": false
+            },
+            {
+              "name": "Red acrylic paint",
+              "purpose": "painting",
+              "optional": false
+            },
+            {
+              "name": "Water basin",
+              "purpose": "cleaning brush",
+              "optional": false
+            },
+            {
+              "name": "Paper towels",
+              "purpose": "cleaning",
+              "optional": false
+            },
+            {
+              "name": "Craft knife with sharp blade",
+              "purpose": "cutting paper",
+              "optional": false
+            },
+            {
+              "name": "Circle punch, 1/2\"",
+              "purpose": "punching circles",
+              "optional": false
+            },
+            {
+              "name": "Scissors and/or paper trimmer",
+              "purpose": "cutting paper",
+              "optional": false
+            },
+            {
+              "name": "Metal-edged ruler",
+              "purpose": "measuring and cutting guide",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Paint foam wreath red; let dry.",
+              "technique": "painting",
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Cut ten 5\" squares from double-sided paper. If using single-sided papers, paste two sheets together back to back before cutting squares; let dry.",
+              "technique": "cutting, adhering",
+              "dimensions_mentioned": [
+                "5\""
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "To create pinwheels, refer to Diagram 1. Use pencil to mark 2-1/2\" lines from corners of paper squares toward centers. Use craft knife and metal-edged ruler, or other cutting tool, to cut paper squares along these lines; do not cut all the way to center. Bring left corner of each side down to center and secure with glue gun.",
+              "technique": "marking, cutting, adhering",
+              "dimensions_mentioned": [
+                "2-1/2\""
+              ],
+              "visual_description": "Diagram 1 showing how to mark and cut paper squares for pinwheels."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Punch ten 1/2\" circles from solid red paper and glue to centers of pinwheels. Glue pinwheels side by side to wreath.",
+              "technique": "punching, adhering",
+              "dimensions_mentioned": [
+                "1/2\""
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Glue ribbon ends together to create hanging loop; glue ends to top center back of wreath.",
+              "technique": "adhering",
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [],
+          "finished_product_description": "A wreath made of colorful paper pinwheels."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Diagram 1 shows how to mark and cut paper squares to create pinwheels. Lines are drawn from the corners towards the center, and the corners are then folded to the center."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 22,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Easy Paper Wreath",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "STYROFOAM™ Brand Foam Balls",
+              "quantity": "24",
+              "dimensions": "1\"",
+              "color": "any"
+            },
+            {
+              "item": "STYROFOAM™ Brand Foam Beveled Wreath",
+              "quantity": "1",
+              "dimensions": "12\" x 2\" x 1\"",
+              "color": "any"
+            },
+            {
+              "item": "STYROFOAM™ Brand Foam Block or Sheet",
+              "quantity": "scrap",
+              "dimensions": "any",
+              "color": "any"
+            },
+            {
+              "item": "bright green construction paper",
+              "quantity": "2 sheets",
+              "dimensions": "any",
+              "color": "bright green"
+            },
+            {
+              "item": "origami paper",
+              "quantity": "4 sheets each",
+              "dimensions": "any",
+              "color": "yellow green; dark green"
+            },
+            {
+              "item": "green floral wire",
+              "quantity": "any",
+              "dimensions": "any",
+              "color": "green"
+            },
+            {
+              "item": "ultra-fine glitter",
+              "quantity": "any",
+              "dimensions": "any",
+              "color": "hot pink; green; silver"
+            },
+            {
+              "item": "pencil",
+              "quantity": "1",
+              "dimensions": "any",
+              "color": "any"
+            },
+            {
+              "item": "ruler",
+              "quantity": "1",
+              "dimensions": "any",
+              "color": "any"
+            },
+            {
+              "item": "extra-long straight pins",
+              "quantity": "any",
+              "dimensions": "any",
+              "color": "any",
+              "optional": true
+            },
+            {
+              "item": "wooden toothpicks",
+              "quantity": "24",
+              "dimensions": "any",
+              "color": "any"
+            },
+            {
+              "item": "paper trimmer or scissors and ruler",
+              "quantity": "1 set",
+              "dimensions": "any",
+              "color": "any"
+            },
+            {
+              "item": "spray adhesive",
+              "quantity": "1 can",
+              "dimensions": "any",
+              "color": "any"
+            },
+            {
+              "item": "large needle or needle tool",
+              "quantity": "1",
+              "dimensions": "any",
+              "color": "any"
+            },
+            {
+              "item": "wire cutters",
+              "quantity": "1",
+              "dimensions": "any",
+              "color": "any"
+            },
+            {
+              "item": "low-temp glue gun and glue sticks",
+              "quantity": "1 set",
+              "dimensions": "any",
+              "color": "any"
+            },
+            {
+              "item": "thick, white craft glue",
+              "quantity": "1 bottle",
+              "dimensions": "any",
+              "color": "white"
+            }
+          ],
+          "tools": [
+            {
+              "name": "paper trimmer",
+              "purpose": "cutting paper strips",
+              "optional": false
+            },
+            {
+              "name": "scissors",
+              "purpose": "cutting paper strips",
+              "optional": false
+            },
+            {
+              "name": "ruler",
+              "purpose": "measuring paper strips",
+              "optional": false
+            },
+            {
+              "name": "glue gun",
+              "purpose": "adhering loops to wreath",
+              "optional": false
+            },
+            {
+              "name": "needle or needle tool",
+              "purpose": "poking holes for toothpicks",
+              "optional": false
+            },
+            {
+              "name": "wire cutters",
+              "purpose": "cutting wire",
+              "optional": false
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Spray dark green origami paper with spray adhesive; adhere yellow green sheets to dark green, creating double-sided paper.",
+              "technique": "adhering",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Use paper trimmer to cut double-sided paper and construction paper into 1\" x 5\" strips. (Or, measure strips with ruler and cut with scissors.) Use white glue to glue each strip into a loop; alternate outside color on origami paper loops.",
+              "technique": "cutting, gluing",
+              "dimensions_mentioned": [
+                "1\" x 5\""
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 3,
+              "instruction": "Use glue gun to glue loops to foam wreath; white glue may also be used, but loops will need to be pinned in place. Glue alternating shades of green onto wreath, overlapping loops approximately 1/2\" to completely cover foam.",
+              "technique": "gluing, pinning",
+              "dimensions_mentioned": [
+                "1/2\""
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 4,
+              "instruction": "Glue toothpicks into foam balls. Spread generous amount white glue onto each ball and roll in glitter; make 12 to 14 green, five or six pink, and five or six silver balls. Place toothpicks into scrap foam to let glue dry.",
+              "technique": "gluing, rolling",
+              "dimensions_mentioned": [],
+              "visual_description": null
+            },
+            {
+              "step_number": 5,
+              "instruction": "Refer to photo to insert ornament toothpicks into wreath. If toothpicks don't go in easily, first poke hole through paper loop with needle or needle tool.",
+              "technique": "inserting, poking holes",
+              "dimensions_mentioned": [],
+              "visual_description": "Photo of wreath with ornament toothpicks inserted"
+            },
+            {
+              "step_number": 6,
+              "instruction": "Cut 5\" length from wire. Twist ends together to form hanging loop. Glue loop to top center back of wreath.",
+              "technique": "cutting, twisting, gluing",
+              "dimensions_mentioned": [
+                "5\""
+              ],
+              "visual_description": null
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "If toothpicks don't go in easily, first poke hole through paper loop with needle or needle tool."
+          ],
+          "finished_product_description": "A wreath made of green paper loops and decorated with glittered balls on toothpicks."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "A circular wreath made of alternating shades of green paper loops, with small glittered balls (green, pink, and silver) interspersed throughout. A wire loop is attached to the top center back for hanging."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 23,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Colorful Tissue Wreaths",
+          "category": "mixed_media",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "STYROFOAM™ Brand Foam Wreaths",
+              "quantity": "1",
+              "dimensions": "9\" x 1-1/4\" x 3/4\"",
+              "color": "any"
+            },
+            {
+              "item": "STYROFOAM™ Brand Foam Wreaths",
+              "quantity": "2",
+              "dimensions": "6\" x 1-1/4\" x 5/8\"",
+              "color": "any"
+            },
+            {
+              "item": "Coordinating grosgrain ribbon",
+              "quantity": "1/2 yd",
+              "dimensions": "1\" wide",
+              "color": "any"
+            },
+            {
+              "item": "Brightly colored tissue paper",
+              "quantity": "several large sheets",
+              "dimensions": "4\" x 6\"",
+              "color": "assorted"
+            },
+            {
+              "item": "Thick, white craft glue",
+              "quantity": "1 bottle",
+              "dimensions": "any",
+              "color": "white"
+            }
+          ],
+          "tools": [
+            {
+              "name": "Scissors",
+              "purpose": "cutting",
+              "optional": false
+            },
+            {
+              "name": "Pencil",
+              "purpose": "marking",
+              "optional": false
+            },
+            {
+              "name": "Ruler",
+              "purpose": "measuring",
+              "optional": false
+            },
+            {
+              "name": "Rotary cutter",
+              "purpose": "cutting",
+              "optional": true
+            },
+            {
+              "name": "Cutting mat",
+              "purpose": "cutting",
+              "optional": true
+            },
+            {
+              "name": "Metal ruler",
+              "purpose": "measuring",
+              "optional": true
+            },
+            {
+              "name": "Straight pins",
+              "purpose": "securing",
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Set aside 40 tissue pieces for 9\" foam wreath and 20 pieces for each 6\" wreath.",
+              "technique": "preparation",
+              "dimensions_mentioned": [
+                "40 pieces",
+                "9\" wreath",
+                "20 pieces",
+                "6\" wreath"
+              ],
+              "visual_description": null
+            },
+            {
+              "step_number": 2,
+              "instruction": "Fold each tissue piece in half lengthwise to measure 2\" x 6\". Cut 1-1/2\"-long fringe along folded edge, every 1/4\". Leave strips folded.",
+              "technique": "cutting fringe",
+              "dimensions_mentioned": [
+                "2\" x 6\"",
+                "1-1/2\"-long",
+                "1/4\""
+              ],
+              "visual_description": "Tissue paper strip folded in half with fringe cut along the folded edge."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Wrap and glue top edge of first fringed strip, opposite fold, around one side of wreath. Glue and pin ends at back to secure, leaving fringe loose.",
+              "technique": "gluing and pinning",
+              "dimensions_mentioned": [],
+              "visual_description": "Fringed tissue paper strip being attached to the wreath."
+            },
+            {
+              "step_number": 4,
+              "instruction": "Wrap and glue second fringed strip around wreath, 1/2\" below first and under fringe; pin ends if desired. Wrap and glue remaining tissue strips around wreath in same way until surface is completely covered. Repeat to cover all three wreaths.",
+              "technique": "gluing",
+              "dimensions_mentioned": [
+                "1/2\""
+              ],
+              "visual_description": "Multiple layers of fringed tissue paper strips being glued around the wreath."
+            },
+            {
+              "step_number": 5,
+              "instruction": "Use scissors to make small holes in center top and bottom of 9\" wreath (A) and one 6\" wreath (B); make small hole in center top of remaining 6\" wreath (C). Using photo as guide, position wreaths on work surface with B in the center.",
+              "technique": "making holes",
+              "dimensions_mentioned": [
+                "9\" wreath",
+                "6\" wreath"
+              ],
+              "visual_description": "Three wreaths labeled A, B, and C, with holes indicated at specific positions. Wreath B is positioned in the center."
+            },
+            {
+              "step_number": 6,
+              "instruction": "Cut one 8\" and two 4\" ribbon lengths. Glue ends of 4\" lengths into holes in wreaths, joining A and B and B and C together. Glue ends of 8\" length into hole at top of A for hanger; pin to secure.",
+              "technique": "cutting and gluing ribbon",
+              "dimensions_mentioned": [
+                "8\"",
+                "4\""
+              ],
+              "visual_description": "Ribbon pieces being used to connect the three wreaths and create a hanger."
+            }
+          ],
+          "blueprint_data": null,
+          "tips": [
+            "To save time, stack several layers of tissue paper and use rotary cutter to cut multiple 4\"-wide strips. Combine strips into stacks and cut multiple 6\" lengths at a time."
+          ],
+          "finished_product_description": "A colorful tissue wreath made from fringed tissue paper strips attached to foam wreaths."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [
+        "Image of three colorful tissue wreaths hanging vertically, connected by ribbon."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  },
+  {
+    "page_number": 24,
+    "extracted": {
+      "page_type": "introduction",
+      "projects": [],
+      "tools_reference": [],
+      "templates": [],
+      "diagram_descriptions": [],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

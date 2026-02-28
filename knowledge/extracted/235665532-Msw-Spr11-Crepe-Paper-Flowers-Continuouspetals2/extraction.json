@@ -1,0 +1,138 @@
+[
+  {
+    "page_number": 1,
+    "extracted": {
+      "page_type": "project",
+      "projects": [
+        {
+          "name": "Continuous Petals",
+          "category": "paper_craft",
+          "difficulty": "beginner",
+          "materials": [
+            {
+              "item": "crepe paper",
+              "quantity": "1 strip",
+              "dimensions": "32 inches x 3¾ inches",
+              "color": "any"
+            },
+            {
+              "item": "crepe paper",
+              "quantity": "1 strip",
+              "dimensions": "18 inches x 3¼ inches",
+              "color": "any"
+            }
+          ],
+          "tools": [
+            {
+              "name": "scissors",
+              "purpose": "cutting petals",
+              "optional": false
+            },
+            {
+              "name": "pinking shears",
+              "purpose": "cutting jagged top edge for carnation petals",
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "step_number": 1,
+              "instruction": "Cut off a prefolded piece of crepe paper as tall as the template. The creases in the paper should run from the bottom of the petals to the top.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "A folded sheet of crepe paper."
+            },
+            {
+              "step_number": 2,
+              "instruction": "Place the template on top of the prefolded paper, aligning the dotted bottom edge with the bottom of the folded crepe paper. (You can cut through as many as nine layers at once.)",
+              "technique": "placement",
+              "dimensions_mentioned": [],
+              "visual_description": "Template placed on top of folded crepe paper, with dotted line aligned to the bottom edge."
+            },
+            {
+              "step_number": 3,
+              "instruction": "Cut along the solid lines to create petals; do not cut all the way down the paper at the folds, but stop at the dotted line so that you leave the petals attached in a continuous strip.",
+              "technique": "cutting",
+              "dimensions_mentioned": [],
+              "visual_description": "Solid lines on the template indicate where to cut, stopping at the dotted line."
+            }
+          ],
+          "blueprint_data": {
+            "pieces": [
+              {
+                "name": "dahlia petal strip",
+                "shape": "continuous strip with pointed petals",
+                "width": "32 inches",
+                "height": "3¾ inches",
+                "details": [
+                  {
+                    "type": "petal_shape",
+                    "description": "pointed",
+                    "count": "multiple"
+                  },
+                  {
+                    "type": "cut_line",
+                    "line_style": "solid"
+                  },
+                  {
+                    "type": "fold_line",
+                    "line_style": "dashed",
+                    "position": "bottom"
+                  }
+                ]
+              },
+              {
+                "name": "daisy petal strip",
+                "shape": "continuous strip with rounded petals",
+                "width": "18 inches",
+                "height": "3¼ inches",
+                "details": [
+                  {
+                    "type": "petal_shape",
+                    "description": "rounded",
+                    "count": "multiple"
+                  },
+                  {
+                    "type": "cut_line",
+                    "line_style": "solid"
+                  },
+                  {
+                    "type": "fold_line",
+                    "line_style": "dashed",
+                    "position": "bottom"
+                  },
+                  {
+                    "type": "note",
+                    "text": "use notched leaf"
+                  }
+                ]
+              }
+            ],
+            "assembly_notes": "Pull creases open to shape the petals."
+          },
+          "tips": [
+            "The creases in the paper should run from the bottom of the petals to the top; this gives the petals proper body and support, and allows you to pull the creases open to shape the petals.",
+            "You can cut through as many as nine layers of crepe paper at once.",
+            "Do not cut all the way down the paper at the folds, but stop at the dotted line so that you leave the petals attached in a continuous strip.",
+            "The jagged top edge of carnation petals can be cut with pinking shears."
+          ],
+          "finished_product_description": "Continuous strips of petals that can be shaped into flowers like dahlias and daisies."
+        }
+      ],
+      "tools_reference": [],
+      "templates": [
+        {
+          "name": "Continuous Petals Template",
+          "scale": null,
+          "shape_description": "A template for creating continuous strips of petals. It features a series of pointed petal shapes along the top edge and a dashed line along the bottom edge indicating where to stop cutting. There is also a separate template for rounded petals with a similar dashed line at the bottom."
+        }
+      ],
+      "diagram_descriptions": [
+        "A diagram showing a continuous strip of pointed petals labeled 'DAHLIA' with dimensions '1 strip of 32 inches, 3¾ inches high'.",
+        "A diagram showing a continuous strip of rounded petals labeled 'DAISY' with dimensions '1 strip of 18 inches, 3¼ inches high (use notched leaf)'."
+      ],
+      "continuation_of_previous": false,
+      "project_name_if_continuation": null
+    }
+  }
+]

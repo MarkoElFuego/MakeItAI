@@ -5,7 +5,9 @@
       "Bash(python:*)",
       "Bash(git push -u origin master)",
       "Bash(./venv/Scripts/pip install langgraph)",
-      "Bash(./venv/Scripts/python scripts/test_agent.py)"
+      "Bash(./venv/Scripts/python scripts/test_agent.py)",
+      "Bash(curl -s -X POST http://localhost:8000/chat -H \"Content-Type: application/json\" -d '{\"\"message\"\": \"\"I want to make a ribbon heart card\"\", \"\"conversation_history\"\": []}')",
+      "Bash(curl -s -X POST http://localhost:8000/chat -H \"Content-Type: application/json\" -d '{\"\"message\"\": \"\"I want to make a birthday card\"\", \"\"conversation_history\"\": [], \"\"project_context\"\": {}}')"
     ]
   }
 }
